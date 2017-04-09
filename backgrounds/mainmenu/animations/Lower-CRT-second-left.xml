@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!DOCTYPE sequence SYSTEM "sidewalkdtd">
+<sequence name="backgrounds/mainmenu/animations/anim.xml" source="./Big-Text-Screens_*.png">
+    <img regx="184" regy="65" name="Big-Text-Screens" w="0" h="0" />
+    <framelist>
+        <frame regx="184" regy="65" x="738" y="1188" w="368" h="131" name="Big-Text-Screens_00.png.png" />
+        <frame regx="184" regy="65" x="738" y="1056" w="368" h="131" name="Big-Text-Screens_01.png.png" />
+        <frame regx="184" regy="65" x="1107" y="924" w="368" h="131" name="Big-Text-Screens_02.png.png" />
+        <frame regx="184" regy="65" x="738" y="924" w="368" h="131" name="Big-Text-Screens_03.png.png" />
+        <frame regx="184" regy="65" x="1107" y="792" w="368" h="131" name="Big-Text-Screens_04.png.png" />
+        <frame regx="184" regy="65" x="738" y="792" w="368" h="131" name="Big-Text-Screens_05.png.png" />
+        <frame regx="184" regy="65" x="1107" y="660" w="368" h="131" name="Big-Text-Screens_06.png.png" />
+        <frame regx="184" regy="65" x="738" y="660" w="368" h="131" name="Big-Text-Screens_07.png.png" />
+        <frame regx="184" regy="65" x="369" y="1320" w="368" h="131" name="Big-Text-Screens_08.png.png" />
+        <frame regx="184" regy="65" x="369" y="1188" w="368" h="131" name="Big-Text-Screens_09.png.png" />
+        <frame regx="184" regy="65" x="369" y="1056" w="368" h="131" name="Big-Text-Screens_10.png.png" />
+        <frame regx="184" regy="65" x="369" y="924" w="368" h="131" name="Big-Text-Screens_11.png.png" />
+        <frame regx="184" regy="65" x="369" y="792" w="368" h="131" name="Big-Text-Screens_12.png.png" />
+        <frame regx="184" regy="65" x="369" y="660" w="368" h="131" name="Big-Text-Screens_13.png.png" />
+        <frame regx="184" regy="65" x="1107" y="528" w="368" h="131" name="Big-Text-Screens_14.png.png" />
+        <frame regx="184" regy="65" x="738" y="528" w="368" h="131" name="Big-Text-Screens_15.png.png" />
+        <frame regx="184" regy="65" x="369" y="528" w="368" h="131" name="Big-Text-Screens_16.png.png" />
+        <frame regx="184" regy="65" x="1107" y="396" w="368" h="131" name="Big-Text-Screens_17.png.png" />
+        <frame regx="184" regy="65" x="738" y="396" w="368" h="131" name="Big-Text-Screens_18.png.png" />
+        <frame regx="184" regy="65" x="369" y="396" w="368" h="131" name="Big-Text-Screens_19.png.png" />
+        <frame regx="184" regy="65" x="1107" y="264" w="368" h="131" name="Big-Text-Screens_20.png.png" />
+        <frame regx="184" regy="65" x="738" y="264" w="368" h="131" name="Big-Text-Screens_21.png.png" />
+        <frame regx="184" regy="65" x="369" y="264" w="368" h="131" name="Big-Text-Screens_22.png.png" />
+        <frame regx="184" regy="65" x="0" y="1320" w="368" h="131" name="Big-Text-Screens_23.png.png" />
+        <frame regx="184" regy="65" x="0" y="1188" w="368" h="131" name="Big-Text-Screens_24.png.png" />
+        <frame regx="184" regy="65" x="0" y="1056" w="368" h="131" name="Big-Text-Screens_25.png.png" />
+        <frame regx="184" regy="65" x="0" y="924" w="368" h="131" name="Big-Text-Screens_26.png.png" />
+        <frame regx="184" regy="65" x="0" y="792" w="368" h="131" name="Big-Text-Screens_27.png.png" />
+        <frame regx="184" regy="65" x="0" y="660" w="368" h="131" name="Big-Text-Screens_28.png.png" />
+        <frame regx="184" regy="65" x="0" y="528" w="368" h="131" name="Big-Text-Screens_29.png.png" />
+        <frame regx="184" regy="65" x="0" y="396" w="368" h="131" name="Big-Text-Screens_30.png.png" />
+        <frame regx="184" regy="65" x="0" y="264" w="368" h="131" name="Big-Text-Screens_31.png.png" />
+        <frame regx="184" regy="65" x="1107" y="132" w="368" h="131" name="Big-Text-Screens_32.png.png" />
+        <frame regx="184" regy="65" x="738" y="132" w="368" h="131" name="Big-Text-Screens_33.png.png" />
+        <frame regx="184" regy="65" x="369" y="132" w="368" h="131" name="Big-Text-Screens_34.png.png" />
+        <frame regx="184" regy="65" x="0" y="132" w="368" h="131" name="Big-Text-Screens_35.png.png" />
+        <frame regx="184" regy="65" x="1107" y="0" w="368" h="131" name="Big-Text-Screens_36.png.png" />
+        <frame regx="184" regy="65" x="738" y="0" w="368" h="131" name="Big-Text-Screens_37.png.png" />
+        <frame regx="184" regy="65" x="369" y="0" w="368" h="131" name="Big-Text-Screens_38.png.png" />
+        <frame regx="184" regy="65" x="0" y="0" w="368" h="131" name="Big-Text-Screens_39.png.png" />
+    </framelist>
+    <timeline name="main" frametime="400">
+        <keyframe frame="1" />
+        <keyframe frame="2" />
+        <keyframe frame="3" />
+        <keyframe frame="4" />
+        <keyframe frame="5" />
+        <keyframe frame="6" />
+        <keyframe frame="7" />
+        <keyframe frame="8" />
+        <keyframe frame="9" />
+        <keyframe frame="10" />
+        <keyframe frame="11" />
+        <keyframe frame="12" />
+        <keyframe frame="13" />
+        <keyframe frame="14" />
+        <keyframe frame="15" />
+        <keyframe frame="16" />
+        <keyframe frame="17" />
+        <keyframe frame="18" />
+        <keyframe frame="19" />
+        <keyframe frame="20" />
+        <keyframe frame="21" />
+        <keyframe frame="22" />
+        <keyframe frame="23" />
+        <keyframe frame="24" />
+        <keyframe frame="25" />
+        <keyframe frame="26" />
+        <keyframe frame="27" />
+        <keyframe frame="28" />
+        <keyframe frame="29" />
+        <keyframe frame="30" />
+        <keyframe frame="31" />
+        <keyframe frame="32" />
+        <keyframe frame="33" />
+        <keyframe frame="34" />
+        <keyframe frame="35" />
+        <keyframe frame="36" />
+        <keyframe frame="37" />
+        <keyframe frame="38" />
+        <keyframe frame="39" />
+        <keyframe frame="40" />
+        <keyframe jumpto="0" />
+    </timeline>
+</sequence>
