@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<PsionicEffects>
+	<!-- anim is a play-once animation from assets/ folder (fire/smoke anims are not good because they loop)-->
+	<!-- sfx is a sound from the "General" sound category in sounds_gc.xml -->
+	
+	<Zombify       anim="particles/gore_transformation/gore_transformation" sfx="None" />
+	
+	<Teleportation anim="particles/teleport/teleport" sfx="PsionicPower" />
+	
+</PsionicEffects>

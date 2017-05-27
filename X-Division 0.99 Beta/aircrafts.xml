@@ -1,0 +1,3246 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Laci</Author>
+  <LastAuthor>Benutzer</LastAuthor>
+  <Created>2011-03-15T15:56:34Z</Created>
+  <LastSaved>2017-04-17T12:54:42Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="/"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>2850</WindowHeight>
+  <WindowWidth>16500</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>435</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="238"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="Normal 3">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64" ss:Name="Normal_Sheet1">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s69" ss:Parent="s64">
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s70">
+   <Borders/>
+   <Interior/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s75" ss:Parent="s62">
+   <Alignment ss:Vertical="Center"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="41" ss:ExpandedRowCount="86" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+   <Column ss:AutoFitWidth="0" ss:Width="133.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="55.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="42.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="47.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="54.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="58.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="54.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="57.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="45.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="80.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="75.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="99"/>
+   <Column ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:AutoFitWidth="0" ss:Width="42.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="43.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="96.75"/>
+   <Column ss:Index="18" ss:AutoFitWidth="0" ss:Width="72"/>
+   <Column ss:AutoFitWidth="0" ss:Width="47.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="45"/>
+   <Column ss:AutoFitWidth="0" ss:Width="37.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="46.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="67.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="66.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="94.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="67.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="354"/>
+   <Column ss:AutoFitWidth="0" ss:Width="192"/>
+   <Column ss:AutoFitWidth="0" ss:Width="122.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="192"/>
+   <Column ss:AutoFitWidth="0" ss:Width="65.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="50.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="79.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="75.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="54"/>
+   <Column ss:AutoFitWidth="0" ss:Width="42"/>
+   <Column ss:AutoFitWidth="0" ss:Width="71.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="78.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="78.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="114"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s65">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">HitPoints</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Armour</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Range</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">TopSpeed</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Acceleration</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">TurnRate</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">RotationAcc</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Cannons</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">NormalWeapons</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">HeavyWeapons</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">SuperheavyWeapons</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WeaponPositions</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Soldiers</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Vehicles</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Grid</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">RadarRange</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">RadarChance</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Upkeep</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Length</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Width</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Weight</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CombatArea</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">PowerPlant</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Airframe</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ServiceCeiling</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Loadout</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">SlotPositions</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Image</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ACImage</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">SelectionSize</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CanEvade</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">WeaponLockMod</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">SpawnCrashsite</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Buyable</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CanLand</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">OnWinAgainst</Data><Comment
+      ss:Author="John"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B><Font
+         html:Face="Tahoma" x:CharSet="238" html:Size="9" html:Color="#000000">John:</Font></B><Font
+        html:Face="Tahoma" x:CharSet="238" html:Size="9" html:Color="#000000">&#10;Semicolon-separated list of items to give to the player</Font></ss:Data></Comment></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">ShotDownBonus</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">AutoresolveStrength</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">AirstrikeValue</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">SEQBackground</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">airplane.human.f17</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">14000</Data></Cell>
+    <Cell><Data ss:Type="Number">1800</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">40,34;48,44</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="Number">15.06</Data></Cell>
+    <Cell><Data ss:Type="Number">9.9600000000000009</Data></Cell>
+    <Cell><Data ss:Type="Number">8570</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.Turbofan</Data></Cell>
+    <Cell><Data ss:Type="String">F-17 Condor</Data></Cell>
+    <Cell><Data ss:Type="Number">61250</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.SIDEWINDER</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/f17</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/f17</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">260</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">airplane.human.awacs</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">40,34;48,44</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">150000</Data></Cell>
+    <Cell><Data ss:Type="Number">52.06</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">65000</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.Turbofan</Data></Cell>
+    <Cell><Data ss:Type="String">AWACS</Data></Cell>
+    <Cell><Data ss:Type="Number">61250</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.AUTOCANNON</Data></Cell>
+    <Cell><Data ss:Type="String">200;180;200;680</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/awacs</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/awacs</Data></Cell>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">airplane.human.asierus</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">18000</Data></Cell>
+    <Cell><Data ss:Type="Number">2200</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">0;0;0;0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">9500</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.AleniumRepulsion</Data></Cell>
+    <Cell><Data ss:Type="String">F-24 Asierus</Data></Cell>
+    <Cell><Data ss:Type="Number">55000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.AUTOCANNON</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/saracen</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/saracen</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.mig31</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">22000</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">0;0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="Number">22.69</Data></Cell>
+    <Cell><Data ss:Type="Number">13.46</Data></Cell>
+    <Cell><Data ss:Type="Number">21820</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.Soloviev</Data></Cell>
+    <Cell><Data ss:Type="String">MiG-32 Foxtrot</Data></Cell>
+    <Cell><Data ss:Type="Number">67600</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AVALANCHE</Data></Cell>
+    <Cell><Data ss:Type="String">0;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/mig31</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/mig</Data></Cell>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.human.fighter</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">24000</Data></Cell>
+    <Cell><Data ss:Type="Number">2400</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">0;0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">Z-01</Data></Cell>
+    <Cell><Data ss:Type="Number">70000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.SIDEWINDER</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/humanfighter</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/humanfighter</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="39"><Data ss:Type="Number">270</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.firebird</Data></Cell>
+    <Cell><Data ss:Type="Number">800</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">32000</Data></Cell>
+    <Cell><Data ss:Type="Number">3300</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">0;0;0;0;0;0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">350</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="Number">19.739999999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">11.86</Data></Cell>
+    <Cell><Data ss:Type="Number">19142</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.AleniumRepulsion</Data></Cell>
+    <Cell><Data ss:Type="String">X-42 Firebird</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.SIDEWINDER;AV.SIDEWINDER</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780;1240;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/dominator</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/dominator</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">450</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.sonda</Data></Cell>
+    <Cell><Data ss:Type="Number">450</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">25000</Data></Cell>
+    <Cell><Data ss:Type="Number">2700</Data></Cell>
+    <Cell><Data ss:Type="Number">550</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">0;0;0;0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">75000</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">21820</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.SingularityPulse</Data></Cell>
+    <Cell><Data ss:Type="String">Blackwolf Interceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">69835</Data></Cell>
+    <Cell><Data ss:Type="String">AV.SIDEWINDER;AV.SIDEWINDER</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/sonda</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/sonda</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">330</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.corsair</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">25000</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">0;0;0;0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">80000</Data></Cell>
+    <Cell><Data ss:Type="Number">19.739999999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">11.86</Data></Cell>
+    <Cell><Data ss:Type="Number">19142</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.AleniumRepulsion</Data></Cell>
+    <Cell><Data ss:Type="String">X-37 Corsair</Data></Cell>
+    <Cell><Data ss:Type="Number">77900</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.AUTOCANNON;</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/corsair</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/corsair</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">325</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.lancer</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">28000</Data></Cell>
+    <Cell><Data ss:Type="Number">2500</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">17,52;58,52;27,43;47,43</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">70000</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="Number">21820</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.AleniumRepulsion</Data></Cell>
+    <Cell><Data ss:Type="String">B1C-LANCER</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AVALANCHE</Data></Cell>
+    <Cell><Data ss:Type="String">0;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/lancer</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/lancer</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.human.heavyfighter</Data></Cell>
+    <Cell><Data ss:Type="Number">350</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">21,44;47,44</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">17000</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">Z-02</Data></Cell>
+    <Cell><Data ss:Type="Number">90000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.SIDEWINDER</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/humanheavyfighter</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/humanheavyfighter</Data></Cell>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="39"><Data ss:Type="Number">325</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.lotus</Data></Cell>
+    <Cell><Data ss:Type="Number">1100</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">42000</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">20,44;20,44;53,44;33,29</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="Number">21.05</Data></Cell>
+    <Cell><Data ss:Type="Number">12.58</Data></Cell>
+    <Cell><Data ss:Type="Number">23041</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.FusionCore</Data></Cell>
+    <Cell><Data ss:Type="String">X-61 Lotus</Data></Cell>
+    <Cell><Data ss:Type="Number">134893</Data></Cell>
+    <Cell><Data ss:Type="String">AV.SIDEWINDER;AV.SIDEWINDER;AV.AVALANCHE</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780;1240;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/lotus</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/lotus</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.marauder</Data></Cell>
+    <Cell><Data ss:Type="Number">750</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">31000</Data></Cell>
+    <Cell><Data ss:Type="Number">3200</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">20,44;20,44;53,44;33,29</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="Number">21.05</Data></Cell>
+    <Cell><Data ss:Type="Number">12.58</Data></Cell>
+    <Cell><Data ss:Type="Number">23041</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.FusionCore</Data></Cell>
+    <Cell><Data ss:Type="String">X-59 Marauder</Data></Cell>
+    <Cell><Data ss:Type="Number">128760</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.AVALANCHE</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/marauder</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/marauder</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">360</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">airplane.human.drake</Data></Cell>
+    <Cell><Data ss:Type="Number">850</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">32000</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">40,34;48,44</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">110000</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">11000</Data></Cell>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.FusionCore</Data></Cell>
+    <Cell><Data ss:Type="String">F-32 Drake</Data></Cell>
+    <Cell><Data ss:Type="Number">55000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.SIDEWINDER;AV.AVALANCHE</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/raptor</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/raptor</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">400</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.fury</Data></Cell>
+    <Cell><Data ss:Type="Number">950</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">34000</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">17,52;58,52;27,43;47,43</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="Number">0.8</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">90000</Data></Cell>
+    <Cell><Data ss:Type="Number">23.22</Data></Cell>
+    <Cell><Data ss:Type="Number">13.29</Data></Cell>
+    <Cell><Data ss:Type="Number">18913</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.SingularityPulse</Data></Cell>
+    <Cell><Data ss:Type="String">X-120 Fury</Data></Cell>
+    <Cell><Data ss:Type="Number">221500</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AVALANCHE;AV.AVALANCHE</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/fury</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/fury</Data></Cell>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.hunter</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">36000</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">80000</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">Z-03</Data></Cell>
+    <Cell><Data ss:Type="Number">120000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.SIDEWINDER</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/humanhunter</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/aircombat/humanhunter</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:Index="39"><Data ss:Type="Number">350</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.cyclone</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">39000</Data></Cell>
+    <Cell><Data ss:Type="Number">3800</Data></Cell>
+    <Cell><Data ss:Type="Number">1300</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">20,44;20,44;53,44;33,29</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">500</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">80000</Data></Cell>
+    <Cell><Data ss:Type="Number">21.05</Data></Cell>
+    <Cell><Data ss:Type="Number">12.58</Data></Cell>
+    <Cell><Data ss:Type="Number">23041</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.FusionCore</Data></Cell>
+    <Cell><Data ss:Type="String">X-61 Lotus</Data></Cell>
+    <Cell><Data ss:Type="Number">134893</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.SIDEWINDER;AV.AVALANCHE</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780;1240;780</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/cyclone</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/aircombat/cyclone</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.contrail</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">31000</Data></Cell>
+    <Cell><Data ss:Type="Number">3800</Data></Cell>
+    <Cell><Data ss:Type="Number">800</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">350</Data></Cell>
+    <Cell><Data ss:Type="Number">0.7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">150000</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">21820</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.FusionCore</Data></Cell>
+    <Cell><Data ss:Type="String">F-27C Nightowl</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.AUTOCANNON</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780;1240;780</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/contrail</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/aircombat/contrail</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">400</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.nightowl</Data></Cell>
+    <Cell><Data ss:Type="Number">1100</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">32000</Data></Cell>
+    <Cell><Data ss:Type="Number">3600</Data></Cell>
+    <Cell><Data ss:Type="Number">450</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">0.7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">140000</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">21820</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.FusionCore</Data></Cell>
+    <Cell><Data ss:Type="String">F/A-27D Nightowl</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.SIDEWINDER;AV.AVALANCHE</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780;1240;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/nightowl</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/nightowl</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.merlin</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">34000</Data></Cell>
+    <Cell><Data ss:Type="Number">3200</Data></Cell>
+    <Cell><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">0.7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">145000</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">21820</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.FusionCore</Data></Cell>
+    <Cell><Data ss:Type="String">B-03 Merlin</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AVALANCHE;AV.AVALANCHE</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780;1240;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/merlin</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/merlin</Data></Cell>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.interceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">650</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">38000</Data></Cell>
+    <Cell><Data ss:Type="Number">4000</Data></Cell>
+    <Cell><Data ss:Type="Number">1500</Data></Cell>
+    <Cell><Data ss:Type="Number">170</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">500</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">130000</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">Z-04</Data></Cell>
+    <Cell><Data ss:Type="Number">140000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.SIDEWINDER</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/humaninterceptor</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/humaninterceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:Index="39"><Data ss:Type="Number">390</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.heavyinterceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">800</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="Number">4500</Data></Cell>
+    <Cell><Data ss:Type="Number">1800</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">130000</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">Z-05</Data></Cell>
+    <Cell><Data ss:Type="Number">160000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.SIDEWINDER;AV.AVALANCHE</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780;1240;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/humanheavyinterceptor</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/humanheavyinterceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:Index="39"><Data ss:Type="Number">500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.archelon</Data></Cell>
+    <Cell><Data ss:Type="Number">1500</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">40000</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">1,52;60,52;22,43;44,43</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">0.7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">200000</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">21820</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.FusionCore</Data></Cell>
+    <Cell><Data ss:Type="String">ARCHELON</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.SIDEWINDER;AV.AVALANCHE;AV.AVALANCHE</Data></Cell>
+    <Cell><Data ss:Type="String">0;780;720;780;1240;780;1860;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/archelon</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/archelon</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.chinook</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">48000</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">216;450;491;255;6;3</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="Number">30.01</Data></Cell>
+    <Cell><Data ss:Type="Number">7.02</Data></Cell>
+    <Cell><Data ss:Type="Number">10185</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.Turboshaft</Data></Cell>
+    <Cell><Data ss:Type="String">CH-48 Charlie</Data></Cell>
+    <Cell><Data ss:Type="Number">18500</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/chinook</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/chinook</Data></Cell>
+    <Cell><Data ss:Type="Number">130</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="41"><Data ss:Type="String">ui_screens/ui_soldierequip/chinook</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.shrike</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">48000</Data></Cell>
+    <Cell><Data ss:Type="Number">1500</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">475;429;405;327;5;4</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="Number">28.83</Data></Cell>
+    <Cell><Data ss:Type="Number">10.41</Data></Cell>
+    <Cell><Data ss:Type="Number">14828</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.AleniumCore</Data></Cell>
+    <Cell><Data ss:Type="String">D-42 Shrike</Data></Cell>
+    <Cell><Data ss:Type="Number">28850</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/shrike</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/shrike</Data></Cell>
+    <Cell><Data ss:Type="Number">130</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="41"><Data ss:Type="String">ui_screens/ui_soldierequip/shrike</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.valkyrie</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">48000</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">475;429;481;327;6;4</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="Number">31.94</Data></Cell>
+    <Cell><Data ss:Type="Number">15.27</Data></Cell>
+    <Cell><Data ss:Type="Number">17820</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.SingularityPulse</Data></Cell>
+    <Cell><Data ss:Type="String">D-54 Valkyrie</Data></Cell>
+    <Cell><Data ss:Type="Number">83200</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/valkyrie</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/valkyrie</Data></Cell>
+    <Cell><Data ss:Type="Number">135</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="41"><Data ss:Type="String">ui_screens/ui_soldierequip/valkyrie</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.base</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="Number">9999</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/chinook</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/interceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="19" ss:StyleID="s67"/>
+    <Cell ss:Index="32" ss:StyleID="s69"/>
+    <Cell ss:Index="35" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.lightscout</Data></Cell>
+    <Cell><Data ss:Type="Number">455</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">350</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Small</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.LIGHTSCOUTBEAM</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/lightscout</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufolightscout</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.scout</Data></Cell>
+    <Cell><Data ss:Type="Number">936</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1400</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Small</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.SCOUTBEAM;AV.SCOUTMISSILE</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/scout</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufoscout</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">1135</Data></Cell>
+    <Cell><Data ss:Type="Number">25000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.corvette</Data></Cell>
+    <Cell><Data ss:Type="Number">2080</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1500</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1400</Data></Cell>
+    <Cell><Data ss:Type="Number">1400</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.CORVETTEBEAM;AV.CORVETTECANNON;AV.CORVETTEMISSILE</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/corvette</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufocorvette</Data></Cell>
+    <Cell><Data ss:Type="Number">135</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">1339</Data></Cell>
+    <Cell><Data ss:Type="Number">35000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.terrorcarrier</Data></Cell>
+    <Cell><Data ss:Type="Number">7020</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1300</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2700</Data></Cell>
+    <Cell><Data ss:Type="Number">2700</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Massive</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.TERRORCARRIERBEAM;AV.TERRORCARRIERDRONES;AV.TERRORCARRIERMINES</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/carrier</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufocarrier</Data></Cell>
+    <Cell><Data ss:Type="Number">350</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.bombercorvette</Data></Cell>
+    <Cell><Data ss:Type="Number">2080</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1400</Data></Cell>
+    <Cell><Data ss:Type="Number">1400</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.CORVETTEBEAM;AV.CORVETTECANNON;AV.CORVETTEMISSILE;AV.CORVETTEBOMBERMISSILE</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/corvette</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufocorvette</Data></Cell>
+    <Cell><Data ss:Type="Number">135</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">1380</Data></Cell>
+    <Cell><Data ss:Type="Number">35000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.fighter</Data></Cell>
+    <Cell><Data ss:Type="Number">260</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">2970</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.VerySmall</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.FIGHTERBEAM;AV.FIGHTERCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/fighter</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufofighter</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienFighterDatacore;1xItems.FallenAlienFighter;2xItems.Alienalloys</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">494</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="32" ss:StyleID="s69"/>
+    <Cell ss:Index="35" ss:StyleID="s69"/>
+    <Cell ss:Index="37" ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.landingship</Data></Cell>
+    <Cell><Data ss:Type="Number">3250</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1100</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.LANDINGSHIPSONIC;AV.LANDINGSHIPCANNON;AV.LANDINGCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/landingship</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufolandingship</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">2045</Data></Cell>
+    <Cell><Data ss:Type="Number">45000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.exlandingship</Data></Cell>
+    <Cell><Data ss:Type="Number">3900</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1250</Data></Cell>
+    <Cell><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.EXLANDINGSHIPDRONES;AV.EXLANDINGSHIPCANNON;AV.LANDINGCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/exlandingship</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufoexlandingship</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">2432</Data></Cell>
+    <Cell><Data ss:Type="Number">45000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.lightcruiser</Data></Cell>
+    <Cell><Data ss:Type="Number">3250</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1700</Data></Cell>
+    <Cell><Data ss:Type="Number">220</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Large</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.LIGHTCRUISERBEAM;AV.LIGHTCRUISERYAMATO;AV.LIGHTCRUISERCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/cruiser</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufocruiser</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">2344</Data></Cell>
+    <Cell><Data ss:Type="Number">50000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.strikecorvette</Data></Cell>
+    <Cell><Data ss:Type="Number">2470</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1600</Data></Cell>
+    <Cell><Data ss:Type="Number">360</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1400</Data></Cell>
+    <Cell><Data ss:Type="Number">1400</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.STRIKECORVETTEBEAM;AV.STRIKECORVETTECANNON;AV.STRIKECORVETTEPIRANHA;AV.STRIKECORVETTEMISSILE</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/corvette</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufocorvette</Data></Cell>
+    <Cell><Data ss:Type="Number">135</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">35000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.mediumscout</Data></Cell>
+    <Cell><Data ss:Type="Number">1105</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">2200</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Small</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.MEDIUMSCOUTBEAM;AV.MEDIUMSCOUTMISSILE;AV.MEDIUMSCOUTCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/scout</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufoscout</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">1448</Data></Cell>
+    <Cell><Data ss:Type="Number">25000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.lightshuttle</Data></Cell>
+    <Cell><Data ss:Type="Number">520</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">4000</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="Number">360</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Small</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.LIGHTSHUTTLESHOTGUN</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/lightscout</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufolightscout</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">1305</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.terrorbattleship</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">9360</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">2100</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Massive</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.TERRORBATTLESHIPCANNON;AV.TERRORBATTLESHIPMISSILE;AV.TERRORBATTLESHIPDRONES</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/battleship</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufobattleship</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.bombercruiser</Data></Cell>
+    <Cell><Data ss:Type="Number">3250</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1250</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Large</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.BOMBERCRUISERBEAM;AV.BOMBERCRUISERYAMATO;AV.BOMBERCRUISERMISSILE</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/strikecruiser</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufostrikecruiser</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">2400</Data></Cell>
+    <Cell><Data ss:Type="Number">50000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.heavyfighter</Data></Cell>
+    <Cell><Data ss:Type="Number">455</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">3520</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">144</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">21,44;47,44</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.VerySmall</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.HVFIGHTERBEAM;AV.HEAVYFIGHTERCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/heavyfighter</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufoheavyfighter</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienHeavyFighterDatacore;1xItems.FallenAlienHeavyFighter;2xItems.Alenium;4xItems.Alienalloys</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">612</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="32" ss:StyleID="s69"/>
+    <Cell ss:Index="35" ss:StyleID="s69"/>
+    <Cell ss:Index="37" ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.supplyship</Data></Cell>
+    <Cell><Data ss:Type="Number">4550</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.SUPPLYSHIPSONIC;AV.SUPPLYSHIPCANNON;AV.SUPPLYCOUNTER;AV.SUPPLYSHIPPIRANHA</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/landingship</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufolandingship</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">3087</Data></Cell>
+    <Cell><Data ss:Type="Number">45000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.exsupplyship</Data></Cell>
+    <Cell><Data ss:Type="Number">5200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1150</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.EXSUPPLYSHIPDRONES;AV.EXSUPPLYSHIPCANNON;AV.SUPPLYCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/exlandingship</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufoexlandingship</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">3947</Data></Cell>
+    <Cell><Data ss:Type="Number">45000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.cruiser</Data></Cell>
+    <Cell><Data ss:Type="Number">3900</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1650</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Large</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.CRUISERBEAM;AV.CRUISERYAMATO;AV.CRUISERCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/cruiser</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufocruiser</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">4696</Data></Cell>
+    <Cell><Data ss:Type="Number">50000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.missilecorvette</Data></Cell>
+    <Cell><Data ss:Type="Number">2860</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1525</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1400</Data></Cell>
+    <Cell><Data ss:Type="Number">1400</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.MISSILECORVETTEBEAM;AV.MISSILECORVETTECANNON;AV.MISSILECORVETTEMISSILE;AV.MISSILECORVETTETORPEDO</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/corvette</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufocorvette</Data></Cell>
+    <Cell><Data ss:Type="Number">135</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">2978</Data></Cell>
+    <Cell><Data ss:Type="Number">35000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.heavyscout</Data></Cell>
+    <Cell><Data ss:Type="Number">1690</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">2600</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Small</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.HEAVYSCOUTBEAM;AV.HEAVYSCOUTMISSILE;AV.HEAVYSCOUTCOUNTER;AV.HEAVYSCOUTMINES</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/scout</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufoscout</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">2792</Data></Cell>
+    <Cell><Data ss:Type="Number">25000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.carrier</Data></Cell>
+    <Cell><Data ss:Type="Number">6500</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1275</Data></Cell>
+    <Cell><Data ss:Type="Number">175</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2700</Data></Cell>
+    <Cell><Data ss:Type="Number">2700</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Massive</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.CARRIERDRONES;AV.CARRIERMINES</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/carrier</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufocarrier</Data></Cell>
+    <Cell><Data ss:Type="Number">350</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">4800</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.mediumshuttle</Data></Cell>
+    <Cell><Data ss:Type="Number">650</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="Number">1500</Data></Cell>
+    <Cell><Data ss:Type="Number">480</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Small</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.MEDIUMSHUTTLESHOTGUN;AV.MEDIUMSHUTTLECOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/lightscout</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufolightscout</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">1820</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.terrordreadnought</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10920</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">800</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Massive</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.TERRORDREADNOUGHTCANNON;AV.TERRORDREADNOUGHTMISSILE</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/dreadnought</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufodreadnought</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.bombercarrier</Data></Cell>
+    <Cell><Data ss:Type="Number">6500</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1225</Data></Cell>
+    <Cell><Data ss:Type="Number">125</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2700</Data></Cell>
+    <Cell><Data ss:Type="Number">2700</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Massive</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.BOMBERCARRIERDRONES;AV.BOMBERCARRIERTORPEDO</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/carrier</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufocarrier</Data></Cell>
+    <Cell><Data ss:Type="Number">350</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.hunter</Data></Cell>
+    <Cell><Data ss:Type="Number">650</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">4070</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="Number">168</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.VerySmall</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.HUNTERBEAM;AV.HUNTERCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/hunter</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufohunter</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">1xItems.AlienHunterDatacore;1xItems.FallenAlienHunter;2xItems.Alenium;4xItems.Alienalloys</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">697</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="32" ss:StyleID="s69"/>
+    <Cell ss:Index="35" ss:StyleID="s69"/>
+    <Cell ss:Index="37" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.cargoship</Data></Cell>
+    <Cell><Data ss:Type="Number">5200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">950</Data></Cell>
+    <Cell><Data ss:Type="Number">125</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.CARGOSHIPSONIC;AV.CARGOSHIPCANNON;AV.CARGOCOUNTER;AV.CARGOSHIPPIRANHA</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/landingship</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufolandingship</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">5023</Data></Cell>
+    <Cell><Data ss:Type="Number">45000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.excargoship</Data></Cell>
+    <Cell><Data ss:Type="Number">5850</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1100</Data></Cell>
+    <Cell><Data ss:Type="Number">225</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.EXCARGOSHIPDRONES;AV.EXCARGOSHIPCANNON;AV.CARGOCOUNTER;AV.CARGOSHIPPIRANHA</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/exlandingship</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufoexlandingship</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">6172</Data></Cell>
+    <Cell><Data ss:Type="Number">45000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.battlecruiser</Data></Cell>
+    <Cell><Data ss:Type="Number">4680</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">190</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Large</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.BATTLECRUISERBEAM;AV.BATTLECRUISERYAMATO;AV.BATTLECRUISERMISSILE;AV.BATTLECRUISERCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/battlecruiser</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufocruiser</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">5538</Data></Cell>
+    <Cell><Data ss:Type="Number">50000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.torpedocorvette</Data></Cell>
+    <Cell><Data ss:Type="Number">3120</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1425</Data></Cell>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1400</Data></Cell>
+    <Cell><Data ss:Type="Number">1400</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.TORPEDOCORVETTEBEAM;AV.TORPEDOCORVETTECANNON;AV.TORPEDOCORVETTEMISSILE;AV.TORPEDOCORVETTETORPEDO</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/corvette</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufocorvette</Data></Cell>
+    <Cell><Data ss:Type="Number">135</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">4000</Data></Cell>
+    <Cell><Data ss:Type="Number">35000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.armouredscout</Data></Cell>
+    <Cell><Data ss:Type="Number">1950</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">650</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Small</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.ARMOUREDSCOUTBEAM;AV.ARMOUREDSCOUTMISSILE;AV.ARMOUREDSCOUTCOUNTER;AV.ARMOUREDSCOUTMINES</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/scout</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufoscout</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">3691</Data></Cell>
+    <Cell><Data ss:Type="Number">25000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.battlecarrier</Data></Cell>
+    <Cell><Data ss:Type="Number">7800</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1375</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2700</Data></Cell>
+    <Cell><Data ss:Type="Number">2700</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Massive</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.BATTLECARRIERBEAM;AV.BATTLECARRIERDRONES;AV.BATTLECARRIERMINES;AV.BATTLECARRIERCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/battlecarrier</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufobattlecarrier</Data></Cell>
+    <Cell><Data ss:Type="Number">350</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">5684</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.battleship</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">9100</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">2500</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Massive</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.BATTLESHIPCANNON;AV.BATTLESHIPMISSILE</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/battleship</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufobattleship</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">6171</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.dreadnought</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">14040</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">850</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">800</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Massive</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.DREADNOUGHTCANNON;AV.DREADNOUGHTMISSILE;AV.DREADNOUGHTRAGE</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/dreadnought</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufodreadnought</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">6600</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.mothership</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">15600</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Massive</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.BATTLESHIPCANNON;AV.BATTLESHIPMISSILE</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/mothership</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufomothership</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.heavyshuttle</Data></Cell>
+    <Cell><Data ss:Type="Number">780</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">6000</Data></Cell>
+    <Cell><Data ss:Type="Number">1800</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Small</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.HEAVYSHUTTLESHOTGUN;AV.HEAVYSHUTTLECOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/lightscout</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufolightscout</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">2108</Data></Cell>
+    <Cell><Data ss:Type="Number">20000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.bomberbattleship</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10400</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">2200</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Massive</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.BOMBERBATTLESHIPCANNON;AV.BOMBERBATTLESHIPMISSILE;AV.BOMBERBATTLESHIPTORPDEDO</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/battleship</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufobattleship</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">6271</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.interceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">845</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">4620</Data></Cell>
+    <Cell><Data ss:Type="Number">1500</Data></Cell>
+    <Cell><Data ss:Type="Number">204</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.VerySmall</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.INTERCEPTORBEAM;AV.INTERCEPTORCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/interceptor</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufointerceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">1xItems.AlienInterceptorDatacore;1xItems.FallenAlienInterceptor;2xItems.Alenium;4xItems.Alienalloys</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">859</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.heavyinterceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">1040</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">5170</Data></Cell>
+    <Cell><Data ss:Type="Number">1800</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.VerySmall</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.HEAVYINTERCEPTORBEAM;AV.HEAVYINTERCEPTORCOUNTER;AV.HEAVYINTERCEPTORMISSILE</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/heavyinterceptor</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufoheavyinterceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">1xItems.AlienHeavyInterceptorDatacore;1xItems.FallenAlienHeavyInterceptor;3xItems.Alenium;5xItems.Alienalloys</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">1033</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.infiltrator</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">31200</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">250</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.BATTLESHIPCANNON;AV.BATTLESHIPMISSILE;AV.INFILTRATORCOUNTER</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/destroyer</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufodestroyer</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="38"><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">200000</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="32" ss:StyleID="s69"/>
+    <Cell ss:Index="35" ss:StyleID="s69"/>
+    <Cell ss:Index="37" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">alienbase.small</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="Number">9999</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/chinook</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/interceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">alienbase.medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="Number">9999</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/chinook</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/interceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">alienbase.large</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">9999</Data></Cell>
+    <Cell><Data ss:Type="Number">9999</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/chinook</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/interceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="19" ss:StyleID="s67"/>
+    <Cell ss:Index="32" ss:StyleID="s69"/>
+    <Cell ss:Index="35" ss:StyleID="s69"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.alien.heavyhunter</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">3200</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.VerySmall</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.INTERCEPTORBEAM;AV.INTERCEPTORMISSILE</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/interceptor</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufointerceptor</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">1xItems.AlienInterceptorDatacore;1xItems.FallenAlienInterceptor;2xItems.Alenium;4xItems.Alienalloys</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.bomber</Data></Cell>
+    <Cell><Data ss:Type="Number">1700</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.BOMBERCANNON</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/bomber</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufobomber</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienBomberDatacore;1xItems.FallenAlienBomber;6xItems.Alenium;12xItems.Alienalloys</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">1700</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.heavybomber</Data></Cell>
+    <Cell><Data ss:Type="Number">1700</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">700</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Medium</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.BOMBERCANNON</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/bomber</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufobomber</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienBomberDatacore;1xItems.FallenAlienBomber;6xItems.Alenium;12xItems.Alienalloys</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">1700</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.strikecruiser</Data></Cell>
+    <Cell><Data ss:Type="Number">4300</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Large</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.STRIKECRUISERBEAM;AV.STRIKECRUISERCANNON</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/strikecruiser</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufostrikecruiser</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienStrikeCruiserDatacore;1xItems.FallenAlienStrikeCruiser;8xItems.Alenium;16xItems.Alienalloys</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">4300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.destroyer</Data></Cell>
+    <Cell><Data ss:Type="Number">4300</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Large</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.STRIKECRUISERBEAM;AV.STRIKECRUISERCANNON</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/strikecruiser</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufostrikecruiser</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienStrikeCruiserDatacore;1xItems.FallenAlienStrikeCruiser;8xItems.Alenium;16xItems.Alienalloys</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">4300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.escortdestroyer</Data></Cell>
+    <Cell><Data ss:Type="Number">4300</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Large</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.STRIKECRUISERBEAM;AV.STRIKECRUISERCANNON</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/strikecruiser</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufostrikecruiser</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienStrikeCruiserDatacore;1xItems.FallenAlienStrikeCruiser;8xItems.Alenium;16xItems.Alienalloys</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">4300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">airplane.alien.dreadnought&#45;-</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">3500</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Massive</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.DREADNOUGHTSHIELD;AV.DREADNOUGHTCANNON;AV.DREADNOUGHTBEAM</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/dreadnought</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufodreadnought</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.AlienDreadnoughtDatacore;1xItems.FallenAlienDreadnought;60xAlienAlloys;30xAlenium</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">25000</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">airplane.alien.assaultlander</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">999999</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">5,85;139,85</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">2800</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">unknown</Data></Cell>
+    <Cell><Data ss:Type="String">UFOSize.Large</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">AV.DESTROYERMISSILES;AV.DESTROYERMISSILES;AV.DESTROYERSHIELD</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/destroyer</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/ufodestroyer</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.AlienAssaultLanderDatacore;1xItems.FallenAlienAssaultLander;20xAlienAlloys;5xAlenium</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.saracen</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="Number">2500</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">20,44;53,44;33,29</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">0.4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="Number">19.739999999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">11.86</Data></Cell>
+    <Cell><Data ss:Type="Number">19142</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.AleniumRepulsion</Data></Cell>
+    <Cell><Data ss:Type="String">X-37 Corsair</Data></Cell>
+    <Cell><Data ss:Type="Number">77900</Data></Cell>
+    <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.SIDEWINDER;AV.SIDEWINDER</Data></Cell>
+    <Cell><Data ss:Type="String">1000;580;435;90;435;780</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/corsair</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/corsair</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.datacore</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">7646</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">experience.none</Data></Cell>
+    <Cell><Data ss:Type="String">experience.none</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="29"><Data ss:Type="String">aircraft/datacore</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">airplane.human.fortress</Data></Cell>
+    <Cell><Data ss:Type="Number">650</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">25000</Data></Cell>
+    <Cell><Data ss:Type="Number">1500</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">90,52;90,100;27,43;47,43</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">35000</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.Turbofan</Data></Cell>
+    <Cell><Data ss:Type="String">B17-X FORTRESS</Data></Cell>
+    <Cell><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="String">AV.TOWERCANNON;AV.TOWERCANNON;AV.ALENIUMMISSILE;AV.ALENIUMTORP</Data></Cell>
+    <Cell><Data ss:Type="String">1000;500;100;500;350;50;350;800</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/fortress</Data></Cell>
+    <Cell><Data ss:Type="String">aircraft/aircombat/fortress</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:Index="39"><Data ss:Type="Number">10000</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Zoom>110</Zoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>27</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>25</ActiveRow>
+     <ActiveCol>29</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R76C34:R79C36,R86C32,R86C34:R86C36,R71C32,R34C34:R35C36,R55C32:R56C32,R16C32:R23C32,R55C34:R56C36,R34C32:R35C32,R76C32:R79C32,R25C34:R28C36,R25C32:R28C32,R12C32:R14C32,R16C34:R23C36,R12C34:R14C36,R2C32:R10C32,R2C34:R10C36,R68C32:R69C32,R68C34:R69C36,R71C34:R71C36</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;Yes,No&quot;</Value>
+   <ErrorMessage>Please use the combo to enter the value.</ErrorMessage>
+   <ErrorTitle>Invalid value.</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+</Workbook>

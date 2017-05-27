@@ -1,0 +1,517 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Emhar</Author>
+  <LastAuthor>Benutzer</LastAuthor>
+  <Created>2015-10-07T15:16:17Z</Created>
+  <LastSaved>2016-10-03T12:29:55Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="/"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8730</WindowHeight>
+  <WindowWidth>20730</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="24" ss:ExpandedRowCount="16" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="13.3125">
+   <Column ss:AutoFitWidth="0" ss:Width="139.5"/>
+   <Column ss:Width="34.5"/>
+   <Column ss:Width="31.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="42"/>
+   <Column ss:AutoFitWidth="0" ss:Width="138"/>
+   <Column ss:AutoFitWidth="0" ss:Width="108.75" ss:Span="1"/>
+   <Column ss:Index="8" ss:Width="71.25"/>
+   <Column ss:Width="73.5" ss:Span="1"/>
+   <Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="64.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="108.75" ss:Span="5"/>
+   <Column ss:Index="18" ss:AutoFitWidth="0" ss:Width="326.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="244.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="108.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="192"/>
+   <Column ss:Index="24" ss:AutoFitWidth="0" ss:Width="108.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s62">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Length</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Width</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CombatWeight</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Powerplant</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TopSpeed</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Chassis</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BoardingWidth</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BoardingHeight</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BoardingSpace</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Aps</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">HitPoints</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FrontArmour</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SideArmour</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RearArmour</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Accuracy</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Reflexes</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PrimaryWeapons</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SecondaryWeapons</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Heavy</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Image</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">GCWidth</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Upkeep</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Buyable</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">VEHICLE.HUNTER</Data></Cell>
+    <Cell><Data ss:Type="Number">3.7</Data></Cell>
+    <Cell><Data ss:Type="Number">2.9</Data></Cell>
+    <Cell><Data ss:Type="Number">4.5</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.HUNTER</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.HUNTER</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">160</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">VV.MACHINEGUN;VV.DIVISIONGUN;VV.ROCKET;VV.ALENIUMROCKET;VV.PLASMAROCKET;VV.FUSIONROCKET;SINGULARROCKET</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/ferret</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">VEHICLE.HUNTERADV</Data></Cell>
+    <Cell><Data ss:Type="Number">3.8</Data></Cell>
+    <Cell><Data ss:Type="Number">2.9</Data></Cell>
+    <Cell><Data ss:Type="Number">5.5</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.HUNTERADV</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.HUNTERADV</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">VV.ROCKET;VV.ALENIUMROCKET;VV.PLASMAROCKET;VV.FUSIONROCKET;SINGULARROCKET</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/hunteradv</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">VEHICLE.LIGHTTANK</Data></Cell>
+    <Cell><Data ss:Type="Number">4.2</Data></Cell>
+    <Cell><Data ss:Type="Number">3.1</Data></Cell>
+    <Cell><Data ss:Type="Number">7.8</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.LIGHTTANK</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.LIGHTTANK</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">275</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">VV.MACHINEGUN;VV.KINETICCANNON;VV.ALENIUMCANNON;VV.DIVISIONGUN;VV.PULSELASER;VV.PLASMABOLT;VV.GAUSSGUN;VV.PULSEGUN;VV.RAILGUN;VV.SONICGUN;VV.MAC</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/lighttank</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">8000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">VEHICLE.LIGHTTANKADV</Data></Cell>
+    <Cell><Data ss:Type="Number">4.3</Data></Cell>
+    <Cell><Data ss:Type="Number">3.2</Data></Cell>
+    <Cell><Data ss:Type="Number">7.4</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.LIGHTTANKADV</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.LIGHTTANKADV</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">560</Data></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">VV.MACHINEGUN;VV.KINETICCANNON;VV.ALENIUMCANNON;VV.DIVISIONGUN;VV.PULSELASER;VV.PLASMABOLT;VV.GAUSSGUN;VV.PULSEGUN;VV.RAILGUN;VV.SONICGUN;VV.MAC</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/lighttankadv</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VEHICLE.SCIMITAR</Data></Cell>
+    <Cell><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+    <Cell><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+    <Cell><Data ss:Type="Number">9.8000000000000007</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.SCIMITAR</Data></Cell>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.SCIMITAR</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">VV.KINETICCANNON;VV.ALENIUMCANNON;VV.PLASMACANNON;VV.FUSIONCANNON;VV.SINGULARCANNON;VV.KINETICAPCANNON;VV.ALENIUMAPCANNON;VV.PLASMAAPCANNON;VV.FUSIONAPCANNON;VV.SINGULARAPCANNON;VV.MACHINEGUN;VV.DIVISIONGUN;VV.PULSELASER;VV.PLASMABOLT;VV.GAUSSGUN;VV.PULSEGUN;VV.RAILGUN;VV.SONICGUN;VV.MAC</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/scimitar</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">25000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VEHICLE.SCIMITARADV</Data></Cell>
+    <Cell><Data ss:Type="Number">4.8</Data></Cell>
+    <Cell><Data ss:Type="Number">4.2</Data></Cell>
+    <Cell><Data ss:Type="Number">9.5</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.SCIMITARADV</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.SCIMITARADV</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="Number">630</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">VV.KINETICCANNON;VV.ALENIUMCANNON;VV.PLASMACANNON;VV.FUSIONCANNON;VV.SINGULARCANNON;VV.KINETICAPCANNON;VV.ALENIUMAPCANNON;VV.PLASMAAPCANNON;VV.FUSIONAPCANNON;VV.SINGULARAPCANNON;VV.MACHINEGUN;VV.DIVISIONGUN;VV.PULSELASER;VV.PLASMABOLT;VV.GAUSSGUN;VV.PULSEGUN;VV.RAILGUN;VV.SONICGUN;VV.MAC</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/scimitaradv</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">75000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VEHICLE.HEAVYTANK</Data></Cell>
+    <Cell><Data ss:Type="Number">5.2</Data></Cell>
+    <Cell><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+    <Cell><Data ss:Type="Number">14.5</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.HEAVYTANK</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.HEAVYTANK</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">VV.KINETICCANNON;VV.ALENIUMCANNON;VV.PLASMACANNON;VV.FUSIONCANNON;VV.SINGULARCANNON;VV.KINETICAPCANNON;VV.ALENIUMAPCANNON;VV.PLASMAAPCANNON;VV.FUSIONAPCANNON;VV.SINGULARAPCANNON</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/heavytank</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VEHICLE.HEAVYTANKADV</Data></Cell>
+    <Cell><Data ss:Type="Number">5.3</Data></Cell>
+    <Cell><Data ss:Type="Number">4.7</Data></Cell>
+    <Cell><Data ss:Type="Number">17.5</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.HEAVYTANKADV</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.HEAVYTANKADV</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">1050</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">VV.KINETICCANNON;VV.ALENIUMCANNON;VV.PLASMACANNON;VV.FUSIONCANNON;VV.SINGULARCANNON;VV.KINETICAPCANNON;VV.ALENIUMAPCANNON;VV.PLASMAAPCANNON;VV.FUSIONAPCANNON;VV.SINGULARAPCANNON</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/heavytankadv</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="String">VEHICLE.HYPERION</Data></Cell>
+    <Cell><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+    <Cell><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+    <Cell><Data ss:Type="Number">7.8</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.HYPERION</Data></Cell>
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.HYPERION</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">450</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">VV.MACHINEGUN;VV.DIVISIONGUN;VV.PULSELASER;VV.PLASMABOLT;VV.GAUSSGUN;VV.PULSEGUN;VV.RAILGUN;VV.SONICGUN;VV.MAC;VV.ROCKET;VV.ALENIUMROCKET;VV.PLASMAROCKET;VV.FUSIONROCKET;SINGULARROCKET</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/hyperion</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">120000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VEHICLE.HYPERIONADV</Data></Cell>
+    <Cell><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+    <Cell><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+    <Cell><Data ss:Type="Number">7.8</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.HYPERIONADV</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.HYPERIONADV</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">VV.MACHINEGUN;VV.DIVISIONGUN;VV.PULSELASER;VV.PLASMABOLT;VV.GAUSSGUN;VV.PULSEGUN;VV.RAILGUN;VV.SONICGUN;VV.MAC;VV.ROCKET;VV.ALENIUMROCKET;VV.PLASMAROCKET;VV.FUSIONROCKET;SINGULARROCKET</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/hyperionadv</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">150000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VEHICLE.ULTTANK</Data></Cell>
+    <Cell><Data ss:Type="Number">5.8</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">22.5</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.ULTTANK</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.ULTTANK</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">VV.KINETICCANNON;VV.ALENIUMCANNON;VV.PLASMACANNON;VV.FUSIONCANNON;VV.SINGULARCANNON;VV.KINETICAPCANNON;VV.ALENIUMAPCANNON;VV.PLASMAAPCANNON;VV.FUSIONAPCANNON;VV.SINGULARAPCANNON</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/ulttank</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">175000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VEHICLE.ULTHOVER</Data></Cell>
+    <Cell><Data ss:Type="Number">5.8</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">16.5</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.ULTHOVER</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.ULTHOVER</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">850</Data></Cell>
+    <Cell><Data ss:Type="Number">130</Data></Cell>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="String">VV.MACHINEGUN;VV.DIVISIONGUN;VV.PULSELASER;VV.PLASMABOLT;VV.GAUSSGUN;VV.PULSEGUN;VV.RAILGUN;VV.SONICGUN;VV.MAC;VV.ROCKET;VV.ALENIUMROCKET;VV.PLASMAROCKET;VV.FUSIONROCKET;SINGULARROCKET</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/ulthover</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">200000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VEHICLE.WALKER</Data></Cell>
+    <Cell><Data ss:Type="Number">5.5</Data></Cell>
+    <Cell><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+    <Cell><Data ss:Type="Number">26.2</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.WALKER</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.WALKER</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">VV.MECHMAC;VV.MECHGAUSS;VV.MECHRAIL;VV.ADVMECHPULSE;VV.ADVMECHGAUSS;VV.ADVMECHRAIL;VV.ADVMECHION;VV.ULTMECHKINETIC;VV.ULTMECHENERGY</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/walker</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">200000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VEHICLE.WALKERADV</Data></Cell>
+    <Cell><Data ss:Type="Number">5.5</Data></Cell>
+    <Cell><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+    <Cell><Data ss:Type="Number">32.1</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.WALKERADV</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.WALKERADV</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="Number">550</Data></Cell>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">VV.MECHMAC;VV.MECHGAUSS;VV.MECHRAIL;VV.ADVMECHPULSE;VV.ADVMECHGAUSS;VV.ADVMECHRAIL;VV.ADVMECHION;VV.ULTMECHKINETIC;VV.ULTMECHENERGY</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/walkeradv</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">350000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VEHICLE.WALKERULT</Data></Cell>
+    <Cell><Data ss:Type="Number">5.5</Data></Cell>
+    <Cell><Data ss:Type="Number">4.5999999999999996</Data></Cell>
+    <Cell><Data ss:Type="Number">55.8</Data></Cell>
+    <Cell><Data ss:Type="String">POWERPLANT.WALKERULT</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">CHASSIS.WALKERULT</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">140</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="String">VV.MECHMAC;VV.MECHGAUSS;VV.MECHRAIL;VV.ADVMECHPULSE;VV.ADVMECHGAUSS;VV.ADVMECHRAIL;VV.ADVMECHION;VV.ULTMECHKINETIC;VV.ULTMECHENERGY</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="String">vehicles/walkerult</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1000000</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>16</SplitHorizontal>
+   <TopRowBottomPane>16</TopRowBottomPane>
+   <SplitVertical>4</SplitVertical>
+   <LeftColumnRightPane>13</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>22</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>17</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C24:R6C24,R2C20:R6C20</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;Yes,No&quot;</Value>
+   <ErrorMessage>Please use the combo to enter the value.</ErrorMessage>
+   <ErrorTitle>Invalid value.</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+</Workbook>

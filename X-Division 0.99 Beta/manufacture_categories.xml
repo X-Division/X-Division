@@ -1,0 +1,413 @@
+<?xml version="1.0"?>
+<ManufactureCategories MODMERGE="replace">
+	<!--
+	Add custom manufacture categories here. Only ones not present in the vanilla game.
+	Tags look like:
+	<ManufactureCategory>
+		<ID>SomeCategoryId</ID>
+	</ManufactureCategory>
+	
+	The ID should then be used for the Category column in manufactures.xml, and have a
+	corresponding entry in strings.xml
+	-->
+	<ManufactureCategory>
+		<ID>XPhase1BallisticWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XPhase1EnergyWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XPhase2BallisticWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XPhase2EnergyWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XPhase3BallisticWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XPhase3EnergyWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XPhase4BallisticWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XPhase4EnergyWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XGrenade9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XRocket9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XExplosive9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienGrenade9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XShield9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XMelee9</ID>
+	</ManufactureCategory>
+		<ManufactureCategory>
+		<ID>XFlamethrower9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XRagbag9</ID>
+	</ManufactureCategory>
+		<ManufactureCategory>
+		<ID>AlienPhase1BallisticWeapon</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAntimatterWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XShockWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XElectronWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase1BallisticWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase1EnergyWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase2EnergyWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase1&2EnergyWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase1&2FlamerWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase2BallisticWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase2ChemicalWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase3EnergyWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase3BallisticWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase3FlamerWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase3ChemicalWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase4EnergyWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase4BallisticWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase4FlamerWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienPhase4ChemicalWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienAntimatterWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Resources9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XVehicle9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XVehicleCannon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XVehicleRocket9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XVehicleMechWeapon9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XVehicleGPMG9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Developer9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>AlienShield9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Resources-Aircraft9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraft9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraftCannonPhase19</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraftCannonPhase29</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraftCannonPhase39</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraftCannonPhase49</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraftMissilePhase19</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraftMissilePhase29</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraftMissilePhase39</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraftMissilePhase49</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraftTorpedoPhase19</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraftTorpedoPhase29</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraftTorpedoPhase39</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XAircraftTorpedoPhase49</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>XArmour9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesXenomorph9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesReaper9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesWraithCaptive9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesWraithCorpse9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesHarridanCorpse9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesHarridanCaptive9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesCaesanCorpse9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesCaesanCaptive9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesSebillianCorpse9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesSebillianCaptive9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesWreckageAndron9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesWreckageDrone9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesWreckageTank9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesWreckageMech9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesWreckageDisc9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesPraetorCorpse9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>ResourcesPraetorCaptive9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>UFOPhase19</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>UFOPhase29</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>UFOPhase39</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>UFOPhase49</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>UFOBase9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>OneTimeUpdates9</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>One Time Updates 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Aircraft Units 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Aircraft Cannon 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Aircraft Missile & Torpedo 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Vehicles & Mechs 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Vehicle Phase 3 & 4 Weapons 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Armour & Shields 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Antimatter Weapons 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Shock and Electronic Weapons 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Alien Ragbag Weapons 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Grenades 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Rockets 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Explosives & Melees 0</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>UFO DSB Phase 4</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Sonic Weapons 4</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Rail Weapons 4</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Alien Ion & Thunder Weapons 4</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Alien Mass & Incinerator Weapons 4</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Alien Ancient Weapons 4</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Dissection Phase 4 Caesan & Wraith 4</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Dissection Phase 4 Sebillian & Harridan 4</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Dissection Xenomorphs 4</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Dissection Reaper 4</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Andron & MECH DSB 4</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Wreckages & Alien Hybrid Weapons 4</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>UFO DSB Phase 3</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Pulse Weapons 3</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Gauss & Plasmathrower Weapons 3</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Alien Wave & Photon Weapons 3</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Alien Vindicator & Scorcher Weapons 3</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Wreckages & Alien Blood Weapons 3</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Dissection Phase 3 Caesan & Wraith 3</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Dissection Phase 3 Sebillian & Harridan 3</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Vehicle Phase 1 & 2 Weapons 2</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>UFO DSB Phase 2</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Plasma Weapons 2</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>MAG & Flamethrower Weapons 2</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Alien Plasma Weapons 2</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Alien Matergy Weapons 2</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Wreckages & Alien Toxic Weapons 2</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Dissection Phase 2 Caesan & Wraith 2</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Dissection Phase 2 Sebillian & Harridan 2</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>UFO DSB Phase 1</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Laser Weapons 1</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Division Weapons 1</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Alien Phaser & Lightning Weapons 1</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Alien Ballistic & Flamer Weapons 1</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Dissection Phase 1 Caesan & Wraith 1</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Dissection Phase 1 Sebillian & Harridan 1</ID>
+	</ManufactureCategory>
+	<ManufactureCategory>
+		<ID>Wreckages 1</ID>
+	</ManufactureCategory>
+	
+
+
+
+</ManufactureCategories>

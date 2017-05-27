@@ -1,0 +1,24 @@
+<?xml version="1.0" ?> 
+<SoldierProps>
+    <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.impjackal">
+    <Items killed="Items.XenonautJackalCorpse" stunned="Items.XenonautJackal" />
+  </Armour>
+   <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.wolf_3">
+      <Items killed="Items.Wolf_3_Corpse" stunned="Items.Wolf_3_Stunned" />
+  </Armour>
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.wolf_4">
+      <Items killed="Items.Wolf_4_Corpse" stunned="Items.Wolf_4_Stunned" />
+  </Armour>
+   <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.sentinel_2">
+      <Items killed="Items.Sentinel_2_Corpse" stunned="Items.Sentinel_2_Stunned" />
+  </Armour>
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.sentinel_3">
+      <Items killed="Items.Sentinel_3_Corpse" stunned="Items.Sentinel_3_Stunned" />
+  </Armour>
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.predator_2">
+      <Items killed="Items.Predator_2_Corpse" stunned="Items.Predator_2_Stunned" />
+  </Armour>
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.predator_3">
+      <Items killed="Items.Predator_3_Corpse" stunned="Items.Predator_3_Stunned" />
+  </Armour>
+</SoldierProps>

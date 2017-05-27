@@ -1,0 +1,2740 @@
+<?xml version="1.0" ?> 
+<CorpseProps>
+ 
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Wolf_3_Corpse">
+    <stockTextureName>weapons/corpses/wolf_3_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wolf_3_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Wolf_3_Stunned">
+    <stockTextureName>weapons/corpses/wolf_3_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wolf_3_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Wolf_4_Corpse">
+    <stockTextureName>weapons/corpses/wolf_4_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wolf_4_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Wolf_4_Stunned">
+    <stockTextureName>weapons/corpses/wolf_4_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wolf_4_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sentinel_2_Corpse">
+    <stockTextureName>weapons/corpses/sentinel_2_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sentinel_2_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sentinel_2_Stunned">
+    <stockTextureName>weapons/corpses/sentinel_2_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sentinel_2_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sentinel_3_Corpse">
+    <stockTextureName>weapons/corpses/sentinel_3_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sentinel_3_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sentinel_3_Stunned">
+    <stockTextureName>weapons/corpses/sentinel_3_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sentinel_3_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+ 
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Predator_2_Stunned">
+    <stockTextureName>weapons/corpses/predator_2_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/predator_2_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Predator_2_Corpse">
+    <stockTextureName>weapons/corpses/predator_2_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/predator_2_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Predator_3_Stunned">
+    <stockTextureName>weapons/corpses/predator_3_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/predator_3_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Predator_3_Corpse">
+    <stockTextureName>weapons/corpses/predator_3_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/predator_3_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XFacehuggerCorpse">
+    <stockTextureName>weapons/corpses/facehugger_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/facehugger_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XFacehugger">
+    <stockTextureName>weapons/corpses/facehugger_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/facehugger_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XDroneCorpse">
+    <stockTextureName>weapons/corpses/xdrone_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xdrone_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XDrone">
+    <stockTextureName>weapons/corpses/xdrone_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xdrone_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XMarbleDroneCorpse">
+    <stockTextureName>weapons/corpses/xdrone_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xdrone_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XMarbleDrone">
+    <stockTextureName>weapons/corpses/xdrone_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xdrone_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XRedDroneCorpse">
+    <stockTextureName>weapons/corpses/xdrone_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xdrone_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XRedDrone">
+    <stockTextureName>weapons/corpses/xdrone_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xdrone_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XCrimsonDroneCorpse">
+    <stockTextureName>weapons/corpses/xdrone_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xdrone_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XCrimsonDrone">
+    <stockTextureName>weapons/corpses/xdrone_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xdrone_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XAcidlingGuardCorpse">
+    <stockTextureName>weapons/corpses/xacidling_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xacidling_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XAcidlingGuard">
+    <stockTextureName>weapons/corpses/xacidling_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xacidling_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XAcidlingSoldierCorpse">
+    <stockTextureName>weapons/corpses/xacidling_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xacidling_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XAcidlingSoldier">
+    <stockTextureName>weapons/corpses/xacidling_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xacidling_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XAcidlingWarriorCorpse">
+    <stockTextureName>weapons/corpses/xacidling_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xacidling_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XAcidlingWarrior">
+    <stockTextureName>weapons/corpses/xacidling_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xacidling_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XAcidlingEliteCorpse">
+    <stockTextureName>weapons/corpses/xacidling_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xacidling_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XAcidlingElite">
+    <stockTextureName>weapons/corpses/xacidling_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xacidling_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XWarriorCorpse">
+    <stockTextureName>weapons/corpses/xwarrior_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xwarrior_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XWarrior">
+    <stockTextureName>weapons/corpses/xwarrior_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xwarrior_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XMarbleWarriorCorpse">
+    <stockTextureName>weapons/corpses/xwarrior_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xwarrior_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XMarbleWarrior">
+    <stockTextureName>weapons/corpses/xwarrior_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xwarrior_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XRedWarriorCorpse">
+    <stockTextureName>weapons/corpses/alien_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/alien_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XRedWarrior">
+    <stockTextureName>weapons/corpses/alien_stun.png</stockTextureName>
+    <dragTextureName>weapons/corpses/alien_stun.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XCrimsonWarriorCorpse">
+    <stockTextureName>weapons/corpses/alien_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/alien_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XCrimsonWarrior">
+    <stockTextureName>weapons/corpses/alien_stun.png</stockTextureName>
+    <dragTextureName>weapons/corpses/alien_stun.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XPraetorianCorpse">
+    <stockTextureName>weapons/corpses/predatorian_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/predatorian_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XPraetorian">
+    <stockTextureName>weapons/corpses/predatorian_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/predatorian_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XRedPraetorianCorpse">
+    <stockTextureName>weapons/corpses/predatorian_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/predatorian_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XRedPraetorian">
+    <stockTextureName>weapons/corpses/predatorian_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/predatorian_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XCrimsonPraetorianCorpse">
+    <stockTextureName>weapons/corpses/predatorian_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/predatorian_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XCrimsonPraetorian">
+    <stockTextureName>weapons/corpses/predatorian_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/predatorian_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+    <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XRogue">
+    <stockTextureName>weapons/corpses/xdrone_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xdrone_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XStalker">
+    <stockTextureName>weapons/corpses/xwarrior_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xwarrior_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XRavager">
+    <stockTextureName>weapons/corpses/predatorian_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/predatorian_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XRogueCorpse">
+    <stockTextureName>weapons/corpses/xdrone_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xdrone_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XStalkerCorpse">
+    <stockTextureName>weapons/corpses/xwarrior_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xwarrior_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XRavagerCorpse">
+    <stockTextureName>weapons/corpses/predatorian_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/predatorian_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XQueenCorpse">
+    <stockTextureName>weapons/corpses/xqueen_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xqueen_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XQueen">
+    <stockTextureName>weapons/corpses/xqueen_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xqueen_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XRedQueenCorpse">
+    <stockTextureName>weapons/corpses/xqueen_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xqueen_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XRedQueen">
+    <stockTextureName>weapons/corpses/xqueen_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xqueen_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XCrimsonQueenCorpse">
+    <stockTextureName>weapons/corpses/xqueen_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xqueen_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XCrimsonQueen">
+    <stockTextureName>weapons/corpses/xqueen_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xqueen_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+    <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XEmpressCorpse">
+    <stockTextureName>weapons/corpses/xqueen_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xqueen_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.XEmpress">
+    <stockTextureName>weapons/corpses/xqueen_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/xqueen_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.ReaperCorpse">
+    <stockTextureName>weapons/corpses/reaper_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.Reaper">
+    <stockTextureName>weapons/corpses/reaper_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.ReaperAlphaCorpse">
+    <stockTextureName>weapons/corpses/reaper_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.ReaperAlpha">
+    <stockTextureName>weapons/corpses/reaper_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.ReaperOmegaCorpse">
+    <stockTextureName>weapons/corpses/reaper_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.ReaperOmega">
+    <stockTextureName>weapons/corpses/reaper_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.ReaperZetaCorpse">
+    <stockTextureName>weapons/corpses/reaper_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.ReaperZeta">
+    <stockTextureName>weapons/corpses/reaper_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+    <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.ReaperrhinoCorpse">
+      <stockTextureName>weapons/corpses/reaper_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Reaperrhino">
+    <stockTextureName>weapons/corpses/reaper_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.ReaperbullCorpse">
+    <stockTextureName>weapons/corpses/reaper_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Reaperbull">
+    <stockTextureName>weapons/corpses/reaper_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.ReaperNonCombatantCorpse">
+    <stockTextureName>weapons/corpses/reaper_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.ReaperNonCombatant">
+    <stockTextureName>weapons/corpses/reaper_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/reaper_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanGuardCorpse">
+    <stockTextureName>weapons/corpses/caesan_guard_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_guard_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanGuard">
+    <stockTextureName>weapons/corpses/caesan_guard_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_guard_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanPsionCorpse">
+    <stockTextureName>weapons/corpses/caesan_psion_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_psion_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanPsion">
+    <stockTextureName>weapons/corpses/caesan_psion_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_psion_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanPsionAssaultCorpse">
+    <stockTextureName>weapons/corpses/caesan_psion_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_psion_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanPsionAssault">
+    <stockTextureName>weapons/corpses/caesan_psion_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_psion_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanPsionPsychoCorpse">
+    <stockTextureName>weapons/corpses/caesan_psion_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_psion_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanPsionPsycho">
+    <stockTextureName>weapons/corpses/caesan_psion_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_psion_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanPsionMasterCorpse">
+    <stockTextureName>weapons/corpses/caesan_psion_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_psion_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanPsionMaster">
+    <stockTextureName>weapons/corpses/caesan_psion_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_psion_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanmedic">
+    <stockTextureName>weapons/corpses/caesan_genetic_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_genetic_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanmedicCorpse">
+    <stockTextureName>weapons/corpses/caesan_genetic_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_genetic_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanphysician">
+    <stockTextureName>weapons/corpses/caesan_genetic_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_genetic_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanphysicianCorpse">
+    <stockTextureName>weapons/corpses/caesan_genetic_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_genetic_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesandoctor">
+    <stockTextureName>weapons/corpses/caesan_genetic_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_genetic_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesandoctorCorpse">
+    <stockTextureName>weapons/corpses/caesan_genetic_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_genetic_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanprofessor">
+    <stockTextureName>weapons/corpses/caesan_genetic_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_genetic_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanprofessorCorpse">
+    <stockTextureName>weapons/corpses/caesan_genetic_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_genetic_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianmedic">
+    <stockTextureName>weapons/corpses/sebillian_genetic_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_genetic_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianmedicCorpse">
+    <stockTextureName>weapons/corpses/sebillian_genetic_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_genetic_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianphysician">
+    <stockTextureName>weapons/corpses/sebillian_genetic_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_genetic_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianphysicianCorpse">
+    <stockTextureName>weapons/corpses/sebillian_genetic_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_genetic_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebilliandoctor">
+    <stockTextureName>weapons/corpses/sebillian_genetic_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_genetic_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebilliandoctorCorpse">
+    <stockTextureName>weapons/corpses/sebillian_genetic_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_genetic_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianprofessor">
+    <stockTextureName>weapons/corpses/sebillian_genetic_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_genetic_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianprofessorCorpse">
+    <stockTextureName>weapons/corpses/sebillian_genetic_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_genetic_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  
+  
+  
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesantechnician">
+    <stockTextureName>weapons/corpses/caesan_engine_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_engine_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesantechnicianCorpse">
+    <stockTextureName>weapons/corpses/caesan_engine_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_engine_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanengineer">
+    <stockTextureName>weapons/corpses/caesan_engine_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_engine_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanengineerCorpse">
+    <stockTextureName>weapons/corpses/caesan_engine_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_engine_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanchief">
+    <stockTextureName>weapons/corpses/caesan_engine_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_engine_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanchiefCorpse">
+    <stockTextureName>weapons/corpses/caesan_engine_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_engine_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanheadengineer">
+    <stockTextureName>weapons/corpses/caesan_engine_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_engine_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanheadengineerCorpse">
+    <stockTextureName>weapons/corpses/caesan_engine_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_engine_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebilliantechnician">
+    <stockTextureName>weapons/corpses/sebillian_engine_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_engine_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebilliantechnicianCorpse">
+    <stockTextureName>weapons/corpses/sebillian_engine_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_engine_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianengineer">
+    <stockTextureName>weapons/corpses/sebillian_engine_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_engine_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianengineerCorpse">
+    <stockTextureName>weapons/corpses/sebillian_engine_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_engine_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianchief">
+    <stockTextureName>weapons/corpses/sebillian_engine_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_engine_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianchiefCorpse">
+    <stockTextureName>weapons/corpses/sebillian_engine_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_engine_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianheadengineer">
+    <stockTextureName>weapons/corpses/sebillian_engine_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_engine_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianheadengineerCorpse">
+    <stockTextureName>weapons/corpses/sebillian_engine_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_engine_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  
+
+  
+  
+  
+  
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesannavigator">
+    <stockTextureName>weapons/corpses/caesan_flight_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_flight_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesannavigatorCorpse">
+    <stockTextureName>weapons/corpses/caesan_flight_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_flight_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanpilot">
+    <stockTextureName>weapons/corpses/caesan_flight_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_flight_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanpilotCorpse">
+    <stockTextureName>weapons/corpses/caesan_flight_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_flight_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesancruisecommander">
+    <stockTextureName>weapons/corpses/caesan_flight_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_flight_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesancruisecommanderCorpse">
+    <stockTextureName>weapons/corpses/caesan_flight_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_flight_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+     <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanfleetcommander">
+    <stockTextureName>weapons/corpses/caesan_flight_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_flight_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanfleetcommanderCorpse">
+    <stockTextureName>weapons/corpses/caesan_flight_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_flight_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebilliannavigator">
+    <stockTextureName>weapons/corpses/sebillian_flight_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_flight_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebilliannavigatorCorpse">
+    <stockTextureName>weapons/corpses/sebillian_flight_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_flight_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianpilot">
+    <stockTextureName>weapons/corpses/sebillian_flight_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_flight_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianpilotCorpse">
+    <stockTextureName>weapons/corpses/sebillian_flight_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_flight_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebilliancruisecommander">
+    <stockTextureName>weapons/corpses/sebillian_flight_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_flight_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebilliancruisecommanderCorpse">
+    <stockTextureName>weapons/corpses/sebillian_flight_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_flight_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianfleetcommander">
+    <stockTextureName>weapons/corpses/sebillian_flight_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_flight_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianfleetcommanderCorpse">
+    <stockTextureName>weapons/corpses/sebillian_flight_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_flight_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  
+  
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanweaponsergeant">
+    <stockTextureName>weapons/corpses/caesan_weapon_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_weapon_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanweaponsergeantCorpse">
+    <stockTextureName>weapons/corpses/caesan_weapon_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_weapon_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanweaponofficer">
+    <stockTextureName>weapons/corpses/caesan_weapon_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_weapon_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanweaponofficerCorpse">
+    <stockTextureName>weapons/corpses/caesan_weapon_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_weapon_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanweaponcommander">
+    <stockTextureName>weapons/corpses/caesan_weapon_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_weapon_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanweaponcommanderCorpse">
+    <stockTextureName>weapons/corpses/caesan_weapon_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_weapon_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesantacticalcommander">
+    <stockTextureName>weapons/corpses/caesan_weapon_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_weapon_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesantacticalcommanderCorpse">
+    <stockTextureName>weapons/corpses/caesan_weapon_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_weapon_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianweaponsergeant">
+    <stockTextureName>weapons/corpses/sebillian_weapon_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_weapon_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse> 
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianweaponsergeantCorpse">
+    <stockTextureName>weapons/corpses/sebillian_weapon_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_weapon_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse> 
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianweaponofficer">
+    <stockTextureName>weapons/corpses/sebillian_weapon_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_weapon_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianweaponofficerCorpse">
+    <stockTextureName>weapons/corpses/sebillian_weapon_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_weapon_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianweaponcommander">
+    <stockTextureName>weapons/corpses/sebillian_weapon_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_weapon_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianweaponcommanderCorpse">
+    <stockTextureName>weapons/corpses/sebillian_weapon_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_weapon_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebilliantacticalcommander">
+    <stockTextureName>weapons/corpses/sebillian_weapon_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_weapon_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebilliantacticalcommanderCorpse">
+    <stockTextureName>weapons/corpses/sebillian_weapon_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_weapon_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+    <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.SebillianGuardCorpse">
+    <stockTextureName>weapons/corpses/sebillian_guard_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_guard_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.SebillianGuard">
+    <stockTextureName>weapons/corpses/sebillian_guard_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_guard_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.SebillianSoldierCorpse">
+    <stockTextureName>weapons/corpses/sebillian_soldier_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_soldier_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.SebillianSoldier">
+    <stockTextureName>weapons/corpses/sebillian_soldier_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_soldier_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.SebillianWarriorCorpse">
+    <stockTextureName>weapons/corpses/sebillian_warrior_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_warrior_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.SebillianWarrior">
+    <stockTextureName>weapons/corpses/sebillian_warrior_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_warrior_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.SebillianEliteCorpse">
+    <stockTextureName>weapons/corpses/sebillian_elite_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_elite_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.SebillianElite">
+    <stockTextureName>weapons/corpses/sebillian_elite_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_elite_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.WraithSoldierCorpse">
+    <stockTextureName>weapons/corpses/wraith_soldier_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_soldier_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.WraithSoldier">
+    <stockTextureName>weapons/corpses/wraith_soldier_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_soldier_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.WraithWarriorCorpse">
+    <stockTextureName>weapons/corpses/wraith_warrior_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_warrior_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.WraithWarrior">
+    <stockTextureName>weapons/corpses/wraith_warrior_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_warrior_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.WraithEliteCorpse">
+    <stockTextureName>weapons/corpses/wraith_elite_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_elite_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.WraithElite">
+    <stockTextureName>weapons/corpses/wraith_elite_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_elite_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianSpecialistCorpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.HarridanSoldierCorpse">
+    <stockTextureName>weapons/corpses/harridan_soldier_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_soldier_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.HarridanSoldier">
+    <stockTextureName>weapons/corpses/harridan_soldier_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_soldier_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.HarridanWarriorCorpse">
+    <stockTextureName>weapons/corpses/harridan_warrior_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_warrior_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.HarridanWarrior">
+    <stockTextureName>weapons/corpses/harridan_warrior_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_warrior_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.HarridanEliteCorpse">
+    <stockTextureName>weapons/corpses/harridan_elite_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_elite_dead.png</dragTextureName>
+     <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.HarridanElite">
+    <stockTextureName>weapons/corpses/harridan_elite_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_elite_stunned.png</dragTextureName>
+     <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.AndronGuardCorpse">
+    <stockTextureName>weapons/ScrapMetal1.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal1.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.AndronSoldierCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.AndronTerrorSoldierCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.AndronWarriorCorpse">
+    <stockTextureName>weapons/ScrapMetal1.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal1.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.AndronTerrorWarriorCorpse">
+    <stockTextureName>weapons/ScrapMetal1.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal1.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.AndronEliteCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.AndronTerrorEliteCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.AndronTerrorOfficierEliteCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.AndronOfficerCorpse">
+    <stockTextureName>weapons/ScrapMetal2.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal2.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.AndronOfficerAssaultCorpse">
+    <stockTextureName>weapons/ScrapMetal2.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal2.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.AndroncontrollerCorpse">
+ <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.AndronserverCorpse">
+  <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.AndronterminalCorpse">
+  <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.AndronhubCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.AndronCorpse">
+    <stockTextureName>weapons/ScrapMetal1.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal1.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.AndronheavyCorpse">
+    <stockTextureName>weapons/ScrapMetal2.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal2.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.AndronintenseCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RobodogGuardCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RobodogSoldierCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RobodogTerrorSoldierCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RobodogWarriorCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RobodogTerrorWarriorCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RobodogEliteCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RobodogTerrorEliteCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RobodogAceCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RobodogGhostCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RoborexWarriorCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RoborexEliteCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RoborexTerrorEliteCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RoborexAceCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RoboreaperSoldierCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RoboreaperWarriorCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RoboreaperEliteCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RoboreaperTerrorWarriorCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RoboreaperTerrorEliteCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.RoboreaperAceCorpse">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianterrorsoldier">
+    <stockTextureName>weapons/corpses/sebillian_terrorsoldier_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_terrorsoldier_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianterrorsoldierCorpse">
+    <stockTextureName>weapons/corpses/sebillian_terrorsoldier_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_terrorsoldier_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianterrorwarrior">
+    <stockTextureName>weapons/corpses/sebillian_terrorwarrior_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_terrorwarrior_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianterrorwarriorCorpse">
+    <stockTextureName>weapons/corpses/sebillian_terrorwarrior_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_terrorwarrior_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Sebillianterrorelite">
+    <stockTextureName>weapons/corpses/sebillian_terrorelite_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_terrorelite_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianterroreliteCorpse">
+    <stockTextureName>weapons/corpses/sebillian_terrorelite_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_terrorelite_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianterrorCorpse">
+    <stockTextureName>weapons/corpses/sebillian_terror_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_terror_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanterrorsoldier">
+    <stockTextureName>weapons/corpses/caesan_terrorsoldier_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_terrorsoldier_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanterrorsoldierCorpse">
+    <stockTextureName>weapons/corpses/caesan_terrorsoldier_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_terrorsoldier_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+    <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanterrorelite">
+    <stockTextureName>weapons/corpses/caesan_terrorelite_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_terrorelite_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+    <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanterroreliteCorpse">
+    <stockTextureName>weapons/corpses/caesan_terrorelite_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_terrorelite_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+    <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Caesanterrorwarrior">
+    <stockTextureName>weapons/corpses/caesan_terrorwarrior_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_terrorwarrior_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+    <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanterrorwarriorCorpse">
+    <stockTextureName>weapons/corpses/caesan_terrorwarrior_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_terrorwarrior_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanterrorCorpse">
+    <stockTextureName>weapons/corpses/caesan_terror_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_terror_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.HarridanterrorSoldierCorpse">
+    <stockTextureName>weapons/corpses/harridan_terror_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_terror_dead.png</dragTextureName>
+     <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Harridanterrorsoldier">
+    <stockTextureName>weapons/corpses/harridan_terror_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_terror_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.HarridanterrorWarriorCorpse">
+    <stockTextureName>weapons/corpses/harridan_terror_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_terror_dead.png</dragTextureName>
+     <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Harridanterrorwarrior">
+    <stockTextureName>weapons/corpses/harridan_terror_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_terror_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.HarridanterrorEliteCorpse">
+    <stockTextureName>weapons/corpses/harridan_terror_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_terror_dead.png</dragTextureName>
+     <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Harridanterrorelite">
+    <stockTextureName>weapons/corpses/harridan_terror_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_terror_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.HarridanterrorCorpse">
+    <stockTextureName>weapons/corpses/harridan_elite_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/harridan_elite_dead.png</dragTextureName>
+     <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.WraithterrorCorpse">
+    <stockTextureName>weapons/corpses/wraith_terror_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_terror_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.WraithterrorsoldierCorpse">
+    <stockTextureName>weapons/corpses/wraith_terror_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_terror_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Wraithterrorsoldier">
+    <stockTextureName>weapons/corpses/wraith_terror_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_terror_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.WraithterrorwarriorCorpse">
+    <stockTextureName>weapons/corpses/wraith_terror_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_terror_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Wraithterrorwarrior">
+    <stockTextureName>weapons/corpses/wraith_terror_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_terror_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+ 
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.WraithterroreliteCorpse">
+    <stockTextureName>weapons/corpses/wraith_terror_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_terror_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+ 
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.Wraithterrorelite">
+    <stockTextureName>weapons/corpses/wraith_terror_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/wraith_terror_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.PraetorBaseLeaderCorpse">
+    <stockTextureName>weapons/corpses/praetor_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/praetor_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.PraetorBaseLeader">
+    <stockTextureName>weapons/corpses/praetor_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/praetor_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.PraetorOvermindCorpse">
+    <stockTextureName>weapons/corpses/praetor_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/praetor_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.PraetorOvermind">
+    <stockTextureName>weapons/corpses/praetor_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/praetor_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.PraetorFleetLeaderCorpse">
+    <stockTextureName>weapons/corpses/praetor_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/praetor_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.PraetorFleetLeader">
+    <stockTextureName>weapons/corpses/praetor_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/praetor_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.PraetorTerrorLeaderCorpse">
+    <stockTextureName>weapons/corpses/praetor_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/praetor_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.PraetorTerrorLeader">
+    <stockTextureName>weapons/corpses/praetor_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/praetor_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorLightScout">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorLightScoutCorpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorScout">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorScoutCorpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorTerror1">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorTerror1Corpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorAssault1">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorAssault1Corpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorBomber1">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorBomber1Corpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorCorvette">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorCorvetteCorpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorSmallbase">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorSmallbaseCorpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorTerror2">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorTerror2Corpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorAssault2">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorAssault2Corpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorBomber2">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorBomber2Corpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorLanding">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorLandingCorpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorCruiser">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorCruiserCorpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanGuardian">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanGuardianCorpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanSoldierCorpse">
+    <stockTextureName>weapons/corpses/caesan_soldier_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_soldier_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanSoldier">
+    <stockTextureName>weapons/corpses/caesan_soldier_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_soldier_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanWarriorCorpse">
+    <stockTextureName>weapons/corpses/caesan_warrior_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_warrior_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanWarrior">
+    <stockTextureName>weapons/corpses/caesan_warrior_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_warrior_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanEliteCorpse">
+    <stockTextureName>weapons/corpses/caesan_elite_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_elite_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanElite">
+    <stockTextureName>weapons/corpses/caesan_elite_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_elite_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanOfficerCorpse">
+    <stockTextureName>weapons/corpses/caesan_officer_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_officer_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanOfficer">
+    <stockTextureName>weapons/corpses/caesan_officer_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_officer_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanLeaderCorpse">
+    <stockTextureName>weapons/corpses/caesan_leader_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_leader_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.CaesanLeader">
+    <stockTextureName>weapons/corpses/caesan_leader_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_leader_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorCarrier">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorCarrierCorpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorMediumbase">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorMediumbaseCorpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorTerror3">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorTerror3Corpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorAssault3">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorAssault3Corpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorBomber3">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorBomber3Corpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorBattle">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorBattleCorpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorDread">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorDreadCorpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorLargebase">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorLargebaseCorpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorTerror4">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorTerror4Corpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorAssault4">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorAssault4Corpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorBomber4">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanOperatorBomber4Corpse">
+    <stockTextureName>weapons/corpses/caesan_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+   
+
+   
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanChieftain">
+    <stockTextureName>weapons/corpses/caesan_officer_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_officer_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.CaesanChieftainCorpse">
+    <stockTextureName>weapons/corpses/caesan_officer_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/caesan_officer_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+    <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorLightScout">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+    <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorLightScoutCorpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorScout">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorScoutCorpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorTerror1">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorTerror1Corpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorAssault1">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorAssault1Corpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorBomber1">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorBomber1Corpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorCorvette">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorCorvetteCorpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorSmallbase">
+    <stockTextureName>weapons/corpses/sebillian_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorSmallbaseCorpse">
+    <stockTextureName>weapons/corpses/sebillian_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorTerror2">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorTerror2Corpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorAssault2">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorAssault2Corpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorBomber2">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorBomber2Corpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorLanding">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorLandingCorpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorCruiser">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorCruiserCorpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorMediumbase">
+    <stockTextureName>weapons/corpses/sebillian_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorMediumbaseCorpse">
+    <stockTextureName>weapons/corpses/sebillian_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorTerror3">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorTerror3Corpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorAssault3">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorAssault3Corpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorBomber3">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorBomber3Corpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianGuardian">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianGuardianCorpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorCarrier">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorCarrierCorpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorBattle">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorBattleCorpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorDread">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorDreadCorpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorLargebase">
+    <stockTextureName>weapons/corpses/sebillian_noncombatant_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_noncombatant_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorLargebaseCorpse">
+    <stockTextureName>weapons/corpses/sebillian_noncombatant_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_noncombatant_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorTerror4">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorTerror4Corpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorAssault4">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorAssault4Corpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorBomber4">
+    <stockTextureName>weapons/corpses/sebillian_specialist_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianOperatorBomber4Corpse">
+    <stockTextureName>weapons/corpses/sebillian_specialist_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_specialist_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+   
+   
+   
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianChieftain">
+    <stockTextureName>weapons/corpses/sebillian_officer_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_officer_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+   <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.SebillianChieftainCorpse">
+    <stockTextureName>weapons/corpses/sebillian_officer_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_officer_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.SebillianOfficerCorpse">
+    <stockTextureName>weapons/corpses/sebillian_officer_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_officer_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.SebillianOfficer">
+    <stockTextureName>weapons/corpses/sebillian_officer_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_officer_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.SebillianOfficer">
+    <stockTextureName>weapons/corpses/sebillian_officer_stunned.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_officer_stunned.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.SebillianLeaderCorpse">
+    <stockTextureName>weapons/corpses/sebillian_leader_dead.png</stockTextureName>
+    <dragTextureName>weapons/corpses/sebillian_leader_dead.png</dragTextureName>
+    <slotsizex>3</slotsizex>
+    <slotsizey>5</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.LightDroneWreckage">
+    <stockTextureName>weapons/ScrapMetal1.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal1.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.LightDroneUpgWreckage">
+    <stockTextureName>weapons/ScrapMetal1.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal1.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.LightDroneAdvWreckage">
+    <stockTextureName>weapons/ScrapMetal1.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal1.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.LightDroneKillerWreckage">
+    <stockTextureName>weapons/ScrapMetal1.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal1.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.MediumDroneWreckage">
+    <stockTextureName>weapons/ScrapMetal2.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal2.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.MediumDroneUpgWreckage">
+    <stockTextureName>weapons/ScrapMetal2.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal2.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.MediumDroneAdvWreckage">
+    <stockTextureName>weapons/ScrapMetal2.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal2.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.MediumDroneKillerWreckage">
+    <stockTextureName>weapons/ScrapMetal2.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal2.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="update" name="Items.HeavyDroneWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.HeavyDroneUpgWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.HeavyDroneAdvWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.HeavyDroneKillerWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.MechWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.MechAdvWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.GoliathWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.DiscWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.DiscUpgWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.DiscAdvWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.DiscKillerWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.TankWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.TankUpgWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.TankAdvWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  <Corpse MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Items.TankKillerWreckage">
+    <stockTextureName>weapons/ScrapMetal3.png</stockTextureName>
+    <dragTextureName>weapons/ScrapMetal3.png</dragTextureName>
+    <slotsizex>2</slotsizex>
+    <slotsizey>2</slotsizey>
+    <weight>25</weight>
+  </Corpse>
+  
+  
+</CorpseProps>

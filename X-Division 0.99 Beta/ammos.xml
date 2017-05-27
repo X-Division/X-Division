@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Ammos MODMERGE="update" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+ <!--  	    Human Weapon Ammo		-->
+
+ <!--  	    Division Ammo		-->
+ 
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.pistolmk1">
+		<stockTextureName>weapons/Division/DivisionClipMK1</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionClipMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.riflemk1">
+		<stockTextureName>weapons/Division/DivisionMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionMagazineMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.shotgunmk1">
+		<stockTextureName>weapons/Division/DivisionShotgunAmmoMK1</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionShotgunAmmoMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.smgmk1">
+		<stockTextureName>weapons/Division/DivisionSMGClipMK1</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionSMGClipMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.heavymk1">
+		<stockTextureName>weapons/Division/DivisionHeavyMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionHeavyMagazineMK1</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.minigunmk1">
+		<stockTextureName>weapons/Division/DivisionMinigunAmmoMK1</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionMinigunAmmoMK1</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>5</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.cannonmk1">
+		<stockTextureName>weapons/Division/DivisionCannonAmmoMK1</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionCannonAmmoMK1</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.pistolmk2">
+		<stockTextureName>weapons/Division/DivisionClipMK2</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionClipMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.riflemk2">
+		<stockTextureName>weapons/Division/DivisionMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionMagazineMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.shotgunmk2">
+		<stockTextureName>weapons/Division/DivisionShotgunAmmoMK2</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionShotgunAmmoMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.smgmk2">
+		<stockTextureName>weapons/Division/DivisionSMGClipMK2</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionSMGClipMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.heavymk2">
+		<stockTextureName>weapons/Division/DivisionHeavyMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionHeavyMagazineMK2</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.minigunmk2">
+		<stockTextureName>weapons/Division/DivisionMinigunAmmoMK2</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionMinigunAmmoMK2</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>5</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.cannonmk2">
+		<stockTextureName>weapons/Division/DivisionCannonAmmoMK2</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionCannonAmmoMK2</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.pistolmk3">
+		<stockTextureName>weapons/Division/DivisionClipMK3</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionClipMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.riflemk3">
+		<stockTextureName>weapons/Division/DivisionMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionMagazineMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.shotgunmk3">
+		<stockTextureName>weapons/Division/DivisionShotgunAmmoMK3</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionShotgunAmmoMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.smgmk3">
+		<stockTextureName>weapons/Division/DivisionSMGClipMK3</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionSMGClipMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.heavymk3">
+		<stockTextureName>weapons/Division/DivisionHeavyMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionHeavyMagazineMK3</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.minigunmk3">
+		<stockTextureName>weapons/Division/DivisionMinigunAmmoMK3</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionMinigunAmmoMK3</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>5</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.division.cannonmk3">
+		<stockTextureName>weapons/Division/DivisionCannonAmmoMK3</stockTextureName>
+		<dragTextureName>weapons/Division/DivisionCannonAmmoMK3</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<!--  	    Laser Ammo		-->
+ 
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.laser.lasercellmk1">
+		<stockTextureName>weapons/Laser/lasercellMK1</stockTextureName>
+		<dragTextureName>weapons/Laser/lasercellMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.laser.laserbatterymk1">
+		<stockTextureName>weapons/Laser/laserbateryMK1</stockTextureName>
+		<dragTextureName>weapons/Laser/laserbateryMK1</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.laser.minigunbatterymk1">
+		<stockTextureName>weapons/Laser/laserminigunbateryMK1</stockTextureName>
+		<dragTextureName>weapons/Laser/laserminigunbateryMK1</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.laser.lasercellmk2">
+		<stockTextureName>weapons/Laser/lasercellMK2</stockTextureName>
+		<dragTextureName>weapons/Laser/lasercellMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.laser.laserbatterymk2">
+		<stockTextureName>weapons/Laser/laserbateryMK2</stockTextureName>
+		<dragTextureName>weapons/Laser/laserbateryMK2</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.laser.minigunbatterymk2">
+		<stockTextureName>weapons/Laser/laserminigunbateryMK2</stockTextureName>
+		<dragTextureName>weapons/Laser/laserminigunbateryMK2</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.laser.lasercellmk3">
+		<stockTextureName>weapons/Laser/lasercellMK3</stockTextureName>
+		<dragTextureName>weapons/Laser/lasercellMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.laser.laserbatterymk3">
+		<stockTextureName>weapons/Laser/laserbateryMK3</stockTextureName>
+		<dragTextureName>weapons/Laser/laserbateryMK3</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.laser.minigunbatterymk3">
+		<stockTextureName>weapons/Laser/laserminigunbateryMK3</stockTextureName>
+		<dragTextureName>weapons/Laser/laserminigunbateryMK3</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<!--  	    MAG Ammo		-->
+ 
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.MAG.clipmk1">
+		<stockTextureName>weapons/MAG/MAGClipMK1</stockTextureName>
+		<dragTextureName>weapons/MAG/MAGClipMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.MAG.magazinemk1">
+		<stockTextureName>weapons/MAG/MAGMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/MAG/MAGMagazineMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.MAG.heavymagazinemk1">
+		<stockTextureName>weapons/MAG/MAGHeavyMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/MAG/MAGHeavyMagazineMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.MAG.minigunammomk1">
+		<stockTextureName>weapons/MAG/MAGMinigunAmmoMK1</stockTextureName>
+		<dragTextureName>weapons/MAG/MAGMinigunAmmoMK1</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>8</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.MAG.clipmk2">
+		<stockTextureName>weapons/MAG/MAGClipMK2</stockTextureName>
+		<dragTextureName>weapons/MAG/MAGClipMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.MAG.magazinemk2">
+		<stockTextureName>weapons/MAG/MAGMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/MAG/MAGMagazineMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.MAG.heavymagazinemk2">
+		<stockTextureName>weapons/MAG/MAGHeavyMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/MAG/MAGHeavyMagazineMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.MAG.minigunammomk2">
+		<stockTextureName>weapons/MAG/MAGMinigunAmmoMK2</stockTextureName>
+		<dragTextureName>weapons/MAG/MAGMinigunAmmoMK2</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>8</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.MAG.clipmk3">
+		<stockTextureName>weapons/MAG/MAGClipMK3</stockTextureName>
+		<dragTextureName>weapons/MAG/MAGClipMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.MAG.magazinemk3">
+		<stockTextureName>weapons/MAG/MAGMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/MAG/MAGMagazineMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.MAG.heavymagazinemk3">
+		<stockTextureName>weapons/MAG/MAGHeavyMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/MAG/MAGHeavyMagazineMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.MAG.minigunammomk3">
+		<stockTextureName>weapons/MAG/MAGMinigunAmmoMK3</stockTextureName>
+		<dragTextureName>weapons/MAG/MAGMinigunAmmoMK3</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>8</weight>
+	</Ammo>
+	
+	<!--  	    plasma Ammo		-->
+ 
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.plasma.clipmk1">
+		<stockTextureName>weapons/plasma/plasmaClipMK1</stockTextureName>
+		<dragTextureName>weapons/plasma/plasmaClipMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1.5</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.plasma.magazinemk1">
+		<stockTextureName>weapons/plasma/plasmaMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/plasma/plasmaMagazineMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.plasma.heavymagazinemk1">
+		<stockTextureName>weapons/plasma/plasmaHeavyMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/plasma/plasmaHeavyMagazineMK1</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>6</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.plasma.clipmk2">
+		<stockTextureName>weapons/plasma/plasmaClipMK2</stockTextureName>
+		<dragTextureName>weapons/plasma/plasmaClipMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1.5</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.plasma.magazinemk2">
+		<stockTextureName>weapons/plasma/plasmaMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/plasma/plasmaMagazineMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.plasma.heavymagazinemk2">
+		<stockTextureName>weapons/plasma/plasmaHeavyMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/plasma/plasmaHeavyMagazineMK2</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>6</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.plasma.clipmk3">
+		<stockTextureName>weapons/plasma/plasmaClipMK3</stockTextureName>
+		<dragTextureName>weapons/plasma/plasmaClipMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1.5</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.plasma.magazinemk3">
+		<stockTextureName>weapons/plasma/plasmaMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/plasma/plasmaMagazineMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.plasma.heavymagazinemk3">
+		<stockTextureName>weapons/plasma/plasmaHeavyMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/plasma/plasmaHeavyMagazineMK3</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>6</weight>
+	</Ammo>
+	
+	<!--  	    Gauss Ammo		-->
+ 
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.clipmk1">
+		<stockTextureName>weapons/Gauss/GaussClipMK1</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussClipMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.magazinemk1">
+		<stockTextureName>weapons/Gauss/GaussMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussMagazineMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.shotgunmk1">
+		<stockTextureName>weapons/Gauss/GaussShotgunAmmoMK1</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussShotgunAmmoMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.heavymk1">
+		<stockTextureName>weapons/Gauss/GaussHeavyMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussHeavyMagazineMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.minigunmk1">
+		<stockTextureName>weapons/Gauss/GaussMinigunAmmoMK1</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussMinigunAmmoMK1</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.clipmk2">
+		<stockTextureName>weapons/Gauss/GaussClipMK2</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussClipMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.magazinemk2">
+		<stockTextureName>weapons/Gauss/GaussMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussMagazineMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.shotgunmk2">
+		<stockTextureName>weapons/Gauss/GaussShotgunAmmoMK2</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussShotgunAmmoMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.heavymk2">
+		<stockTextureName>weapons/Gauss/GaussHeavyMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussHeavyMagazineMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.minigunmk2">
+		<stockTextureName>weapons/Gauss/GaussMinigunAmmoMK2</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussMinigunAmmoMK2</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.clipmk3">
+		<stockTextureName>weapons/Gauss/GaussClipMK3</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussClipMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.magazinemk3">
+		<stockTextureName>weapons/Gauss/GaussMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussMagazineMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.shotgunmk3">
+		<stockTextureName>weapons/Gauss/GaussShotgunAmmoMK3</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussShotgunAmmoMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.heavymk3">
+		<stockTextureName>weapons/Gauss/GaussHeavyMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussHeavyMagazineMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.gauss.minigunmk3">
+		<stockTextureName>weapons/Gauss/GaussMinigunAmmoMK3</stockTextureName>
+		<dragTextureName>weapons/Gauss/GaussMinigunAmmoMK3</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<!--  	    Pulse Ammo		-->
+ 
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.pulse.clipmk1">
+		<stockTextureName>weapons/Pulse/PulseClipMK1</stockTextureName>
+		<dragTextureName>weapons/Pulse/PulseClipMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.pulse.magazinemk1">
+		<stockTextureName>weapons/Pulse/PulseMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/Pulse/PulseMagazineMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.pulse.heavymk1">
+		<stockTextureName>weapons/Pulse/PulseHeavyMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/Pulse/PulseHeavyMagazineMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.pulse.minigunmk1">
+		<stockTextureName>weapons/Pulse/PulseMinigunAmmoMK1</stockTextureName>
+		<dragTextureName>weapons/Pulse/PulseMinigunAmmoMK1</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.pulse.clipmk2">
+		<stockTextureName>weapons/Pulse/PulseClipMK2</stockTextureName>
+		<dragTextureName>weapons/Pulse/PulseClipMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.pulse.magazinemk2">
+		<stockTextureName>weapons/Pulse/PulseMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/Pulse/PulseMagazineMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.pulse.heavymk2">
+		<stockTextureName>weapons/Pulse/PulseHeavyMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/Pulse/PulseHeavyMagazineMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.pulse.minigunmk2">
+		<stockTextureName>weapons/Pulse/PulseMinigunAmmoMK2</stockTextureName>
+		<dragTextureName>weapons/Pulse/PulseMinigunAmmoMK2</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>6</weight>
+	</Ammo>
+	
+		<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.pulse.clipmk3">
+		<stockTextureName>weapons/Pulse/PulseClipMK3</stockTextureName>
+		<dragTextureName>weapons/Pulse/PulseClipMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.pulse.magazinemk3">
+		<stockTextureName>weapons/Pulse/PulseMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/Pulse/PulseMagazineMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.pulse.heavymk3">
+		<stockTextureName>weapons/Pulse/PulseHeavyMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/Pulse/PulseHeavyMagazineMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.pulse.minigunmk3">
+		<stockTextureName>weapons/Pulse/PulseMinigunAmmoMK3</stockTextureName>
+		<dragTextureName>weapons/Pulse/PulseMinigunAmmoMK3</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>8</weight>
+	</Ammo>
+	
+		<!--  	    Rail Ammo		-->
+ 
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.clipmk1">
+		<stockTextureName>weapons/Rail/RailClipMK1</stockTextureName>
+		<dragTextureName>weapons/Rail/RailClipMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.magazinemk1">
+		<stockTextureName>weapons/Rail/RailMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/Rail/RailMagazineMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.shotgunmk1">
+		<stockTextureName>weapons/Rail/RailShotgunAmmoMK1</stockTextureName>
+		<dragTextureName>weapons/Rail/RailShotgunAmmoMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.heavymk1">
+		<stockTextureName>weapons/Rail/RailHeavyMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/Rail/RailHeavyMagazineMK1</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.minigunmk1">
+		<stockTextureName>weapons/Rail/RailMinigunAmmoMK1</stockTextureName>
+		<dragTextureName>weapons/Rail/RailMinigunAmmoMK1</dragTextureName>
+		<slotsizex>3</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>6</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.clipmk2">
+		<stockTextureName>weapons/Rail/RailClipMK2</stockTextureName>
+		<dragTextureName>weapons/Rail/RailClipMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.magazinemk2">
+		<stockTextureName>weapons/Rail/RailMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/Rail/RailMagazineMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.shotgunmk2">
+		<stockTextureName>weapons/Rail/RailShotgunAmmoMK2</stockTextureName>
+		<dragTextureName>weapons/Rail/RailShotgunAmmoMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.heavymk2">
+		<stockTextureName>weapons/Rail/RailHeavyMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/Rail/RailHeavyMagazineMK2</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.minigunmk2">
+		<stockTextureName>weapons/Rail/RailMinigunAmmoMK2</stockTextureName>
+		<dragTextureName>weapons/Rail/RailMinigunAmmoMK2</dragTextureName>
+		<slotsizex>3</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>8</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.clipmk3">
+		<stockTextureName>weapons/Rail/RailClipMK3</stockTextureName>
+		<dragTextureName>weapons/Rail/RailClipMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.magazinemk3">
+		<stockTextureName>weapons/Rail/RailMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/Rail/RailMagazineMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.shotgunmk3">
+		<stockTextureName>weapons/Rail/RailShotgunAmmoMK3</stockTextureName>
+		<dragTextureName>weapons/Rail/RailShotgunAmmoMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.heavymk3">
+		<stockTextureName>weapons/Rail/RailHeavyMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/Rail/RailHeavyMagazineMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>6</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.rail.minigunmk3">
+		<stockTextureName>weapons/Rail/RailMinigunAmmoMK3</stockTextureName>
+		<dragTextureName>weapons/Rail/RailMinigunAmmoMK3</dragTextureName>
+		<slotsizex>3</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>10</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.sonic.magazinemk1">
+		<stockTextureName>weapons/Sonic/SonicMagazineMK1</stockTextureName>
+		<dragTextureName>weapons/Sonic/SonicMagazineMK1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.sonic.magazinemk2">
+		<stockTextureName>weapons/Sonic/SonicMagazineMK2</stockTextureName>
+		<dragTextureName>weapons/Sonic/SonicMagazineMK2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.sonic.magazinemk3">
+		<stockTextureName>weapons/Sonic/SonicMagazineMK3</stockTextureName>
+		<dragTextureName>weapons/Sonic/SonicMagazineMK3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+
+
+	 <!--  	    Antimatter Weapon Ammo		-->
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.clipmk1">
+		<stockTextureName>weapons/Antimatter/antimatterclipmk1</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimatterclipmk1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.magazinemk1">
+		<stockTextureName>weapons/Antimatter/antimattermagazinemk1</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimattermagazinemk1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.bulletmk1">
+		<stockTextureName>weapons/Antimatter/antimatterbulletmk1</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimatterbulletmk1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.minigunmk1">
+		<stockTextureName>weapons/Antimatter/antimatterminigunammomk1</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimatterminigunammomk1</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>6</weight>
+	</Ammo>
+		<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.cannonmk1">
+		<stockTextureName>weapons/Antimatter/antimattercannonammomk1</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimattercannonammomk1</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.clipmk2">
+		<stockTextureName>weapons/Antimatter/antimatterclipmk2</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimatterclipmk2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.magazinemk2">
+		<stockTextureName>weapons/Antimatter/antimattermagazinemk2</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimattermagazinemk2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.bulletmk2">
+		<stockTextureName>weapons/Antimatter/antimatterbulletmk2</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimatterbulletmk2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.minigunmk2">
+		<stockTextureName>weapons/Antimatter/antimatterminigunammomk2</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimatterminigunammomk2</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>8</weight>
+	</Ammo>
+		<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.cannonmk2">
+		<stockTextureName>weapons/Antimatter/antimattercannonammomk2</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimattercannonammomk2</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>5</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.clipmk3">
+		<stockTextureName>weapons/Antimatter/antimatterclipmk3</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimatterclipmk3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.magazinemk3">
+		<stockTextureName>weapons/Antimatter/antimattermagazinemk3</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimattermagazinemk3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>6</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.bulletmk3">
+		<stockTextureName>weapons/Antimatter/antimatterbulletmk3</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimatterbulletmk3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>6</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.minigunmk3">
+		<stockTextureName>weapons/Antimatter/antimatterminigunammomk3</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimatterminigunammomk3</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>12</weight>
+	</Ammo>
+		<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.cannonmk3">
+		<stockTextureName>weapons/Antimatter/antimattercannonammomk3</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimattercannonammomk3</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>8</weight>
+	</Ammo>
+	
+		
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.clipmk4">
+		<stockTextureName>weapons/Antimatter/antimatterclipmk4</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimatterclipmk4</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>5</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.magazinemk4">
+		<stockTextureName>weapons/Antimatter/antimattermagazinemk4</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimattermagazinemk4</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>8</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.bulletmk4">
+		<stockTextureName>weapons/Antimatter/antimatterbulletmk4</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimatterbulletmk4</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>8</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.minigunmk4">
+		<stockTextureName>weapons/Antimatter/antimatterminigunammomk4</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimatterminigunammomk4</dragTextureName>
+		<slotsizex>2</slotsizex>
+		<slotsizey>2</slotsizey>
+		<weight>16</weight>
+	</Ammo>
+		<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.am.cannonmk4">
+		<stockTextureName>weapons/Antimatter/antimattercannonammomk4</stockTextureName>
+		<dragTextureName>weapons/Antimatter/antimattercannonammomk4</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>10</weight>
+	</Ammo>
+	
+	 <!--  	    Shock Weapon Ammo		-->
+	 
+	 <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.shockclip">
+		<stockTextureName>weapons/Shock/ShockClip</stockTextureName>
+		<dragTextureName>weapons/Shock/ShockClip</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.shockmagazine">
+		<stockTextureName>weapons/Shock/ShockMagazine</stockTextureName>
+		<dragTextureName>weapons/Shock/ShockMagazine</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	
+	 <!--  	    Electron Weapon Ammo		-->
+	 
+	 <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.electronbattery">
+		<stockTextureName>weapons/Electron/ElectronBattery</stockTextureName>
+		<dragTextureName>weapons/Electron/ElectronBattery</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>4</weight>
+	</Ammo>
+	
+	 <!--  	    Alien Weapon Ammo		-->
+	 
+	  <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.phasercell">
+		<stockTextureName>weapons/Phaser/Phasercell</stockTextureName>
+		<dragTextureName>weapons/Phaser/Phasercell</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	 <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Ballisticclip">
+		<stockTextureName>weapons/Ballistic/Ballisticammo</stockTextureName>
+		<dragTextureName>weapons/Ballistic/Ballisticammo</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	 
+	 <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Lightningcell">
+		<stockTextureName>weapons/Lightning/Lightningcell</stockTextureName>
+		<dragTextureName>weapons/Lightning/Lightningcell</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Matergyclip">
+		<stockTextureName>weapons/Matergy/Matergyclip</stockTextureName>
+		<dragTextureName>weapons/Matergy/Matergyclip</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Matergymagazine">
+		<stockTextureName>weapons/Matergy/Matergymagazine</stockTextureName>
+		<dragTextureName>weapons/Matergy/Matergymagazine</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Toxinclip">
+		<stockTextureName>weapons/Toxin/toxinclip</stockTextureName>
+		<dragTextureName>weapons/Toxin/toxinclip</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Toxinmagazine">
+		<stockTextureName>weapons/Toxin/toxinmagazine</stockTextureName>
+		<dragTextureName>weapons/Toxin/toxinmagazine</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Flamecell">
+		<stockTextureName>weapons/Flamer/flameammo</stockTextureName>
+		<dragTextureName>weapons/Flamer/flameammo</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	 <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Neutronclip">
+		<stockTextureName>weapons/Neutron/Neutronclip</stockTextureName>
+		<dragTextureName>weapons/Neutron/Neutronclip</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	 <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Wavecell">
+		<stockTextureName>weapons/Wave/WaveClip</stockTextureName>
+		<dragTextureName>weapons/Wave/WaveClip</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Bloodcell">
+		<stockTextureName>weapons/Blood/Bloodcell</stockTextureName>
+		<dragTextureName>weapons/Blood/Bloodcell</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Photoncell">
+		<stockTextureName>weapons/Photon/Photoncell</stockTextureName>
+		<dragTextureName>weapons/Photon/Photoncell</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Particlebatery">
+		<stockTextureName>weapons/Particle/ParticleBatery</stockTextureName>
+		<dragTextureName>weapons/Particle/ParticleBatery</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Vindicatorclip">
+		<stockTextureName>weapons/Vindicator/Vindicatorclip</stockTextureName>
+		<dragTextureName>weapons/Vindicator/Vindicatorclip</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Vindicatormagazine">
+		<stockTextureName>weapons/Vindicator/Vindicatormagazine</stockTextureName>
+		<dragTextureName>weapons/Vindicator/Vindicatormagazine</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>5</weight>
+	</Ammo>
+
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.scorcherammo">
+		<stockTextureName>weapons/Scorcher/scorcherammo</stockTextureName>
+		<dragTextureName>weapons/Scorcher/scorcherammo</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Incineratorammo">
+		<stockTextureName>weapons/Incinerator/incineratorammo</stockTextureName>
+		<dragTextureName>weapons/Incinerator/incineratorammo</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ioncell">
+		<stockTextureName>weapons/Ion/ioncell</stockTextureName>
+		<dragTextureName>weapons/Ion/ioncell</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.hybridsmall">
+		<stockTextureName>weapons/Hybrid/HybridMagazine</stockTextureName>
+		<dragTextureName>weapons/Hybrid/HybridMagazine</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.hybridlarge">
+		<stockTextureName>weapons/Hybrid/HybridLargeMagazine</stockTextureName>
+		<dragTextureName>weapons/Hybrid/HybridLargeMagazine</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.massclip">
+		<stockTextureName>weapons/Mass/Massclip</stockTextureName>
+		<dragTextureName>weapons/Mass/Massclip</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>3</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.massmagazine">
+		<stockTextureName>weapons/Mass/Massmagazine</stockTextureName>
+		<dragTextureName>weapons/Mass/Massmagazine</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>6</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Thundercell">
+		<stockTextureName>weapons/Thunder/Thundercell</stockTextureName>
+		<dragTextureName>weapons/Thunder/Thundercell</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>2</weight>
+	</Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.Caeliumtube">
+		<stockTextureName>weapons/Dark/Caeliumtube</stockTextureName>
+		<dragTextureName>weapons/Dark/Caeliumtube</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.chemical.injectchemical">
+		<stockTextureName>weapons/chemical/injectorchemicalammo</stockTextureName>
+		<dragTextureName>weapons/chemical/injectorchemicalammo</dragTextureName>
+		<slotsizex>1</slotsizex>
+		<slotsizey>1</slotsizey>
+		<weight>1</weight>
+	</Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.aleniumthrower">
+        <stockTextureName>weapons/thrower/aleniumthrowerammo</stockTextureName>
+        <dragTextureName>weapons/thrower/aleniumthrowerammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>2</slotsizey>
+        <weight>3</weight>
+    </Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.plasmathrower">
+        <stockTextureName>weapons/thrower/plasmathrowerammo</stockTextureName>
+        <dragTextureName>weapons/thrower/plasmathrowerammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>2</slotsizey>
+        <weight>4</weight>
+    </Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="replace" name="ammo.ballistic.flamethrower">
+        <stockTextureName>weapons/ballistic/flamethrower_ammo</stockTextureName>
+        <dragTextureName>weapons/ballistic/flamethrower_ammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>2</slotsizey>
+        <weight>2</weight>
+    </Ammo>
+	
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.cuttermk1">
+        <stockTextureName>weapons/melee/cuttermk1ammo</stockTextureName>
+        <dragTextureName>weapons/melee/cuttermk1ammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>2</slotsizey>
+        <weight>4</weight>
+    </Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.cuttermk2">
+        <stockTextureName>weapons/melee/cuttermk2ammo</stockTextureName>
+        <dragTextureName>weapons/melee/cuttermk2ammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>2</slotsizey>
+        <weight>4</weight>
+    </Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.cuttermk3">
+        <stockTextureName>weapons/melee/cuttermk3ammo</stockTextureName>
+        <dragTextureName>weapons/melee/cuttermk3ammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>2</slotsizey>
+        <weight>4</weight>
+    </Ammo>
+	<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.cuttermk4">
+        <stockTextureName>weapons/melee/cuttermk4ammo</stockTextureName>
+        <dragTextureName>weapons/melee/cuttermk4ammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>2</slotsizey>
+        <weight>4</weight>
+    </Ammo>
+	
+	
+	
+</Ammos>

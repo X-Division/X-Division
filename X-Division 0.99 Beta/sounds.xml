@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<Sounds>
+  <Sound MODMERGEATTRIBUTE="name" MODMERGE="update" name="AirCombatBegins" volume="0.6" group="1" comment="Played when the air combat begins.">
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB1">sound/AircombatBegins/AircombatBegins (1).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB2">sound/AircombatBegins/AircombatBegins (2).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB3">sound/AircombatBegins/AircombatBegins (3).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB4">sound/AircombatBegins/AircombatBegins (4).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB5">sound/AircombatBegins/AircombatBegins (5).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB6">sound/AircombatBegins/AircombatBegins (6).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB7">sound/AircombatBegins/AircombatBegins (7).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB8">sound/AircombatBegins/AircombatBegins (8).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB9">sound/AircombatBegins/AircombatBegins (9).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB10">sound/AircombatBegins/AircombatBegins (10).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB11">sound/AircombatBegins/AircombatBegins (11).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB12">sound/AircombatBegins/AircombatBegins (12).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB13">sound/AircombatBegins/AircombatBegins (13).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB14">sound/AircombatBegins/AircombatBegins (14).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB15">sound/AircombatBegins/AircombatBegins (15).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB16">sound/AircombatBegins/AircombatBegins (16).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB17">sound/AircombatBegins/AircombatBegins (17).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB18">sound/AircombatBegins/AircombatBegins (18).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB19">sound/AircombatBegins/AircombatBegins (19).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB20">sound/AircombatBegins/AircombatBegins (20).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB21">sound/AircombatBegins/AircombatBegins (21).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB22">sound/AircombatBegins/AircombatBegins (22).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB23">sound/AircombatBegins/AircombatBegins (23).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB24">sound/AircombatBegins/AircombatBegins (24).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB25">sound/AircombatBegins/AircombatBegins (25).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB26">sound/AircombatBegins/AircombatBegins (26).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB27">sound/AircombatBegins/AircombatBegins (27).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB28">sound/AircombatBegins/AircombatBegins (28).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB29">sound/AircombatBegins/AircombatBegins (29).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB30">sound/AircombatBegins/AircombatBegins (30).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB31">sound/AircombatBegins/AircombatBegins (31).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB32">sound/AircombatBegins/AircombatBegins (32).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB33">sound/AircombatBegins/AircombatBegins (33).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB34">sound/AircombatBegins/AircombatBegins (34).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB35">sound/AircombatBegins/AircombatBegins (35).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB36">sound/AircombatBegins/AircombatBegins (36).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB37">sound/AircombatBegins/AircombatBegins (37).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB38">sound/AircombatBegins/AircombatBegins (38).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB39">sound/AircombatBegins/AircombatBegins (39).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB40">sound/AircombatBegins/AircombatBegins (40).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB41">sound/AircombatBegins/AircombatBegins (41).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB42">sound/AircombatBegins/AircombatBegins (42).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB43">sound/AircombatBegins/AircombatBegins (43).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB44">sound/AircombatBegins/AircombatBegins (44).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB45">sound/AircombatBegins/AircombatBegins (45).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB46">sound/AircombatBegins/AircombatBegins (46).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB47">sound/AircombatBegins/AircombatBegins (47).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB48">sound/AircombatBegins/AircombatBegins (48).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB49">sound/AircombatBegins/AircombatBegins (49).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB50">sound/AircombatBegins/AircombatBegins (50).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB51">sound/AircombatBegins/AircombatBegins (51).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB52">sound/AircombatBegins/AircombatBegins (52).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB53">sound/AircombatBegins/AircombatBegins (53).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB54">sound/AircombatBegins/AircombatBegins (54).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundACB55">sound/AircombatBegins/AircombatBegins (55).ogg</Wave>
+  </Sound>
+  <Sound MODMERGEATTRIBUTE="name" MODMERGE="update" name="Radio" volume="0.6" repeattime="8-20" group="1" comment="Played periodically in air combat.">
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC1">sound/RadioChatter/Radio Chatter (1).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC2">sound/RadioChatter/Radio Chatter (2).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC3">sound/RadioChatter/Radio Chatter (3).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC4">sound/RadioChatter/Radio Chatter (4).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC5">sound/RadioChatter/Radio Chatter (5).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC6">sound/RadioChatter/Radio Chatter (6).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC7">sound/RadioChatter/Radio Chatter (7).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC8">sound/RadioChatter/Radio Chatter (8).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC9">sound/RadioChatter/Radio Chatter (9).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC10">sound/RadioChatter/Radio Chatter (10).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC11">sound/RadioChatter/Radio Chatter (11).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC12">sound/RadioChatter/Radio Chatter (12).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC13">sound/RadioChatter/Radio Chatter (13).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC14">sound/RadioChatter/Radio Chatter (14).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC15">sound/RadioChatter/Radio Chatter (15).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC16">sound/RadioChatter/Radio Chatter (16).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC17">sound/RadioChatter/Radio Chatter (17).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC18">sound/RadioChatter/Radio Chatter (18).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC19">sound/RadioChatter/Radio Chatter (19).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC20">sound/RadioChatter/Radio Chatter (20).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC21">sound/RadioChatter/Radio Chatter (21).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC22">sound/RadioChatter/Radio Chatter (22).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC23">sound/RadioChatter/Radio Chatter (23).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC24">sound/RadioChatter/Radio Chatter (24).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC25">sound/RadioChatter/Radio Chatter (25).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC26">sound/RadioChatter/Radio Chatter (26).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC27">sound/RadioChatter/Radio Chatter (27).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC28">sound/RadioChatter/Radio Chatter (28).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC29">sound/RadioChatter/Radio Chatter (29).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC30">sound/RadioChatter/Radio Chatter (30).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC31">sound/RadioChatter/Radio Chatter (31).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC32">sound/RadioChatter/Radio Chatter (32).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC33">sound/RadioChatter/Radio Chatter (33).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC34">sound/RadioChatter/Radio Chatter (34).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC35">sound/RadioChatter/Radio Chatter (35).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC36">sound/RadioChatter/Radio Chatter (36).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC37">sound/RadioChatter/Radio Chatter (37).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC38">sound/RadioChatter/Radio Chatter (38).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC39">sound/RadioChatter/Radio Chatter (39).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC40">sound/RadioChatter/Radio Chatter (40).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC41">sound/RadioChatter/Radio Chatter (41).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC42">sound/RadioChatter/Radio Chatter (42).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC43">sound/RadioChatter/Radio Chatter (43).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC44">sound/RadioChatter/Radio Chatter (44).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC45">sound/RadioChatter/Radio Chatter (45).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC46">sound/RadioChatter/Radio Chatter (46).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC47">sound/RadioChatter/Radio Chatter (47).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC48">sound/RadioChatter/Radio Chatter (48).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC49">sound/RadioChatter/Radio Chatter (49).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC50">sound/RadioChatter/Radio Chatter (50).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC51">sound/RadioChatter/Radio Chatter (51).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC52">sound/RadioChatter/Radio Chatter (52).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC53">sound/RadioChatter/Radio Chatter (53).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC54">sound/RadioChatter/Radio Chatter (54).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC55">sound/RadioChatter/Radio Chatter (55).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC56">sound/RadioChatter/Radio Chatter (56).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC57">sound/RadioChatter/Radio Chatter (57).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC58">sound/RadioChatter/Radio Chatter (58).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC59">sound/RadioChatter/Radio Chatter (59).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC60">sound/RadioChatter/Radio Chatter (60).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC61">sound/RadioChatter/Radio Chatter (61).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC62">sound/RadioChatter/Radio Chatter (62).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC63">sound/RadioChatter/Radio Chatter (63).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC64">sound/RadioChatter/Radio Chatter (64).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC65">sound/RadioChatter/Radio Chatter (65).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC66">sound/RadioChatter/Radio Chatter (66).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC67">sound/RadioChatter/Radio Chatter (67).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC68">sound/RadioChatter/Radio Chatter (68).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC69">sound/RadioChatter/Radio Chatter (69).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC70">sound/RadioChatter/Radio Chatter (70).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC71">sound/RadioChatter/Radio Chatter (71).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC72">sound/RadioChatter/Radio Chatter (72).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC73">sound/RadioChatter/Radio Chatter (73).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC74">sound/RadioChatter/Radio Chatter (74).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC75">sound/RadioChatter/Radio Chatter (75).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC76">sound/RadioChatter/Radio Chatter (76).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC77">sound/RadioChatter/Radio Chatter (77).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC78">sound/RadioChatter/Radio Chatter (78).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC79">sound/RadioChatter/Radio Chatter (79).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC80">sound/RadioChatter/Radio Chatter (80).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC81">sound/RadioChatter/Radio Chatter (81).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC82">sound/RadioChatter/Radio Chatter (82).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC83">sound/RadioChatter/Radio Chatter (83).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC84">sound/RadioChatter/Radio Chatter (84).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC85">sound/RadioChatter/Radio Chatter (85).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC86">sound/RadioChatter/Radio Chatter (86).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC87">sound/RadioChatter/Radio Chatter (87).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC88">sound/RadioChatter/Radio Chatter (88).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC89">sound/RadioChatter/Radio Chatter (89).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC90">sound/RadioChatter/Radio Chatter (90).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC91">sound/RadioChatter/Radio Chatter (91).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC92">sound/RadioChatter/Radio Chatter (92).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC93">sound/RadioChatter/Radio Chatter (93).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC94">sound/RadioChatter/Radio Chatter (94).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC95">sound/RadioChatter/Radio Chatter (95).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC96">sound/RadioChatter/Radio Chatter (96).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC97">sound/RadioChatter/Radio Chatter (97).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC98">sound/RadioChatter/Radio Chatter (98).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC99">sound/RadioChatter/Radio Chatter (99).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC100">sound/RadioChatter/Radio Chatter (100).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC101">sound/RadioChatter/Radio Chatter (101).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC102">sound/RadioChatter/Radio Chatter (102).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC103">sound/RadioChatter/Radio Chatter (103).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC104">sound/RadioChatter/Radio Chatter (104).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC105">sound/RadioChatter/Radio Chatter (105).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC106">sound/RadioChatter/Radio Chatter (106).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC107">sound/RadioChatter/Radio Chatter (107).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC108">sound/RadioChatter/Radio Chatter (108).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC109">sound/RadioChatter/Radio Chatter (109).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC110">sound/RadioChatter/Radio Chatter (110).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC111">sound/RadioChatter/Radio Chatter (111).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC112">sound/RadioChatter/Radio Chatter (112).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC113">sound/RadioChatter/Radio Chatter (113).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC114">sound/RadioChatter/Radio Chatter (114).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC115">sound/RadioChatter/Radio Chatter (115).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC116">sound/RadioChatter/Radio Chatter (116).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC117">sound/RadioChatter/Radio Chatter (117).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC118">sound/RadioChatter/Radio Chatter (118).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC119">sound/RadioChatter/Radio Chatter (119).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC120">sound/RadioChatter/Radio Chatter (120).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC121">sound/RadioChatter/Radio Chatter (121).ogg</Wave>
+    <Wave MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SoundRC122">sound/RadioChatter/Radio Chatter (122).ogg</Wave>
+  </Sound>
+</Sounds>

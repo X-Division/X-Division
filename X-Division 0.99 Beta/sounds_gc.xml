@@ -1,0 +1,518 @@
+<?xml version="1.0"?>
+<Sounds MODMERGE="update" >
+  <!-- The list of sounds & waves which aren't footsteps, destruction and doors. -->
+  <General MODMERGE="update">
+    <!-- It is possible to have per-tileset music by apending " - <tilesetname>" to name, e.g. "GC Music Night - town" -->
+
+    <!-- These are per-tileset and can have any name appended (so e.g. "Ambience Sounds Night - desert - mymod sound 1") -->
+    <!-- Adjust repeat time accordingly (min and max time between sound repeats). -->
+    <!--
+    <Sound name="Ambience Sounds - farm example sound" volume="0.7" repeattime="8-12" group="2" comment="Ambience sounds played periodically during the GC missions">
+      <Wave>sound/somesound.ogg</Wave>
+    </Sound>
+    <Sound name="Ambience Sounds Night - farm example sound" volume="0.7" repeattime="8-12" group="2" comment="Ambience sounds played periodically during the GC night missions">
+    </Sound>
+    <Sound name="Ambience Sounds Dawn/Dusk - farm example sound" volume="0.7" repeattime="8-12" group="2" comment="Ambience sounds played periodically during the GC dawn/dusk missions">
+    </Sound>
+    -->
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Division Pistol Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_pistol_single_1.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Division Pistol Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_divpistolreload.ogg</Wave>
+    </Sound>
+		
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Division Rifle Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_divrifleshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Division Rifle Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_divrifleburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Division Rifle Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_divriflereload.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Division Shotgun Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_divshotgunshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Division Shotgun Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_divshotgunreload1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_divshotgunreload2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Division Heavy Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_divheavyburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Division Heavy Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_divheavyreload.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Division Sniper Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_divsnipershot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Division Sniper Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_divsniperreload.ogg</Wave>
+    </Sound>
+	
+
+	
+	
+
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Antimatter Pistol Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_antimatterpistolshot.ogg</Wave>
+      <Wave>audio/sfx/weapons/xdiv_antimatterpistolshot2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Antimatter Rifle Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_antimatterrifleshot1.ogg</Wave>
+      <Wave>audio/sfx/weapons/xdiv_antimatterrifleshot2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Antimatter Rifle Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_antimatterrifleburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Antimatter Minigun Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_antimatterminigunburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Antimatter Sniper Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_antimattersnipershot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Antimatter Cannon Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_antimattercannonshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Antimatter Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_antimatterreload.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Antimatter Noammo" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_antimatternoammo.ogg</Wave>
+    </Sound>
+	
+	
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Gauss Pistol Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_gausspistolshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Gauss SMG Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_gausssmgburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Gauss Rifle Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_gaussrifleshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Gauss Rifle Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_rifleburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Gauss Shotgun Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_gaussshotgun.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Gauss Heavy Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_gaussheavyburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Gauss Minigun Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_gaussminigunburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Gauss Sniper Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_gausssnipershot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Gauss Sniper Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_gausssniperburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Gauss Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_gaussreload.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Gauss Noammo" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_gaussnoammo.ogg</Wave>
+    </Sound>
+	
+	
+
+	
+	
+	
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Lightning Pistol Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_lightningpistolshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Lightning SMG Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_lightningsmgburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Lightning Rifle Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_lightningrifleshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Lightning Rifle Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_lightningrifleburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Lightning Sniper Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_lightningrifleshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Lightning Cannon Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_lightningcannonshot.ogg</Wave>
+    </Sound>
+	
+	
+
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Neutron Rifle Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_neutronrifleshot.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_neutronrifleshot2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Neutron Rifle Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_neutronrifleburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Neutron Sniper Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_neutronsnipershot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Neutron Cannon Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_neutroncannonshot.ogg</Wave>
+    </Sound>
+	
+	
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Pulse Pistol Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_pulsepistolfire.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Pulse Rifle Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_pulserifleshot.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_pulserifleshot2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Pulse Rifle Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_pulserifleburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Pulse Heavy Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_pulseheavyburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Pulse Minigun Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_pulseminigunburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Pulse Sniper Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_pulsesnipershot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Pulse Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_pulsereload.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Pulse Noammo" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_pulsenoammo.ogg</Wave>
+    </Sound>
+	
+	
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Rail Pistol Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_railpistolshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Rail SMG Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_smgburst1.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Rail Rifle Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_railrifleshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Rail Rifle Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_railrifleburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Rail Shotgun Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_railshotgunshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Rail Heavy Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_railheavyburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Rail Minigun Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_railminigunburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Rail Sniper Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_railsnipershot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Rail Sniper Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_railsniperburstt.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Rail Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_railreload.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Rail Heavy Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_railheavyreload.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Rail Noammo" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_railnoammo.ogg</Wave>
+    </Sound>
+	
+	
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Sonic Pistol Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_sonicpistolshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Sonic Rifle Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_sonicrifleshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Sonic Rifle Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_sonicrifleburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Sonic Heavy Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_sonicheavyburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Sonic Sniper Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_sonicsnipershot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Sonic Cannon Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_soniccannonshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Sonic Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_sonicreload.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Sonic Noammo" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_sonicnoammo.ogg</Wave>
+    </Sound>
+	
+	
+	
+
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Knife Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_knifeshot.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_knifeshot2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Axe Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_axeshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Sword Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_swordshot.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_swordshot2.ogg</Wave>
+    </Sound>
+	
+ 
+ 
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Minigun Burst 1" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_minigunburst1.ogg</Wave>
+    </Sound> 
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Minigun Burst 2" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_minigunburst2.ogg</Wave>
+    </Sound> 
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Minigun Burst 3" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_minigunburst3.ogg</Wave>
+    </Sound> 
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Minigun Burst Long" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_minigunburstlong.ogg</Wave>
+    </Sound> 
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon SMG Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_smgburst2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Laser Minigun Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_lasergattlingfire.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Minigun Reload Long" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_minigunreloadlong.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Minigun Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_minigunreload.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Handcannon Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_handcannonshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Energycannon Single 1" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_energycannonshot1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_energycannonshot2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Energycannon Single 2" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_energycannonshot3.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Energycannon Reload" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_energycannonreload.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon MAG Pistol Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_mag_pistol_burst.ogg</Wave>
+    </Sound>
+	
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Alenium Grenade" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_grenadeexlosion1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_grenadeexlosion2.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_grenadeexlosion3.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Smoking Grenade" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_smokegrenade.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Heavy Explosion" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_heavyexplosion1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_heavyexplosion2.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_heavyexplosion3.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Huge Explosion" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_hugeexplosion1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_hugeexplosion2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Energy Explosion" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_energyexplosion1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_energyexplosion2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Missile Launch" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_missilelauch1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_missilelauch2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Hyper Missile Explosion" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_hyperv_rocket_explo_1.ogg</Wave>
+	  <Wave>audio/sfx/weapons/weapon_hyperv_rocket_explo_2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Heavy Missile Launch" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_missilelaunchbig.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Phaser Pistol Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_alienlaserpistolshot.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Phaser Rifle Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_alienlaserrifleshot.ogg</Wave>
+	  <Wave>audio/sfx/weapons/xdiv_alienlaserrifleshot2.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Phaser Rifle Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_alienphaserrifleburst.ogg</Wave>
+    </Sound>
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon Phaser Heavy Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/xdiv_alienphaserheavyburst.ogg</Wave>
+    </Sound>
+	
+  <!--                                -->
+  <!--       The Hive, Xenomorph      -->
+  <!--                                -->
+	
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="XenomorphQueenSound" volume="1.0" group="10" comment="">
+      <Wave name="SoundQueen1">audio/sfx/Xenomorph/FinalQueen1.ogg</Wave>
+      <Wave name="SoundQueen2">audio/sfx/Xenomorph/FinalQueen2.ogg</Wave>
+      <Wave name="SoundQueen3">audio/sfx/Xenomorph/FinalQueen1.ogg</Wave>
+      <Wave name="SoundQueen4">audio/sfx/Xenomorph/FinalQueen2.ogg</Wave>
+    </Sound>
+
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="XenomorphPraetorianSound" volume="1.0" group="11" comment="">
+      <Wave name="SoundPraetorian1">audio/sfx/Xenomorph/FinalPraetorian1.ogg</Wave>
+      <Wave name="SoundPraetorian2">audio/sfx/Xenomorph/FinalPraetorian2.ogg</Wave>
+      <Wave name="SoundPraetorian3">audio/sfx/Xenomorph/FinalPraetorian3.ogg</Wave>
+      <Wave name="SoundPraetorian4">audio/sfx/Xenomorph/FinalPraetorian4.ogg</Wave>
+      <Wave name="SoundPraetorian5">audio/sfx/Xenomorph/FinalPraetorian5.ogg</Wave>
+      <Wave name="SoundPraetorian6">audio/sfx/Xenomorph/FinalPraetorian6.ogg</Wave>
+    </Sound>
+
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="XenomorphWarriorSound" volume="1.0" group="12" comment="">
+      <Wave name="SoundWarrior1">audio/sfx/Xenomorph/FinalWarrior1.ogg</Wave>
+      <Wave name="SoundWarrior2">audio/sfx/Xenomorph/FinalWarrior2.ogg</Wave>
+      <Wave name="SoundWarrior3">audio/sfx/Xenomorph/FinalWarrior3.ogg</Wave>
+      <Wave name="SoundWarrior4">audio/sfx/Xenomorph/FinalWarrior4.ogg</Wave>
+    </Sound>
+
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="XenomorphDroneSound" volume="1.0" group="13" comment="">
+      <Wave name="SoundDrone1">audio/sfx/Xenomorph/FinalDrone1.ogg</Wave>
+      <Wave name="SoundDrone2">audio/sfx/Xenomorph/FinalDrone2.ogg</Wave>
+      <Wave name="SoundDrone3">audio/sfx/Xenomorph/FinalDrone3.ogg</Wave>
+      <Wave name="SoundDrone4">audio/sfx/Xenomorph/FinalDrone4.ogg</Wave>
+      <Wave name="SoundDrone5">audio/sfx/Xenomorph/FinalDrone5.ogg</Wave>
+      <Wave name="SoundDrone6">audio/sfx/Xenomorph/FinalDrone6.ogg</Wave>
+      <Wave name="SoundDrone7">audio/sfx/Xenomorph/FinalDrone7.ogg</Wave>
+      <Wave name="SoundDrone8">audio/sfx/Xenomorph/FinalDrone8.ogg</Wave>
+      <Wave name="SoundDrone9">audio/sfx/Xenomorph/FinalDrone9.ogg</Wave>
+      <Wave name="SoundDrone10">audio/sfx/Xenomorph/FinalDrone10.ogg</Wave>
+      <Wave name="SoundDrone11">audio/sfx/Xenomorph/FinalDrone11.ogg</Wave>
+      <Wave name="SoundDrone12">audio/sfx/Xenomorph/FinalDrone12.ogg</Wave>
+    </Sound>
+
+  <!--                                	-->
+  <!--Andronx, Roboreaper, Shield down  -->
+  <!--Robodogs                      	-->
+
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Shield down" volume="1.0" group="1" comment="">
+		<Wave name="SoundShielddown">audio/sfx/Shield/Shield down.ogg</Wave>
+	</Sound>
+
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Shield down 2" volume="1.0" group="1" comment="">
+		<Wave name="SoundShielddown2">audio/sfx/Shield/Shield down.ogg</Wave>
+	</Sound>
+
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Shield hit" volume="1.0" group="1" comment="">
+		<Wave name="SoundShieldhit">audio/sfx/Shield/Shield hit.ogg</Wave>
+	</Sound>
+
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Shield hit 2" volume="1.0" group="1" comment="">
+		<Wave name="SoundShieldhit2">audio/sfx/Shield/Shield hit.ogg</Wave>
+	</Sound>
+
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Robodog death" volume="1.0" group="1" comment="">
+		<Wave name="SoundRobodogDeath">audio/sfx/Robodog/Robodog death.ogg</Wave>
+	</Sound>
+
+  </General>
+
+a
+ 
+
+</Sounds>

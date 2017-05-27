@@ -1,0 +1,277 @@
+<?xml version="1.0" ?> 
+<Armours>
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.basic">
+    <Resistance kinetic="10" energy="0" chemical="0" incendiary="0" />
+    <VisualParams range="20" coneAngle="110" nightRangeBonus="0" />
+	<PsionicDefence defence="0" points="0" degradation="0" />
+    <Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  </Armour>
+
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.jackal">
+    <Resistance kinetic="30" energy="20" chemical="5" incendiary="5" />
+    <VisualParams range="20" coneAngle="100" nightRangeBonus="0" />
+	<PsionicDefence defence="0" points="0" degradation="0" />
+    <Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  </Armour>
+
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.impjackal">
+    <Resistance kinetic="20" energy="12" chemical="30" incendiary="40" />
+    <VisualParams range="20" coneAngle="80" nightRangeBonus="0" />
+	<PsionicDefence defence="0" points="0" degradation="0" />
+    <Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  </Armour>
+
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.wolf">
+    <Resistance kinetic="60" energy="50" chemical="15" incendiary="15" />
+    <VisualParams range="21" coneAngle="100" nightRangeBonus="1" />
+	<PsionicDefence defence="65" points="10" degradation="3" />
+    <Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  </Armour>
+  
+   <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.wolf_3">
+    <Resistance kinetic="70" energy="55" chemical="20" incendiary="20" />
+    <VisualParams range="22" coneAngle="90" nightRangeBonus="2" />
+	<PsionicDefence defence="60" points="20" degradation="2" />
+    <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  </Armour>
+  
+   <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.wolf_4">
+    <Resistance kinetic="75" energy="70" chemical="35" incendiary="30" />
+    <VisualParams range="22" coneAngle="90" nightRangeBonus="4" />
+	<PsionicDefence defence="60" points="30" degradation="1" />
+    <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+	<Special weaponCostMul="0.75"/>
+  </Armour>
+
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.buzzard">
+    <Resistance kinetic="45" energy="32" chemical="12" incendiary="5" />
+    <VisualParams range="24" coneAngle="110" nightRangeBonus="3" />
+	<PsionicDefence defence="60" points="10" degradation="3" />
+    <Special jumpPack="1" jumpPackSound="BuzzardJetpackSound" />    
+	<Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  </Armour>
+
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.predator">
+    <Resistance kinetic="85" energy="65" chemical="30" incendiary="40" />
+    <VisualParams range="20" coneAngle="60" nightRangeBonus="2" />
+	<PsionicDefence defence="80" points="20" degradation="3" />
+    <Special heavy="1" strength="80" weaponCostMul="0.80"/>
+    <Props moveSpeed="250" stairsMoveSpeed="140" vaultMoveSpeed="20" />
+  </Armour>
+  
+    <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.predator_2">
+    <Resistance kinetic="100" energy="85" chemical="50" incendiary="60" />
+    <VisualParams range="21" coneAngle="70" nightRangeBonus="4" />
+	<PsionicDefence defence="100" points="40" degradation="4" />
+	<Special heavy="1" strength="90" weaponCostMul="0.65"/>
+    <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  </Armour>
+  
+	<Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.predator_3">
+    <Resistance kinetic="150" energy="120" chemical="100" incendiary="100" />
+    <VisualParams range="22" coneAngle="75" nightRangeBonus="4" />
+	<PsionicDefence defence="100" points="40" degradation="4" />
+	<Special heavy="1" strength="100" weaponCostMul="0.50"/>
+    <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  </Armour>
+
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.sentinel">
+    <Resistance kinetic="100" energy="110" chemical="70" incendiary="55" />
+    <VisualParams range="22" coneAngle="135" nightRangeBonus="2" />
+	<PsionicDefence defence="80" points="20" degradation="3" />
+    <Special jumpPack="1" jumpPackSound="SentinelJetpackSound" />
+    <Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  </Armour>
+
+   <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.sentinel_2">
+    <Resistance kinetic="95" energy="110" chemical="60" incendiary="60" />
+    <VisualParams range="23" coneAngle="130" nightRangeBonus="3" />
+	<PsionicDefence defence="80" points="30" degradation="3" />
+	<Special jumpPack="1" jumpPackSound="SentinelJetpackSound" />
+    <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  </Armour>
+  
+   <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.sentinel_3">
+    <Resistance kinetic="125" energy="150" chemical="80" incendiary="70" />
+    <VisualParams range="24" coneAngle="140" nightRangeBonus="4" />
+	<PsionicDefence defence="100" points="30" degradation="3" />
+	<Special jumpPack="1" jumpPackSound="SentinelJetpackSound" />
+    <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  </Armour>
+  
+
+  <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="update" name="HUNTER_ARMOUR">
+    <Front>
+      <Resistance kinetic="25" energy="20" chemical="10" incendiary="10" />
+    </Front>
+    <Side>
+      <Resistance kinetic="15" energy="10" chemical="10" incendiary="5" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="5" energy="0" chemical="5" incendiary="0" />
+    </Rear>
+    <VisualParams range="22" coneAngle="120" />
+  </VehicleArmour>
+  
+  <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="HUNTERADV_ARMOUR">
+    <Front>
+      <Resistance kinetic="60" energy="45" chemical="30" incendiary="20" />
+    </Front>
+    <Side>
+      <Resistance kinetic="50" energy="35" chemical="25" incendiary="10" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="25" energy="15" chemical="15" incendiary="0" />
+    </Rear>
+    <VisualParams range="24" coneAngle="135" />
+  </VehicleArmour>
+
+
+  <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="update" name="SCIMITAR_ARMOUR">
+    <Front>
+      <Resistance kinetic="90" energy="65" chemical="35" incendiary="35" />
+    </Front>
+    <Side>
+      <Resistance kinetic="70" energy="50" chemical="25" incendiary="25" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="35" energy="30" chemical="15" incendiary="15" />
+    </Rear>
+    <VisualParams range="18" coneAngle="70" />
+  </VehicleArmour>
+  
+  <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="SCIMITARADV_ARMOUR">
+    <Front>
+      <Resistance kinetic="130" energy="110" chemical="70" incendiary="60" />
+    </Front>
+    <Side>
+      <Resistance kinetic="100" energy="90" chemical="55" incendiary="50" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="50" energy="50" chemical="40" incendiary="25" />
+    </Rear>
+    <VisualParams range="20" coneAngle="90" />
+  </VehicleArmour>
+  
+   <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="HEAVYTANK_ARMOUR">
+    <Front>
+      <Resistance kinetic="70" energy="40" chemical="30" incendiary="50" />
+    </Front>
+    <Side>
+      <Resistance kinetic="55" energy="30" chemical="20" incendiary="35" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="30" energy="0" chemical="10" incendiary="25" />
+    </Rear>
+    <VisualParams range="14" coneAngle="45" />
+  </VehicleArmour>
+  
+   <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="HEAVYTANKADV_ARMOUR">
+    <Front>
+      <Resistance kinetic="160" energy="120" chemical="60" incendiary="100" />
+    </Front>
+    <Side>
+      <Resistance kinetic="130" energy="95" chemical="50" incendiary="80" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="90" energy="60" chemical="30" incendiary="65" />
+    </Rear>
+    <VisualParams range="16" coneAngle="70" />
+  </VehicleArmour>
+
+    <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="LIGHTTANK_ARMOUR">
+    <Front>
+      <Resistance kinetic="40" energy="25" chemical="15" incendiary="20" />
+    </Front>
+    <Side>
+      <Resistance kinetic="30" energy="17" chemical="10" incendiary="15" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="15" energy="10" chemical="5" incendiary="5" />
+    </Rear>
+    <VisualParams range="16" coneAngle="60" />
+  </VehicleArmour>
+  
+   <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="LIGHTTANKADV_ARMOUR">
+    <Front>
+      <Resistance kinetic="70" energy="60" chemical="35" incendiary="30" />
+    </Front>
+    <Side>
+      <Resistance kinetic="60" energy="50" chemical="30" incendiary="20" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="45" energy="35" chemical="20" incendiary="10" />
+    </Rear>
+    <VisualParams range="18" coneAngle="60" />
+  </VehicleArmour>
+
+
+  <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="update" name="HYPERION_ARMOUR">
+    <Front>
+      <Resistance kinetic="80" energy="100" chemical="50" incendiary="50" />
+    </Front>
+    <Side>
+      <Resistance kinetic="65" energy="80" chemical="35" incendiary="35" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="45" energy="60" chemical="20" incendiary="10" />
+    </Rear>
+    <VisualParams range="22" coneAngle="90" />
+    <Special hovering="1" />
+  </VehicleArmour>
+  
+  <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="CENTURION_ARMOUR">
+    <Front>
+      <Resistance kinetic="120" energy="160" chemical="100" incendiary="100" />
+    </Front>
+    <Side>
+      <Resistance kinetic="100" energy="160" chemical="90" incendiary="100" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="65" energy="160" chemical="50" incendiary="60" />
+    </Rear>
+    <VisualParams range="24" coneAngle="160" />
+    <Special hovering="1" />
+  </VehicleArmour>
+  
+  <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="WALKER_ARMOUR">
+    <Front>
+      <Resistance kinetic="100" energy="100" chemical="70" incendiary="60" />
+    </Front>
+    <Side>
+      <Resistance kinetic="80" energy="80" chemical="50" incendiary="30" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="40" energy="40" chemical="10" incendiary="10" />
+    </Rear>
+    <VisualParams range="20" coneAngle="105" />
+  </VehicleArmour>
+  
+  <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="WALKERADV_ARMOUR">
+    <Front>
+      <Resistance kinetic="120" energy="120" chemical="100" incendiary="70" />
+    </Front>
+    <Side>
+      <Resistance kinetic="100" energy="100" chemical="80" incendiary="55" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="50" energy="50" chemical="20" incendiary="20" />
+    </Rear>
+    <VisualParams range="22" coneAngle="120" />
+  </VehicleArmour>
+  
+  <VehicleArmour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="WALKERULT_ARMOUR">
+    <Front>
+      <Resistance kinetic="140" energy="140" chemical="100" incendiary="100" />
+    </Front>
+    <Side>
+      <Resistance kinetic="120" energy="120" chemical="80" incendiary="70" />
+    </Side>
+    <Rear>
+      <Resistance kinetic="65" energy="60" chemical="30" incendiary="30" />
+    </Rear>
+    <VisualParams range="24" coneAngle="135" />
+  </VehicleArmour>
+
+
+</Armours>

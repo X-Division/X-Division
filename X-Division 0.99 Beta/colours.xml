@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<Colours>
+	<AirCombatGridColour>0,255,06,20</AirCombatGridColour>
+	<AirCombatPlayerRangeColour>5,215,20,32</AirCombatPlayerRangeColour>
+	<AirCombatEnemyRangeColour>204,0,0,64</AirCombatEnemyRangeColour>
+</Colours>

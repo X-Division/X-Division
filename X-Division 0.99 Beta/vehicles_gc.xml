@@ -1,0 +1,40 @@
+<?xml version="1.0" ?> 
+<Vehicles>
+  
+  <Vehicle MODMERGEATTRIBUTE="type" MODMERGE="insert" type="VEHICLE.HUNTERADV" armour="HUNTERADV_ARMOUR" >
+    <EngineSound name="Ferret Engine" />
+  </Vehicle>
+  
+  <Vehicle MODMERGEATTRIBUTE="type" MODMERGE="insert" type="VEHICLE.SCIMITARADV" armour="SCIMITARADV_ARMOUR" >
+    <EngineSound name="Scimitar Engine" />
+  </Vehicle>
+  
+  <Vehicle MODMERGEATTRIBUTE="type" MODMERGE="insert" type="VEHICLE.HEAVYTANK" armour="HEAVYTANK_ARMOUR" >
+    <EngineSound name="Scimitar Engine" />
+  </Vehicle>
+  
+   <Vehicle MODMERGEATTRIBUTE="type" MODMERGE="insert" type="VEHICLE.HEAVYTANKADV" armour="HEAVYTANKADV_ARMOUR" >
+    <EngineSound name="Scimitar Engine" />
+  </Vehicle>
+  
+  <Vehicle MODMERGEATTRIBUTE="type" MODMERGE="insert" type="VEHICLE.LIGHTTANK" armour="LIGHTTANK_ARMOUR" >
+    <EngineSound name="Ferret Engine" />
+  </Vehicle>
+  
+  <Vehicle MODMERGEATTRIBUTE="type" MODMERGE="insert" type="VEHICLE.LIGHTTANKADV" armour="LIGHTTANKADV_ARMOUR" >
+    <EngineSound name="Ferret Engine" />
+  </Vehicle>
+    
+   <Vehicle MODMERGEATTRIBUTE="type" MODMERGE="insert" type="VEHICLE.WALKER" armour="WALKER_ARMOUR" >
+    <EngineSound name="Scimitar Engine" />
+  </Vehicle>
+  
+   <Vehicle MODMERGEATTRIBUTE="type" MODMERGE="insert" type="VEHICLE.WALKERADV" armour="WALKERADV_ARMOUR" >
+    <EngineSound name="Scimitar Engine" />
+  </Vehicle>
+  
+   <Vehicle MODMERGEATTRIBUTE="type" MODMERGE="insert" type="VEHICLE.WALKERULT" armour="WALKERULT_ARMOUR" >
+    <EngineSound name="Scimitar Engine" />
+  </Vehicle>
+
+</Vehicles>

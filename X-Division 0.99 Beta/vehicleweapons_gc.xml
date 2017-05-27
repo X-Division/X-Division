@@ -1,0 +1,589 @@
+<?xml version="1.0" ?>
+
+<!-- This file controls the Ground Combat stats for human vehicle weapons -->
+<!-- when adding a weapon here, remember to add its GS equivalent to vehicleweapons.xml -->
+
+<Weapons>
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="update" name="VV.ROCKET" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="40" clipSize="8" disableDamageScaling="0" disableShortRangeHitBonus="1" />
+    <SingleShot MODMERGE="update" sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="60" suppressionRadius="3">
+      <Set1 ap="45" accuracy="40" />
+      <Set2 ap="80" accuracy="75" />
+    </SingleShot>
+	<BurstFire ap="95" accuracy="30" sound="Vehicle Weapon Rocket Launch" delay="0.5" shotCount="4" suppressionValue="165" burstdelay="0.5" suppressionRadius="4"/>
+    <GUIImage name="weapons/vehicle/rocket.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo MODMERGE="update" name="default" type="incendiary" damage="150" mitigation="0" isOverdamage="1">
+        <Projectile spectre="projectiles/rocket" speed="1500"/>
+        <Impact spectre="particles/explosion/explosion" radius="4" sound="Vehicle Weapon Rocket Explode" fireChance="20" smokeChance="50" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.ALENIUMROCKET" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="40" clipSize="8" disableDamageScaling="0" disableShortRangeHitBonus="1" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="60" suppressionRadius="3">
+      <Set1 ap="45" accuracy="40" />
+      <Set2 ap="80" accuracy="75" />
+    </SingleShot>
+	<BurstFire ap="95" accuracy="30" sound="Vehicle Weapon Rocket Launch" delay="0.5" shotCount="4" suppressionValue="200" burstdelay="0.5" suppressionRadius="4"/>
+    <GUIImage name="weapons/vehicle/aleniumrocket.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="230" mitigation="0" isOverdamage="1">
+        <Projectile spectre="projectiles/rocket" speed="1000"/>
+        <Impact spectre="particles/explosion/explosion" radius="5" sound="Vehicle Weapon Rocket Explode" fireChance="20" smokeChance="50" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.PLASMAROCKET" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="40" clipSize="8" disableDamageScaling="0" disableShortRangeHitBonus="1" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="60" suppressionRadius="3">
+      <Set1 ap="45" accuracy="40" />
+      <Set2 ap="80" accuracy="75" />
+    </SingleShot>
+	<BurstFire ap="95" accuracy="30" sound="Vehicle Weapon Rocket Launch" delay="0.5" shotCount="4" suppressionValue="200" burstdelay="0.5" suppressionRadius="4"/>
+    <GUIImage name="weapons/vehicle/plasmarocket.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="320" mitigation="0" isOverdamage="1">
+        <Projectile spectre="projectiles/rocket" speed="1000"/>
+        <Impact spectre="particles/explosion/explosion" radius="5.5" sound="Vehicle Weapon Rocket Explode" fireChance="20" smokeChance="50" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.FUSIONROCKET" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="40" clipSize="8" disableDamageScaling="0" disableShortRangeHitBonus="1" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="60" suppressionRadius="3">
+      <Set1 ap="45" accuracy="40" />
+      <Set2 ap="80" accuracy="75" />
+    </SingleShot>
+	<BurstFire ap="95" accuracy="30" sound="Vehicle Weapon Rocket Launch" delay="0.5" shotCount="4" suppressionValue="200" burstdelay="0.5" suppressionRadius="4"/>
+    <GUIImage name="weapons/vehicle/fusionrocket.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="410" mitigation="0" isOverdamage="1">
+        <Projectile spectre="projectiles/rocket" speed="1000"/>
+        <Impact spectre="particles/explosion/explosion" radius="5.5" sound="Vehicle Weapon Rocket Explode" fireChance="20" smokeChance="50" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.SINGULARROCKET" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="32" clipSize="12" disableDamageScaling="1" disableShortRangeHitBonus="1" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="60" suppressionRadius="3">
+      <Set1 ap="45" accuracy="40" />
+      <Set2 ap="80" accuracy="75" />
+    </SingleShot>
+	<BurstFire ap="95" accuracy="30" sound="Vehicle Weapon Rocket Launch" delay="0.5" shotCount="4" suppressionValue="200" burstdelay="0.5" suppressionRadius="4"/>
+    <GUIImage name="weapons/vehicle/singularrocket.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="550" mitigation="0" isOverdamage="1">
+        <Projectile spectre="projectiles/rocket" speed="1000"/>
+        <Impact spectre="particles/explosion/explosion" radius="6" sound="Vehicle Weapon Rocket Explode" fireChance="20" smokeChance="50" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.KINETICCANNON" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="20" clipSize="16" disableShortRangeHitBonus="1" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="75" suppressionRadius="3">
+      <Set1 ap="45" accuracy="40" />
+      <Set2 ap="80" accuracy="75" />
+    </SingleShot>
+	<BurstFire/>
+    <GUIImage name="weapons/vehicle/kineticcannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="80" mitigation="10" isOverdamage="1">
+        <Projectile spectre="projectiles/tankcannon/kineticcannon" speed="1500"/>
+        <Impact spectre="particles/explosion/explosion" radius="2.5" sound="Vehicle Weapon Rocket Explode" fireChance="5" smokeChance="60" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.ALENIUMCANNON" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="22" clipSize="16"  disableShortRangeHitBonus="1" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="100" suppressionRadius="3" >
+      <Set1 ap="45" accuracy="40" />
+      <Set2 ap="80" accuracy="75" />
+    </SingleShot>
+    <GUIImage name="weapons/vehicle/aleniumcannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="120" mitigation="15" isOverdamage="1">
+        <Projectile spectre="projectiles/tankcannon/aleniumcannon" speed="1500"/>
+        <Impact spectre="particles/explosion/explosion" radius="3" sound="Vehicle Weapon Rocket Explode" fireChance="10" smokeChance="65" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.PLASMACANNON" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="24" clipSize="14" disableShortRangeHitBonus="1" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="140" suppressionRadius="4">
+     <Set1 ap="45" accuracy="40" />
+     <Set2 ap="80" accuracy="75" />
+    </SingleShot>
+    <GUIImage name="weapons/vehicle/plasmacannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="165" mitigation="20" isOverdamage="1">
+        <Projectile spectre="projectiles/tankcannon/plasmacannon" speed="1500"/>
+        <Impact spectre="particles/explosion/explosion" radius="3.5" sound="Weapon Plasma Grenade" fireChance="60" smokeChance="80" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.FUSIONCANNON" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="26" clipSize="14"  disableShortRangeHitBonus="1" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="135" suppressionRadius="4">
+      <Set1 ap="45" accuracy="40" />
+      <Set2 ap="80" accuracy="75" />
+    </SingleShot>
+    <GUIImage name="weapons/vehicle/fusioncannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="220" mitigation="25" isOverdamage="1">
+        <Projectile spectre="projectiles/tankcannon/fusioncannon" speed="1500"/>
+        <Impact spectre="particles/explosion/explosion" radius="4" sound="Weapon Fusion Grenade" fireChance="10" smokeChance="30" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.SINGULARCANNON" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="30" clipSize="12"  disableShortRangeHitBonus="1" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="175" suppressionRadius="4">
+      <Set1 ap="45" accuracy="40" />
+      <Set2 ap="80" accuracy="75" />
+    </SingleShot>
+    <GUIImage name="weapons/vehicle/singularcannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="300" mitigation="30" isOverdamage="1">
+        <Projectile spectre="projectiles/tankcannon/singularcannon" speed="1500"/>
+        <Impact spectre="particles/explosion/explosion" radius="4.5" sound="Weapon Fusion Grenade" fireChance="60" smokeChance="90" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.KINETICAPCANNON" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="24" clipSize="24" disableShortRangeHitBonus="0" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="100" suppressionRadius="1">
+      <Set1 ap="45" accuracy="65" />
+      <Set2 ap="70" accuracy="90" />
+	  <Set3 ap="90" accuracy="120" />
+    </SingleShot>
+	<BurstFire/>
+    <GUIImage name="weapons/vehicle/kineticapcannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="160" mitigation="30" >
+        <Projectile spectre="projectiles/tankcannon/kineticcannon" speed="1500"/>
+        <Impact spectre="particles/explosion/explosion" radius="0.5" sound="Vehicle Weapon Rocket Explode" fireChance="5" smokeChance="60" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.ALENIUMAPCANNON" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="28" clipSize="24" disableShortRangeHitBonus="0" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="160" suppressionRadius="1">
+      <Set1 ap="45" accuracy="65" />
+      <Set2 ap="70" accuracy="90" />
+	  <Set3 ap="90" accuracy="120" />
+    </SingleShot>
+	<BurstFire/>
+    <GUIImage name="weapons/vehicle/aleniumapcannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="240" mitigation="50" >
+        <Projectile spectre="projectiles/tankcannon/aleniumcannon" speed="1500"/>
+        <Impact spectre="particles/explosion/explosion" radius="0.5" sound="Vehicle Weapon Rocket Explode" fireChance="5" smokeChance="60" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.PLASMAAPCANNON" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="30" clipSize="22" disableShortRangeHitBonus="0" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="220" suppressionRadius="1">
+      <Set1 ap="45" accuracy="65" />
+      <Set2 ap="70" accuracy="90" />
+	  <Set3 ap="90" accuracy="120" />
+    </SingleShot>
+	<BurstFire/>
+    <GUIImage name="weapons/vehicle/plasmaapcannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="330" mitigation="70" >
+        <Projectile spectre="projectiles/tankcannon/plasmacannon" speed="1500"/>
+        <Impact spectre="particles/explosion/explosion" radius="0.5" sound="Vehicle Weapon Rocket Explode" fireChance="5" smokeChance="60" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.FUSIONAPCANNON" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="32" clipSize="20" disableShortRangeHitBonus="0" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="300" suppressionRadius="1">
+      <Set1 ap="45" accuracy="65" />
+      <Set2 ap="70" accuracy="90" />
+	  <Set3 ap="90" accuracy="120" />
+    </SingleShot>
+	<BurstFire/>
+    <GUIImage name="weapons/vehicle/fusionapcannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="440" mitigation="90" >
+        <Projectile spectre="projectiles/tankcannon/fusioncannon" speed="1500"/>
+        <Impact spectre="particles/explosion/explosion" radius="0.5" sound="Vehicle Weapon Rocket Explode" fireChance="5" smokeChance="60" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.SINGULARAPCANNON" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="40" clipSize="16" disableShortRangeHitBonus="0" />
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="400" suppressionRadius="1">
+      <Set1 ap="45" accuracy="65" />
+      <Set2 ap="70" accuracy="100" />
+	  <Set3 ap="90" accuracy="140" />
+    </SingleShot>
+	<BurstFire/>
+    <GUIImage name="weapons/vehicle/singularapcannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="600" mitigation="120" >
+        <Projectile spectre="projectiles/tankcannon/kineticcannon" speed="1500"/>
+        <Impact spectre="particles/explosion/explosion" radius="0.5" sound="Vehicle Weapon Rocket Explode" fireChance="5" smokeChance="60" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+ 
+ 
+ 
+ 
+ 
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="VV.MACHINEGUN" bulletType="normal" emptySound="audio/sfx/emptygun.ogg">
+    <props range="16" clipSize="200" disableShortRangeHitBonus="1" />
+	<BurstFire ap="45" accuracy="20" sound="Vehicle Weapon 50cal Burst" delay="0.1" shotCount="9" suppressionValue="120" burstdelay="0.2" suppressionRadius="2"/>
+    <GUIImage name="weapons/vehicle/50cal.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="30" mitigation="5">
+        <Projectile spectre="projectiles/bullet/bullet" speed="1800"/>
+        <Impact spectre="particles/bulletplume/bulletplume"/>
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.DIVISIONGUN" bulletType="normal" emptySound="audio/sfx/emptygun.ogg">
+    <props range="18" clipSize="240" disableShortRangeHitBonus="1" />
+    <BurstFire ap="45" accuracy="25" sound="Weapon Minigun Burst 1" delay="0.1" shotCount="12" suppressionValue="140" burstdelay="0.1" suppressionRadius="2.5"/>
+    <GUIImage name="weapons/vehicle/division.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="40" mitigation="20">
+        <Projectile spectre="projectiles/defbullet/bullet" speed="1400" showAfterDistance="60.0"/>
+		<Impact spectre="particles/bulletplume/bulletplume"/>
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="VV.PULSELASER" bulletType="normal" emptySound="audio/sfx/emptygun.ogg">
+    <props range="22" clipSize="150" disableShortRangeHitBonus="1" />
+    <BurstFire ap="45" accuracy="25" sound="Weapon Laser Minigun Burst" delay="0.1" shotCount="10" suppressionValue="100" burstdelay="0.15" suppressionRadius="1.5"/>
+    <GUIImage name="weapons/vehicle/laser.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="energy" damage="40" mitigation="20" >
+		<Projectile spectre="projectiles/laserred/heavylaser" speed="1400" showAfterDistance="60.0"/>
+				<Impact spectre="particles/laserredexplode/laserexplode"/>
+	  </Ammo>
+	</Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="VV.MAC" bulletType="normal" emptySound="audio/sfx/emptygun.ogg">
+    <props range="20" clipSize="300" />
+    <BurstFire ap="45" accuracy="15" sound="Weapon Minigun Burst Long" delay="0.1" shotCount="30" suppressionValue="200" burstdelay="0.07" suppressionRadius="3.5"/>
+    <GUIImage name="weapons/vehicle/mag.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="45" mitigation="30" >
+				<Projectile spectre="projectiles/bulletred/bullet" speed="1400" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bulletplumered/bulletplume"/>
+      </Ammo>
+    </Ammos>
+  </Weapon>
+
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="VV.PLASMABOLT" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="20" clipSize="20" />
+    <SingleShot sound="Vehicle Weapon Plasma Single" delay="0.1" suppressionValue="130" suppressionRadius="3" disableDamageScaling="0">
+      <Set1 ap="40" accuracy="50" />
+      <Set2 ap="80" accuracy="100" />
+    </SingleShot>
+    <GUIImage name="weapons/vehicle/plasma.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="energy" damage="200" mitigation="30" isOverdamage="1">
+				<Projectile spectre="projectiles/plasmayellow/heavyplasma" speed="1000" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmacannonexplosionyellow/plasmacannonexplosion" radius="3" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
+	  </Ammo>
+	</Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.GAUSSGUN" bulletType="normal" emptySound="audio/sfx/emptygun.ogg">
+    <props range="22" clipSize="200" />
+    <BurstFire ap="45" accuracy="25" sound="Weapon Minigun Burst Long" delay="0.1" shotCount="16" suppressionValue="200" burstdelay="0.07" suppressionRadius="3.5"/>
+    <GUIImage name="weapons/vehicle/gauss.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="55" mitigation="35" >
+				<Projectile spectre="projectiles/gaussred/gauss" speed="1500" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bulletplumered/bulletplume"/>
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.PULSEGUN" bulletType="normal" emptySound="audio/sfx/emptygun.ogg">
+    <props range="28" clipSize="400" disableShortRangeHitBonus="1" />
+    <BurstFire ap="45" accuracy="15" sound="Weapon Laser Minigun Burst" delay="0.1" shotCount="40" suppressionValue="140" burstdelay="0.05" suppressionRadius="2.5"/>
+    <GUIImage name="weapons/vehicle/pulse.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="energy" damage="35" mitigation="50" >
+		<Projectile spectre="projectiles/laserblue/laser" speed="1400" showAfterDistance="60.0"/>
+				<Impact spectre="particles/laserblueexplode/laserexplode"/>
+	  </Ammo>
+	</Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.RAILGUN" bulletType="normal" emptySound="audio/sfx/emptygun.ogg">
+    <props range="24" clipSize="200" />
+    <BurstFire ap="45" accuracy="20" sound="Weapon Rail Minigun Burst" delay="0.1" shotCount="20" suppressionValue="200" burstdelay="0.07" suppressionRadius="3.5"/>
+    <GUIImage name="weapons/vehicle/rail.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="60" mitigation="40" >
+				<Projectile spectre="projectiles/railred/rail" speed="1700" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bulletplumered/bulletplume"/>
+      </Ammo>
+    </Ammos>
+  </Weapon>
+
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.SONICGUN" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="20" clipSize="16" />
+    <SingleShot sound="Weapon Sonic Cannon Single" delay="0.1" suppressionValue="250" suppressionRadius="4" disableDamageScaling="0">
+      <Set1 ap="40" accuracy="60" />
+      <Set2 ap="80" accuracy="120" />
+    </SingleShot>
+    <GUIImage name="weapons/vehicle/sonic.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="energy" damage="600" mitigation="70" isOverdamage="1">
+				<Projectile spectre="projectiles/sonicpurple/sonic" speed="1500" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmacannonexplosionpurple/plasmacannonexplosion" radius="3" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
+	  </Ammo>
+	</Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.MECHMAC" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="20" clipSize="300" />
+    <BurstFire ap="45" accuracy="15" sound="Weapon Minigun Burst Long" delay="0.1" shotCount="10" suppressionValue="200" burstdelay="0.07" suppressionRadius="2"/>
+    <GUIImage name="weapons/vehicle/mag.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="80" mitigation="10" >
+				<Projectile spectre="projectiles/mech/shot" speed="1300" showAfterDistance="60.0"/>
+				<Impact spectre="particles/smallgrenade/small_grenade" radius="1" sound="Weapon Frag Grenade" fireChance="5" smokeChance="20" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.MECHGAUSS" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="22" clipSize="200" />
+    <BurstFire ap="45" accuracy="15" sound="Weapon Minigun Burst Long" delay="0.1" shotCount="10" suppressionValue="300" burstdelay="0.07" suppressionRadius="2"/>
+    <GUIImage name="weapons/vehicle/gauss.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="100" mitigation="20" >
+				<Projectile spectre="projectiles/mech/shot" speed="1300" showAfterDistance="60.0"/>
+				<Impact spectre="particles/fusiongrenade/small_explosion" radius="1" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+ 
+<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.MECHRAIL" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="24" clipSize="200" />
+    <BurstFire ap="45" accuracy="20" sound="Weapon Rail Minigun Burst" delay="0.1" shotCount="10" suppressionValue="440" burstdelay="0.07" suppressionRadius="2"/>
+    <GUIImage name="weapons/vehicle/rail.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="120" mitigation="30" >
+				<Projectile spectre="projectiles/mech/shot" speed="1300" showAfterDistance="60.0"/>
+				<Impact spectre="particles/singulargrenade/small_explosion" radius="1" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.ADVMECHGAUSS" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="22" clipSize="200" />
+    <BurstFire ap="45" accuracy="15" sound="Weapon Minigun Burst Long" delay="0.1" shotCount="10" suppressionValue="300" burstdelay="0.07" suppressionRadius="2"/>
+    <GUIImage name="weapons/vehicle/gauss.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="100" mitigation="40" >
+				<Projectile spectre="projectiles/mech/shot" speed="1300" showAfterDistance="60.0"/>
+				<Impact spectre="particles/fusiongrenade/small_explosion" radius="2" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+ 
+<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.ADVMECHRAIL" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="24" clipSize="200" />
+    <BurstFire ap="45" accuracy="20" sound="Weapon Rail Minigun Burst" delay="0.1" shotCount="10" suppressionValue="440" burstdelay="0.07" suppressionRadius="2"/>
+    <GUIImage name="weapons/vehicle/rail.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="120" mitigation="60" >
+				<Projectile spectre="projectiles/mech/shot" speed="1300" showAfterDistance="60.0"/>
+				<Impact spectre="particles/singulargrenade/small_explosion" radius="2" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+ 
+ <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.ADVMECHPULSE" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="28" clipSize="400" disableShortRangeHitBonus="1" />
+    <BurstFire ap="45" accuracy="15" sound="Weapon Laser Minigun Burst" delay="0.1" shotCount="20" suppressionValue="140" burstdelay="0.05" suppressionRadius="2.5"/>
+    <GUIImage name="weapons/vehicle/pulse.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="energy" damage="50" mitigation="50" >
+		<Projectile spectre="projectiles/mech/shot" speed="1400" showAfterDistance="60.0"/>
+		<Impact spectre="particles/plasmacannonexplosionblue/plasmacannonexplosion" radius="1" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
+	  </Ammo>
+	</Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.ADVMECHION" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="28" clipSize="400" disableShortRangeHitBonus="1" />
+    <BurstFire ap="45" accuracy="15" sound="Weapon Laser Minigun Burst" delay="0.1" shotCount="10" suppressionValue="140" burstdelay="0.05" suppressionRadius="2.5"/>
+    <GUIImage name="weapons/vehicle/sonic.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="energy" damage="150" mitigation="50" >
+		<Projectile spectre="projectiles/mech/shot" speed="1400" showAfterDistance="60.0"/>
+		<Impact spectre="particles/plasmacannonexplosionyellow/plasmacannonexplosion" radius="2" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
+	  </Ammo>
+	</Ammos>
+  </Weapon>
+ 
+ <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.ULTMECHKINETIC" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="24" clipSize="200" />
+    <BurstFire ap="45" accuracy="20" sound="Weapon Rail Minigun Burst" delay="0.1" shotCount="16" suppressionValue="440" burstdelay="0.07" suppressionRadius="2"/>
+    <GUIImage name="weapons/vehicle/rail.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="kinetic" damage="120" mitigation="60" >
+				<Projectile spectre="projectiles/mech/shot" speed="1300" showAfterDistance="60.0"/>
+				<Impact spectre="particles/singulargrenade/small_explosion" radius="2" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+ 
+ <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.ULTMECHENERGY" bulletType="rocket" emptySound="audio/sfx/emptygun.ogg">
+    <props range="28" clipSize="400" disableShortRangeHitBonus="1" />
+    <BurstFire ap="45" accuracy="15" sound="Weapon Laser Minigun Burst" delay="0.1" shotCount="16" suppressionValue="140" burstdelay="0.05" suppressionRadius="2.5"/>
+    <GUIImage name="weapons/vehicle/sonic.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="energy" damage="150" mitigation="50" >
+		<Projectile spectre="projectiles/mech/shot" speed="1400" showAfterDistance="60.0"/>
+		<Impact spectre="particles/plasmacannonexplosionpurple/plasmacannonexplosion" radius="2" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
+	  </Ammo>
+	</Ammos>
+  </Weapon>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.ARTILLARYGUN" bulletType="gasgrenade" emptySound="audio/sfx/emptygun.ogg">
+    <props range="30" clipSize="8" throwingRangeModifier="10.0"/>
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="120" suppressionRadius="5" disableDamageScaling="1" >
+      <Set1 ap="90" accuracy="30" />
+    </SingleShot>
+    <GUIImage name="weapons/vehicle/kineticcannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="80" mitigation="0" isOverdamage="1">
+        <Projectile spectre="projectiles/grenade" speed="1200"/>
+        <Impact spectre="particles/explosion/explosion" radius="3" sound="Vehicle Weapon Rocket Explode" fireChance="50" smokeChance="30" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+	
+   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.ALENIUMARTILLARYGUN" bulletType="gasgrenade" emptySound="audio/sfx/emptygun.ogg">
+    <props range="30" clipSize="8" throwingRangeModifier="10.0"/>
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="120" suppressionRadius="5" disableDamageScaling="1" >
+      <Set1 ap="90" accuracy="30" />
+    </SingleShot>
+    <GUIImage name="weapons/vehicle/aleniumcannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="140" mitigation="0" isOverdamage="1">
+        <Projectile spectre="projectiles/grenade" speed="1200"/>
+        <Impact spectre="particles/explosion/explosion" radius="3.5" sound="Vehicle Weapon Rocket Explode" fireChance="60" smokeChance="30" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.PLASMAARTILLARYGUN" bulletType="gasgrenade" emptySound="audio/sfx/emptygun.ogg">
+    <props range="30" clipSize="8" throwingRangeModifier="10.0"/>
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="120" suppressionRadius="5" disableDamageScaling="1" >
+      <Set1 ap="90" accuracy="30" />
+    </SingleShot>
+    <GUIImage name="weapons/vehicle/plasmacannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="180" mitigation="0" isOverdamage="1">
+        <Projectile spectre="projectiles/grenade" speed="1200"/>
+        <Impact spectre="particles/explosion/explosion" radius="4" sound="Vehicle Weapon Rocket Explode" fireChance="60" smokeChance="30" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.FUSIONARTILLARYGUN" bulletType="gasgrenade" emptySound="audio/sfx/emptygun.ogg">
+    <props range="30" clipSize="8" throwingRangeModifier="10.0"/>
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="120" suppressionRadius="5" disableDamageScaling="1" >
+      <Set1 ap="90" accuracy="100" />
+    </SingleShot>
+    <GUIImage name="weapons/vehicle/fusioncannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="240" mitigation="0" isOverdamage="1">
+        <Projectile spectre="projectiles/grenade" speed="1200"/>
+        <Impact spectre="particles/explosion/explosion" radius="4.5" sound="Vehicle Weapon Rocket Explode" fireChance="60" smokeChance="30" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="VV.SINGULARARTILLARYGUN" bulletType="gasgrenade" emptySound="audio/sfx/emptygun.ogg">
+    <props range="30" clipSize="8" throwingRangeModifier="10.0"/>
+    <SingleShot sound="Vehicle Weapon Rocket Launch" delay="0.1" suppressionValue="120" suppressionRadius="5" disableDamageScaling="1" >
+      <Set1 ap="90" accuracy="30" />
+    </SingleShot>
+    <GUIImage name="weapons/vehicle/singularcannon.png"/>
+    <GroundImage name="grounditemimages/assault_rifle.png"/>
+    <Ammos>
+      <Ammo name="default" type="incendiary" damage="300" mitigation="0" isOverdamage="1">
+        <Projectile spectre="projectiles/grenade" speed="1200"/>
+        <Impact spectre="particles/explosion/explosion" radius="5" sound="Vehicle Weapon Rocket Explode" fireChance="60" smokeChance="30" gasType="GrenadeFragSmoke" />
+      </Ammo>
+    </Ammos>
+  </Weapon>
+  
+</Weapons>

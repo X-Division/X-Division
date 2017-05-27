@@ -1,0 +1,39 @@
+weapon.AlienToxinGrenade		p2
+weapon.AlienBloodGrenade		p3	
+weapon.AlienHybridGrenade		p4
+
+weapon.AlienStunGrenade			p1
+weapon.AlienAdvStunGrenade		p2
+weapon.AlienHvyStunGrenade		p3
+weapon.AlienExStunGrenade		p4
+
+weapon.AlienExplosiveGrenade		p1
+weapon.AlienAdvGrenade			p2
+weapon.AlienHeavyGrenade		p3
+weapon.AlienExGrenade			p4
+
+weapon.AlienNeutronGrenade		p2
+weapon.AlienAdvNeutronGrenade		p3	
+weapon.AlienHvyNeutronGrenade		p4
+
+weapon.AlienSmokeGrenade		p2
+weapon.AlienAdvSmokeGrenade		p3
+weapon.AlienHvySmokeGrenade		p4
+
+weapon.AlienDarkGrenade
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

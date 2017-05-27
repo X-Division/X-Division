@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<Armours>
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.basic">
+    <stockTextureName>armourimages/basicarmour</stockTextureName>
+    <dragTextureName>armourimages/basicarmour</dragTextureName>
+    <weight>5</weight>
+    <strengthBoost>0</strengthBoost>
+	<apBoost>0</apBoost>
+	<accuracyBoost>0</accuracyBoost>
+	<braveryBoost>0</braveryBoost>
+	<reflexesBoost>10</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+  </Armour>
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.jackal">
+    <stockTextureName>armourimages/jackal</stockTextureName>
+    <dragTextureName>armourimages/jackal</dragTextureName>
+    <weight>7</weight>
+    <strengthBoost>0</strengthBoost>
+	<apBoost>0</apBoost>
+	<accuracyBoost>0</accuracyBoost>
+	<braveryBoost>0</braveryBoost>
+	<reflexesBoost>5</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hidehands />
+  </Armour>
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.impjackal">
+    <stockTextureName>armourimages/impjackal</stockTextureName>
+    <dragTextureName>armourimages/impjackal</dragTextureName>
+    <weight>9</weight>
+    <strengthBoost>0</strengthBoost>
+	<apBoost>0</apBoost>
+	<accuracyBoost>0</accuracyBoost>
+	<braveryBoost>10</braveryBoost>
+	<reflexesBoost>0</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hidehands />
+  </Armour>
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.wolf">
+    <stockTextureName>armourimages/wolf</stockTextureName>
+    <dragTextureName>armourimages/wolf</dragTextureName>
+    <weight>8</weight>
+    <strengthBoost>0</strengthBoost>
+	<apBoost>0</apBoost>
+	<accuracyBoost>0</accuracyBoost>
+	<braveryBoost>0</braveryBoost>
+	<reflexesBoost>0</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hidehands />
+  </Armour>
+  
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.wolf_3">
+    <stockTextureName>armourimages/wolf</stockTextureName>
+    <dragTextureName>armourimages/wolf</dragTextureName>
+    <weight>10</weight>
+    <strengthBoost>0</strengthBoost>
+	<apBoost>10</apBoost>
+	<accuracyBoost>10</accuracyBoost>
+	<braveryBoost>5</braveryBoost>
+	<reflexesBoost>10</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hidehands />
+  </Armour>
+  
+   <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.wolf_4">
+    <stockTextureName>armourimages/wolf</stockTextureName>
+    <dragTextureName>armourimages/wolf</dragTextureName>
+    <weight>8</weight>
+    <strengthBoost>0</strengthBoost>
+	<apBoost>20</apBoost>
+	<accuracyBoost>20</accuracyBoost>
+	<braveryBoost>5</braveryBoost>
+	<reflexesBoost>25</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hidehands />
+  </Armour>
+  
+  
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.buzzard">
+    <stockTextureName>armourimages/buzzard</stockTextureName>
+    <dragTextureName>armourimages/buzzard</dragTextureName>
+    <weight>12</weight>
+    <strengthBoost>0</strengthBoost>
+	<apBoost>10</apBoost>
+	<accuracyBoost>0</accuracyBoost>
+	<braveryBoost>0</braveryBoost>
+	<reflexesBoost>10</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hidehands />
+  </Armour>
+  
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.predator">
+    <stockTextureName>armourimages/predator</stockTextureName>
+    <dragTextureName>armourimages/predator</dragTextureName>
+    <weight>4</weight>
+    <strengthBoost>90</strengthBoost>
+	<apBoost>0</apBoost>
+	<accuracyBoost>0</accuracyBoost>
+	<braveryBoost>20</braveryBoost>
+	<reflexesBoost>-50</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hideface />
+    <hidehands />
+    <biggunsonly />
+  </Armour>
+  
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.predator_2">
+    <stockTextureName>armourimages/predator</stockTextureName>
+    <dragTextureName>armourimages/predator</dragTextureName>
+    <weight>2</weight>
+    <strengthBoost>100</strengthBoost>
+	<apBoost>0</apBoost>
+	<accuracyBoost>10</accuracyBoost>
+	<braveryBoost>30</braveryBoost>
+	<reflexesBoost>-35</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hideface />
+    <hidehands />
+    <biggunsonly />
+  </Armour>
+  
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.predator_3">
+    <stockTextureName>armourimages/predator</stockTextureName>
+    <dragTextureName>armourimages/predator</dragTextureName>
+    <weight>0</weight>
+    <strengthBoost>120</strengthBoost>
+	<apBoost>0</apBoost>
+	<accuracyBoost>20</accuracyBoost>
+	<braveryBoost>60</braveryBoost>
+	<reflexesBoost>-20</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hideface />
+    <hidehands />
+    <biggunsonly />
+  </Armour>
+  
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.sentinel">
+    <stockTextureName>armourimages/sentinel</stockTextureName>
+    <dragTextureName>armourimages/sentinel</dragTextureName>
+    <weight>10</weight>
+    <strengthBoost>10</strengthBoost>
+	<apBoost>0</apBoost>
+	<accuracyBoost>5</accuracyBoost>
+	<braveryBoost>15</braveryBoost>
+	<reflexesBoost>0</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hidehands />
+  </Armour>
+   
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.sentinel_2">
+    <stockTextureName>armourimages/sentinel</stockTextureName>
+    <dragTextureName>armourimages/sentinel</dragTextureName>
+    <weight>12</weight>
+    <strengthBoost>20</strengthBoost>
+	<apBoost>5</apBoost>
+	<accuracyBoost>10</accuracyBoost>
+	<braveryBoost>25</braveryBoost>
+	<reflexesBoost>10</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hidehands />
+  </Armour>
+  
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.sentinel_3">
+    <stockTextureName>armourimages/sentinel</stockTextureName>
+    <dragTextureName>armourimages/sentinel</dragTextureName>
+    <weight>6</weight>
+    <strengthBoost>30</strengthBoost>
+	<apBoost>10</apBoost>
+	<accuracyBoost>20</accuracyBoost>
+	<braveryBoost>30</braveryBoost>
+	<reflexesBoost>10</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hidehands />
+  </Armour>
+  
+  <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.colossus">
+    <stockTextureName>armourimages/colossus</stockTextureName>
+    <dragTextureName>armourimages/colossus</dragTextureName>
+    <weight>38</weight>
+    <strengthBoost>100</strengthBoost>
+	<apBoost>0</apBoost>
+	<accuracyBoost>0</accuracyBoost>
+	<braveryBoost>0</braveryBoost>
+	<reflexesBoost>0</reflexesBoost>
+	<resilienceBoost>0</resilienceBoost>
+    <hidehands />
+  </Armour>
+ 
+
+  </Armours>

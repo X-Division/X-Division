@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<MapTypes MODMERGE="replace" >
+  <HumanAircrafts>
+    <HumanAircraft name="airplane.human.chinook"/>
+    <HumanAircraft name="airplane.human.shrike"/>
+    <HumanAircraft name="airplane.human.valkyrie"/>
+  </HumanAircrafts>
+  <AlienAircrafts>
+    <AlienAircraft name="airplane.alien.lightscout"/>
+	<AlienAircraft name="airplane.alien.lightshuttle" fallbackSpawn="airplane.alien.lightscout" />
+	<AlienAircraft name="airplane.alien.mediumshuttle" fallbackSpawn="airplane.alien.lightscout" />
+	<AlienAircraft name="airplane.alien.heavyshuttle" fallbackSpawn="airplane.alien.lightscout" />
+    <AlienAircraft name="airplane.alien.scout"/>
+	<AlienAircraft name="airplane.alien.mediumscout" fallbackSpawn="airplane.alien.scout" />
+	<AlienAircraft name="airplane.alien.heavyscout" fallbackSpawn="airplane.alien.scout" />
+	<AlienAircraft name="airplane.alien.armouredscout" fallbackSpawn="airplane.alien.scout" />
+    <AlienAircraft name="airplane.alien.corvette"/>
+	<AlienAircraft name="airplane.alien.strikecorvette" fallbackSpawn="airplane.alien.corvette" />
+	<AlienAircraft name="airplane.alien.missilecorvette" fallbackSpawn="airplane.alien.corvette" />
+	<AlienAircraft name="airplane.alien.torpedocorvette" fallbackSpawn="airplane.alien.corvette" />
+	<AlienAircraft name="airplane.alien.bombercorvette" fallbackSpawn="airplane.alien.corvette" />
+    <AlienAircraft name="airplane.alien.landingship"/>
+	<AlienAircraft name="airplane.alien.exlandingship" fallbackSpawn="airplane.alien.landingship" />
+	<AlienAircraft name="airplane.alien.supplyship" fallbackSpawn="airplane.alien.landingship" />
+	<AlienAircraft name="airplane.alien.exsupplyship" fallbackSpawn="airplane.alien.landingship" />
+	<AlienAircraft name="airplane.alien.cargoship" fallbackSpawn="airplane.alien.landingship" />
+	<AlienAircraft name="airplane.alien.excargoship" fallbackSpawn="airplane.alien.landingship" />	
+    <AlienAircraft name="airplane.alien.cruiser"/>
+	<AlienAircraft name="airplane.alien.lightcruiser" fallbackSpawn="airplane.alien.cruiser" />	
+	<AlienAircraft name="airplane.alien.battlecruiser" fallbackSpawn="airplane.alien.cruiser" />
+	<AlienAircraft name="airplane.alien.bombercruiser" fallbackSpawn="airplane.alien.cruiser" />	
+    <AlienAircraft name="airplane.alien.carrier"/>
+	<AlienAircraft name="airplane.alien.battlecarrier" fallbackSpawn="airplane.alien.carrier" />
+	<AlienAircraft name="airplane.alien.bombercarrier" fallbackSpawn="airplane.alien.carrier" />
+    <AlienAircraft name="airplane.alien.battleship"/>
+	<AlienAircraft name="airplane.alien.bomberbattleship" fallbackSpawn="airplane.alien.battleship" />
+	<AlienAircraft name="airplane.alien.dreadnought" fallbackSpawn="airplane.alien.battleship" />
+	<AlienAircraft name="airplane.alien.mothership" fallbackSpawn="airplane.alien.battleship" />
+	<AlienAircraft name="airplane.alien.terrorcarrier" fallbackSpawn="airplane.alien.carrier" />
+	<AlienAircraft name="airplane.alien.terrorbattleship" fallbackSpawn="airplane.alien.battleship" />
+	<AlienAircraft name="airplane.alien.terrordreadnought" fallbackSpawn="airplane.alien.battleship" />
+    <!-- <AlienAircraft name="airplane.alien.newtype" fallbackSpawn="airplane.alien.battleship" /> -->
+  </AlienAircrafts>
+  <AlienBases>
+    <AlienBase name="alienbase.large.andron"/>
+    <AlienBase name="alienbase.large.caesan"/>
+    <AlienBase name="alienbase.large.sebillian"/>
+    <AlienBase name="alienbase.medium.andron"/>
+    <AlienBase name="alienbase.medium.caesan"/>
+    <AlienBase name="alienbase.medium.sebillian"/>
+    <AlienBase name="alienbase.small.andron"/>
+    <AlienBase name="alienbase.small.caesan"/>
+    <AlienBase name="alienbase.small.sebillian"/>
+  </AlienBases>
+</MapTypes>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<Config>
+	<Shot MODMERGE="update">
+		<HeavyWeaponMovePenalty>0.9</HeavyWeaponMovePenalty>
+		<MinExplosiveDamageLevel>0.75</MinExplosiveDamageLevel>
+		<ArmourDegradation>15</ArmourDegradation>
+		<IncendiaryDamageBonusMul>5</IncendiaryDamageBonusMul>
+		<ArmourSuppressionPercentage>0.00001</ArmourSuppressionPercentage>
+		<SuppressBeyondRange>1</SuppressBeyondRange>
+		<proportionStunDamage>0.5</proportionStunDamage>
+		<ThrowingAccuracyUsesStrengthAndAim>1</ThrowingAccuracyUsesStrengthAndAim>
+
+    <ReactionFireDoor normalOpenEasy="1" normalOpenNormal="1" normalOpenVeteran="1" normalOpenSuperhuman="1"
+        largeOpenEasy="1" largeOpenNormal="1" largeOpenVeteran="1" largeOpenSuperhuman="1"
+        aliensEasy="1" aliensNormal="1" aliensVeteran="1" aliensSuperhuman="1" />
+
+	</Shot>
+	
+   <CombatWindow MODMERGE="update">
+    <CanCloseNormalUFODoorOpenedInTurn>false</CanCloseNormalUFODoorOpenedInTurn>
+    <CanCloseLargeUFODoorOpenedInTurn>false</CanCloseLargeUFODoorOpenedInTurn>
+   </CombatWindow>
+
+	<LOS>
+		<FlareTurnCount>8</FlareTurnCount>
+	</LOS>
+
+	<Character MODMERGE="update">
+		<InterveningStoppingChance default="25" crouched="10" oneTileDistCrouched="10" shield="75" shieldCrouched="57" vehicle="90"/>
+		<BleedingWound damageAmount="5" chance="50" hpLossPerTurn="3" />
+		<RegenerateHPPercent>20</RegenerateHPPercent>
+		<PsionicBerserking fireAtUnitChance="0" />
+	</Character>
+	
+	
+</Config>

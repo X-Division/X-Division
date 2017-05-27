@@ -1,0 +1,306 @@
+<?xml version="1.0" ?>
+<GasTypes>
+  <!-- These are used in the code and the names should be changed in both places - here and in the code -->
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="update" name="TerrainExplosiveSmoke">
+    <Anim name="particles/smoke/smoke" />
+    <Props damage="0" stunDamage="0" damageType="chemical" dissipationChance="40" accuracyReduction="8" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="update" name="FlammableTilesSmoke">
+    <Anim name="particles/smoke/smoke" />
+    <Props damage="18" stunDamage="10" damageType="chemical" dissipationChance="50" accuracyReduction="0" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="update" name="PowerCoresSmoke">
+    <Anim name="particles/smoke/smoke" />
+    <Props damage="0" stunDamage="0" damageType="chemical" dissipationChance="30" accuracyReduction="20" />
+  </GasType>
+ <!-- End hardcoded tiles -->  
+
+
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="update" name="GrenadeFragSmoke">
+    <Anim name="particles/lightsmoke/lightsmoke" />
+    <Props damage="0" stunDamage="0" damageType="chemical" dissipationChance="65" accuracyReduction="9" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="update" name="StunGas">
+    <Anim name="particles/purplesmoke/purplesmoke" />
+    <Props damage="5" stunDamage="60" damageType="chemical" dissipationChance="35" accuracyReduction="5" multiplePerTurn="1" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AdvStunGas">
+    <Anim name="particles/advpurplesmoke/advpurplesmoke" />
+    <Props damage="5" stunDamage="90" damageType="chemical" dissipationChance="25" accuracyReduction="10" multiplePerTurn="1" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="HvyStunGas">
+    <Anim name="particles/expurplesmoke/expurplesmoke" />
+    <Props damage="5" stunDamage="130" damageType="chemical" dissipationChance="20" accuracyReduction="15" multiplePerTurn="1" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ExStunGas">
+    <Anim name="particles/expurplesmoke/expurplesmoke" />
+    <Props damage="5" stunDamage="175" damageType="chemical" dissipationChance="15" accuracyReduction="20" multiplePerTurn="1" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="HmnStunGas">
+    <Anim name="particles/purplesmoke/purplesmoke" />
+    <Props damage="5" stunDamage="30" damageType="chemical" dissipationChance="30" accuracyReduction="5" multiplePerTurn="1" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="HmnAdvStunGas">
+    <Anim name="particles/advpurplesmoke/advpurplesmoke" />
+    <Props damage="5" stunDamage="45" damageType="chemical" dissipationChance="30" accuracyReduction="10" multiplePerTurn="1" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="HmnHvyStunGas">
+    <Anim name="particles/expurplesmoke/expurplesmoke" />
+    <Props damage="5" stunDamage="65" damageType="chemical" dissipationChance="30" accuracyReduction="15" multiplePerTurn="1" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="HmnExStunGas">
+    <Anim name="particles/expurplesmoke/expurplesmoke" />
+    <Props damage="5" stunDamage="90" damageType="chemical" dissipationChance="30" accuracyReduction="20" multiplePerTurn="1" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="update" name="SmokeGrenadeGas">
+    <Anim name="particles/greysmoke/greysmoke" />
+    <Props damage="0" stunDamage="0" damageType="chemical" dissipationChance="33" accuracyReduction="18"  />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AdvSmokeGas">
+    <Anim name="particles/advgreysmoke/advgreysmoke" />
+    <Props damage="0" stunDamage="0" damageType="chemical" dissipationChance="25" accuracyReduction="25" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="HvySmokeGas">
+    <Anim name="particles/exgreysmoke/exgreysmoke" />
+    <Props damage="0" stunDamage="0" damageType="chemical" dissipationChance="20" accuracyReduction="33" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ExSmokeGas">
+    <Anim name="particles/exgreysmoke/exgreysmoke" />
+    <Props damage="0" stunDamage="0" damageType="chemical" dissipationChance="15" accuracyReduction="50" />
+  </GasType>
+  
+   <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AlienExSmokeGas">
+    <Anim name="particles/exgreysmoke/exgreysmoke" />
+    <Props damage="0" stunDamage="0" damageType="chemical" dissipationChance="10" accuracyReduction="75" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="BloodGas">
+    <Anim name="particles/bloodsmoke/bloodsmoke" />
+    <Props damage="70" damageType="chemical" dissipationChance="45" accuracyReduction="15" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AdvBloodGas">
+    <Anim name="particles/bloodsmoke/bloodsmoke" />
+    <Props damage="90" damageType="chemical" dissipationChance="35" accuracyReduction="20" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ExtBloodGas">
+    <Anim name="particles/bloodsmoke/bloodsmoke" />
+    <Props damage="110" damageType="chemical" dissipationChance="25" accuracyReduction="25" />
+  </GasType>
+  
+  
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ShockGas">
+    <Anim name="particles/empsmoke/empsmoke" />
+    <Props damage="5" stunDamage="70" empDamage="100" damageType="energy" dissipationChance="80" accuracyReduction="0" />
+  </GasType>
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ShockGasExplosive">
+    <Anim name="particles/empsmoke/empsmoke" />
+    <Props damage="5" stunDamage="310" empDamage="100" damageType="energy" dissipationChance="80" accuracyReduction="0" />
+  </GasType>
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="EMPGas">
+    <Anim name="particles/empsmoke/empsmoke" />
+    <Props damage="5" stunDamage="0" empDamage="160" damageType="energy" dissipationChance="50" accuracyReduction="5" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ChemicalGas">
+    <Anim name="particles/greensmoke/greensmoke" />
+    <Props damage="50" stunDamage="0" damageType="chemical" dissipationChance="40" accuracyReduction="8" multiplePerTurn="1" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AdvChemicalGas">
+    <Anim name="particles/greensmoke2/greensmoke2" />
+    <Props damage="70" stunDamage="0" damageType="chemical" dissipationChance="40" accuracyReduction="10" multiplePerTurn="1" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="HvyChemicalGas">
+    <Anim name="particles/exgreensmoke/exgreensmoke" />
+    <Props damage="80" stunDamage="0" damageType="chemical" dissipationChance="40" accuracyReduction="15" multiplePerTurn="1" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ExChemicalGas">
+    <Anim name="particles/exgreensmoke/exgreensmoke" />
+    <Props damage="125" stunDamage="0" damageType="chemical" dissipationChance="40" accuracyReduction="20" multiplePerTurn="1" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Acid">
+    <Anim name="particles/acidsmoke/acidsmoke" />
+    <Props damage="25" stunDamage="0" damageType="chemical" dissipationChance="30" accuracyReduction="40" multiplePerTurn="1"/>
+  </GasType>
+  
+   <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ImpAcid">
+    <Anim name="particles/exgreensmoke/exgreensmoke" />
+    <Props damage="40" stunDamage="0" damageType="chemical" dissipationChance="20" accuracyReduction="60" blockLOS="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Electrosmoke">
+    <Anim name="particles/electrosmoke/electrosmoke" />
+    <Props damageType="energy" damage="0" stunDamage="100" empDamage="300" mitigation="100" dissipationChance="50" accuracyReduction="90" />
+  </GasType>
+  
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Robosmoke">
+    <Anim name="particles/electrosmoke/electrosmoke" />
+    <Props damageType="energy" damage="0" stunDamage="50" empDamage="0" mitigation="100" dissipationChance="90" accuracyReduction="90" />
+  </GasType>
+
+  <!--                                -->
+  <!--       The Hive, Xenomorph      -->
+  <!--                                -->
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="InvisibleGas">
+    <Anim name="" />
+    <Props damage="3" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Egg">
+    <Anim name="particles/openegg/openegg" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AssassinHumanCorpse">
+    <Anim name="particles/deadbody/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AssassinHumanCorpse2">
+    <Anim name="particles/deadbody/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AssassinHumanCorpse3">
+    <Anim name="particles/deadbody/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AssassinHumanCorpse4">
+    <Anim name="particles/deadbody/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="DroneHumanCorpse">
+    <Anim name="particles/deadbodydrone/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="DroneHumanCorpse2">
+    <Anim name="particles/deadbodydrone2/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="DroneHumanCorpse3">
+    <Anim name="particles/deadbodydrone3/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="DroneHumanCorpse4">
+    <Anim name="particles/deadbodydrone4/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="WarriorHumanCorpse">
+    <Anim name="particles/deadbodywarrior/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="WarriorHumanCorpse2">
+    <Anim name="particles/deadbodywarrior2/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="WarriorHumanCorpse3">
+    <Anim name="particles/deadbodywarrior3/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="WarriorHumanCorpse4">
+    <Anim name="particles/deadbodywarrior4/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="PraetorianHumanCorpse">
+    <Anim name="particles/deadbodypraetorian/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="PraetorianHumanCorpse2">
+    <Anim name="particles/deadbodypraetorian2/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="PraetorianHumanCorpse3">
+    <Anim name="particles/deadbodypraetorian3/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="QueenHumanCorpse">
+    <Anim name="particles/deadbodyqueen/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="QueenHumanCorpse2">
+    <Anim name="particles/deadbodyqueen2/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="QueenHumanCorpse3">
+    <Anim name="particles/deadbodyqueen3/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AcidlingHumanCorpse">
+    <Anim name="particles/deadbodyacidling/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AcidlingHumanCorpse2">
+    <Anim name="particles/deadbodyacidling2/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AcidlingHumanCorpse3">
+    <Anim name="particles/deadbodyacidling3/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="AcidlingHumanCorpse4">
+    <Anim name="particles/deadbodyacidling4/deadbody" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Acid2">
+    <Anim name="particles/acidsmoke/acidsmoke" />
+    <Props damage="30" stunDamage="0" damageType="chemical" dissipationChance="30" accuracyReduction="40" multiplePerTurn="1" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Acid3">
+    <Anim name="particles/acidsmoke/acidsmoke" />
+    <Props damage="40" stunDamage="0" damageType="chemical" dissipationChance="30" accuracyReduction="40" multiplePerTurn="1" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Acid4">
+    <Anim name="particles/acidsmoke/acidsmoke" />
+    <Props damage="50" stunDamage="0" damageType="chemical" dissipationChance="30" accuracyReduction="40" multiplePerTurn="1" />
+  </GasType>
+
+  <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="HumanBlood">
+    <Anim name="particles/humanblood/BloodStain_03" />
+    <Props damage="2" stunDamage="0" damageType="chemical" dissipationChance="1" accuracyReduction="0" />
+  </GasType>
+  
+</GasTypes>

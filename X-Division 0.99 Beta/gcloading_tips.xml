@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<GCLoadingTips MODMERGE="replace" >
+
+<Tip showOnFirstGroundCombat="true"> We advise you to play the Xenonauts Community Edition ( XCE ) before playing the X-Division Mod.
+
+This mod introduces new mechanics, new content and an extended campaign which can be confusing and overwhelming for new players.
+
+v.099 is in BETA state for testing.
+
+</Tip>
+
+<Tip>Everything aliens drop can be used for research or manufacture.</Tip>
+
+<Tip>To open new research paths you must capture alien specialists. Different alien specialists can be captured in every phase.</Tip>
+
+<Tip>Aircraft manufacture requires alien tech from UFO disassembly.
+UFO disassembly requires successfully completing ground missions to retrieve their datacores.</Tip>
+
+<Tip>If a soldier equipped with heavy weapons moves during his turn, he will take an accuracy penalty for the remainder of that turn</Tip>
+
+<Tip>If you want to prevail, you need to know the mechanics of this game very well. Different weapons are more effective in different situations.</Tip>
+
+<Tip>Sebillian Abilities: regenerates health per turn, increased vision at night, reduced at day.</Tip>
+
+<Tip>Please report all bugs or balance issues and share your ideas with me at the GOLDENHAWK forums.</Tip>
+
+<Tip>Do you like lore writing? Please join X-Div lore team to tell our story and xenopedia entries!</Tip>
+
+<Tip>Yes, that harridan killed your soldier in one shot. Use a shield!</Tip>
+
+<Tip>Do not stay in an aliens Line of Sight! Do not trust cover!</Tip>
+
+<Tip>Use explosives and flame weapons against melee aliens.</Tip>
+
+<Tip>Shields and vehicles can save your soldiers from the aliens first attacks.</Tip>
+
+<Tip>Mitigation means armour penetration. Weapon Damage - (Alien Resistance - Mitigation) = Damage taken. </Tip>
+
+<Tip>Resist means "target took the hit but his resistance protected him." With every hit, the targets resistance gets lower and lower. </Tip>
+
+<Tip>They are four main and two side damage types. Kinetic-Energy-Chemical-Incendiary and Stun-EMP. Every weapon has one main damage type. </Tip>
+
+<Tip>This mod was created for experienced and sadistic players. Don't blame me if you die a lot. I save and load more then you. </Tip>
+
+<Tip>Don't sell all loot from missions, you will need them sooner or later.</Tip>
+
+<Tip>Vehicles no longer reduce the amount of troops you can bring on a ground mission. Vehicles are your friend. Use them.</Tip>
+
+<Tip>All alien weapons are viable to get disassembled into appropriate cores. Use the cores to build better weapons !</Tip>
+
+<Tip>UFOs can be disassembled into parts which can then be used to build better aircraft.
+Check the Xpedia for the detailed disassembled item list. </Tip>
+
+<Tip>Aliens have strengths and weaknesses. Try to capture some of them to learn more about them.</Tip>
+
+<Tip>DSB means disassembly. You'll find plenty of alien equipment and UFO's you can disassemble to obtain useful parts, such as cores from alien weapons and alien equipment from UFO's.</Tip>
+
+<Tip>Use smoke grenades at the end of your turn to increase the chances of an alien missing your troops while firing. This has no effect at point-blank range however.</Tip>
+
+<Tip>There are over 900 researches available for your scientists to have fun with. Use the descriptions provided for each one to give you some idea of what it may lead to upon completion.</Tip>
+
+<Tip>The new air game is really quite brutal. You NEED to upgrade your aircraft capabilities ASAP to be successful against the invading fleet.</Tip>
+
+<Tip>Night missions are bad news. Your sight range gets reduced by 33% while aliens are unaffected. Try to do missions during the day-time.</Tip>
+
+<Tip>Stunning aliens is difficult with your initial equipment. Perhaps you can find something useful on alien bodies to counter this.</Tip>
+
+<Tip>Some aliens come equipped with shields. Like your own shields, they only protect against attacks in a 90 degree frontal arc, so flanking these aliens might be a good idea.</Tip>
+
+<Tip>Terror sites are tricky, difficult to clear but promise a great reward for their completion. Dont miss the chance to pull out if you have to, a dead A team doesnt help anybody.</Tip>
+
+<Tip>Melee weapons have been implemented but their research and manufacture requirements are still pending. So build them while you have the chance and give us feedback about how we can balance them.</Tip>
+
+<Tip>There is no longer a relations cap for the funding regions. Each successful interception and ground assault will improve the funding you obtain from them forever.</Tip>
+
+<Tip>Alien Armour degrades by 15% of the damage it prevents. Even the best armour crumbles under enough bullets and heat. This applies to your own armour as well, so be careful. Nothing lasts forever, commander, not even armour.</Tip>
+
+<Tip>You will eventually be able to create armour capable of flight. Note that you cannot fire any weapons while mid-flight and harridans absolutely adore taking out flying xenonauts, so be careful when you use it.</Tip>
+
+<Tip>Each phase introduces a new tier of aliens to combat. Don't worry about missing a specialist in an earlier phase, as capturing the more advanced alien will also unlock the research on his lesser compatriots.</Tip>
+
+<Tip>Each aircraft you can build has a "role" which it excels at. Don't send a bomber up against an alien fighter. You WILL lose.</Tip>
+
+<Tip>Don't forget that you can right-click on a target to change your aim level. Most weapons default is snap shot, which has poor accuracy.</Tip>
+
+<Tip>Each vehicle is restricted to certain types of weaponry. Don't expect your hunter scout car to be capable of equipping advanced cannon weaponry.</Tip>
+
+<Tip>Robotic enemies such as androns, drones and mechs are impossible to stun. Don't waste your time trying. EMP damage works great though.</Tip>
+
+<Tip>Alien bases now grow independently of the game ticker. If you leave one around for too long you might find yourself facing extremely dangerous foes.</Tip>
+
+<Tip>Not every mission is meant to be won, keep a cool head and decide if pulling out isnt the proper action. Losing all your soldiers nets you nothing.</Tip>
+
+<Tip>Set your priorities straight. Your first priority is to survive. After that you can think about capturing live specimens.</Tip>
+
+<Tip>Terror sites are purely evaluated on the number of civilian and locals you saved, if nobody survives the reward is pretty much around zero. Dont turtle, engage them in the field, commander !</Tip>
+
+<Tip>Armour degrades, yes, but keep in mind that it only degrades for that specific damage type armour value. If you whittle away with ballistic weapons and then switch to energy weapons you are starting from scratch again.</Tip>
+
+<Tip>Armour degrades. This applies to your vehicles as well. Dont think they are invincible standing in the field. Under enough pressure their armour cracks like any other</Tip>
+
+<Tip>Alien Bases dont damage the relationship in the country anymore. Taking them out doesnt have to be your top priority anymore. However every alien base increases the number of UFOs which can roam the earth at once thus putting more pressure on your efforts.</Tip>
+
+<Tip>Letting supply ships through has many negative effects now. Dont let the aliens grow too fast, commander !</Tip>
+
+</GCLoadingTips>

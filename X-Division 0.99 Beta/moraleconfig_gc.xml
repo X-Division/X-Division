@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<MoraleConfig MODMERGE="update">
+	<MoraleEventChance MODMERGE="update" percentPoints="3.5" everyMoralePointBelow="40" >
+		
+		<EventChances MODMERGE="update">
+			<Panic value="59" stabilisation="20" comment="chance that a unit panics and loses all its AP for current turn"/>
+			<Flee value="40" stabilisation="20" comment="chance that a unit drops its weapons and starts running randomly" />
+			<Berserk value="01" stabilisation="20" comment="chance that a unit starts firing on first available target, not caring if friendly or enemy"/>
+		</EventChances>
+		
+	</MoraleEventChance>
+	
+	<HumanMorale MODMERGE="update">
+	
+		<PerTurnRegeneration>2</PerTurnRegeneration>
+		<Modifiers  MODMERGE="update">
+		
+			<OfficerLeadership  MODMERGE="update" comment="Bonus to starting morale provided based on the rank of the highest ranked soldier on the team. To entire team except the leader" >
+
+				<RookieHandicap percentPoints="10" maxPercent="50" comment="Percent reduction in overall leadership bonus per Private brought on mission, with limit maxPercent"/>
+				<Corporal>10</Corporal>
+				<Sergeant>15</Sergeant>
+				<Lieutenant>20</Lieutenant>
+				<Captain>25</Captain>
+				<Major>30</Major>
+				<Commander>35</Commander>
+				<Colonel>40</Colonel>
+			</OfficerLeadership>
+			
+			<SafetyInNumbers  MODMERGE="update" range="10" comment="Each crew member recieves a morale bonus, depending on the 2 highest ranked soldier present in range. At the start of every turn the bonus will get set again, depending on the 2 highest ranked soldiers in the range. This should get added as a bonus before the even chance calculations are happening. The bonus pool cant get decreased and will propably not get calculated into reduction abilities like Fear" >
+				<Private>1</Private>
+				<Corporal>2</Corporal>
+				<Sergeant>3</Sergeant>
+				<Lieutenant>4</Lieutenant>
+				<Captain>5</Captain>
+				<Major>6</Major>
+				<Commander>7</Commander>
+				<Colonel>8</Colonel>
+			</SafetyInNumbers>
+			
+			<XenonautDeath  MODMERGE="update" range="100" comment="to each member of the team, based on killed soldier rank">
+				<Private>-10</Private>
+				<Corporal>-11</Corporal>
+				<Sergeant>-12</Sergeant>
+				<Lieutenant>-15</Lieutenant>
+				<Captain>-15</Captain>
+				<Major>-15</Major>
+				<Commander>-15</Commander>
+				<Colonel>-15</Colonel>
+			</XenonautDeath>
+			
+			<VehicleLoss  MODMERGE="update">
+				<Team>-15</Team>
+			</VehicleLoss>
+			
+			<AlienVehicleDestroyed  MODMERGE="update">
+				<Team>8</Team>
+				<Actor>24</Actor>
+			</AlienVehicleDestroyed>			
+			
+			<XenoVehicleDestroyedByTeamMate MODMERGE="update" comment="in addition to the VehicleLoss penalty!">
+				<Team>-5</Team>
+				<Actor>-10</Actor>
+			</XenoVehicleDestroyedByTeamMate>
+			
+			<CivilianKilledByAlien MODMERGE="update" comment="to each member of the team">
+				<Points>-5</Points>
+				<MaxPointsPerTurn>-15</MaxPointsPerTurn>
+			</CivilianKilledByAlien>
+			
+			<AlienKilled MODMERGE="update">
+				<Team>5</Team>
+				<Actor>10</Actor>
+			</AlienKilled>
+			
+			<CivilianKilledByXenonaut MODMERGE="update" comment="in addition to CivilianKilledByAlien!">
+				<Team>-5</Team>
+				<Actor>-10</Actor>
+			</CivilianKilledByXenonaut>
+			
+			<XenonautKilledByTeamMate MODMERGE="update" comment="in addition to the XenonautDeath penalty!">
+				<Team>-5</Team>
+				<Actor>-10</Actor>
+			</XenonautKilledByTeamMate>
+			
+			<Wounded value="-0.5" comment="expressed in morale points per damage point recieved, so -0.5 is 1 morale point deducted every 2 damage points taken" />
+			<Suppressed value="-0.01" comment="same as Wounded" />
+			
+		</Modifiers>
+	</HumanMorale>
+
+	<AlienMorale MODMERGE="update">
+		<Modifiers>
+		
+			<AlienKillsCivilian MODMERGE="update">
+				<Team>8</Team>
+				<Actor>24</Actor>
+			</AlienKillsCivilian>
+			
+			<AlienKillsXenonaut MODMERGE="update">
+				<Team>12</Team>
+				<Actor>36</Actor>
+			</AlienKillsXenonaut>
+			
+			<AlienDeath MODMERGE="update">
+				<Team>-16</Team>
+			</AlienDeath>
+			
+			<AlienKilledByTeamMate MODMERGE="update" comment="in addition to the AlienDeath penalty!">
+				<Team>-4</Team>
+				<Actor>-12</Actor>
+			</AlienKilledByTeamMate>
+			
+			<VehicleLoss MODMERGE="update">
+				<Team>-16</Team>
+			</VehicleLoss>
+			
+			<XenonautVehicleDestroyed MODMERGE="update">
+				<Team>16</Team>
+				<Actor>48</Actor>
+			</XenonautVehicleDestroyed>			
+			
+			<AlienVehicleDestroyedByTeamMate MODMERGE="update" comment="in addition to the VehicleLoss penalty!">
+				<Team>-4</Team>
+				<Actor>-12</Actor>
+			</AlienVehicleDestroyedByTeamMate>
+			
+			<Wounded value="-0.5" comment="expressed in morale points per damage point recieved, so -0.5 is 1 morale point deducted every 2 damage points taken" />
+			
+		</Modifiers>
+	</AlienMorale>
+
+</MoraleConfig>
