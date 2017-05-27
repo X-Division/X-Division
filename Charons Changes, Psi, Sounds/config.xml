@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<Config MODMERGE="update">
+
+  <Shot>
+    <ShortRangeHitBonusPerTile>10</ShortRangeHitBonusPerTile>
+	<ShortRangeHitBonusMinDistance>5.0</ShortRangeHitBonusMinDistance>
+	<KneelingBoost>30</KneelingBoost>
+  </Shot>
+  
+	<AP>
+		<KneelingAP>10</KneelingAP>
+		<KneeledTurnAP>2</KneeledTurnAP>
+		<HandsFreeingAP>8</HandsFreeingAP>
+		<HandDragAP>4</HandDragAP>
+		<BackpackDragAP>10</BackpackDragAP>
+		<BeltDragAP>2</BeltDragAP>
+		<GroundDragAP>0</GroundDragAP>
+    </AP>
+
+	<Character>
+    <TargetCrouchingBonus default="30" oneTileDist="30" />
+    </Character>
+
+  <CombatWindow>
+    <RevealAllTiles afterTurns="999" /> <!--For Town, SovietTown and XenoBase tilesets -->
+  </CombatWindow>
+
+</Config>

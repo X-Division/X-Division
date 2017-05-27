@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<GameConfig>
+
+<!-- SOLDIER DEVELOPMENT VARIABLES -->
+
+  <soldierDevelopment>
+  <!-- Soldiers develop their attributes by using them. Each time the soldier performs a certain action, he will gain a "progress point" in that attribute. Once he reaches the "pointsToProgress" value, the attribute will increase by one point. These progress points are cumulative and are stored from mission to mission. -->
+
+	<APProgress       pointsToProgress="375" maxPointsInSingleBattle="50000" globalMaxProgress="100" comment="A progress point is earned every time a soldier spends a TU on a mission" />
+
+	<strengthProgress pointsToProgress="20"  maxPointsInSingleBattle="99"  globalMaxProgress="150" strengthCoeff="80" comment="Points are given when soldier moves one tile while carrying more than strengthCoeff percent of its maximum carry weight" />
+	
+	<accuracyProgress pointsToProgress="3"   maxPointsInSingleBattle="99"   globalMaxProgress="150" comment="Points are given when a soldier attempts to fire at a valid hostile enemy within weapon range * 1.5" />
+	
+	<reflexesProgress pointsToProgress="1"   maxPointsInSingleBattle="99"    globalMaxProgress="180" comment="A progress point is gained when a soldier performs a Reaction Fire test (it doesn't matter whether he passes or fails it)" />
+	
+	<braveryProgress  pointsToProgress="1"   maxPointsInSingleBattle="99"    globalMaxProgress="100" comment="A progress point is earned whenever a soldier panics in battle" />
+	
+	<resilienceProgress pointsToProgress="5" globalMaxProgress="110" comment="A progress points is earned every time the soldier gets a skillup in any other attribute" />
+  </soldierDevelopment>
+
+  <soldierRanks>
+  <!-- Soldiers increase their ranking when they have a certain number of rank points. A rank point is gained each time an AP, strength, accuracy, reflexes or bravery progress is done. -->
+	<Private 	rankPoints="0" />
+	<Corporal 	rankPoints="20" />
+	<Sergeant 	rankPoints="50" />
+	<Lieutenant rankPoints="80" />
+	<Captain 	rankPoints="120" />
+	<Major 		rankPoints="160" />
+	<Commander 	rankPoints="200" />
+	<Colonel 	rankPoints="250" />
+  </soldierRanks>
+
+			<!-- ALIEN UFO MISSION VARIABLES -->
+
+<!-- BASE ATTACK MISSION (Aggressive) -->
+  <baseAttackMissionDelay            value="25" comment="Minimum time elapsed between two base attack missions, in days" />
+
+<MaxAlienBases value="20" comment="Maximum number of alien bases before the game stops calling additional construction missions."/>
+
+  <maxMissionAlienBaseModifier value = "2" comment = "Add this much to maxMissionCount for every alien base on the map" />
+
+<!-- BOMBING RUN MISSION (Passive) -->
+
+  <bombingRunAerialTerrorChance       value="0"     comment="An alien ground attack mission has this percentage chance of generating an Aerial Terror event per hour." />
+  <aerialTerrorMissionDuration 	  min="12" max="24" comment="Aerial terror missions will last for a number of hours in this range"/>
+
+<!-- TERROR MISSION (Passive) -->
+  <terrorMissionDelay            	   value="22" comment="Minimum time elapsed between two terror missions, in days" />
+  <terrorMissionDuration min="12" max="24" 			comment="Terror missions will last for a number of hours in this range"/>
+
+<!-- AIR SUPERIORITY MISSION (Aggressive) -->
+   <airSuperiorityCooldownTime         value="1"     comment="After having engaged in air combat, an alien air superiority mission won't intercept Xenonauts airplanes for this many hours" />
+
+<!-- CONSTRUCTION MISSION PERAMETERS -->
+<!-- These variables stop alien base construction missions being spawned too frequently - if this is removed then they will spawn in almost every UFO wave after they become available to the aliens. The delay values are the time (in days) that must elapse between two construction missions spawning. -->
+
+  <constructionMissionTickerLimit1 value="1100" comment="Alien construction missions will be delayed by constructionMissionDelay1 if the ticker is greater than this." />
+  <constructionMissionTickerLimit2 value="700" comment="Alien construction missions will be delayed by constructionMissionDelay2 if the ticker is greater than this." />
+  <constructionMissionTickerLimit3 value="300" comment="Alien construction missions will be delayed by constructionMissionDelay3 if the ticker is greater than this." />
+  
+  <constructionMissionDelay1  value="3" comment="See above." />
+  <constructionMissionDelay2  value="7" comment="See above." />
+  <constructionMissionDelay3  value="10" comment="See above." />
+  <constructionMissionDelay4  value="20" comment="Alien construction missions will be delayed by this if the ticker is smaller than constructionMissionTickerLimit3." />
+
+
+<!-- AIRCRAFT REFUEL / REARM RATES -->
+  <refuelRate  value="2.00"  comment="The percent refueling rate for aircraft" />
+  <repairRate  value="0.02" comment="The percent repairing rate for aircraft" />
+  <rearmTime   value="200"   comment="Minutes needed to rearm each weapon slot of an airplane" />
+  <recoverTime value="144"   comment="Hours needed to recover an airplane from 0% to 1% (Above 1% will use repairRate)" />
+  <rearmBeforeRefuel value="false" comment="Whether airplane rearming is done before refuelling" />
+  <minHealthToLaunch value="25" comment="The percent of health an airplane must have in order to be able to launch" />
+  <minFuelToLaunch value="25" comment="The percent of fuel an airplane must have in order to be able to launch" />
+  <fullArmamentToLaunch value="false" comment="Whether an airplane must be fully armed before it can be launched" />
+
+  <airCombatAIThinkChance difficultyEasy="0" difficultyNormal="0.2" difficultyVeteran="0.7" difficultySuperhuman="1"
+      comment="This controls UFO AI thinking in Air Combat. The higher this value is (between 0 and 1), the more likely UFOs will each second consider swapping to a better target." />
+
+<!-- BASE BUILD COST -->
+  <newBaseCost 			value="200000" comment="The cost for a new base" />
+
+
+<!-- FUNDING MODIFIERS -->
+<!-- Each month, a funding region will pay the player $500 for each relations value point, multiplied by this modifier -->
+
+  <relationsCap 				value="20.0" comment="Multiplied by the starting relations score for each region to give the maximum value that nations relations can reach" />
+
+<!-- TERROR FAILURE PENALTY -->
+  <terrorFailurePenalty 			value="300" comment="Penalty applied to the region relations when a terror event results in failure (no engagement by Xenonauts or GC loss)" />
+  <aerialTerrorFailurePenalty 		value="0" comment="Penalty applied to the region relations when an Aerial Terror event results in failure (no engagement by Xenonauts or AC loss)" />
+  <terrorSuccessBonus 				value="30" comment="Bonus granted to the region relations if a terror site is successfully secured" />
+  <terrorCivilianSurvivedBonus 		value="20" comment="Extra relations bonus for every civilian that survived a terror mission" />
+  <terrorLocalForcesSurvivedBonus 	value="15" comment="Extra relations bonus for every local forces fighter that survived a terror mission" />
+  
+  <crashsiteFundingBonus value="true" comment="Controls whether doing crash sites grants a relations bonus with the region" />
+  <crashsiteFundingModifier value="0.5" comment="If relations bonus for crash sites is enabled, the bonus is the shootdown bonus multiplied by this value" />
+
+<!-- ALIEN BASE LEVEL UP THRESHOLDS -->
+  <mediumAlienBaseTickerLimit value="45"  comment="Alien bases are medium sized above this ticker value."  />
+  <largeAlienBaseTickerLimit  value="90" comment="Alien bases are large sized above this ticker value."  />
+  <independentAlienBaseGrowth value="1" comment="If set to 1, each alien base will grow independently of the AI ticker" />
+  <alienBaseGrowthPerDay 	  value="1" comment="If bases grow independently, each base will grow this much per day"/>
+  <alienBaseStartingTickerMultiplier value = "0.04" comment="If bases grow independenly, new bases will start at AI ticker times this value"/>
+  <alienBaseSupplyGrowth	  value="15" comment="If bases grow independently, each successful Supply Run mission will increase base ticker by this much" />
+
+<!-- ALIEN BASE AND SUPPLY RUN (Passive) -->
+  <alienBaseTickerPerMinute           value="0" 	comment="An alien base generates this many ticker points per minute after being built, even if undetected." />
+  <supplyRunTicker                    value="5"     comment="A successful alien supply run mission to a base generates this many ticker points." />
+  <alienBaseRelationsDamagePerDay     value="0" 	comment="An alien base damages relations in its continent by this much every day (24 hours)" />
+
+<!-- AIR COMBAT PROJECTILE / MISSILE PATH ALPHA -->
+  <projectileAlphaMod value="1" comment="This modifies the projectile / missile path alpha value." />
+
+<!-- AIRCOMBAT PROJECTILE COLOR -->
+  <projectileColorUfo   r="1.0" g="1.0" b="1.0" a="1.00" comment="The color for projectiles shot by UFOs" />
+  <projectileColorHuman r="1.0" g="1.0" b="1.0" a="1.00" comment="The color for projectiles shot by human interceptors" />  
+
+</GameConfig>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

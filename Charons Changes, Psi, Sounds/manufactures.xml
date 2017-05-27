@@ -1,0 +1,1224 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Benutzer</LastAuthor>
+  <Created>2011-04-14T17:25:36Z</Created>
+  <LastSaved>2017-05-22T12:06:35Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="/"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11760</WindowHeight>
+  <WindowWidth>17355</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>195</WindowTopY>
+  <TabRatio>221</TabRatio>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal_Sheet1">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s71" ss:Parent="s62">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Categories" ss:RefersTo="=Sheet1!#REF!"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="661" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+   <Column ss:AutoFitWidth="0" ss:Width="232.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="192"/>
+   <Column ss:AutoFitWidth="0" ss:Width="65.25" ss:Span="1"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="170.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="56.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:AutoFitWidth="0" ss:Width="256.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="112.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="99"/>
+   <Row ss:StyleID="s65">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Category</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Unit days</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Unit cost</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Unit materials</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Image</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">When unlocked</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">When unit produced</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Starting</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">FillsSlot</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.division.pistolmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Division Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.division.pistolmk2;1xItems.ballisticcore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.division.pistolmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.division.smgmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Division Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.division.smgmk2;1xItems.ballisticcore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.division.smgmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.division.riflemk3</Data></Cell>
+    <Cell><Data ss:Type="String">Division Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.division.riflemk2;1xItems.ballisticcore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.division.riflemk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.division.shotgunmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Division Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.division.shotgunmk2;1xItems.ballisticcore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.division.shotgunmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.division.snipermk3</Data></Cell>
+    <Cell><Data ss:Type="String">Division Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.division.snipermk2;2xItems.ballisticcore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.division.snipermk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.division.heavymk3</Data></Cell>
+    <Cell><Data ss:Type="String">Division Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.division.heavymk2;1xItems.ballisticcore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.division.heavymk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.division.cannonmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Division Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.division.cannonmk2;2xItems.ballisticcore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.division.cannonmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.division.minigunmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Division Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.division.minigunmk2;6xItems.ballisticcore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.division.minigunmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.laserpistolmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Laser Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.laserpistolmk2;1xItems.energycore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.laserpistolmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.laserriflemk3</Data></Cell>
+    <Cell><Data ss:Type="String">Laser Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.laserriflemk2;1xItems.energycore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.laserriflemk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.lasercarbinemk3</Data></Cell>
+    <Cell><Data ss:Type="String">Laser Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.lasercarbinemk2;2xItems.energycore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.lasercarbinemk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.laserprecisionmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Laser Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.laserprecisionmk2;2xItems.energycore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.laserprecisionmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.scatterlasermk3</Data></Cell>
+    <Cell><Data ss:Type="String">Laser Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.scatterlasermk2;1xItems.energycore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.scatterlasermk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.laserminigunmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Laser Weapons 1</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.laserminigunmk2;6xItems.energycore;2xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.laserminigunmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.MAGpistolmk3</Data></Cell>
+    <Cell><Data ss:Type="String">MAG &amp; Flamethrower Weapons 2</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.MAGpistolmk2;2xItems.ballisticcore;4xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.MAGpistolmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.MAGriflemk3</Data></Cell>
+    <Cell><Data ss:Type="String">MAG &amp; Flamethrower Weapons 2</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">1xweapon.MAGriflemk2;2xItems.ballisticcore;4xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.MAGriflemk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.MAGcarbinemk3</Data></Cell>
+    <Cell><Data ss:Type="String">MAG &amp; Flamethrower Weapons 2</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.MAGcarbinemk2;2xItems.ballisticcore;4xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.MAGcarbinemk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.MAGprecisionmk3</Data></Cell>
+    <Cell><Data ss:Type="String">MAG &amp; Flamethrower Weapons 2</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">1xweapon.MAGprecisionmk2;4xItems.ballisticcore;4xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.MAGprecisionmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.MAGSTORMmk3</Data></Cell>
+    <Cell><Data ss:Type="String">MAG &amp; Flamethrower Weapons 2</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">1xweapon.MAGSTORMmk2;4xItems.ballisticcore;4xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.MAGSTORMmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.MAGminigunmk3</Data></Cell>
+    <Cell><Data ss:Type="String">MAG &amp; Flamethrower Weapons 2</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">1xweapon.MAGminigunmk2;12xItems.ballisticcore;4xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.MAGminigunmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.plasmapistolmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Plasma Weapons 2</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">1xweapon.plasmapistolmk2;2xItems.energycore;4xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.plasmapistolmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.plasmariflemk3</Data></Cell>
+    <Cell><Data ss:Type="String">Plasma Weapons 2</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">1xweapon.plasmariflemk2;2xItems.energycore;4xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.plasmariflemk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.plasmaprecisionmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Plasma Weapons 2</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">1xweapon.plasmaprecisionmk2;4xItems.energycore;4xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.plasmaprecisionmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.plasmacastermk3</Data></Cell>
+    <Cell><Data ss:Type="String">Plasma Weapons 2</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">1xweapon.plasmacastermk2;2xItems.energycore;4xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.plasmacastermk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.plasmacannonmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Plasma Weapons 2</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">1xweapon.plasmacannonmk2;12xItems.energycore;4xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.plasmacannonmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.gauss.pistolmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Gauss &amp; Plasmathrower Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.gauss.pistolmk2;6xItems.ballisticcore;8xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.gauss.pistolmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.gauss.smgmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Gauss &amp; Plasmathrower Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.gauss.smgmk2;4xItems.ballisticcore;8xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.gauss.smgmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.gauss.riflemk3</Data></Cell>
+    <Cell><Data ss:Type="String">Gauss &amp; Plasmathrower Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.gauss.riflemk2;4xItems.ballisticcore;8xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.gauss.riflemk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.gauss.shotgunmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Gauss &amp; Plasmathrower Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.gauss.shotgunmk2;4xItems.ballisticcore;8xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.gauss.shotgunmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.gauss.snipermk3</Data></Cell>
+    <Cell><Data ss:Type="String">Gauss &amp; Plasmathrower Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.gauss.snipermk2;6xItems.ballisticcore;10xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.gauss.snipermk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.gauss.heavymk3</Data></Cell>
+    <Cell><Data ss:Type="String">Gauss &amp; Plasmathrower Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.gauss.heavymk2;6xItems.ballisticcore;10xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.gauss.heavymk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.gauss.minigunmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Gauss &amp; Plasmathrower Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.gauss.minigunmk2;24xItems.ballisticcore;10xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.gauss.minigunmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.pulsepistolmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Pulse Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.pulsepistolmk2;4xItems.energycore;8xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.pulsepistolmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.pulseriflemk3</Data></Cell>
+    <Cell><Data ss:Type="String">Pulse Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.pulseriflemk2;4xItems.energycore;8xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.pulseriflemk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.pulsecarbinemk3</Data></Cell>
+    <Cell><Data ss:Type="String">Pulse Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.pulsecarbinemk2;4xItems.energycore;8xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.pulsecarbinemk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.pulseprecisionmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Pulse Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.pulseprecisionmk2;6xItems.energycore;10xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.pulseprecisionmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.pulseheavymk3</Data></Cell>
+    <Cell><Data ss:Type="String">Pulse Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.pulseheavymk2;4xItems.energycore;8xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.pulseheavymk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.pulseminigunmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Pulse Weapons 3</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">60000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.pulseminigunmk2;24xItems.energycore;10xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.pulseminigunmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.railpistolmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Rail Weapons 4</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.railpistolmk2;12xItems.ballisticcore;10xItems.Alienalloys;16xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.railpistolmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.railsmgmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Rail Weapons 4</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.railsmgmk2;15xItems.ballisticcore;10xItems.Alienalloys;16xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.railsmgmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.railriflemk3</Data></Cell>
+    <Cell><Data ss:Type="String">Rail Weapons 4</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.railriflemk2;12xItems.ballisticcore;10xItems.Alienalloys;16xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.railriflemk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.railcarbinemk3</Data></Cell>
+    <Cell><Data ss:Type="String">Rail Weapons 4</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.railcarbinemk2;12xItems.ballisticcore;10xItems.Alienalloys;16xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.railcarbinemk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.railsnipermk3</Data></Cell>
+    <Cell><Data ss:Type="String">Rail Weapons 4</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.railsnipermk2;15xItems.ballisticcore;10xItems.Alienalloys;18xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.railsnipermk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.railheavymk3</Data></Cell>
+    <Cell><Data ss:Type="String">Rail Weapons 4</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.railheavymk2;12xItems.ballisticcore;10xItems.Alienalloys;18xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.railheavymk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.railminigunmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Rail Weapons 4</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.railminigunmk2;72xItems.ballisticcore;18xItems.Alienalloys;20xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.railminigunmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.sonicpistolmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Sonic Weapons 4</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.sonicpistolmk2;12xItems.energycore;10xItems.Alienalloys;16xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.sonicpistolmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.sonicriflemk3</Data></Cell>
+    <Cell><Data ss:Type="String">Sonic Weapons 4</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.sonicriflemk2;12xItems.energycore;10xItems.Alienalloys;16xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.sonicriflemk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.sonicprecisionmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Sonic Weapons 4</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.sonicprecisionmk2;15xItems.energycore;10xItems.Alienalloys;18xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.sonicprecisionmk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.sonicheavymk3</Data></Cell>
+    <Cell><Data ss:Type="String">Sonic Weapons 4</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.sonicheavymk2;12xItems.energycore;10xItems.Alienalloys;18xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.sonicheavymk3&quot; );</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ManTech.soniccannonmk3</Data></Cell>
+    <Cell><Data ss:Type="String">Sonic Weapons 4</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="String">1xweapon.soniccannonmk2;72xItems.energycore;18xItems.Alienalloys;20xItems.Alenium</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;weapon.soniccannonmk3&quot; );</Data></Cell>
+   </Row>
+   <Row ss:Index="226">
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="231">
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="237">
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="245">
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="443">
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="445">
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="447">
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="459">
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="461">
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="463">
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="465">
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="486">
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s69"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Index="580">
+    <Cell ss:Index="10" ss:StyleID="Default"/>
+   </Row>
+   <Row ss:Index="611">
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="9" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>16</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>50</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R581C10:R1029C10,R16C9:R25C10,R26C10:R579C10,R26C9:R1029C9</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;Yes,No&quot;</Value>
+   <ErrorMessage>Please use the combo to enter the value.</ErrorMessage>
+   <ErrorTitle>Invalid value.</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C2,R16C2:R1048576C2</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;Extraterrestrial,SoldierWeapons,Ammunition,Equipment,Armour,Vehicles,VehicleWeapons,Aircraft,AircraftWeapons&quot;</Value>
+   <ErrorMessage>Use the list to select a dategory.</ErrorMessage>
+   <ErrorTitle>Invalid value!</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C9:R1C10</Range>
+   <ErrorMessage>Please use the combo to enter the value.</ErrorMessage>
+   <ErrorTitle>Invalid value.</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+</Workbook>

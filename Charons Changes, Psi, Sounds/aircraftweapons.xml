@@ -1,0 +1,868 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Laci</Author>
+  <LastAuthor>Benutzer</LastAuthor>
+  <Created>2011-03-20T09:14:22Z</Created>
+  <LastSaved>2017-02-11T16:31:41Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="/"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7560</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>676</TabRatio>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="238"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="22" ss:ExpandedRowCount="182" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60">
+   <Column ss:AutoFitWidth="0" ss:Width="169.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="69.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="65.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="60.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="51.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="59.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="41.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="74.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="57.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="192"/>
+   <Column ss:AutoFitWidth="0" ss:Width="60.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="108.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="192" ss:Span="1"/>
+   <Column ss:Index="15" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:AutoFitWidth="0" ss:Width="108"/>
+   <Column ss:AutoFitWidth="0" ss:Width="207"/>
+   <Column ss:AutoFitWidth="0" ss:Width="99.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="81.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="126"/>
+   <Column ss:AutoFitWidth="0" ss:Width="129"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s62">
+    <Cell><Data ss:Type="String">Name</Data></Cell>
+    <Cell><Data ss:Type="String">Type</Data></Cell>
+    <Cell><Data ss:Type="String">Damage</Data></Cell>
+    <Cell><Data ss:Type="String">Range</Data></Cell>
+    <Cell><Data ss:Type="String">RateOfFire</Data></Cell>
+    <Cell><Data ss:Type="String">AmmoCapacity</Data></Cell>
+    <Cell><Data ss:Type="String">FiringArc</Data></Cell>
+    <Cell><Data ss:Type="String">FiringMode</Data></Cell>
+    <Cell><Data ss:Type="String">LockTime</Data></Cell>
+    <Cell><Data ss:Type="String">Image</Data></Cell>
+    <Cell><Data ss:Type="String">ProjSpeed</Data></Cell>
+    <Cell><Data ss:Type="String">ProjTurnRate</Data></Cell>
+    <Cell><Data ss:Type="String">ProjImage</Data></Cell>
+    <Cell><Data ss:Type="String">ProjName</Data></Cell>
+    <Cell><Data ss:Type="String">LaunchSFX</Data></Cell>
+    <Cell><Data ss:Type="String">ImpactSFX</Data></Cell>
+    <Cell><Data ss:Type="String">ACImage</Data></Cell>
+    <Cell><Data ss:Type="String">ArcVisible</Data></Cell>
+    <Cell><Data ss:Type="String">TargetMissiles</Data></Cell>
+    <Cell><Data ss:Type="String">TargetCount</Data></Cell>
+    <Cell><Data ss:Type="String">AutoresolveStrength_Roll</Data></Cell>
+    <Cell><Data ss:Type="String">AutoresolveStrength_NoRoll</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.AUTOCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/autocannon</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/divisioncannon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.FIGHTERBEAMHUMAN</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fighterbeamhuman</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/fighterbeamhuman</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.MAUSER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/autocannon</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/autocannon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.SPEARCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/spearcannon</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/spearcannon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.SCATTERLASER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scatterlaser</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/scatterlaser_cannon</Data></Cell>
+   </Row>
+   <Row ss:Index="8" ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.CORVETTESPEARCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/spearcannon</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/corvettespearcannon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.PLASMABLASTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/plasmablaster</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/plasmablaster_cannon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HVFIGHTERBEAMHUMAN</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fighterbeamhuman</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/HVFIGHTERBEAMHUMAN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.SONARPULSE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/sonarpulse</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/SONARPULSE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.FOCUSLENSE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/focuslense</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/focuslense</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.MAGSTORM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/autocannon</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/MAGSTORM_cannon</Data></Cell>
+   </Row>
+   <Row ss:Index="15">
+    <Cell><Data ss:Type="String">AV.GAUSSCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/autocannon</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/GAUSSCANNON</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.SONICTHRUSTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/sonarpulse</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/SONICTHRUSTER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HUMANHUNTERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fighterbeamhuman</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/HUMANHUNTERBEAM</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.CRUISERSPEARCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/spearcannon</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/cruiserspearcannon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.FOCUSBLAST</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/focuslense</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/focusblast</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.PULSECANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/plasmablaster</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/pulsecannon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.RAILCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/autocannon</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/RAILCANNON</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.PARTICLEPULSE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/sonarpulse</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/PARTICLEPULSE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.SHORTCIRCUIT</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/focuslense</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/shortcircuit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HUMANINTERCEPTORBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fighterbeamhuman</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/HUMANINTERCEPTORBEAM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HUMANHEAVYINTERCEPTORBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fighterbeamhuman</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/HUMANHEAVYINTERCEPTORBEAM</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.BATTLECRUISERSPEARCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/spearcannon</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/battlecruiserspearcannon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.PARTICLECANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/particlecannon</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s63"/>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/PARTICLECANNON</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.SIDEWINDER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/sidewinder</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/sidewinder_missile</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.ANTIMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/antimissile</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/ANTIMISSILE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell><Data ss:Type="String">AV.ALENIUMMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/aleniummissile</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/alenium_missile</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12"/>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell><Data ss:Type="String">AV.PIRANHA</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/sidewinder</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/rocketpods-heavy-plasma</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HYPERMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/sidewinder</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/hyper_missile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.PLASMAMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/sidewinder</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/rocketpods-normal-plasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.TITANIUMANTIMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/antimissile</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s63"/>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/TITANIUMANTIMISSILE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5"/>
+   <Row>
+    <Cell><Data ss:Type="String">AV.FUSIONMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/sidewinder</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/fusion_missile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.MINIMINES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/smallmine</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/minimine</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BLACKTITANTIMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/antimissile</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/BLACKTITANTIMISSILE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.LOWSONICMISSILE</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s63"/>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/alienmissile</Data></Cell>
+    <Cell ss:Index="17" ss:StyleID="s63"><Data ss:Type="String">aircraft/aircombat/weapons/rocketpods-heavy-fusion</Data></Cell>
+   </Row>
+   <Row ss:Index="44">
+    <Cell><Data ss:Type="String">AV.SINGULARMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/sidewinder</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/singularity_missile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.PARTICLEANTIMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/antimissile</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/PARTICLEANTIMISSILE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.WARPMISSILE</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s63"/>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/alienmissile</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"><Data ss:Type="String">aircraft/aircombat/weapons/WARPMISSILE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.STEALTHMINES</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s63"/>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/stealthmine</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/STEALTHMINES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell><Data ss:Type="String">AV.PARTICLEPIRANHA</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s63"/>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/sidewinder</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/PIRANHA</Data></Cell>
+   </Row>
+   <Row ss:Index="50">
+    <Cell><Data ss:Type="String">AV.AVALANCHE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/avalanche</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/avalanche_torpedo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.ALENIUMTORP</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/avalanche</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/alenium_torpedo</Data></Cell>
+   </Row>
+   <Row ss:Index="53">
+    <Cell><Data ss:Type="String">AV.PLASMATORP</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/avalanche</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/plasma_torpedo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.GRAVITYTORP</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/avalanche</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/gravity_torpedo</Data></Cell>
+   </Row>
+   <Row ss:Index="56">
+    <Cell><Data ss:Type="String">AV.FUSIONTORP</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/avalanche</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/fusion_torpedo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.NEUTRINOTORP</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/avalanche</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/NEUTRINOTORP</Data></Cell>
+   </Row>
+   <Row ss:Index="59">
+    <Cell><Data ss:Type="String">AV.SINGULARITYTORP</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/avalanche</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/singularity_torpedo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.PARTICLETORP</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/avalanche</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/PARTICLETORP</Data></Cell>
+   </Row>
+   <Row ss:Index="62">
+    <Cell><Data ss:Type="String">AV.ENRHYDROGENTORP</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/avalanche</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/heavy_singularity</Data></Cell>
+   </Row>
+   <Row ss:Index="64">
+    <Cell><Data ss:Type="String">AV.LIGHTSCOUTBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.SCOUTBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.SCOUTMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.FIGHTERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fighterbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.FIGHTERCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.TERRORCARRIERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.TERRORCARRIERDRONES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/terrorcarrierdrones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.TERRORCARRIERMINES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/terrorcarriermines</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CORVETTEBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CORVETTECANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/corvettecannon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CORVETTEMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CORVETTEBOMBERMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/corvettebombermissile</Data></Cell>
+   </Row>
+   <Row ss:Index="77">
+    <Cell><Data ss:Type="String">AV.MEDIUMSCOUTBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.MEDIUMSCOUTMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.MEDIUMSCOUTCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.STRIKECORVETTEBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.STRIKECORVETTECANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/corvettecannon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.STRIKECORVETTEMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.STRIKECORVETTEPIRANHA</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/strikecorvettepiranha</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.LIGHTCRUISERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.LIGHTCRUISERYAMATO</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightcruiseryamato</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.LIGHTCRUISERCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.LANDINGSHIPSONIC</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s63"><Data ss:Type="String">aircraft/aircombat/landingshipsonic</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.LANDINGSHIPCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.LANDINGCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.EXLANDINGSHIPDRONES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/exlandingshipdrones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.EXLANDINGSHIPCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HVFIGHTERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fighterbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HEAVYFIGHTERCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BOMBERCRUISERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BOMBERCRUISERYAMATO</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/bombercruiseryamato</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BOMBERCRUISERMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/corvettebombermissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.TERRORBATTLESHIPCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.TERRORBATTLESHIPMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/corvettebombermissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.TERRORBATTLESHIPDRONES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/terrorcarrierdrones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.LIGHTSHUTTLESHOTGUN</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightshuttleshotgun</Data></Cell>
+   </Row>
+   <Row ss:Index="102">
+    <Cell><Data ss:Type="String">AV.SUPPLYSHIPSONIC</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s63"><Data ss:Type="String">aircraft/aircombat/landingshipsonic</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.SUPPLYSHIPCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.SUPPLYCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.SUPPLYSHIPPIRANHA</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/strikecorvettepiranha</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.EXSUPPLYSHIPDRONES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/exlandingshipdrones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.EXSUPPLYSHIPCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CRUISERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CRUISERYAMATO</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightcruiseryamato</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CRUISERCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.MISSILECORVETTEBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.MISSILECORVETTECANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/corvettecannon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.MISSILECORVETTEMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.MISSILECORVETTETORPEDO</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/corvettebombermissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HEAVYSCOUTBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HEAVYSCOUTMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HEAVYSCOUTCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HEAVYSCOUTMINES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/terrorcarriermines</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CARRIERDRONES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/exlandingshipdrones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CARRIERMINES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/terrorcarriermines</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.MEDIUMSHUTTLESHOTGUN</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightshuttleshotgun</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.MEDIUMSHUTTLECOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.TERRORDREADNOUGHTCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.TERRORDREADNOUGHTMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BOMBERCARRIERDRONES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/terrorcarrierdrones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BOMBERCARRIERTORPEDO</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/corvettebombermissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HUNTERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fighterbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HUNTERCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row ss:Index="130">
+    <Cell><Data ss:Type="String">AV.CARGOSHIPSONIC</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s63"><Data ss:Type="String">aircraft/aircombat/landingshipsonic</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CARGOSHIPCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CARGOCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CARGOSHIPPIRANHA</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/strikecorvettepiranha</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.EXCARGOSHIPDRONES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/terrorcarrierdrones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.EXCARGOSHIPCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BATTLECRUISERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BATTLECRUISERYAMATO</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightcruiseryamato</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BATTLECRUISERMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BATTLECRUISERCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.TORPEDOCORVETTEBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.TORPEDOCORVETTECANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/corvettecannon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.TORPEDOCORVETTEMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.TORPEDOCORVETTETORPEDO</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/corvettebombermissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.ARMOUREDSCOUTBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.ARMOUREDSCOUTMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.ARMOUREDSCOUTCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.ARMOUREDSCOUTMINES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/terrorcarriermines</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BATTLECARRIERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BATTLECARRIERDRONES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/terrorcarrierdrones</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BATTLECARRIERMINES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/terrorcarriermines</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BATTLECARRIERCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BATTLESHIPCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/corvettecannon</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BATTLESHIPMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.DREADNOUGHTCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.DREADNOUGHTMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.DREADNOUGHTRAGE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/dreadnoughtrage</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HEAVYSHUTTLESHOTGUN</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightshuttleshotgun</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HEAVYSHUTTLECOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BOMBERBATTLESHIPCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/lightscoutbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BOMBERBATTLESHIPMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BOMBERBATTLESHIPTORPDEDO</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/corvettebombermissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.INTERCEPTORBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fighterbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.INTERCEPTORCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HEAVYINTERCEPTORBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fighterbeam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HEAVYINTERCEPTORCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.HEAVYINTERCEPTORMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/scoutmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.INFILTRATORCOUNTER</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/fightercounter</Data></Cell>
+   </Row>
+   <Row ss:Index="169">
+    <Cell><Data ss:Type="String">AV.HVFIGHTERMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/alienmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CRUISERMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/alienmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CRUISERTORPEDO</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/alienplasma</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.BOMBERCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/alienplasma</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.STRIKECRUISERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/bullet</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.STRIKECRUISERCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/alienplasma</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CARRIERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/bullet</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.CARRIERCANNON</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/alienplasma</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.INTERCEPTORMISSILE</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/alienmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.MISSILESHIELD</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/alienmissile</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">AV.DESTROYERSHIELD</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/bullet</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.DESTROYERBEAM</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/bullet</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.DESTROYERMISSILES</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/alienmissile</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AV.DREADNOUGHTSHIELD</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/bullet</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R169C8,R157C8:R158C8,R155C8,R124C8,R87C8:R89C8,R107C8,R100C8:R105C8,R96C8,R91C8:R93C8,R111C8:R117C8,R121C8:R122C8,R126C8:R133C8,R135C8,R72C8:R83C8,R162C8:R165C8,R138C8,R140C8:R146C8,R151C8,R167C8,R2C8:R68C8</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;Auto,Manual,Mixed,MixedDisabled&quot;</Value>
+   <ErrorMessage>Please use the combo to enter the value.</ErrorMessage>
+   <ErrorTitle>Invalid value.</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R46C2:R48C2,R40C2,R42C2:R43C2,R20C2:R22C2,R15C2,R2C2,R4C2:R9C2,R18C2,R27C2:R38C2,R13C2</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;Cannon,Normal,Heavy,Superheavy&quot;</Value>
+   <ErrorMessage>Please use the combo box to select the type.</ErrorMessage>
+   <ErrorTitle>Invalid value!</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+</Workbook>
