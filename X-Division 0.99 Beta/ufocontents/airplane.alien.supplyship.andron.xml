@@ -1,0 +1,763 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Chris</Author>
+  <LastAuthor>Drages</LastAuthor>
+  <Created>2012-01-10T10:41:13Z</Created>
+  <LastSaved>2016-12-06T12:11:47Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="/"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10650</WindowHeight>
+  <WindowWidth>17400</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="238"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="Normal_Sheet1">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="238"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64" ss:Name="Normal_Sheet1_1">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65" ss:Name="Normal_Sheet1_2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="238"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73" ss:Parent="s63">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s75">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s77" ss:Parent="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="238"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s85" ss:Parent="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="21" ss:ExpandedRowCount="91" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="13.3125">
+   <Column ss:AutoFitWidth="0" ss:Width="221.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="56.25" ss:Span="19"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s66">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">AlienRole</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AirSuperiority Min</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AirSuperiority Max</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BaseAttack Min</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BaseAttack Max</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">BombingRun Min</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">BombingRun Max</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Construction Min</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Construction Max</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">GroundAttack Min</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">GroundAttack Max</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Research Min</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Research Max</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ScoutMission Min</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">ScoutMission Max</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SupplyRun Min</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">SupplyRun Max</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">TerrorMission_EnRoute Min</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">TerrorMission_EnRoute Max</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">TerrorMission_TerrorPhase Min</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">TerrorMission_TerrorPhase Max</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andronx_Warrior_Aggressive</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:Index="16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s66">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andronx_Warrior_Defensive</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="19" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s66">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andronx_Warrior_Passive</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="19" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s66">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andronx_Warrior_Command</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="19" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s66">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="19" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andronx_WarriorSupport_Aggressive</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andronx_WarriorSupport_Defensive</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:Index="16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andronx_WarriorSupport_Passive</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andronx_WarriorSupport_Command</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andronx_WarriorAssault_Aggressive</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:Index="16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andronx_WarriorAssault_Defensive</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:Index="16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andronx_WarriorAssault_Passive</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s77"><Data ss:Type="String" x:Ticked="1">Andronx_WarriorAssault_Command</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s77"><Data ss:Type="String" x:Ticked="1">Andronx_WarriorGuardian_Command</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s77"><Data ss:Type="String" x:Ticked="1">AndronxShield_servershield_Command</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s77"><Data ss:Type="String" x:Ticked="1">AndronxShield_terminalshield_Command</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="17" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="9" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="17" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxwarrior1_Defensive</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxwarrior2_Defensive</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxwarrior1_Aggressive</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxwarrior2_Aggressive</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">Robodog_warrior_Aggressive</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxterrorwarrior1_Defensive</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxterrorwarrior2_Defensive</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxterrorwarrior1_Aggressive</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxterrorwarrior2_Aggressive</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="17" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="35" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">Robodog_terrorwarrior_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String">roboreaperbox_Boxwarrior1_Defensive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String">roboreaperbox_Boxwarrior2_Defensive</Data></Cell>
+   </Row>
+   <Row ss:Index="40" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String">roboreaperbox_Boxwarrior1_Aggressive</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String">roboreaperbox_Boxwarrior2_Aggressive</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Index="43" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">roboreaper_warriorshield_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">roboreaper_warriorranged_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">roboreaper_warrior_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String">roboreaperbox_Boxterrorwarrior1_Defensive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String">roboreaperbox_Boxterrorwarrior2_Defensive</Data></Cell>
+   </Row>
+   <Row ss:Index="50" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String">roboreaperbox_Boxterrorwarrior1_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String">roboreaperbox_Boxterrorwarrior2_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:Index="53" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">roboreaper_terrorwarriorshield_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">roboreaper_terrorwarriorranged_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s80"><Data ss:Type="String" x:Ticked="1">roboreaper_terrorwarrior_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s85"><Data ss:Type="String" x:Ticked="1">roborexshield_warriorshield_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s77"><Data ss:Type="String" x:Ticked="1">AndronxShield_terrorwarriorshield_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s77"><Data ss:Type="String" x:Ticked="1">AndronxShield_terrorwarriorsupportshield_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Lightdrone_Lightadvdrone_Aggressive</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Lightdrone_Lightadvdrone_Defensive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Lightdrone_Lightadvdrone_Passive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Lightdrone_Lightadvdrone_Command</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mediumdrone_Mediumadvdrone_Aggressive</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mediumdrone_Mediumadvdrone_Defensive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mediumdrone_Mediumadvdrone_Passive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mediumdrone_Mediumadvdrone_Command</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Heavydrone_Heavyadvdrone_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Heavydrone_Heavyadvdrone_Defensive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Heavydrone_Heavyadvdrone_Passive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Heavydrone_Heavyadvdrone_Command</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s73"/>
+   </Row>
+   <Row ss:Index="78" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>90</Zoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>7</LeftColumnRightPane>
+   <ActivePane>1</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

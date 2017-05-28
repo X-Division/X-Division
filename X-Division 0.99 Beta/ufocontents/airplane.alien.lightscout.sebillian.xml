@@ -1,0 +1,301 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Chris</Author>
+  <LastAuthor>kinguard@gmail.com</LastAuthor>
+  <Created>2012-01-10T10:41:13Z</Created>
+  <LastSaved>2015-01-26T00:41:54Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <DownloadComponents/>
+  <LocationOfComponents HRef="/"/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8130</WindowHeight>
+  <WindowWidth>19170</WindowWidth>
+  <WindowTopX>495</WindowTopX>
+  <WindowTopY>615</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="238"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Font ss:FontName="Arial" x:CharSet="238"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="21" ss:ExpandedRowCount="30" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60" ss:DefaultRowHeight="13.3125">
+   <Column ss:AutoFitWidth="0" ss:Width="203.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="56.25" ss:Span="19"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25" ss:StyleID="s62">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">AlienRole</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AirSuperiority Min</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AirSuperiority Max</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BaseAttack Min</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BaseAttack Max</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BombingRun Min</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BombingRun Max</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Construction Min</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Construction Max</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GroundAttack Min</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GroundAttack Max</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Research Min</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Research Max</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ScoutMission Min</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ScoutMission Max</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SupplyRun Min</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SupplyRun Max</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TerrorMission_EnRoute Min</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TerrorMission_EnRoute Max</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TerrorMission_TerrorPhase Min</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TerrorMission_TerrorPhase Max</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">Sebillian_Guard_Aggressive</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">Sebillian_Guard_Defensive</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">Sebillian_Guard_Passive</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="18" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell><Data ss:Type="String">Sebillian_Guard_Command</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="18" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:Index="7" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_GuardSupport_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_GuardSupport_Defensive</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_GuardSupport_Passive</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_GuardSupport_Command</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="18" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_medic_Defensive</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_technician_Defensive</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_navigator_Command</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_weaponsergeant_Passive</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Index="17" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_Chieftain_Command</Data></Cell>
+   </Row>
+   <Row ss:Index="19" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_OperatorAssault1_Defensive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_OperatorTerror1_Defensive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_OperatorBomber1_Defensive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_OperatorLightScout_Defensive</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_OperatorScout_Defensive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_OperatorCorvette_Defensive</Data></Cell>
+   </Row>
+   <Row ss:Index="26" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_NonCombatant_Defensive</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_NonCombatant_Aggressive</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sebillian_NonCombatant_Passive</Data></Cell>
+   </Row>
+   <Row ss:Index="30" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Heavydrone_Goliath_Aggressive</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <ActivePane>1</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>16</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

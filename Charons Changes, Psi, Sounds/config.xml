@@ -5,6 +5,7 @@
     <ShortRangeHitBonusPerTile>10</ShortRangeHitBonusPerTile>
 	<ShortRangeHitBonusMinDistance>5.0</ShortRangeHitBonusMinDistance>
 	<KneelingBoost>30</KneelingBoost>
+	<ThrowingAccuracyUsesStrengthAndAim>0</ThrowingAccuracyUsesStrengthAndAim>	
   </Shot>
   
 	<AP>
