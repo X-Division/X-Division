@@ -186,7 +186,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">DiffSelect.normdiffdesc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s68"><Data ss:Type="String">Read the easy difficulty description.&#10;&#10;This difficulty is for players who have a 20 year experience in X-COM, played the hell out of any other X-COM or XCOM game, played Long War on the insane diificulty and beat it with ease, or who grasped the basic principles of X-Division, and beat the second phase of the game with a good prospect of continuation.</Data><NamedCell
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Read the easy difficulty description.&#10;&#10;This difficulty is for players who have a 20 year experience in X-COM, played the hell out of any other X-COM or XCOM game, played Long War on the insane diificuladasdsasdasdasdasdaty and beat it with ease, or who grasped the basic principles of X-Division, and beat the second phase of the game with a good prospect of continuation.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
