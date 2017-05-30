@@ -2700,7 +2700,7 @@
 	</Weapon>
 		
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AntiMatterSnipermk2" bulletType="normal" emptySound="Empty Click 1" >
-		<props range="30" hands="2" recoil="70" weight="18" isHeavy="1" clipSize="1" reloadAPCost="30" reloadSound="Weapon Antimatter Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" disableDamageScaling="0"/>
+		<props range="30" hands="2" recoil="70" weight="18" isHeavy="1" clipSize="2" reloadAPCost="60" reloadSound="Weapon Antimatter Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" disableDamageScaling="0"/>
 		<SingleShot sound="Weapon Antimatter Sniper Single" delay="0.6" suppressionValue="11" suppressionRadius="1">
 			<Set1 ap="45" accuracy="100" />
 			<Set2 ap="75" accuracy="140" />
@@ -2786,7 +2786,7 @@
 	</Weapon>
 		
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AntiMatterSnipermk3" bulletType="normal" emptySound="Empty Click 1" >
-		<props range="34" hands="2" recoil="75" weight="20" isHeavy="1" clipSize="1" reloadAPCost="30" reloadSound="Weapon Antimatter Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" disableDamageScaling="0"/>
+		<props range="34" hands="2" recoil="75" weight="20" isHeavy="1" clipSize="2" reloadAPCost="60" reloadSound="Weapon Antimatter Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" disableDamageScaling="0"/>
 		<SingleShot sound="Weapon Antimatter Sniper Single" delay="0.6" suppressionValue="11" suppressionRadius="1">
 			<Set1 ap="45" accuracy="100" />
 			<Set2 ap="75" accuracy="140" />
@@ -2872,7 +2872,7 @@
 	</Weapon>
 		
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AntiMatterSnipermk4" bulletType="normal" emptySound="Empty Click 1" >
-		<props range="40" hands="2" recoil="80" weight="24" isHeavy="1" clipSize="1" reloadAPCost="30" reloadSound="Weapon Antimatter Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" disableDamageScaling="0"/>
+		<props range="40" hands="2" recoil="80" weight="24" isHeavy="1" clipSize="2" reloadAPCost="60" reloadSound="Weapon Antimatter Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" disableDamageScaling="0"/>
 		<SingleShot sound="Weapon Antimatter Sniper Single" delay="0.6" suppressionValue="11" suppressionRadius="1">
 			<Set1 ap="45" accuracy="100" />
 			<Set2 ap="75" accuracy="140" />
@@ -3112,9 +3112,9 @@
   </Weapon>
 
  <Weapon MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.grenade.frag" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" explodeAtTurnEnd="0"/>
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" explodeAtTurnEnd="0"/>
 		<SingleShot MODMERGE="update" delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="1">
-			<Set1 ap="45" accuracy="75" />
+			<Set1 ap="45" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadefrag.png"/>
@@ -3128,9 +3128,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="weapon.grenade.incendiary" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" explodeAtTurnEnd="0"/>
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" explodeAtTurnEnd="0"/>
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2">
-			<Set1 ap="45" accuracy="75" />
+			<Set1 ap="45" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadefire.png"/>
@@ -3144,9 +3144,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.explosive.C4" bulletType="explosiveCharge" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="50" weight="3" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="0" throwingRangeModifier="1.5"/>
+		<props range="8" hands="1" recoil="50" weight="3" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="0" throwingRangeModifier="1.5"/>
 		<SingleShot MODMERGE="update" delay="0.85" suppressionValue="0" suppressionRadius="3.5">
-		  <Set1 ap="60" accuracy="40" />
+		  <Set1 ap="60" accuracy="110" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/C4charge.png"/>
@@ -3160,9 +3160,9 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.grenade.alenium" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" explodeAtTurnEnd="0" />
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" explodeAtTurnEnd="0" />
 		<SingleShot MODMERGE="update" delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="1.5">
-			<Set1 ap="45" accuracy="75" />
+			<Set1 ap="45" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/GrenadeAlenium.png"/>
@@ -3176,9 +3176,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.aleniumupg" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="0" throwingRangeModifier="2.0" explodeAtTurnEnd="0" />
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="0" throwingRangeModifier="2.0" explodeAtTurnEnd="0" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="1.5">
-			<Set1 ap="45" accuracy="75" />
+			<Set1 ap="45" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/GrenadeAleniumupg.png"/>
@@ -3192,9 +3192,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.explosive.alenium" bulletType="explosiveCharge" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="55" weight="3" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="1" throwingRangeModifier="0.5"/>
+		<props range="8" hands="1" recoil="55" weight="3" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="1" throwingRangeModifier="0.5"/>
 		<SingleShot delay="0.85" suppressionValue="0" suppressionRadius="4">
-		  <Set1 ap="60" accuracy="75" />
+		  <Set1 ap="60" accuracy="110" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advexplosive/aleniumcharge.png"/>
@@ -3208,9 +3208,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.explosive.aleniumupg" bulletType="explosiveCharge" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="55" weight="5" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="0" throwingRangeModifier="1"/>
+		<props range="8" hands="1" recoil="55" weight="5" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="0" throwingRangeModifier="1"/>
 		<SingleShot delay="0.85" suppressionValue="0" suppressionRadius="4">
-		  <Set1 ap="60" accuracy="75" />
+		  <Set1 ap="60" accuracy="110" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advexplosive/aleniumchargeupg.png"/>
@@ -3224,9 +3224,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.grenade.plasma" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" explodeAtTurnEnd="0" />
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" explodeAtTurnEnd="0" />
 		<SingleShot MODMERGE="update" delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="1.5">
-			<Set1 ap="45" accuracy="75" />
+			<Set1 ap="45" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/GrenadePlasma.png"/>
@@ -3240,9 +3240,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.plasmaupg" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="0" throwingRangeModifier="2" explodeAtTurnEnd="0" />
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="0" throwingRangeModifier="2" explodeAtTurnEnd="0" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="1.5">
-			<Set1 ap="45" accuracy="75" />
+			<Set1 ap="45" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/GrenadePlasmaupg.png"/>
@@ -3256,9 +3256,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.explosive.plasma" bulletType="explosiveCharge" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="60" weight="4" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="1" throwingRangeModifier="-0.5"/>
+		<props range="8" hands="1" recoil="60" weight="4" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="1" throwingRangeModifier="-0.5"/>
 		<SingleShot MODMERGE="update" delay="0.85" suppressionValue="0" suppressionRadius="4.5">
-		  <Set1 ap="60" accuracy="50" />
+		  <Set1 ap="60" accuracy="110" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advexplosive/plasmacharge.png"/>
@@ -3272,9 +3272,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.explosive.plasmaupg" bulletType="explosiveCharge" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="60" weight="6" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="0" throwingRangeModifier="0"/>
+		<props range="8" hands="1" recoil="60" weight="6" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="0" throwingRangeModifier="0"/>
 		<SingleShot  delay="0.85" suppressionValue="0" suppressionRadius="4.5">
-		  <Set1 ap="60" accuracy="50" />
+		  <Set1 ap="60" accuracy="110" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advexplosive/plasmachargeupg.png"/>
@@ -3288,9 +3288,9 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.grenade.fusion" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" explodeAtTurnEnd="0" />
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" explodeAtTurnEnd="0" />
 		<SingleShot MODMERGE="update" delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2">
-			<Set1 ap="45" accuracy="75" />
+			<Set1 ap="45" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/GrenadeFusion.png"/>
@@ -3304,9 +3304,9 @@
 	</Weapon>	
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.fusionupg" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="0" throwingRangeModifier="2" explodeAtTurnEnd="0" />
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="0" throwingRangeModifier="2" explodeAtTurnEnd="0" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2">
-			<Set1 ap="45" accuracy="75" />
+			<Set1 ap="45" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/GrenadeFusionupg.png"/>
@@ -3320,9 +3320,9 @@
 	</Weapon>	
   
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.explosive.fusion" bulletType="explosiveCharge" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="65" weight="5" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="1" throwingRangeModifier="-1.0"/>
+		<props range="8" hands="1" recoil="65" weight="5" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="1" throwingRangeModifier="-1.0"/>
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="5">
-		  <Set1 ap="60" accuracy="50" />
+		  <Set1 ap="60" accuracy="110" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advexplosive/fusioncharge.png"/>
@@ -3336,9 +3336,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.explosive.fusionupg" bulletType="explosiveCharge" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="65" weight="7" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="0" throwingRangeModifier="-0.5"/>
+		<props range="8" hands="1" recoil="65" weight="7" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="0" throwingRangeModifier="-0.5"/>
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="5">
-		  <Set1 ap="60" accuracy="50" />
+		  <Set1 ap="60" accuracy="110" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advexplosive/fusionchargeupg.png"/>
@@ -3352,9 +3352,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.singular" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" explodeAtTurnEnd="0"/>
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" explodeAtTurnEnd="0"/>
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2">
-			<Set1 ap="45" accuracy="75" />
+			<Set1 ap="45" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/grenadesingular.png"/>
@@ -3368,9 +3368,9 @@
 	</Weapon>	
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.singularupg" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="0" throwingRangeModifier="2.0" explodeAtTurnEnd="0"/>
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="0" throwingRangeModifier="2.0" explodeAtTurnEnd="0"/>
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2">
-			<Set1 ap="45" accuracy="75" />
+			<Set1 ap="45" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/grenadesingularupg.png"/>
@@ -3384,9 +3384,9 @@
 	</Weapon>	
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.explosive.singular" bulletType="explosiveCharge" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="75" weight="6" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="1" throwingRangeModifier="-1.5"  />
+		<props range="8" hands="1" recoil="75" weight="6" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="1" throwingRangeModifier="-1.5"  />
 		<SingleShot delay="0.85" suppressionValue="0" suppressionRadius="6">
-		  <Set1 ap="60" accuracy="50" />
+		  <Set1 ap="60" accuracy="110" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advexplosive/singularcharge.png"/>
@@ -3400,9 +3400,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.explosive.singularupg" bulletType="explosiveCharge" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="75" weight="8" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="0" throwingRangeModifier="-1.0"  />
+		<props range="8" hands="1" recoil="75" weight="8" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="0" throwingRangeModifier="-1.0"  />
 		<SingleShot delay="0.85" suppressionValue="0" suppressionRadius="6">
-		  <Set1 ap="60" accuracy="50" />
+		  <Set1 ap="60" accuracy="110" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advexplosive/singularchargeupg.png"/>
@@ -3422,7 +3422,7 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.Chemicalgrenade" bulletType="gasgrenade" emptySound="Empty Click 1">
 		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.0" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="1.5">
-			<Set1 ap="55" accuracy="60" />
+			<Set1 ap="55" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadechemical.png"/>
@@ -3438,7 +3438,7 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.Chemicaladvgrenade" bulletType="gasgrenade" emptySound="Empty Click 1">
 		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="1.5" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2">
-			<Set1 ap="55" accuracy="60" />
+			<Set1 ap="55" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadeadvchemical.png"/>
@@ -3452,9 +3452,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.hvychemical" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="15" hands="1" recoil="30" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="1" />
+		<props range="8" hands="1" recoil="30" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="1" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2">
-			<Set1 ap="55" accuracy="60" />
+			<Set1 ap="55" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadehvychemical.png"/>
@@ -3468,9 +3468,9 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.exchemical" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="15" hands="1" recoil="30" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="1" />
+		<props range="8" hands="1" recoil="30" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="1" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2">
-			<Set1 ap="55" accuracy="60" />
+			<Set1 ap="55" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadeexchemical.png"/>
@@ -3484,9 +3484,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="weapon.grenade.stun" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" />
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="1">
-			<Set1 ap="55" accuracy="75" />
+			<Set1 ap="55" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadeadvstun.png"/>
@@ -3500,9 +3500,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.advstun" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.0" />
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.0" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2">
-			<Set1 ap="55" accuracy="75" />
+			<Set1 ap="55" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadeadvstun.png"/>
@@ -3516,9 +3516,9 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.hvystun" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="30" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="1.5" />
+		<props range="8" hands="1" recoil="30" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="1.5" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2">
-			<Set1 ap="55" accuracy="75" />
+			<Set1 ap="55" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadehvystun.png"/>
@@ -3532,9 +3532,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.exstun" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="30" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="1.5" />
+		<props range="8" hands="1" recoil="30" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="1.5" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2">
-			<Set1 ap="55" accuracy="75" />
+			<Set1 ap="55" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadeexstun.png"/>
@@ -3548,9 +3548,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="weapon.grenade.smoke" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="5" />
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="5" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="5" suppressionRadius="1">
-			<Set1 ap="40" accuracy="80" />
+			<Set1 ap="40" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadeadvsmoke.png"/>
@@ -3564,7 +3564,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.advsmoke" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="4.5" />
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="4.5" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="5" suppressionRadius="1">
 			<Set1 ap="40" accuracy="80" />
 		</SingleShot>
@@ -3580,9 +3580,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.hvysmoke" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="30" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="4" />
+		<props range="8" hands="1" recoil="30" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="4" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="5" suppressionRadius="1">
-			<Set1 ap="40" accuracy="80" />
+			<Set1 ap="40" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadehvysmoke.png"/>
@@ -3596,9 +3596,9 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.exsmoke" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="30" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="4" />
+		<props range="8" hands="1" recoil="30" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="4" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="5" suppressionRadius="1">
-			<Set1 ap="40" accuracy="80" />
+			<Set1 ap="40" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadeexsmoke.png"/>
@@ -3612,9 +3612,9 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="weapon.grenade.flashbang" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="0" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="3.0" />
+		<props range="10" hands="1" recoil="0" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="3.0" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="61" suppressionRadius="2">
-			<Set1 ap="40" accuracy="80" />
+			<Set1 ap="40" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadeadvflash.png"/>
@@ -3628,9 +3628,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.advflash" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="0" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="3.0" />
+		<props range="10" hands="1" recoil="0" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="3.0" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="81" suppressionRadius="2.5">
-			<Set1 ap="40" accuracy="80" />
+			<Set1 ap="40" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadeadvflash.png"/>
@@ -3644,9 +3644,9 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.hvyflash" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="0" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="3.0" />
+		<props range="10" hands="1" recoil="0" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="3.0" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="101" suppressionRadius="3">
-			<Set1 ap="40" accuracy="80" />
+			<Set1 ap="40" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadehvyflash.png"/>
@@ -3660,9 +3660,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.exflash" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="0" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="3.0" />
+		<props range="10" hands="1" recoil="0" weight="2" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="3.0" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="121" suppressionRadius="3">
-			<Set1 ap="40" accuracy="80" />
+			<Set1 ap="40" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadeexflash.png"/>
@@ -3676,9 +3676,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="weapon.grenade.shock" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" />
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.5" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2">
-			<Set1 ap="60" accuracy="60" />
+			<Set1 ap="60" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/GrenadeShock.png"/>
@@ -3692,9 +3692,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.explosive.shock" bulletType="explosiveCharge" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="35" weight="4" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="1" throwingRangeModifier="0.3"/>
+		<props range="8" hands="1" recoil="35" weight="4" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="1" throwingRangeModifier="0.3"/>
 		<SingleShot delay="0.85" suppressionValue="0" suppressionRadius="4">
-		  <Set1 ap="60" accuracy="60" />
+		  <Set1 ap="60" accuracy="110" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advexplosive/shockcharge.png"/>
@@ -3708,9 +3708,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.EMP" bulletType="gasgrenade" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.0" />
+		<props range="8" hands="1" recoil="10" weight="1" isHeavy="0" clipSize="1" reloadAPCost="0" disableDamageScaling="1" throwingRangeModifier="2.0" />
 		<SingleShot delay="0.85" sound="Weapon Grenade Throw" suppressionValue="0" suppressionRadius="2.5">
-			<Set1 ap="60" accuracy="60" />
+			<Set1 ap="60" accuracy="130" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advgrenades/grenadeemp.png"/>
@@ -3724,9 +3724,9 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.explosive.EMP" bulletType="explosiveCharge" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="50" weight="6" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="1" throwingRangeModifier="-1.0"/>
+		<props range="8" hands="1" recoil="50" weight="6" isHeavy="0" clipSize="1" reloadAPCost="0" reactionModifier="0" disableDamageScaling="1" throwingRangeModifier="-1.0"/>
 		<SingleShot delay="0.85" suppressionValue="0" suppressionRadius="5.5">
-		  <Set1 ap="60" accuracy="60" />
+		  <Set1 ap="60" accuracy="110" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/advexplosive/empcharge.png"/>
@@ -4407,7 +4407,8 @@
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienBallisticPistol" bulletType="normal" emptySound="Empty Click 1">
     <props range="10" hands="1" recoil="0" weight="3" isHeavy="0" clipSize="4"  reloadAPCost="10" reloadSound="Weapon MAG Reload" reactionModifier="2" isAlien="1" infiniteAlienAmmo="1" />
     <SingleShot sound="Weapon Pistol Single" delay="0.6" suppressionValue="2" suppressionRadius="1">
-			<Set1 ap="24" accuracy="40" />
+			<Set1 ap="23" accuracy="55" />
+			<Set2 ap="30" accuracy="75" />
     </SingleShot>
     <BurstFire/>
     <GUIImage name="gui/weapons/Ballistic/AlienBallisticPistol.png"/>
@@ -4421,11 +4422,12 @@
   </Weapon>
   
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienBallisticRifle" bulletType="normal" emptySound="Empty Click 1">
-    <props range="14" hands="1" recoil="0" weight="8" isHeavy="0" clipSize="6"  reloadAPCost="20" reloadSound="Weapon MAG Reload" reactionModifier="1.5" isAlien="1" infiniteAlienAmmo="1" />
+    <props range="16" hands="1" recoil="0" weight="8" isHeavy="0" clipSize="6"  reloadAPCost="20" reloadSound="Weapon MAG Reload" reactionModifier="1.5" isAlien="1" infiniteAlienAmmo="1" />
     <SingleShot sound="Weapon Assault Rifle Single" delay="0,7" suppressionValue="6" suppressionRadius="1">
-			<Set1 ap="35" accuracy="55" />
+			<Set1 ap="22" accuracy="50" />
+			<Set2 ap="45" accuracy="80" />
     </SingleShot>
-    <BurstFire ap="45" accuracy="45" sound="Weapon Assault Rifle Burst" shotCount="3" delay="0.6" burstdelay="0.1" suppressionValue="21" suppressionRadius="1.5" />
+    <BurstFire ap="36" accuracy="60" sound="Weapon Assault Rifle Burst" shotCount="3" delay="0.6" burstdelay="0.1" suppressionValue="21" suppressionRadius="1.5" />
     <GUIImage name="gui/weapons/Ballistic/AlienBallisticRifle.png"/>
     <GroundImage name="grounditemimages/mag_rifle.png"/>
     <Ammos>
@@ -4437,7 +4439,7 @@
   </Weapon>
   
    <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienBallisticSniper" bulletType="normal" emptySound="Empty Click 1">
-    <props range="22" hands="1" recoil="0" weight="10" isHeavy="0" clipSize="2"  reloadAPCost="25" reloadSound="Weapon MAG Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1" />
+    <props range="26" hands="1" recoil="0" weight="10" isHeavy="0" clipSize="2"  reloadAPCost="25" reloadSound="Weapon MAG Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1" />
     <SingleShot sound="Weapon Sniper Single" delay="0.6" suppressionValue="9" suppressionRadius="1">
 			<Set1 ap="75" accuracy="80" />
     </SingleShot>
@@ -4453,7 +4455,7 @@
   </Weapon>
  
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienBallisticHeavy" bulletType="normal" emptySound="Empty Click 1">
-    <props range="12" hands="1" recoil="0" weight="14" isHeavy="1" clipSize="12"  reloadAPCost="30" reloadSound="Weapon MAG Reload" reactionModifier="0.2" isAlien="1" infiniteAlienAmmo="1" />
+    <props range="14" hands="1" recoil="0" weight="14" isHeavy="1" clipSize="12"  reloadAPCost="30" reloadSound="Weapon MAG Reload" reactionModifier="0.2" isAlien="1" infiniteAlienAmmo="1" />
     <BurstFire ap="70" accuracy="33" sound="Weapon Machinegun Burst" delay="0.7" burstdelay="0.07" shotCount="6" suppressionValue="56" suppressionRadius="1.5" />
     <GUIImage name="gui/weapons/Ballistic/AlienBallisticHeavy.png"/>
     <GroundImage name="grounditemimages/mag_heavy.png"/>
@@ -4466,7 +4468,7 @@
   </Weapon>
   
    <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienBallisticCannon" bulletType="normal" emptySound="Empty Click 1">
-    <props range="16" hands="1" recoil="0" weight="16" isHeavy="0" clipSize="2"  reloadAPCost="50" reloadSound="Weapon Ballistic Reload" reactionModifier="0.8" isAlien="1" infiniteAlienAmmo="1"/>
+    <props range="20" hands="1" recoil="0" weight="16" isHeavy="0" clipSize="2"  reloadAPCost="50" reloadSound="Weapon Ballistic Reload" reactionModifier="0.8" isAlien="1" infiniteAlienAmmo="1"/>
      <SingleShot sound="Weapon Handcannon Single" delay="0.7" suppressionValue="11" suppressionRadius="1.5">
 			<Set1 ap="45" accuracy="60" />
     </SingleShot>
@@ -4481,8 +4483,8 @@
   </Weapon>
   
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienBallisticMinigun" bulletType="normal" emptySound="Empty Click 1">
-    <props range="10" hands="1" recoil="0" weight="18" isHeavy="1" clipSize="20"  reloadAPCost="30" reloadSound="Weapon MAG Reload" reactionModifier="0.1" isAlien="1" infiniteAlienAmmo="1" />
-    <BurstFire ap="80" accuracy="25" sound="Weapon MAGSTORM Burst" delay="0.7" burstdelay="0.05" shotCount="10" suppressionValue="81" suppressionRadius="2" />
+    <props range="12" hands="1" recoil="0" weight="18" isHeavy="1" clipSize="20"  reloadAPCost="30" reloadSound="Weapon MAG Reload" reactionModifier="0.1" isAlien="1" infiniteAlienAmmo="1" />
+    <BurstFire ap="80" accuracy="40" sound="Weapon MAGSTORM Burst" delay="0.7" burstdelay="0.05" shotCount="10" suppressionValue="81" suppressionRadius="2" />
     <GUIImage name="gui/weapons/Ballistic/AlienBallisticHeavy.png"/>
     <GroundImage name="grounditemimages/mag_heavy.png"/>
     <Ammos>
@@ -4922,9 +4924,10 @@
   <!--  	    Alien Wave Weapons		-->
     
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienWavePistol" bulletType="normal" emptySound="Empty Click 1">
-		<props range="11" hands="1" recoil="0" weight="4" isHeavy="0" clipSize="4" reloadAPCost="10" reloadSound="Weapon Plasma Reload" reactionModifier="2"  isAlien="1" infiniteAlienAmmo="1" />
+		<props range="12" hands="1" recoil="0" weight="4" isHeavy="0" clipSize="4" reloadAPCost="10" reloadSound="Weapon Plasma Reload" reactionModifier="2"  isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon Sonic Pistol Single" delay="0.6" suppressionValue="2" suppressionRadius="1">
-			<Set1 ap="24" accuracy="40" />
+			<Set1 ap="17" accuracy="45" />
+			<Set2 ap="23" accuracy="65" />
 		</SingleShot>
 		<BurstFire />
 		<GUIImage name="gui/weapons/Wave/AlienWavePistol.png"/>
@@ -4938,9 +4941,10 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienWaveHeavyPistol" bulletType="normal" emptySound="Empty Click 1">
-		<props range="12" hands="1" recoil="0" weight="6" isHeavy="0" clipSize="4" reloadAPCost="10" reloadSound="Weapon Plasma Reload" reactionModifier="2"  isAlien="1" infiniteAlienAmmo="1" />
+		<props range="14" hands="1" recoil="0" weight="6" isHeavy="0" clipSize="4" reloadAPCost="10" reloadSound="Weapon Plasma Reload" reactionModifier="2"  isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon Sonic Pistol Single" delay="0.6" suppressionValue="3" suppressionRadius="1">
-			<Set1 ap="30" accuracy="45" />
+			<Set1 ap="17" accuracy="45" />
+			<Set2 ap="23" accuracy="65" />
 		</SingleShot>
 		<BurstFire />
 		<GUIImage name="gui/weapons/Wave/AlienWaveSMG.png"/>
@@ -4955,11 +4959,12 @@
 	
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienWaveRifle" bulletType="normal" emptySound="Empty Click 1">
-		<props range="14" hands="1" recoil="45" weight="8" isHeavy="0" clipSize="6" reloadAPCost="25" reloadSound="Weapon Plasma Reload" reactionModifier="1.2" isAlien="1" infiniteAlienAmmo="1"  />
+		<props range="20" hands="1" recoil="45" weight="8" isHeavy="0" clipSize="6" reloadAPCost="25" reloadSound="Weapon Plasma Reload" reactionModifier="1.2" isAlien="1" infiniteAlienAmmo="1"  />
 		<SingleShot sound="Weapon Sonic Rifle Single" delay="0.6" suppressionValue="4" suppressionRadius="1">
-			<Set1 ap="35" accuracy="55" />		
+			<Set1 ap="22" accuracy="55" />
+			<Set2 ap="45" accuracy="80" />
 		</SingleShot>
-		<BurstFire ap="45" accuracy="45" sound="Weapon Sonic Rifle Burst" shotCount="3" delay="0.6" burstdelay="0.1" suppressionValue="16" suppressionRadius="1" />
+		<BurstFire ap="36" accuracy="65" sound="Weapon Sonic Rifle Burst" shotCount="3" delay="0.6" burstdelay="0.1" suppressionValue="16" suppressionRadius="1" />
 		<GUIImage name="gui/weapons/Wave/AlienWaveAssault.png"/>
 		<GroundImage name="grounditemimages/plasma_rifle.png"/>
 		<Ammos>
@@ -4971,9 +4976,11 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienWaveSniper" bulletType="normal" emptySound="Empty Click 1">
-		<props range="22" hands="1" recoil="0" weight="12" isHeavy="1" clipSize="2" reloadAPCost="30" reloadSound="Weapon Plasma Reload" reactionModifier="0.6" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
+		<props range="30" hands="1" recoil="0" weight="12" isHeavy="1" clipSize="2" reloadAPCost="30" reloadSound="Weapon Plasma Reload" reactionModifier="0.6" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon Sonic Sniper Single" delay="0.6" suppressionValue="9" suppressionRadius="1">
-			<Set1 ap="75" accuracy="80" />
+			<Set1 ap="40" accuracy="43" />
+			<Set2 ap="66" accuracy="110" />
+			<Set3 ap="95" accuracy="180" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/Wave/AlienWaveSniper.png"/>
@@ -4987,8 +4994,8 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienWaveHeavy" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="1" recoil="65" weight="14" isHeavy="1" clipSize="12" reloadAPCost="35" reloadSound="Weapon Laser Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
-		<BurstFire ap="70" accuracy="33" sound="Weapon Sonic Heavy Burst" shotCount="6" delay="0.7" burstdelay="0.1" suppressionValue="46" suppressionRadius="2" />
+		<props range="18" hands="1" recoil="65" weight="14" isHeavy="1" clipSize="12" reloadAPCost="35" reloadSound="Weapon Laser Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
+		<BurstFire ap="55" accuracy="50" sound="Weapon Sonic Heavy Burst" shotCount="6" delay="0.7" burstdelay="0.1" suppressionValue="46" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Wave/AlienWaveHeavy.png"/>
 		<GroundImage name="grounditemimages/plasma_heavy.png"/>
 		<Ammos>
@@ -5000,9 +5007,10 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienWaveCannon" bulletType="normal" emptySound="Empty Click 1">
-		<props range="18" hands="1" recoil="65" weight="16" isHeavy="1" clipSize="1" reloadAPCost="35" reloadSound="Weapon Plasma Reload" reactionModifier="0.01" disableShortRangeHitBonus="1"  isAlien="1" infiniteAlienAmmo="1" />
+		<props range="30" hands="1" recoil="65" weight="16" isHeavy="1" clipSize="1" reloadAPCost="35" reloadSound="Weapon Plasma Reload" reactionModifier="0.01" disableShortRangeHitBonus="1"  isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon Sonic Cannon Single" delay="0.6" suppressionValue="13" suppressionRadius="2">
-			<Set1 ap="75" accuracy="50" />
+			<Set1 ap="55" accuracy="70" />
+			<Set2 ap="75" accuracy="100" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/Wave/AlienWaveCannon.png"/>
@@ -5016,9 +5024,10 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienWaveBattleRifle" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="1" recoil="45" weight="10" isHeavy="0" clipSize="6" reloadAPCost="25" reloadSound="Weapon Plasma Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1" />
+		<props range="20" hands="1" recoil="45" weight="10" isHeavy="0" clipSize="6" reloadAPCost="25" reloadSound="Weapon Plasma Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon Sonic Rifle Single" delay="0.6" suppressionValue="6" suppressionRadius="1">
-			<Set1 ap="35" accuracy="55" />		
+			<Set1 ap="22" accuracy="55" />
+			<Set2 ap="45" accuracy="80" />		
 		</SingleShot>
 		<BurstFire ap="45" accuracy="45" sound="Weapon Sonic Rifle Burst" shotCount="3" delay="0.6" burstdelay="0.1" suppressionValue="26" suppressionRadius="1.5" />
 		<GUIImage name="gui/weapons/Wave/AlienWaveRifle.png"/>
@@ -5036,7 +5045,8 @@
    <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienVindicatorPistol" bulletType="normal" emptySound="Empty Click 1">
     <props range="12" hands="1" recoil="0" weight="6" isHeavy="0" clipSize="4"  reloadAPCost="10" reloadSound="Weapon MAG Reload" reactionModifier="2" isAlien="1" infiniteAlienAmmo="1" />
     <SingleShot sound="Weapon MAG Pistol Single" delay="0.6" suppressionValue="2" suppressionRadius="1">
-			<Set1 ap="24" accuracy="40" />
+			<Set1 ap="17" accuracy="45" />
+			<Set2 ap="23" accuracy="65" />
     </SingleShot>
     <BurstFire/>
     <GUIImage name="gui/weapons/Vindicator/AlienVindicatorPistol.png"/>
@@ -5050,8 +5060,8 @@
   </Weapon>
   
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienVindicatorRifle" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="1" recoil="50" weight="10" isHeavy="0" clipSize="40" reloadAPCost="40" reloadSound="Weapon MAG Reload" reactionModifier="1.5" disableShortRangeHitBonus="0" isAlien="1" infiniteAlienAmmo="1"/>
-		<BurstFire ap="45" accuracy="45" sound="Weapon MAG Rifle Burst" shotCount="3" delay="0.7" burstdelay="0.1" suppressionValue="26" suppressionRadius="1" />
+		<props range="22" hands="1" recoil="50" weight="10" isHeavy="0" clipSize="40" reloadAPCost="40" reloadSound="Weapon MAG Reload" reactionModifier="1.5" disableShortRangeHitBonus="0" isAlien="1" infiniteAlienAmmo="1"/>
+		<BurstFire ap="36" accuracy="60" sound="Weapon MAG Rifle Burst" shotCount="3" delay="0.7" burstdelay="0.1" suppressionValue="26" suppressionRadius="1" />
 		<GUIImage name="gui/weapons/Vindicator/AlienVindicatorRifle.png"/>
 		<GroundImage name="grounditemimages/plasma_heavy.png"/>
 		<Ammos>
@@ -5063,9 +5073,10 @@
 	</Weapon>
 	
 	 <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienVindicatorSniper" bulletType="normal" emptySound="Empty Click 1">
-		<props range="26" hands="1" recoil="0" weight="14" isHeavy="0" clipSize="4" reloadAPCost="30" reloadSound="Weapon MAG Reload" reactionModifier="3" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
+		<props range="32" hands="1" recoil="0" weight="14" isHeavy="0" clipSize="4" reloadAPCost="30" reloadSound="Weapon MAG Reload" reactionModifier="3" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon MAG Precision Single" delay="0.6" suppressionValue="9" suppressionRadius="1">
-			<Set1 ap="75" accuracy="80" />
+			<Set1 ap="45" accuracy="65" />
+			<Set2 ap="75" accuracy="90" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/Vindicator/AlienVindicatorSniper.png"/>
@@ -5079,8 +5090,8 @@
 	</Weapon>
 	
 	 <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienVindicatorHeavy" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="1" recoil="65" weight="20" isHeavy="1" clipSize="100" reloadAPCost="35" reloadSound="Weapon MAG Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
-		<BurstFire ap="70" accuracy="33" sound="Weapon MAGSTORM Burst" shotCount="6" delay="0.5" burstdelay="0.1" suppressionValue="56" suppressionRadius="2" />
+		<props range="18" hands="1" recoil="65" weight="20" isHeavy="1" clipSize="100" reloadAPCost="35" reloadSound="Weapon MAG Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
+		<BurstFire ap="55" accuracy="50" sound="Weapon MAGSTORM Burst" shotCount="6" delay="0.5" burstdelay="0.1" suppressionValue="56" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Vindicator/AlienVindicatorHeavy.png"/>
 		<GroundImage name="grounditemimages/plasma_heavy.png"/>
 		<Ammos>
@@ -5092,8 +5103,8 @@
 	</Weapon>
   
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienVindicatorMinigun" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="1" recoil="65" weight="30" isHeavy="1" clipSize="100" reloadAPCost="35" reloadSound="Weapon MAG Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
-		<BurstFire ap="80" accuracy="25" sound="Weapon Minigun Long" shotCount="12" delay="0.5" burstdelay="0.05" suppressionValue="81" suppressionRadius="3" />
+		<props range="20" hands="1" recoil="65" weight="30" isHeavy="1" clipSize="100" reloadAPCost="35" reloadSound="Weapon MAG Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
+		<BurstFire ap="65" accuracy="40" sound="Weapon Minigun Long" shotCount="24" delay="0.5" burstdelay="0.05" suppressionValue="81" suppressionRadius="3" />
 		<GUIImage name="gui/weapons/Vindicator/AlienVindicatorMinigun.png"/>
 		<GroundImage name="grounditemimages/plasma_heavy.png"/>
 		<Ammos>
@@ -5105,9 +5116,10 @@
 	</Weapon>
   
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienVindicatorCannon" bulletType="normal" emptySound="Empty Click 1">
-		<props range="20" hands="1" recoil="55" weight="24"  clipSize="4" reloadAPCost="45" reloadSound="Weapon MAG Reload" reactionModifier="0.01" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
+		<props range="28" hands="1" recoil="55" weight="24"  clipSize="4" reloadAPCost="45" reloadSound="Weapon MAG Reload" reactionModifier="0.01" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon Handcannon Single" delay="1" suppressionValue="14" suppressionRadius="3">
-			<Set1 ap="45" accuracy="60" />
+			<Set1 ap="55" accuracy="50" />
+			<Set1 ap="75" accuracy="80" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/Vindicator/AlienVindicatorCannon.png"/>
