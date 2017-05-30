@@ -6424,7 +6424,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.qspray" bulletType="rocket" emptySound="Empty Click 1">
-		<props range="12" hands="2" recoil="0" weight="5" isHeavy="1" clipSize="100" reloadAPCost="15" isIntegrated="1" reloadSound="Weapon Shotgun Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1"/>
+		<props range="18" hands="2" recoil="0" weight="5" isHeavy="1" clipSize="100" reloadAPCost="15" isIntegrated="1" reloadSound="Weapon Shotgun Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1"/>
 		<SingleShot sound="ReaperInjury" delay="0.3" suppressionValue="80" suppressionRadius="2">
 			<Set1 ap="30" accuracy="85" />			
 		</SingleShot>
@@ -6432,7 +6432,7 @@
 		<GUIImage name="gui/weapons/Shotgun.png"/>
 		<GroundImage name="grounditemimages/shotgun.png"/>
 		<Ammos>
-			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="40" mitigation="0" >
+			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="50" mitigation="0" >
 				<Projectile spectre="projectiles/qspray/qspray" speed="1000"/>
 				<Impact spectre="projectiles/qspray/greenplume" radius="1.5" sound="Weapon Stun Grenade" fireChance="0" smokeChance="95" gasType="Acid" />
 			</Ammo>
@@ -6440,7 +6440,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.redqspray" bulletType="rocket" emptySound="Empty Click 1">
-		<props range="12" hands="2" recoil="0" weight="5" isHeavy="1" clipSize="100" reloadAPCost="15" isIntegrated="1" reloadSound="Weapon Shotgun Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1"/>
+		<props range="18" hands="2" recoil="0" weight="5" isHeavy="1" clipSize="100" reloadAPCost="15" isIntegrated="1" reloadSound="Weapon Shotgun Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1"/>
 		<SingleShot sound="ReaperInjury" delay="0.3" suppressionValue="110" suppressionRadius="2">
 			<Set1 ap="30" accuracy="85" />			
 		</SingleShot>
@@ -6448,7 +6448,7 @@
 		<GUIImage name="gui/weapons/Shotgun.png"/>
 		<GroundImage name="grounditemimages/shotgun.png"/>
 		<Ammos>
-			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="50" mitigation="10" >
+			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="75" mitigation="10" >
 				<Projectile spectre="projectiles/qspray/qspray" speed="1000"/>
 				<Impact spectre="projectiles/qspray/greenplume" radius="2" sound="Weapon Stun Grenade" fireChance="0" smokeChance="95" gasType="Acid" />
 			</Ammo>
@@ -6456,7 +6456,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.crimsonqspray" bulletType="rocket" emptySound="Empty Click 1">
-		<props range="12" hands="2" recoil="0" weight="5" isHeavy="1" clipSize="100" reloadAPCost="15" isIntegrated="1" reloadSound="Weapon Shotgun Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1"/>
+		<props range="18" hands="2" recoil="0" weight="5" isHeavy="1" clipSize="100" reloadAPCost="15" isIntegrated="1" reloadSound="Weapon Shotgun Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1"/>
 		<SingleShot sound="ReaperInjury" delay="0.3" suppressionValue="110" suppressionRadius="2">
 			<Set1 ap="30" accuracy="85" />			
 		</SingleShot>
@@ -6464,7 +6464,7 @@
 		<GUIImage name="gui/weapons/Shotgun.png"/>
 		<GroundImage name="grounditemimages/shotgun.png"/>
 		<Ammos>
-			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="60" mitigation="15" >
+			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="100" mitigation="15" >
 				<Projectile spectre="projectiles/qspray/qspray" speed="1000"/>
 				<Impact spectre="projectiles/qspray/greenplume" radius="2" sound="Weapon Stun Grenade" fireChance="0" smokeChance="95" gasType="Acid" />
 			</Ammo>

@@ -314,7 +314,7 @@
 	
     <Rank  type="NonCombatant">
 	
-      <Props APs="50" Resilience="50" Strength="60" Accuracy="60" Reflexes="50" Bravery="40" />
+      <Props APs="50" Resilience="50" Strength="60" Accuracy="60" Reflexes="75" Bravery="40" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="5" energy="15" chemical="0" incendiary="0" />
       <Items killed="Items.CaesanNonCombatantCorpse" stunned="Items.CaesanNonCombatant" />
@@ -341,7 +341,7 @@
 	
 	 <Rank  type="OperatorLightScout">
 	
-      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="50" Bravery="40" />
+      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="75" Bravery="40" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="0" energy="15" chemical="5" incendiary="0" />
       <Items killed="Items.CaesanOperatorLightScoutCorpse" stunned="Items.CaesanOperatorLightScout" />
@@ -367,7 +367,7 @@
 	
 	 <Rank  type="OperatorScout">
 	
-      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="50" Bravery="40" />
+      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="75" Bravery="40" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="0" energy="15" chemical="5" incendiary="0" />
       <Items killed="Items.CaesanOperatorScoutCorpse" stunned="Items.CaesanOperatorScout" />
@@ -394,7 +394,7 @@
 	
 	 <Rank  type="OperatorCorvette">
 	
-      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="50" Bravery="40" />
+      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="75" Bravery="40" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="0" energy="15" chemical="5" incendiary="0" />
       <Items killed="Items.CaesanOperatorCorvetteCorpse" stunned="Items.CaesanOperatorCorvette" />
@@ -421,7 +421,7 @@
 	
 	<Rank  type="OperatorBomber1">
 	
-      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="50" Bravery="40" />
+      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="75" Bravery="40" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="0" energy="15" chemical="5" incendiary="0" />
       <Items killed="Items.CaesanOperatorBomber1Corpse" stunned="Items.CaesanOperatorBomber1" />
@@ -448,7 +448,7 @@
 	
 	<Rank  type="OperatorAssault1">
 	
-      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="50" Bravery="40" />
+      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="75" Bravery="40" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="0" energy="15" chemical="5" incendiary="0" />
       <Items killed="Items.CaesanOperatorAssault1Corpse" stunned="Items.CaesanOperatorAssault1" />
@@ -475,7 +475,7 @@
 	
 	<Rank  type="OperatorTerror1">
 	
-      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="50" Bravery="40" />
+      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="75" Bravery="40" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="0" energy="15" chemical="5" incendiary="0" />
       <Items killed="Items.CaesanOperatorTerror1Corpse" stunned="Items.CaesanOperatorTerror1" />
@@ -502,7 +502,7 @@
 	
 	<Rank  type="medic">
 	
-      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="40" Bravery="40" />
+      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="60" Bravery="40" />
       <Armour kinetic="0" energy="15" chemical="5" incendiary="0" />
       <Items killed="Items.CaesanmedicCorpse" stunned="Items.Caesanmedic" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -520,7 +520,7 @@
 	
 	<Rank  type="technician">
 	
-      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="40" Bravery="40" />
+      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="60" Bravery="40" />
       <Armour kinetic="0" energy="15" chemical="5" incendiary="0" />
       <Items killed="Items.CaesantechnicianCorpse" stunned="Items.Caesantechnician" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -538,7 +538,7 @@
 	
 	<Rank  type="navigator">
 	
-      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="40" Bravery="40" />
+      <Props APs="50" Resilience="60" Strength="60" Accuracy="60" Reflexes="60" Bravery="40" />
       <Armour kinetic="5" energy="15" chemical="5" incendiary="0" />
       <Items killed="Items.CaesannavigatorCorpse" stunned="Items.Caesannavigator" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -556,7 +556,7 @@
 	
 	<Rank  type="weaponsergeant">
 	
-      <Props APs="55" Resilience="80" Strength="60" Accuracy="80" Reflexes="75" Bravery="60" />
+      <Props APs="55" Resilience="80" Strength="60" Accuracy="80" Reflexes="112" Bravery="60" />
       <Armour kinetic="5" energy="15" chemical="10" incendiary="5" />
       <Items killed="Items.CaesanweaponsergeantCorpse" stunned="Items.Caesanweaponsergeant" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -573,7 +573,7 @@
     </Rank>	
     
     <Rank  type="Guard">
-      <Props APs="60" Resilience="80" Strength="60" Accuracy="75" Reflexes="55" Bravery="50" />
+      <Props APs="60" Resilience="80" Strength="60" Accuracy="75" Reflexes="82" Bravery="50" />
       <Armour kinetic="3" energy="20" chemical="8" incendiary="5" />
       <Items killed="Items.CaesanGuardCorpse" stunned="Items.CaesanGuard" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -610,7 +610,7 @@
     </Rank>
 	   
     <Rank  type="GuardSupport">
-      <Props APs="60" Resilience="70" Strength="60" Accuracy="75" Reflexes="50" Bravery="40" />
+      <Props APs="60" Resilience="70" Strength="60" Accuracy="75" Reflexes="75" Bravery="40" />
       <Armour kinetic="3" energy="20" chemical="8" incendiary="5" />
       <Items killed="Items.CaesanGuardCorpse" stunned="Items.CaesanGuard" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -636,7 +636,7 @@
     </Rank>
 	
 	<Rank  type="Chieftain">
-      <Props APs="65" Resilience="100" Strength="60" Accuracy="90" Reflexes="65" Bravery="80" />
+      <Props APs="65" Resilience="100" Strength="60" Accuracy="90" Reflexes="97" Bravery="80" />
       <Armour kinetic="5" energy="25" chemical="10" incendiary="8" />
       <Items killed="Items.CaesanChieftainCorpse" stunned="Items.CaesanChieftain" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -655,7 +655,7 @@
     </Rank>
 	
 	<Rank  type="Psion">
-      <Props APs="55" Resilience="50" Strength="60" Accuracy="60" Reflexes="30" Bravery="40" PsionicPower="50" PsionicAttacks="Fear, Dread, Paralyse" />
+      <Props APs="55" Resilience="50" Strength="60" Accuracy="60" Reflexes="45" Bravery="40" PsionicPower="50" PsionicAttacks="Fear, Dread, Paralyse" />
       <Armour kinetic="3" energy="20" chemical="8" incendiary="5" />
       <Items killed="Items.CaesanPsionCorpse" stunned="Items.CaesanPsion" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -684,7 +684,7 @@
 	
 	 <Rank  type="OperatorLanding">
 	
-      <Props APs="50" Resilience="110" Strength="60" Accuracy="75" Reflexes="55" Bravery="50" />
+      <Props APs="50" Resilience="110" Strength="60" Accuracy="75" Reflexes="82" Bravery="50" />
 	  <Decision MinimumAccuracy = "0.35"/>
        <Armour kinetic="8" energy="50" chemical="20" incendiary="13" />
       <Items killed="Items.CaesanOperatorLandingCorpse" stunned="Items.CaesanOperatorLanding" />
@@ -704,7 +704,7 @@
 	
 	 <Rank  type="OperatorCruiser">
 	
-      <Props APs="50" Resilience="120" Strength="60" Accuracy="75" Reflexes="55" Bravery="50" />
+      <Props APs="50" Resilience="120" Strength="60" Accuracy="75" Reflexes="82" Bravery="50" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="11" energy="60" chemical="26" incendiary="16" />
       <Items killed="Items.CaesanOperatorCruiserCorpse" stunned="Items.CaesanOperatorCruiser" />
@@ -724,7 +724,7 @@
 	
 	<Rank  type="OperatorSmallbase">
 	
-      <Props APs="50" Resilience="120" Strength="60" Accuracy="75" Reflexes="55" Bravery="50" />
+      <Props APs="50" Resilience="120" Strength="60" Accuracy="75" Reflexes="82" Bravery="50" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="10" energy="65" chemical="26" incendiary="16" />
       <Items killed="Items.CaesanOperatorSmallbaseCorpse" stunned="Items.CaesanOperatorSmallbase" />
@@ -744,7 +744,7 @@
 	
 	<Rank  type="OperatorTerror2">
 	
-      <Props APs="50" Resilience="120" Strength="60" Accuracy="75" Reflexes="55" Bravery="50" />
+      <Props APs="50" Resilience="120" Strength="60" Accuracy="75" Reflexes="82" Bravery="50" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="11" energy="65" chemical="26" incendiary="16" />
       <Items killed="Items.CaesanOperatorTerror2Corpse" stunned="Items.CaesanOperatorTerror2" />
@@ -764,7 +764,7 @@
 	
 	<Rank  type="OperatorAssault2">
 	
-      <Props APs="50" Resilience="120" Strength="60" Accuracy="75" Reflexes="55" Bravery="50" />
+      <Props APs="50" Resilience="120" Strength="60" Accuracy="75" Reflexes="82" Bravery="50" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="11" energy="65" chemical="26" incendiary="16" />
       <Items killed="Items.CaesanOperatorAssault2Corpse" stunned="Items.CaesanOperatorAssault2" />
@@ -784,7 +784,7 @@
 	
 	<Rank  type="OperatorBomber2">
 	
-      <Props APs="50" Resilience="120" Strength="60" Accuracy="75" Reflexes="55" Bravery="50" />
+      <Props APs="50" Resilience="120" Strength="60" Accuracy="75" Reflexes="82" Bravery="50" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="11" energy="65" chemical="26" incendiary="16" />
       <Items killed="Items.CaesanOperatorBomber2Corpse" stunned="Items.CaesanOperatorBomber2" />
@@ -804,7 +804,7 @@
 
     
     <Rank  type="Soldier">
-      <Props APs="70" Resilience="130" Strength="60" Accuracy="100" Reflexes="65" Bravery="60" />
+      <Props APs="70" Resilience="130" Strength="60" Accuracy="100" Reflexes="97" Bravery="60" />
       <Armour kinetic="8" energy="50" chemical="20" incendiary="13" />
       <Items killed="Items.CaesanSoldierCorpse" stunned="Items.CaesanSoldier" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -850,7 +850,7 @@
     </Rank>
 
     <Rank  type="SoldierSupport">
-      <Props APs="70" Resilience="115" Strength="60" Accuracy="100" Reflexes="55" Bravery="60" />
+      <Props APs="70" Resilience="115" Strength="60" Accuracy="100" Reflexes="82" Bravery="60" />
 	  <Decision MinimumAccuracy = "0.50" />
       <Armour kinetic="8" energy="50" chemical="20" incendiary="13" />
       <Items killed="Items.CaesanSoldierCorpse" stunned="Items.CaesanSoldier" />
@@ -885,7 +885,7 @@
     </Rank>
 	
 	 <Rank  type="SoldierAssault">
-      <Props APs="75" Resilience="150" Strength="60" Accuracy="110" Reflexes="70" Bravery="65" />
+      <Props APs="75" Resilience="150" Strength="60" Accuracy="110" Reflexes="105" Bravery="65" />
       <Armour kinetic="11" energy="60" chemical="26" incendiary="16" />
       <Items killed="Items.CaesanSoldierCorpse" stunned="Items.CaesanSoldier" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -922,7 +922,7 @@
     </Rank>
 	
 	 <Rank  type="SoldierGuardian">
-      <Props APs="70" Resilience="120" Strength="60" Accuracy="100" Reflexes="120" Bravery="70" />
+      <Props APs="70" Resilience="120" Strength="60" Accuracy="100" Reflexes="180" Bravery="70" />
 	  <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="11" energy="60" chemical="26" incendiary="16" />
       <Items killed="Items.CaesanSoldierCorpse" stunned="Items.CaesanSoldier" />
@@ -951,7 +951,7 @@
     </Rank>
 	
 	 <Rank  type="Officer">
-      <Props APs="80" Resilience="180" Strength="60" Accuracy="120" Reflexes="90" Bravery="90" PsionicPower="70" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="80" Resilience="180" Strength="60" Accuracy="120" Reflexes="135" Bravery="90" PsionicPower="70" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
 	  <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="14" energy="85" chemical="34" incendiary="21" />
       <Items killed="Items.CaesanOfficerCorpse" stunned="Items.CaesanOfficer" />
@@ -973,7 +973,7 @@
 	
 	<Rank  type="physician">
 	
-      <Props APs="60" Resilience="110" Strength="60" Accuracy="75" Reflexes="45" Bravery="50" />
+      <Props APs="60" Resilience="110" Strength="60" Accuracy="75" Reflexes="70" Bravery="50" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="8" energy="50" chemical="20" incendiary="13" />
       <Items killed="Items.CaesanphysicianCorpse" stunned="Items.Caesanphysician" />
@@ -1001,7 +1001,7 @@
 
 	<Rank  type="engineer">
 	
-      <Props APs="50" Resilience="110" Strength="60" Accuracy="75" Reflexes="45" Bravery="50" />
+      <Props APs="50" Resilience="110" Strength="60" Accuracy="75" Reflexes="70" Bravery="50" />
 	  <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="8" energy="50" chemical="20" incendiary="13" />
       <Items killed="Items.CaesanengineerCorpse" stunned="Items.Caesanengineer" />
@@ -1021,7 +1021,7 @@
 	
 	<Rank  type="pilot">
 	
-      <Props APs="50" Resilience="110" Strength="60" Accuracy="75" Reflexes="45" Bravery="50" />
+      <Props APs="50" Resilience="110" Strength="60" Accuracy="75" Reflexes="70" Bravery="50" />
 	  <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="8" energy="50" chemical="20" incendiary="13" />
       <Items killed="Items.CaesanpilotCorpse" stunned="Items.Caesanpilot" />
@@ -1040,7 +1040,7 @@
 	
 	<Rank  type="weaponofficer">
 	
-     <Props APs="60" Resilience="130" Strength="60" Accuracy="110" Reflexes="85" Bravery="100" />
+     <Props APs="60" Resilience="130" Strength="60" Accuracy="110" Reflexes="127" Bravery="100" />
       <Decision MinimumAccuracy = "0.30" />
       <Armour kinetic="11" energy="65" chemical="26" incendiary="16" />
       <Items killed="Items.CaesanweaponofficerCorpse" stunned="Items.Caesanweaponofficer" />
@@ -1059,7 +1059,7 @@
     </Rank>
 	
 	<Rank  type="PsionAssault">
-      <Props APs="60" Resilience="85" Strength="60" Accuracy="60" Reflexes="30" Bravery="75" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse" />
+      <Props APs="60" Resilience="85" Strength="60" Accuracy="60" Reflexes="45" Bravery="75" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse" />
       <Armour kinetic="8" energy="55" chemical="20" incendiary="13" />
       <Items killed="Items.CaesanPsionAssaultCorpse" stunned="Items.CaesanPsionAssault" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -1080,7 +1080,7 @@
 	
 	 <Rank  type="OperatorCarrier">
 	
-      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="60" Bravery="60" />
+      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="90" Bravery="60" />
 	  <Decision MinimumAccuracy = "0.35"/>
        <Armour kinetic="15" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesanOperatorCarrierCorpse" stunned="Items.CaesanOperatorCarrier" />
@@ -1100,7 +1100,7 @@
 	
 	<Rank  type="OperatorMediumbase">
 	
-      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="60" Bravery="60" />
+      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="90" Bravery="60" />
 	  <Decision MinimumAccuracy = "0.35"/>
        <Armour kinetic="15" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesanOperatorMediumbaseCorpse" stunned="Items.CaesanOperatorMediumbase" />
@@ -1119,7 +1119,7 @@
     </Rank>
 	<Rank  type="OperatorTerror3">
 	
-      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="60" Bravery="60" />
+      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="90" Bravery="60" />
 	  <Decision MinimumAccuracy = "0.35"/>
        <Armour kinetic="15" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesanOperatorTerror3Corpse" stunned="Items.CaesanOperatorTerror3" />
@@ -1138,7 +1138,7 @@
     </Rank>
 	<Rank  type="OperatorAssault3">
 	
-      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="60" Bravery="60" />
+      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="90" Bravery="60" />
 	  <Decision MinimumAccuracy = "0.35"/>
        <Armour kinetic="15" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesanOperatorAssault3Corpse" stunned="Items.CaesanOperatorAssault3" />
@@ -1157,7 +1157,7 @@
     </Rank>
 	<Rank  type="OperatorBomber3">
 	
-      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="60" Bravery="60" />
+      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="90" Bravery="60" />
 	  <Decision MinimumAccuracy = "0.35"/>
        <Armour kinetic="15" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesanOperatorBomber3Corpse" stunned="Items.CaesanOperatorBomber3" />
@@ -1177,7 +1177,7 @@
 	
     
     <Rank  type="Warrior">
-      <Props APs="80" Resilience="200" Strength="70" Accuracy="120" Reflexes="70" Bravery="75" />
+      <Props APs="80" Resilience="200" Strength="70" Accuracy="120" Reflexes="105" Bravery="75" />
       <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="36" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesanWarriorCorpse" stunned="Items.CaesanWarrior" />
@@ -1217,7 +1217,7 @@
     </Rank>
 
     <Rank  type="WarriorSupport">
-      <Props APs="80" Resilience="180" Strength="60" Accuracy="120" Reflexes="60" Bravery="65" />
+      <Props APs="80" Resilience="180" Strength="60" Accuracy="120" Reflexes="90" Bravery="65" />
       <Decision MinimumAccuracy = "0.35" />
       <Armour kinetic="36" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesanWarriorCorpse" stunned="Items.CaesanWarrior" />
@@ -1261,7 +1261,7 @@
     </Rank>
 	
 	<Rank  type="WarriorAssault">
-      <Props APs="85" Resilience="240" Strength="70" Accuracy="130" Reflexes="75" Bravery="80" />
+      <Props APs="85" Resilience="240" Strength="70" Accuracy="130" Reflexes="112" Bravery="80" />
       <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="40" energy="100" chemical="40" incendiary="25" />
       <Items killed="Items.CaesanWarriorCorpse" stunned="Items.CaesanWarrior" />
@@ -1299,7 +1299,7 @@
     </Rank>
 	
 	<Rank  type="WarriorGuardian">
-      <Props APs="80" Resilience="250" Strength="70" Accuracy="120" Reflexes="120" Bravery="80" />
+      <Props APs="80" Resilience="250" Strength="70" Accuracy="120" Reflexes="180" Bravery="80" />
       <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="40" energy="100" chemical="40" incendiary="25" />
       <Items killed="Items.CaesanWarriorCorpse" stunned="Items.CaesanWarrior" />
@@ -1328,7 +1328,7 @@
     </Rank>
 	
 	<Rank  type="Leader">
-      <Props APs="95" Resilience="280" Strength="70" Accuracy="140" Reflexes="80" Bravery="110" PsionicPower="80" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="95" Resilience="280" Strength="70" Accuracy="140" Reflexes="120" Bravery="110" PsionicPower="80" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Decision MinimumAccuracy = "0.25" />
        <Armour kinetic="48" energy="120" chemical="48" incendiary="30" />
       <Items killed="Items.CaesanLeaderCorpse" stunned="Items.CaesanLeader" />
@@ -1351,7 +1351,7 @@
 	
 	<Rank  type="doctor">
 	
-      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="50" Bravery="60" />
+      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="75" Bravery="60" />
 	  <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="15" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesandoctorCorpse" stunned="Items.Caesandoctor" />
@@ -1380,7 +1380,7 @@
 	
 	<Rank  type="chief">
 	
-      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="50" Bravery="60" />
+      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="75" Bravery="60" />
 	  <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="15" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesanchiefCorpse" stunned="Items.Caesanchief" />
@@ -1408,7 +1408,7 @@
 	
 	<Rank  type="cruisecommander">
 	
-      <Props APs="50" Resilience="180" Strength="60" Accuracy="100" Reflexes="50" Bravery="60" />
+      <Props APs="50" Resilience="180" Strength="60" Accuracy="100" Reflexes="75" Bravery="60" />
 	  <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="17" energy="100" chemical="40" incendiary="25" />
       <Items killed="Items.CaesancruisecommanderCorpse" stunned="Items.Caesancruisecommander" />
@@ -1427,7 +1427,7 @@
 	
 	<Rank  type="weaponcommander">
 	
-      <Props APs="65" Resilience="200" Strength="60" Accuracy="130" Reflexes="90" Bravery="85" />
+      <Props APs="65" Resilience="200" Strength="60" Accuracy="130" Reflexes="135" Bravery="85" />
 	  <Decision MinimumAccuracy = "0.25" />
      <Armour kinetic="17" energy="100" chemical="40" incendiary="25" />
       <Items killed="Items.CaesanweaponcommanderCorpse" stunned="Items.Caesanweaponcommander" />
@@ -1446,7 +1446,7 @@
     </Rank>
 	
 	<Rank  type="PsionPsycho">
-      <Props APs="70" Resilience="130" Strength="60" Accuracy="100" Reflexes="30" Bravery="100" PsionicPower="150" PsionicAttacks="Fear, Dread, Paralyse" />
+      <Props APs="70" Resilience="130" Strength="60" Accuracy="100" Reflexes="45" Bravery="100" PsionicPower="150" PsionicAttacks="Fear, Dread, Paralyse" />
       <Armour kinetic="36" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesanPsionPsychoCorpse" stunned="Items.CaesanPsionPsycho" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -1475,7 +1475,7 @@
 	
 	 <Rank  type="OperatorBattle">
 	
-      <Props APs="50" Resilience="180" Strength="60" Accuracy="120" Reflexes="60" Bravery="70" />
+      <Props APs="50" Resilience="180" Strength="60" Accuracy="120" Reflexes="90" Bravery="70" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="17" energy="100" chemical="40" incendiary="25" />
       <Items killed="Items.CaesanOperatorBattleCorpse" stunned="Items.CaesanOperatorBattle" />
@@ -1494,7 +1494,7 @@
     </Rank>
 	 <Rank  type="OperatorDread">
 	
-      <Props APs="50" Resilience="180" Strength="60" Accuracy="120" Reflexes="60" Bravery="70" />
+      <Props APs="50" Resilience="180" Strength="60" Accuracy="120" Reflexes="90" Bravery="70" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="17" energy="100" chemical="40" incendiary="25" />
       <Items killed="Items.CaesanOperatorDreadCorpse" stunned="Items.CaesanOperatorDread" />
@@ -1513,7 +1513,7 @@
     </Rank>
 	<Rank  type="OperatorLargebase">
 	
-      <Props APs="50" Resilience="180" Strength="60" Accuracy="120" Reflexes="60" Bravery="70" />
+      <Props APs="50" Resilience="180" Strength="60" Accuracy="120" Reflexes="90" Bravery="70" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="17" energy="100" chemical="40" incendiary="25" />
       <Items killed="Items.CaesanOperatorLargebaseCorpse" stunned="Items.CaesanOperatorLargebase" />
@@ -1532,7 +1532,7 @@
     </Rank>
 	<Rank  type="OperatorTerror4">
 	
-      <Props APs="50" Resilience="180" Strength="60" Accuracy="120" Reflexes="60" Bravery="70" />
+      <Props APs="50" Resilience="180" Strength="60" Accuracy="120" Reflexes="90" Bravery="70" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="17" energy="100" chemical="40" incendiary="25" />
       <Items killed="Items.CaesanOperatorTerror4Corpse" stunned="Items.CaesanOperatorTerror4" />
@@ -1551,7 +1551,7 @@
     </Rank>
 	<Rank  type="OperatorAssault4">
 	
-      <Props APs="50" Resilience="180" Strength="60" Accuracy="120" Reflexes="60" Bravery="70" />
+      <Props APs="50" Resilience="180" Strength="60" Accuracy="120" Reflexes="90" Bravery="70" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="17" energy="100" chemical="40" incendiary="25" />
       <Items killed="Items.CaesanOperatorAssault4Corpse" stunned="Items.CaesanOperatorAssault4" />
@@ -1570,7 +1570,7 @@
     </Rank>
 	<Rank  type="OperatorBomber4">
 	
-      <Props APs="50" Resilience="180" Strength="60" Accuracy="120" Reflexes="60" Bravery="70" />
+      <Props APs="50" Resilience="180" Strength="60" Accuracy="120" Reflexes="90" Bravery="70" />
 	  <Decision MinimumAccuracy = "0.35"/>
       <Armour kinetic="17" energy="100" chemical="40" incendiary="25" />
       <Items killed="Items.CaesanOperatorBomber4Corpse" stunned="Items.CaesanOperatorBomber4" />
@@ -1591,7 +1591,7 @@
 
     
     <Rank  type="Elite">
-      <Props APs="90" Resilience="300" Strength="70" Accuracy="140" Reflexes="80" Bravery="90" /> 
+      <Props APs="90" Resilience="300" Strength="70" Accuracy="140" Reflexes="120" Bravery="90" /> 
       <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="70" energy="140" chemical="56" incendiary="35" />
       <Items killed="Items.CaesanEliteCorpse" stunned="Items.CaesanElite" />
@@ -1629,7 +1629,7 @@
     </Rank>
 	
 	<Rank  type="EliteAssault">
-      <Props APs="95" Resilience="320" Strength="70" Accuracy="150" Reflexes="90" Bravery="100" /> 
+      <Props APs="95" Resilience="320" Strength="70" Accuracy="150" Reflexes="135" Bravery="100" /> 
       <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="70" energy="140" chemical="56" incendiary="35" />
       <Items killed="Items.CaesanEliteCorpse" stunned="Items.CaesanElite" />
@@ -1658,7 +1658,7 @@
     </Rank>
 	
 	 <Rank  type="EliteSupport">
-      <Props APs="90" Resilience="270" Strength="70" Accuracy="140" Reflexes="70" Bravery="80" /> 
+      <Props APs="90" Resilience="270" Strength="70" Accuracy="140" Reflexes="105" Bravery="80" /> 
       <Decision MinimumAccuracy = "0.35" />
       <Armour kinetic="70" energy="140" chemical="56" incendiary="35" />
       <Items killed="Items.CaesanEliteCorpse" stunned="Items.CaesanElite" />
@@ -1694,7 +1694,7 @@
 	
 	<Rank  type="professor">
 	
-      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="50" Bravery="60" />
+      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="75" Bravery="60" />
 	  <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="15" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesanprofessorCorpse" stunned="Items.Caesanprofessor" />
@@ -1722,7 +1722,7 @@
 	
 	<Rank  type="headengineer">
 	
-      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="50" Bravery="60" />
+      <Props APs="50" Resilience="160" Strength="60" Accuracy="100" Reflexes="75" Bravery="60" />
 	  <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="15" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesanheadengineerCorpse" stunned="Items.Caesanheadengineer" />
@@ -1742,7 +1742,7 @@
 	
 	<Rank  type="fleetcommander">
 	
-      <Props APs="50" Resilience="180" Strength="60" Accuracy="100" Reflexes="50" Bravery="60" />
+      <Props APs="50" Resilience="180" Strength="60" Accuracy="100" Reflexes="75" Bravery="60" />
 	  <Decision MinimumAccuracy = "0.25" />
       <Armour kinetic="17" energy="100" chemical="40" incendiary="25" />
       <Items killed="Items.CaesanfleetcommanderCorpse" stunned="Items.Caesanfleetcommander" />
@@ -1761,7 +1761,7 @@
 	
 	<Rank  type="tacticalcommander">
 	
-      <Props APs="75" Resilience="200" Strength="60" Accuracy="140" Reflexes="90" Bravery="85" />
+      <Props APs="75" Resilience="200" Strength="60" Accuracy="140" Reflexes="135" Bravery="85" />
 	  <Decision MinimumAccuracy = "0.25" />
      <Armour kinetic="17" energy="100" chemical="40" incendiary="25" />
       <Items killed="Items.CaesantacticalcommanderCorpse" stunned="Items.Caesantacticalcommander" />
@@ -1780,7 +1780,7 @@
     </Rank>
 	
 	<Rank  type="PsionMaster">
-      <Props APs="75" Resilience="170" Strength="60" Accuracy="60" Reflexes="30" Bravery="100" PsionicPower="200" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="75" Resilience="170" Strength="60" Accuracy="60" Reflexes="45" Bravery="100" PsionicPower="200" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="70" energy="140" chemical="56" incendiary="35" />
       <Items killed="Items.CaesanPsionMasterCorpse" stunned="Items.CaesanPsionMaster" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -1853,7 +1853,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="75" Resilience="175" Strength="70" Accuracy="100" Reflexes="75" Bravery="100" />
+      <Props APs="75" Resilience="175" Strength="70" Accuracy="100" Reflexes="112" Bravery="100" />
       <Armour kinetic="13" energy="80" chemical="32" incendiary="20" />
       <Items killed="Items.CaesanterrorsoldierCorpse" stunned="Items.Caesanterrorsoldier" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -1928,7 +1928,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="75" Resilience="200" Strength="75" Accuracy="100" Reflexes="80" Bravery="100" />
+      <Props APs="75" Resilience="200" Strength="75" Accuracy="100" Reflexes="120" Bravery="100" />
      <Armour kinetic="13" energy="80" chemical="32" incendiary="20" />
       <Items killed="Items.CaesanterrorsoldierCorpse" stunned="Items.Caesanterrorsoldier" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2023,7 +2023,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="75" Resilience="110" Strength="70" Accuracy="100" Reflexes="65" Bravery="100" />
+      <Props APs="75" Resilience="110" Strength="70" Accuracy="100" Reflexes="97" Bravery="100" />
       <Armour kinetic="25" energy="55" chemical="20" incendiary="15" />
       <Items killed="Items.CaesanterrorsoldierCorpse" stunned="Items.Caesanterrorsoldier" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2098,7 +2098,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="85" Resilience="320" Strength="80" Accuracy="120" Reflexes="85" Bravery="100" />
+      <Props APs="85" Resilience="320" Strength="80" Accuracy="120" Reflexes="127" Bravery="100" />
       <Armour kinetic="44" energy="110" chemical="44" incendiary="28" />
       <Items killed="Items.CaesanterrorwarriorCorpse" stunned="Items.Caesanterrorwarrior" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2203,7 +2203,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="85" Resilience="175" Strength="75" Accuracy="120" Reflexes="70" Bravery="100" />
+      <Props APs="85" Resilience="175" Strength="75" Accuracy="120" Reflexes="105" Bravery="100" />
       <Armour kinetic="50" energy="100" chemical="35" incendiary="30" />
       <Items killed="Items.CaesanterrorwarriorCorpse" stunned="Items.Caesanterrorwarrior" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2290,7 +2290,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="95" Resilience="250" Strength="85" Accuracy="140" Reflexes="90" Bravery="100" /> 
+      <Props APs="95" Resilience="250" Strength="85" Accuracy="140" Reflexes="135" Bravery="100" /> 
       <Armour kinetic="55" energy="180" chemical="72" incendiary="45" />
       <Items killed="Items.CaesanterroreliteCorpse" stunned="Items.Caesanterrorelite" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2385,7 +2385,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="95" Resilience="230" Strength="80" Accuracy="140" Reflexes="75" Bravery="100" /> 
+      <Props APs="95" Resilience="230" Strength="80" Accuracy="140" Reflexes="112" Bravery="100" /> 
       <Armour kinetic="55" energy="180" chemical="72" incendiary="45" />
       <Items killed="Items.CaesanterroreliteCorpse" stunned="Items.Caesanterrorelite" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2487,7 +2487,7 @@
 	<!--  	  Sebillians Phase 1	-->
 
     <Rank  type="OperatorLightScout">
-		<Props APs="50" Resilience="80" Strength="60" Accuracy="60" Reflexes="40" Bravery="55" Abilities="Regeneration" />
+		<Props APs="50" Resilience="80" Strength="60" Accuracy="60" Reflexes="60" Bravery="55" Abilities="Regeneration" />
 		<Armour kinetic="10" energy="0" chemical="5" incendiary="10" />
 		<Items killed="Items.SebillianOperatorLightScoutCorpse" stunned="Items.SebillianOperatorLightScout" />
 		<BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2513,7 +2513,7 @@
 	
 	
 	<Rank  type="OperatorScout">
-		<Props APs="50" Resilience="90" Strength="60" Accuracy="60" Reflexes="40" Bravery="55" Abilities="Regeneration" />
+		<Props APs="50" Resilience="90" Strength="60" Accuracy="60" Reflexes="60" Bravery="55" Abilities="Regeneration" />
 		<Armour kinetic="15" energy="2" chemical="7" incendiary="12" />
 		<Items killed="Items.SebillianOperatorScoutCorpse" stunned="Items.SebillianOperatorScout" />
 		<BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2537,7 +2537,7 @@
     </Rank>
 	
 	<Rank  type="OperatorCorvette">
-		<Props APs="50" Resilience="100" Strength="60" Accuracy="60" Reflexes="40" Bravery="55" Abilities="Regeneration" />
+		<Props APs="50" Resilience="100" Strength="60" Accuracy="60" Reflexes="60" Bravery="55" Abilities="Regeneration" />
 		<Armour kinetic="20" energy="4" chemical="7" incendiary="12" />
 		<Items killed="Items.SebillianOperatorCorvetteCorpse" stunned="Items.SebillianOperatorCorvette" />
 		<BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2561,7 +2561,7 @@
     </Rank>
 	
 	<Rank  type="OperatorTerror1">
-		<Props APs="50" Resilience="100" Strength="60" Accuracy="60" Reflexes="40" Bravery="55" Abilities="Regeneration" />
+		<Props APs="50" Resilience="100" Strength="60" Accuracy="60" Reflexes="60" Bravery="55" Abilities="Regeneration" />
 		<Armour kinetic="20" energy="4" chemical="7" incendiary="12" />
 		<Items killed="Items.SebillianOperatorTerror1Corpse" stunned="Items.SebillianOperatorTerror1" />
 		<BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2585,7 +2585,7 @@
     </Rank>
 	
 	<Rank  type="OperatorAssault1">
-		<Props APs="50" Resilience="100" Strength="60" Accuracy="60" Reflexes="40" Bravery="55" Abilities="Regeneration" />
+		<Props APs="50" Resilience="100" Strength="60" Accuracy="60" Reflexes="60" Bravery="55" Abilities="Regeneration" />
 		<Armour kinetic="20" energy="4" chemical="7" incendiary="12" />
 		<Items killed="Items.SebillianOperatorAssault1Corpse" stunned="Items.SebillianOperatorAssault1" />
 		<BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2609,7 +2609,7 @@
     </Rank>
 	
 	<Rank  type="OperatorBomber1">
-		<Props APs="50" Resilience="100" Strength="60" Accuracy="60" Reflexes="40" Bravery="55" Abilities="Regeneration" />
+		<Props APs="50" Resilience="100" Strength="60" Accuracy="60" Reflexes="60" Bravery="55" Abilities="Regeneration" />
 		<Armour kinetic="20" energy="4" chemical="7" incendiary="12" />
 		<Items killed="Items.SebillianOperatorBomber1Corpse" stunned="Items.SebillianOperatorBomber1" />
 		<BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2634,7 +2634,7 @@
 	
 	
 	 <Rank  type="medic">
-		<Props APs="50" Resilience="80" Strength="60" Accuracy="60" Reflexes="40" Bravery="55" Abilities="Regeneration" />
+		<Props APs="50" Resilience="80" Strength="60" Accuracy="60" Reflexes="60" Bravery="55" Abilities="Regeneration" />
 		<Armour kinetic="10" energy="5" chemical="5" incendiary="10" />
 		<Items killed="Items.SebillianmedicCorpse" stunned="Items.Sebillianmedic" />
 		<BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2658,7 +2658,7 @@
     </Rank>
 	
 	<Rank  type="technician">
-		<Props APs="50" Resilience="80" Strength="60" Accuracy="60" Reflexes="40" Bravery="55" Abilities="Regeneration" />
+		<Props APs="50" Resilience="80" Strength="60" Accuracy="60" Reflexes="60" Bravery="55" Abilities="Regeneration" />
 		<Armour kinetic="10" energy="5" chemical="5" incendiary="10" />
 		<Items killed="Items.SebilliantechnicianCorpse" stunned="Items.Sebilliantechnician" />
 		<BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2675,7 +2675,7 @@
     </Rank>
 	
 	<Rank  type="navigator">
-		<Props APs="50" Resilience="80" Strength="70" Accuracy="60" Reflexes="40" Bravery="55" Abilities="Regeneration" />
+		<Props APs="50" Resilience="80" Strength="70" Accuracy="60" Reflexes="60" Bravery="55" Abilities="Regeneration" />
 		<Armour kinetic="15" energy="5" chemical="10" incendiary="15" />
 		<Items killed="Items.SebilliannavigatorCorpse" stunned="Items.Sebilliannavigator" />
 		<BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2692,7 +2692,7 @@
     </Rank>
 	
 	<Rank  type="weaponsergeant">
-		<Props APs="55" Resilience="100" Strength="80" Accuracy="75" Reflexes="55" Bravery="80" Abilities="Regeneration" />
+		<Props APs="55" Resilience="100" Strength="80" Accuracy="75" Reflexes="82" Bravery="80" Abilities="Regeneration" />
 		<Armour kinetic="20" energy="4" chemical="7" incendiary="12" />
 		<Items killed="Items.SebillianweaponsergeantCorpse" stunned="Items.Sebillianweaponsergeant" />
 		<BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2716,7 +2716,7 @@
     </Rank>
 	
     <Rank  type="Guard">
-      <Props APs="55" Resilience="120" Strength="70" Accuracy="75" Reflexes="45" Bravery="65" Abilities="Regeneration" />
+      <Props APs="55" Resilience="120" Strength="70" Accuracy="75" Reflexes="70" Bravery="65" Abilities="Regeneration" />
       <Armour kinetic="20" energy="4" chemical="7" incendiary="12" />
       <Items killed="Items.SebillianGuardCorpse" stunned="Items.SebillianGuard" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2743,7 +2743,7 @@
 
     <Rank  type="GuardSupport">
 	
-      <Props APs="55" Resilience="110" Strength="65" Accuracy="75" Reflexes="55" Bravery="65" Abilities="Regeneration" />
+      <Props APs="55" Resilience="110" Strength="65" Accuracy="75" Reflexes="82" Bravery="65" Abilities="Regeneration" />
       <Armour kinetic="20" energy="4" chemical="7" incendiary="12" />
       <Items killed="Items.SebillianGuardCorpse" stunned="Items.SebillianGuard" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2767,7 +2767,7 @@
     </Rank>
 	
 	 <Rank  type="Chieftain">
-      <Props APs="60" Resilience="140" Strength="75" Accuracy="90" Reflexes="70" Bravery="85" Abilities="Regeneration" />
+      <Props APs="60" Resilience="140" Strength="75" Accuracy="90" Reflexes="105" Bravery="85" Abilities="Regeneration" />
       <Armour kinetic="30" energy="6" chemical="10" incendiary="18" />
       <Items killed="Items.SebillianChieftainCorpse" stunned="Items.SebillianChieftain" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2795,7 +2795,7 @@
 	<!--  	  Sebillians Phase 2	-->
 	
     <Rank  type="Soldier">
-      <Props APs="65" Resilience="195" Strength="75" Accuracy="90" Reflexes="60" Bravery="70" Abilities="Regeneration" />
+      <Props APs="65" Resilience="195" Strength="75" Accuracy="90" Reflexes="90" Bravery="70" Abilities="Regeneration" />
       <Armour kinetic="50" energy="10" chemical="17" incendiary="30" />
       <Items killed="Items.SebillianSoldierCorpse" stunned="Items.SebillianSoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2822,7 +2822,7 @@
 	
     <Rank  type="SoldierSupport">
 	
-      <Props APs="65" Resilience="175" Strength="70" Accuracy="90" Reflexes="50" Bravery="75" Abilities="Regeneration" />
+      <Props APs="65" Resilience="175" Strength="70" Accuracy="90" Reflexes="75" Bravery="75" Abilities="Regeneration" />
       <Armour kinetic="50" energy="10" chemical="17" incendiary="30" />
       <Items killed="Items.SebillianSoldierCorpse" stunned="Items.SebillianSoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2849,7 +2849,7 @@
 
 	<Rank  type="SoldierAssault">
 
-      <Props APs="70" Resilience="225" Strength="75" Accuracy="100" Reflexes="65" Bravery="75" Abilities="Regeneration" />
+      <Props APs="70" Resilience="225" Strength="75" Accuracy="100" Reflexes="97" Bravery="75" Abilities="Regeneration" />
       <Armour kinetic="60" energy="12" chemical="20" incendiary="36" />
       <Items killed="Items.SebillianSoldierCorpse" stunned="Items.SebillianSoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2892,7 +2892,7 @@
 	
 	<Rank  type="SoldierGuardian">
 
-      <Props APs="65" Resilience="250" Strength="75" Accuracy="90" Reflexes="100" Bravery="80" Abilities="Regeneration" />
+      <Props APs="65" Resilience="250" Strength="75" Accuracy="90" Reflexes="150" Bravery="80" Abilities="Regeneration" />
       <Armour kinetic="60" energy="12" chemical="20" incendiary="36" />
       <Items killed="Items.SebillianSoldierCorpse" stunned="Items.SebillianSoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2910,7 +2910,7 @@
     </Rank>
 	
 	 <Rank  type="Officer">
-      <Props APs="70" Resilience="250" Strength="75" Accuracy="100" Reflexes="65" Bravery="75" Abilities="Regeneration" />
+      <Props APs="70" Resilience="250" Strength="75" Accuracy="100" Reflexes="97" Bravery="75" Abilities="Regeneration" />
       <Armour kinetic="70" energy="14" chemical="23" incendiary="42" />
       <Items killed="Items.SebillianOfficerCorpse" stunned="Items.SebillianOfficer" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2944,7 +2944,7 @@
     </Rank>
 
 	<Rank  type="OfficerAssault">
-      <Props APs="75" Resilience="270" Strength="60" Accuracy="110" Reflexes="90" Bravery="80" Abilities="Regeneration" />
+      <Props APs="75" Resilience="270" Strength="60" Accuracy="110" Reflexes="135" Bravery="80" Abilities="Regeneration" />
       <Armour kinetic="70" energy="14" chemical="23" incendiary="42" />
       <Items killed="Items.SebillianOfficerCorpse" stunned="Items.SebillianOfficer" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2971,7 +2971,7 @@
 	
 	
 	<Rank  type="physician">
-      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="45" Bravery="65" Abilities="Regeneration" />
+      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="70" Bravery="65" Abilities="Regeneration" />
        <Armour kinetic="50" energy="10" chemical="17" incendiary="30" />
       <Items killed="Items.SebillianphysicianCorpse" stunned="Items.Sebillianphysician" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -2988,7 +2988,7 @@
     </Rank>
 	
 	<Rank  type="OperatorLanding">
-      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="45" Bravery="65" Abilities="Regeneration" />
+      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="70" Bravery="65" Abilities="Regeneration" />
        <Armour kinetic="50" energy="10" chemical="17" incendiary="30" />
       <Items killed="Items.SebillianOperatorLandingCorpse" stunned="Items.SebillianOperatorLanding" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3005,7 +3005,7 @@
     </Rank>
 	
 	<Rank  type="OperatorCruiser">
-      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="45" Bravery="65" Abilities="Regeneration" />
+      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="70" Bravery="65" Abilities="Regeneration" />
        <Armour kinetic="50" energy="10" chemical="17" incendiary="30" />
       <Items killed="Items.SebillianOperatorCruiserCorpse" stunned="Items.SebillianOperatorCruiser" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3022,7 +3022,7 @@
     </Rank>
 	
 	<Rank  type="OperatorSmallbase">
-      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="45" Bravery="65" Abilities="Regeneration" />
+      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="70" Bravery="65" Abilities="Regeneration" />
        <Armour kinetic="50" energy="10" chemical="17" incendiary="30" />
       <Items killed="Items.SebillianOperatorSmallbaseCorpse" stunned="Items.SebillianOperatorSmallbase" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3038,7 +3038,7 @@
       </Equipments>
     </Rank>
 	<Rank  type="OperatorTerror2">
-      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="45" Bravery="65" Abilities="Regeneration" />
+      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="70" Bravery="65" Abilities="Regeneration" />
        <Armour kinetic="50" energy="10" chemical="17" incendiary="30" />
       <Items killed="Items.SebillianOperatorTerror2Corpse" stunned="Items.SebillianOperatorTerror2" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3054,7 +3054,7 @@
       </Equipments>
     </Rank>
 	<Rank  type="OperatorAssault2">
-      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="45" Bravery="65" Abilities="Regeneration" />
+      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="70" Bravery="65" Abilities="Regeneration" />
        <Armour kinetic="50" energy="10" chemical="17" incendiary="30" />
       <Items killed="Items.SebillianOperatorAssault2Corpse" stunned="Items.SebillianOperatorAssault2" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3070,7 +3070,7 @@
       </Equipments>
     </Rank>
 	<Rank  type="OperatorBomber2">
-      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="45" Bravery="65" Abilities="Regeneration" />
+      <Props APs="60" Resilience="150" Strength="70" Accuracy="75" Reflexes="70" Bravery="65" Abilities="Regeneration" />
        <Armour kinetic="50" energy="10" chemical="17" incendiary="30" />
       <Items killed="Items.SebillianOperatorBomber2Corpse" stunned="Items.SebillianOperatorBomber2" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3087,7 +3087,7 @@
     </Rank>
 	
 	<Rank  type="engineer">
-      <Props APs="60" Resilience="170" Strength="70" Accuracy="75" Reflexes="45" Bravery="65" Abilities="Regeneration" />	  
+      <Props APs="60" Resilience="170" Strength="70" Accuracy="75" Reflexes="70" Bravery="65" Abilities="Regeneration" />	  
        <Armour kinetic="50" energy="10" chemical="17" incendiary="30" />
       <Items killed="Items.SebillianengineerCorpse" stunned="Items.Sebillianengineer" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3104,7 +3104,7 @@
     </Rank>
 	
 	<Rank  type="pilot">
-      <Props APs="60" Resilience="180" Strength="70" Accuracy="75" Reflexes="45" Bravery="65" Abilities="Regeneration" />	  
+      <Props APs="60" Resilience="180" Strength="70" Accuracy="75" Reflexes="70" Bravery="65" Abilities="Regeneration" />	  
        <Armour kinetic="50" energy="10" chemical="17" incendiary="30" />
       <Items killed="Items.SebillianpilotCorpse" stunned="Items.Sebillianpilot" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3123,7 +3123,7 @@
 	
 	
 	<Rank  type="weaponofficer">
-       <Props APs="70" Resilience="220" Strength="80" Accuracy="100" Reflexes="70" Bravery="90" Abilities="Regeneration" />
+       <Props APs="70" Resilience="220" Strength="80" Accuracy="100" Reflexes="105" Bravery="90" Abilities="Regeneration" />
       <Armour kinetic="55" energy="25" chemical="25" incendiary="40" />
       <Items killed="Items.SebillianweaponofficerCorpse" stunned="Items.Sebillianweaponofficer" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3149,7 +3149,7 @@
 	<!--  	  Sebillians Phase 3	-->
 	
     <Rank  type="Warrior">
-      <Props APs="75" Resilience="300" Strength="85" Accuracy="110" Reflexes="65" Bravery="90" Abilities="Regeneration" />
+      <Props APs="75" Resilience="300" Strength="85" Accuracy="110" Reflexes="97" Bravery="90" Abilities="Regeneration" />
       <Armour kinetic="75" energy="15" chemical="25" incendiary="45" />
       <Items killed="Items.SebillianWarriorCorpse" stunned="Items.SebillianWarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3183,7 +3183,7 @@
     </Rank>
 
 	<Rank type="WarriorSupport">
-	  <Props APs="75" Resilience="280" Strength="85" Accuracy="110" Reflexes="65" Bravery="90" Abilities="Regeneration" />
+	  <Props APs="75" Resilience="280" Strength="85" Accuracy="110" Reflexes="97" Bravery="90" Abilities="Regeneration" />
        <Armour kinetic="75" energy="15" chemical="25" incendiary="45" />
       <Items killed="Items.SebillianWarriorCorpse" stunned="Items.SebillianWarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3217,7 +3217,7 @@
     </Rank>
    
 	<Rank  type="WarriorAssault">
-      <Props APs="80" Resilience="360" Strength="90" Accuracy="120" Reflexes="70" Bravery="95" Abilities="Regeneration" />
+      <Props APs="80" Resilience="360" Strength="90" Accuracy="120" Reflexes="105" Bravery="95" Abilities="Regeneration" />
       <Armour kinetic="85" energy="17" chemical="28" incendiary="51" />
       <Items killed="Items.SebillianWarriorCorpse" stunned="Items.SebillianWarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3259,7 +3259,7 @@
     </Rank>
 	
 	<Rank  type="WarriorGuardian">
-      <Props APs="75" Resilience="400" Strength="90" Accuracy="110" Reflexes="100" Bravery="95" Abilities="Regeneration" />
+      <Props APs="75" Resilience="400" Strength="90" Accuracy="110" Reflexes="150" Bravery="95" Abilities="Regeneration" />
       <Armour kinetic="85" energy="17" chemical="28" incendiary="51" />
       <Items killed="Items.SebillianWarriorCorpse" stunned="Items.SebillianWarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3277,7 +3277,7 @@
     </Rank>
 	
 	<Rank  type="Leader">
-      <Props APs="80" Resilience="420" Strength="100" Accuracy="130" Reflexes="60" Bravery="100" Abilities="Regeneration" />	  
+      <Props APs="80" Resilience="420" Strength="100" Accuracy="130" Reflexes="90" Bravery="100" Abilities="Regeneration" />	  
       <Armour kinetic="90" energy="18" chemical="30" incendiary="54" />
       <Items killed="Items.SebillianLeaderCorpse" stunned="Items.SebillianLeader" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3303,7 +3303,7 @@
     </Rank>
 
   <Rank  type="LeaderAssault">
-      <Props APs="85" Resilience="450" Strength="99" Accuracy="140" Reflexes="60" Bravery="100" Abilities="Regeneration" />
+      <Props APs="85" Resilience="450" Strength="99" Accuracy="140" Reflexes="90" Bravery="100" Abilities="Regeneration" />
       <Armour kinetic="90" energy="18" chemical="30" incendiary="54" />
       <Items killed="Items.SebillianLeaderCorpse" stunned="Items.SebillianLeader" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3321,7 +3321,7 @@
     </Rank>
 	
 	<Rank  type="OperatorCarrier">
-      <Props APs="65" Resilience="240" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="65" Resilience="240" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
       <Armour kinetic="75" energy="15" chemical="25" incendiary="45" />
       <Items killed="Items.SebillianOperatorCarrierCorpse" stunned="Items.SebillianOperatorCarrier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3338,7 +3338,7 @@
     </Rank>
 	
 	<Rank  type="OperatorMediumbase">
-      <Props APs="65" Resilience="240" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="65" Resilience="240" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
       <Armour kinetic="75" energy="15" chemical="25" incendiary="45" />
       <Items killed="Items.SebillianOperatorMediumbaseCorpse" stunned="Items.SebillianOperatorMediumbase" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3354,7 +3354,7 @@
       </Equipments>
     </Rank>
 	<Rank  type="OperatorTerror3">
-      <Props APs="65" Resilience="240" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="65" Resilience="240" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
       <Armour kinetic="75" energy="15" chemical="25" incendiary="45" />
       <Items killed="Items.SebillianOperatorTerror3Corpse" stunned="Items.SebillianOperatorTerror3" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3370,7 +3370,7 @@
       </Equipments>
     </Rank>
 	<Rank  type="OperatorAssault3">
-      <Props APs="65" Resilience="240" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="65" Resilience="240" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
       <Armour kinetic="75" energy="15" chemical="25" incendiary="45" />
       <Items killed="Items.SebillianOperatorAssault3Corpse" stunned="Items.SebillianOperatorAssault3" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3386,7 +3386,7 @@
       </Equipments>
     </Rank>
 	<Rank  type="OperatorBomber3">
-      <Props APs="65" Resilience="240" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="65" Resilience="240" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
       <Armour kinetic="75" energy="15" chemical="25" incendiary="45" />
       <Items killed="Items.SebillianOperatorBomber3Corpse" stunned="Items.SebillianOperatorBomber3" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3403,7 +3403,7 @@
     </Rank>
 	
 	 <Rank  type="doctor">
-      <Props APs="65" Resilience="240" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="65" Resilience="240" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
       <Armour kinetic="75" energy="15" chemical="25" incendiary="45" />
       <Items killed="Items.SebilliandoctorCorpse" stunned="Items.Sebilliandoctor" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3420,7 +3420,7 @@
     </Rank>
 	
 	<Rank  type="chief">
-      <Props APs="65" Resilience="260" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="65" Resilience="260" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
        <Armour kinetic="75" energy="15" chemical="25" incendiary="45" />
       <Items killed="Items.SebillianchiefCorpse" stunned="Items.Sebillianchief" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3437,7 +3437,7 @@
     </Rank>
 	
 	<Rank  type="cruisecommander">
-      <Props APs="65" Resilience="280" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="65" Resilience="280" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
       <Armour kinetic="55" energy="20" chemical="35" incendiary="35" />
       <Items killed="Items.SebilliancruisecommanderCorpse" stunned="Items.Sebilliancruisecommander" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3454,7 +3454,7 @@
     </Rank>
 	
 	<Rank  type="weaponcommander">
-      <Props APs="80" Resilience="350" Strength="90" Accuracy="100" Reflexes="70" Bravery="95" Abilities="Regeneration" />
+      <Props APs="80" Resilience="350" Strength="90" Accuracy="100" Reflexes="105" Bravery="95" Abilities="Regeneration" />
        <Armour kinetic="85" energy="17" chemical="28" incendiary="51" />
       <Items killed="Items.SebillianweaponcommanderCorpse" stunned="Items.Sebillianweaponcommander" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3473,7 +3473,7 @@
 	<!--  	  Sebillians Phase 4	-->
 
     <Rank  type="Elite">
-      <Props APs="85" Resilience="450" Strength="100" Accuracy="130" Reflexes="75" Bravery="100" Abilities="Regeneration" />	  
+      <Props APs="85" Resilience="450" Strength="100" Accuracy="130" Reflexes="112" Bravery="100" Abilities="Regeneration" />	  
       <Armour kinetic="110" energy="22" chemical="37" incendiary="66" />
       <Items killed="Items.SebillianEliteCorpse" stunned="Items.SebillianElite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3499,7 +3499,7 @@
     </Rank>
 	
 	 <Rank  type="EliteAssault">
-      <Props APs="90" Resilience="475" Strength="100" Accuracy="140" Reflexes="85" Bravery="100" Abilities="Regeneration" />	  
+      <Props APs="90" Resilience="475" Strength="100" Accuracy="140" Reflexes="127" Bravery="100" Abilities="Regeneration" />	  
       <Armour kinetic="110" energy="22" chemical="45" incendiary="80" />
       <Items killed="Items.SebillianEliteCorpse" stunned="Items.SebillianElite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3525,7 +3525,7 @@
     </Rank>
 
 	<Rank  type="EliteSupport">
-     <Props APs="85" Resilience="320" Strength="100" Accuracy="130" Reflexes="65" Bravery="100" Abilities="Regeneration" />	  
+     <Props APs="85" Resilience="320" Strength="100" Accuracy="130" Reflexes="97" Bravery="100" Abilities="Regeneration" />	  
       <Armour kinetic="110" energy="28" chemical="47" incendiary="84" />
       <Items killed="Items.SebillianEliteCorpse" stunned="Items.SebillianElite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3559,7 +3559,7 @@
     </Rank>
     
 	<Rank  type="EliteGuardian">
-      <Props APs="85" Resilience="440" Strength="90" Accuracy="130" Reflexes="100" Bravery="95" Abilities="Regeneration" />
+      <Props APs="85" Resilience="440" Strength="90" Accuracy="130" Reflexes="150" Bravery="95" Abilities="Regeneration" />
       <Armour kinetic="110" energy="22" chemical="45" incendiary="80" />
       <Items killed="Items.SebillianEliteCorpse" stunned="Items.SebillianElite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3577,7 +3577,7 @@
     </Rank>
 
    	<Rank  type="OperatorBattle">
-      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
        <Armour kinetic="110" energy="22" chemical="37" incendiary="66" />
       <Items killed="Items.SebillianOperatorBattleCorpse" stunned="Items.SebillianOperatorBattle" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3593,7 +3593,7 @@
       </Equipments>
     </Rank>
 	<Rank  type="OperatorDread">
-      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
        <Armour kinetic="110" energy="22" chemical="37" incendiary="66" />
       <Items killed="Items.SebillianOperatorDreadCorpse" stunned="Items.SebillianOperatorDread" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3609,7 +3609,7 @@
       </Equipments>
     </Rank>
 	<Rank  type="OperatorLargebase">
-      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
        <Armour kinetic="110" energy="22" chemical="37" incendiary="66" />
       <Items killed="Items.SebillianOperatorLargebaseCorpse" stunned="Items.SebillianOperatorLargebase" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3625,7 +3625,7 @@
       </Equipments>
     </Rank>
 	<Rank  type="OperatorTerror4">
-      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
        <Armour kinetic="110" energy="22" chemical="37" incendiary="66" />
       <Items killed="Items.SebillianOperatorTerror4Corpse" stunned="Items.SebillianOperatorTerror4" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3641,7 +3641,7 @@
       </Equipments>
     </Rank>
 	<Rank  type="OperatorAssault4">
-      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
        <Armour kinetic="110" energy="22" chemical="37" incendiary="66" />
       <Items killed="Items.SebillianOperatorAssault4Corpse" stunned="Items.SebillianOperatorAssault4" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3657,7 +3657,7 @@
       </Equipments>
     </Rank>
 	<Rank  type="OperatorBomber4">
-      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
        <Armour kinetic="110" energy="22" chemical="37" incendiary="66" />
       <Items killed="Items.SebillianOperatorBomber4Corpse" stunned="Items.SebillianOperatorBomber4" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3674,7 +3674,7 @@
     </Rank>
 	
 	 <Rank  type="professor">
-      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="70" Resilience="300" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
        <Armour kinetic="110" energy="22" chemical="37" incendiary="66" />
       <Items killed="Items.SebillianprofessorCorpse" stunned="Items.Sebillianprofessor" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3691,7 +3691,7 @@
     </Rank>
 	
 	<Rank  type="headengineer">
-      <Props APs="70" Resilience="340" Strength="75" Accuracy="100" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="70" Resilience="340" Strength="75" Accuracy="100" Reflexes="75" Bravery="80" Abilities="Regeneration" />
        <Armour kinetic="110" energy="22" chemical="37" incendiary="66" />
       <Items killed="Items.SebillianheadengineerCorpse" stunned="Items.Sebillianheadengineer" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3708,7 +3708,7 @@
     </Rank>
 	
 	<Rank  type="fleetcommander">
-      <Props APs="70" Resilience="380" Strength="75" Accuracy="120" Reflexes="50" Bravery="80" Abilities="Regeneration" />
+      <Props APs="70" Resilience="380" Strength="75" Accuracy="120" Reflexes="75" Bravery="80" Abilities="Regeneration" />
        <Armour kinetic="110" energy="22" chemical="37" incendiary="66" />
       <Items killed="Items.SebillianfleetcommanderCorpse" stunned="Items.Sebillianfleetcommander" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3725,7 +3725,7 @@
     </Rank>
 	
 	<Rank  type="tacticalcommander">
-      <Props APs="85" Resilience="450" Strength="90" Accuracy="150" Reflexes="70" Bravery="95" Abilities="Regeneration" />
+      <Props APs="85" Resilience="450" Strength="90" Accuracy="150" Reflexes="705" Bravery="95" Abilities="Regeneration" />
        <Armour kinetic="85" energy="17" chemical="28" incendiary="51" />
       <Items killed="Items.SebilliantacticalcommanderCorpse" stunned="Items.Sebilliantacticalcommander" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3791,7 +3791,7 @@
 				</ScriptOverrides>
 			</Behaviour>
 		
-      <Props APs="70" Resilience="150" Strength="75" Accuracy="100" Reflexes="65" Bravery="100" Abilities="Regeneration" />	  
+      <Props APs="70" Resilience="150" Strength="75" Accuracy="100" Reflexes="97" Bravery="100" Abilities="Regeneration" />	  
       <Armour kinetic="35" energy="15" chemical="15" incendiary="25" />
       <Items killed="Items.SebillianterrorsoldierCorpse" stunned="Items.Sebillianterrorsoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3864,7 +3864,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="70" Resilience="200" Strength="75" Accuracy="110" Reflexes="70" Bravery="100" Abilities="Regeneration" />
+      <Props APs="70" Resilience="200" Strength="75" Accuracy="110" Reflexes="105" Bravery="100" Abilities="Regeneration" />
       <Armour kinetic="60" energy="30" chemical="15" incendiary="45" />
      <Items killed="Items.SebillianterrorsoldierCorpse" stunned="Items.Sebillianterrorsoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -3955,7 +3955,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="70" Resilience="190" Strength="75" Accuracy="100" Reflexes="70" Bravery="100" Abilities="Regeneration" />
+      <Props APs="70" Resilience="190" Strength="75" Accuracy="100" Reflexes="105" Bravery="100" Abilities="Regeneration" />
       <Armour kinetic="55" energy="25" chemical="12" incendiary="40" />
       <Items killed="Items.SebillianterrorsoldierCorpse" stunned="Items.Sebillianterrorsoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -4029,7 +4029,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="80" Resilience="300" Strength="95" Accuracy="120" Reflexes="85" Bravery="100" Abilities="Regeneration" />
+      <Props APs="80" Resilience="300" Strength="95" Accuracy="120" Reflexes="127" Bravery="100" Abilities="Regeneration" />
       <Armour kinetic="80" energy="45" chemical="15" incendiary="60" />
       <Items killed="Items.SebillianterrorwarriorCorpse" stunned="Items.Sebillianterrorwarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -4131,7 +4131,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="80" Resilience="280" Strength="95" Accuracy="120" Reflexes="75" Bravery="100" Abilities="Regeneration" />
+      <Props APs="80" Resilience="280" Strength="95" Accuracy="120" Reflexes="112" Bravery="100" Abilities="Regeneration" />
       <Armour kinetic="75" energy="40" chemical="15" incendiary="50" />
       <Items killed="Items.SebillianterrorwarriorCorpse" stunned="Items.Sebillianterrorwarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -4213,7 +4213,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="90" Resilience="420" Strength="100" Accuracy="140" Reflexes="90" Bravery="100" Abilities="Regeneration" />	  
+      <Props APs="90" Resilience="420" Strength="100" Accuracy="140" Reflexes="135" Bravery="100" Abilities="Regeneration" />	  
       <Armour kinetic="100" energy="55" chemical="25" incendiary="75" />
       <Items killed="Items.SebillianterroreliteCorpse" stunned="Items.Sebillianterrorelite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -4304,7 +4304,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="90" Resilience="400" Strength="100" Accuracy="140" Reflexes="85" Bravery="100" Abilities="Regeneration" />	  
+      <Props APs="90" Resilience="400" Strength="100" Accuracy="140" Reflexes="127" Bravery="100" Abilities="Regeneration" />	  
       <Armour kinetic="90" energy="50" chemical="25" incendiary="65" />
       <Items killed="Items.SebillianterroreliteCorpse" stunned="Items.Sebillianterrorelite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -4967,7 +4967,7 @@
 	
 	
     <Rank  type="Soldier">
-      <Props APs="70" Resilience="163" Strength="50" Accuracy="90" Reflexes="65" Bravery="50" Abilities="Jetpack" />	  
+      <Props APs="70" Resilience="163" Strength="50" Accuracy="90" Reflexes="97" Bravery="50" Abilities="Jetpack" />	  
       <Armour kinetic="12" energy="60" chemical="36" incendiary="17" />
       <Items killed="Items.HarridanSoldierCorpse" stunned="Items.HarridanSoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5001,7 +5001,7 @@
     </Rank>
 
     <Rank  type="SoldierSupport">
-      <Props APs="70" Resilience="163" Strength="50" Accuracy="90" Reflexes="60" Bravery="50" Abilities="Jetpack" />
+      <Props APs="70" Resilience="163" Strength="50" Accuracy="90" Reflexes="90" Bravery="50" Abilities="Jetpack" />
       <Armour kinetic="12" energy="60" chemical="36" incendiary="17" />
       <Items killed="Items.HarridanSoldierCorpse" stunned="Items.HarridanSoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5044,7 +5044,7 @@
 	
 	 <Rank  type="TerrorSoldier">
 
-      <Props APs="75" Resilience="250" Strength="50" Accuracy="100" Reflexes="60" Bravery="80" Abilities="Jetpack" />
+      <Props APs="75" Resilience="250" Strength="50" Accuracy="100" Reflexes="90" Bravery="80" Abilities="Jetpack" />
       <Armour kinetic="20" energy="100" chemical="60" incendiary="29" />
       <Items killed="Items.HarridanterrorSoldierCorpse" stunned="Items.Harridanterrorsoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5076,7 +5076,7 @@
 
 
     <Rank  type="Warrior">
-      <Props APs="80" Resilience="250" Strength="50" Accuracy="120" Reflexes="70" Bravery="55" Abilities="Jetpack" />    
+      <Props APs="80" Resilience="250" Strength="50" Accuracy="120" Reflexes="105" Bravery="55" Abilities="Jetpack" />    
       <Armour kinetic="20" energy="100" chemical="60" incendiary="29" />
       <Items killed="Items.HarridanWarriorCorpse" stunned="Items.HarridanWarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5110,7 +5110,7 @@
     </Rank>
 
     <Rank  type="WarriorSupport">
-      <Props APs="80" Resilience="250" Strength="50" Accuracy="120" Reflexes="70" Bravery="55" Abilities="Jetpack" />     
+      <Props APs="80" Resilience="250" Strength="50" Accuracy="120" Reflexes="105" Bravery="55" Abilities="Jetpack" />     
       <Armour kinetic="20" energy="100" chemical="60" incendiary="29" />
       <Items killed="Items.HarridanWarriorCorpse" stunned="Items.HarridanWarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5153,7 +5153,7 @@
 	
 	 <Rank  type="TerrorWarrior">
 
-     <Props APs="85" Resilience="400" Strength="50" Accuracy="80" Reflexes="140" Bravery="90" Abilities="Jetpack" />     
+     <Props APs="85" Resilience="400" Strength="50" Accuracy="80" Reflexes="210" Bravery="90" Abilities="Jetpack" />     
       <Armour kinetic="28" energy="140" chemical="84" incendiary="40" />
       <Items killed="Items.HarridanterrorWarriorCorpse" stunned="Items.Harridanterrorwarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5193,7 +5193,7 @@
     </Rank>
     
     <Rank  type="Elite">
-      <Props APs="90" Resilience="375" Strength="50" Accuracy="140" Reflexes="80" Bravery="60" Abilities="Jetpack" />
+      <Props APs="90" Resilience="375" Strength="50" Accuracy="140" Reflexes="140" Bravery="60" Abilities="Jetpack" />
       <Armour kinetic="30" energy="150" chemical="90" incendiary="43" />
       <Items killed="Items.HarridanEliteCorpse" stunned="Items.HarridanElite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5219,7 +5219,7 @@
     </Rank>
 	
 	<Rank  type="EliteSupport">
-      <Props APs="90" Resilience="350" Strength="50" Accuracy="140" Reflexes="80" Bravery="60" Abilities="Jetpack" />
+      <Props APs="90" Resilience="350" Strength="50" Accuracy="140" Reflexes="140" Bravery="60" Abilities="Jetpack" />
       <Armour kinetic="30" energy="150" chemical="90" incendiary="43" />
       <Items killed="Items.HarridanEliteCorpse" stunned="Items.HarridanElite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5262,7 +5262,7 @@
 	
 	<Rank  type="TerrorElite">
 
-      <Props APs="100" Resilience="500" Strength="50" Accuracy="160" Reflexes="80" Bravery="100" Abilities="Jetpack" />
+      <Props APs="100" Resilience="500" Strength="50" Accuracy="160" Reflexes="140" Bravery="100" Abilities="Jetpack" />
       <Armour kinetic="36" energy="180" chemical="108" incendiary="51" />
       <Items killed="Items.HarridanterrorEliteCorpse" stunned="Items.Harridanterrorelite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5315,7 +5315,7 @@
 
     
     <Rank  type="Officer">
-      <Props APs="85" Resilience="188" Strength="50" Accuracy="130" Reflexes="85" Bravery="60" Abilities="Jetpack" />
+      <Props APs="85" Resilience="188" Strength="50" Accuracy="130" Reflexes="127" Bravery="60" Abilities="Jetpack" />
       <Armour kinetic="17" energy="85" chemical="51" incendiary="24" />
       <Items killed="Items.HarridanOfficerCorpse" stunned="Items.HarridanOfficer" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5598,7 +5598,7 @@
     </Rank>
 	
     <Rank  type="Soldier">
-      <Props APs="70" Resilience="173" Strength="80" Accuracy="120" Reflexes="70" Bravery="100" Abilities="Teleportation" />	  
+      <Props APs="70" Resilience="173" Strength="80" Accuracy="120" Reflexes="105" Bravery="100" Abilities="Teleportation" />	  
       <Armour kinetic="42" energy="60" chemical="10" incendiary="30" />
       <Items killed="Items.WraithSoldierCorpse" stunned="Items.WraithSoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5627,7 +5627,7 @@
     </Rank>
 
     <Rank  type="SoldierSupport">
-      <Props APs="70" Resilience="173" Strength="80" Accuracy="120" Reflexes="70" Bravery="100" Abilities="Teleportation" />	  
+      <Props APs="70" Resilience="173" Strength="80" Accuracy="120" Reflexes="105" Bravery="100" Abilities="Teleportation" />	  
       <Armour kinetic="42" energy="60" chemical="10" incendiary="30" />
       <Items killed="Items.WraithSoldierCorpse" stunned="Items.WraithSoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5691,7 +5691,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="80" Resilience="267" Strength="80" Accuracy="140" Reflexes="75" Bravery="120" Abilities="Teleportation" />
+      <Props APs="80" Resilience="267" Strength="80" Accuracy="140" Reflexes="112" Bravery="120" Abilities="Teleportation" />
       <Armour kinetic="70" energy="100" chemical="17" incendiary="50" />
       <Items killed="Items.WraithterrorsoldierCorpse" stunned="Items.Wraithterrorsoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5767,7 +5767,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-       <Props APs="80" Resilience="267" Strength="80" Accuracy="140" Reflexes="75" Bravery="120"  Abilities="Teleportation" />
+       <Props APs="80" Resilience="267" Strength="80" Accuracy="140" Reflexes="112" Bravery="120"  Abilities="Teleportation" />
       <Armour kinetic="70" energy="100" chemical="17" incendiary="50" />
       <Items killed="Items.WraithterrorsoldierCorpse" stunned="Items.Wraithterrorsoldier" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5811,7 +5811,7 @@
 
     
     <Rank  type="Warrior">
-      <Props APs="80" Resilience="267" Strength="80" Accuracy="140" Reflexes="100" Bravery="120" Abilities="Teleportation" />
+      <Props APs="80" Resilience="267" Strength="80" Accuracy="140" Reflexes="150" Bravery="120" Abilities="Teleportation" />
       <Armour kinetic="70" energy="100" chemical="17" incendiary="50" />
       <Items killed="Items.WraithWarriorCorpse" stunned="Items.WraithWarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5840,7 +5840,7 @@
     </Rank>
 
     <Rank  type="WarriorSupport">
-      <Props APs="80" Resilience="267" Strength="80" Accuracy="140" Reflexes="100" Bravery="120" Abilities="Teleportation" />
+      <Props APs="80" Resilience="267" Strength="80" Accuracy="140" Reflexes="150" Bravery="120" Abilities="Teleportation" />
       <Armour kinetic="70" energy="100" chemical="17" incendiary="50" />
       <Items killed="Items.WraithWarriorCorpse" stunned="Items.WraithWarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5904,7 +5904,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-      <Props APs="85" Resilience="427" Strength="80" Accuracy="150" Reflexes="110" Bravery="140" Abilities="Teleportation" />
+      <Props APs="85" Resilience="427" Strength="80" Accuracy="150" Reflexes="165" Bravery="140" Abilities="Teleportation" />
       <Armour kinetic="98" energy="140" chemical="23" incendiary="70" />
       <Items killed="Items.WraithterrorwarriorCorpse" stunned="Items.Wraithterrorwarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -5990,7 +5990,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-     <Props APs="85" Resilience="427" Strength="80" Accuracy="150" Reflexes="110" Bravery="140" Abilities="Teleportation" />
+     <Props APs="85" Resilience="427" Strength="80" Accuracy="150" Reflexes="165" Bravery="140" Abilities="Teleportation" />
       <Armour kinetic="98" energy="140" chemical="23" incendiary="70" />
       <Items killed="Items.WraithterrorwarriorCorpse" stunned="Items.Wraithterrorwarrior" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -6033,7 +6033,7 @@
 
     
     <Rank  type="Elite">
-      <Props APs="90" Resilience="400" Strength="80" Accuracy="160" Reflexes="120" Bravery="120" Abilities="Teleportation" />
+      <Props APs="90" Resilience="400" Strength="80" Accuracy="160" Reflexes="180" Bravery="120" Abilities="Teleportation" />
       <Armour kinetic="105" energy="150" chemical="25" incendiary="75" />
       <Items killed="Items.WraithEliteCorpse" stunned="Items.WraithElite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -6062,7 +6062,7 @@
     </Rank>
 	
 	<Rank  type="EliteSupport">
-      <Props APs="90" Resilience="400" Strength="80" Accuracy="160" Reflexes="120" Bravery="120" Abilities="Teleportation" />
+      <Props APs="90" Resilience="400" Strength="80" Accuracy="160" Reflexes="180" Bravery="120" Abilities="Teleportation" />
       <Armour kinetic="105" energy="150" chemical="25" incendiary="75" />
       <Items killed="Items.WraithEliteCorpse" stunned="Items.WraithElite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -6126,7 +6126,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-       <Props APs="100" Resilience="533" Strength="80" Accuracy="200" Reflexes="140" Bravery="140" Abilities="Teleportation" />
+       <Props APs="100" Resilience="533" Strength="80" Accuracy="200" Reflexes="210" Bravery="140" Abilities="Teleportation" />
       <Armour kinetic="126" energy="180" chemical="30" incendiary="90" />
       <Items killed="Items.WraithterroreliteCorpse" stunned="Items.Wraithterrorelite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -6206,7 +6206,7 @@
 					
 				</ScriptOverrides>
 			</Behaviour>
-       <Props APs="100" Resilience="533" Strength="80" Accuracy="200" Reflexes="140" Bravery="140" Abilities="Teleportation" />
+       <Props APs="100" Resilience="533" Strength="80" Accuracy="200" Reflexes="210" Bravery="140" Abilities="Teleportation" />
       <Armour kinetic="126" energy="180" chemical="30" incendiary="90" />
       <Items killed="Items.WraithterrorCorpse" stunned="Items.Wraithterrorelite" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -6258,7 +6258,7 @@
 
     
     <Rank  type="Officer">
-      <Props APs="80" Resilience="267" Strength="80" Accuracy="140" Reflexes="120" Bravery="120" Abilities="Teleportation" />
+      <Props APs="80" Resilience="267" Strength="80" Accuracy="140" Reflexes="180" Bravery="120" Abilities="Teleportation" />
       <Armour kinetic="70" energy="100" chemical="17" incendiary="50" />
       <Items killed="Items.WraithOfficerCorpse" stunned="Items.WraithOfficer" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -7006,7 +7006,7 @@
 	<GibbedSpectre name="particles/gibbed_alien/gibbed_alien" />
     
     <Rank  type="Leader">7
-      <Props APs="90" Resilience="1000" Strength="40" Accuracy="90" Reflexes="80" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="90" Resilience="1000" Strength="40" Accuracy="90" Reflexes="120" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="150" energy="250" chemical="40" incendiary="100" />
       <Items killed="Items.PraetorLeaderCorpse" stunned="Items.PraetorLeader" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -7022,7 +7022,7 @@
     </Rank>
 	
 	<Rank  type="BaseLeader">
-      <Props APs="60" Resilience="1200" Strength="80" Accuracy="70" Reflexes="70" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="60" Resilience="1200" Strength="80" Accuracy="70" Reflexes="105" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="100" energy="150" chemical="60" incendiary="70" />
       <Items killed="Items.PraetorBaseLeaderCorpse" stunned="Items.PraetorBaseLeader" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -7038,7 +7038,7 @@
     </Rank>
 	
 	<Rank  type="Overmind">
-      <Props APs="60" Resilience="1500" Strength="80" Accuracy="70" Reflexes="70" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="60" Resilience="1500" Strength="80" Accuracy="70" Reflexes="105" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="100" energy="150" chemical="60" incendiary="70" />
       <Items killed="Items.PraetorOvermindCorpse" stunned="Items.PraetorOvermind" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -7054,7 +7054,7 @@
     </Rank>
 	
 	<Rank  type="FleetLeader">
-      <Props APs="60" Resilience="1000" Strength="80" Accuracy="75" Reflexes="75" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="60" Resilience="1000" Strength="80" Accuracy="75" Reflexes="112" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="90" energy="135" chemical="55" incendiary="60" />
       <Items killed="Items.PraetorFleetLeaderCorpse" stunned="Items.PraetorFleetLeader" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -7070,7 +7070,7 @@
     </Rank>
 	
 	<Rank  type="TerrorLeader">
-      <Props APs="60" Resilience="1000" Strength="80" Accuracy="85" Reflexes="75" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="60" Resilience="1000" Strength="80" Accuracy="85" Reflexes="112" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="90" energy="135" chemical="55" incendiary="60" />
       <Items killed="Items.PraetorTerrorLeaderCorpse" stunned="Items.PraetorTerrorLeader" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -7091,7 +7091,7 @@
 				MinimumAccuracy = "1.0"		
 				EngagementRange = "0" />
 	</Behaviour>
-      <Props APs="100" Resilience="2000" Strength="40" Accuracy="99" Reflexes="100" Bravery="100" CrouchDisabled="1" PsionicPower="120" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="100" Resilience="2000" Strength="40" Accuracy="99" Reflexes="150" Bravery="100" CrouchDisabled="1" PsionicPower="120" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="220" energy="300" chemical="75" incendiary="150" />
       <Items killed="Items.PraetorLeaderCorpse" stunned="Items.PraetorLeader" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -7373,7 +7373,7 @@
     </Rank>
 	
 	<Rank  type="walker">
-      <Props APs="70" Resilience="1000" Strength="60" Accuracy="90" Reflexes="70" Bravery="100" Abilities="Robotic, Heavy" CrouchDisabled="1" Hovering="0" pathWidth="3" />
+      <Props APs="70" Resilience="1000" Strength="60" Accuracy="90" Reflexes="105" Bravery="100" Abilities="Robotic, Heavy" CrouchDisabled="1" Hovering="0" pathWidth="3" />
      <Armour kinetic="100" energy="80" chemical="200" incendiary="40" />
       <Items killed="Items.MechWreckage" stunned="Items.MechWreckage" />
 	  <BloodHitSprite name="particles/hit_spark/hit_spark" />
@@ -7387,7 +7387,7 @@
     </Rank>
 	
 	<Rank  type="walkeradv">
-      <Props APs="80" Resilience="1300" Strength="60" Accuracy="90" Reflexes="70" Bravery="100" Abilities="Robotic, Heavy" CrouchDisabled="1" Hovering="0" pathWidth="3" />
+      <Props APs="80" Resilience="1300" Strength="60" Accuracy="90" Reflexes="105" Bravery="100" Abilities="Robotic, Heavy" CrouchDisabled="1" Hovering="0" pathWidth="3" />
      <Armour kinetic="140" energy="100" chemical="200" incendiary="70" />
       <Items killed="Items.MechAdvWreckage" stunned="Items.MechAdvWreckage" />
 	  <BloodHitSprite name="particles/hit_spark/hit_spark" />
@@ -7401,7 +7401,7 @@
     </Rank>
 	
 	<Rank  type="Goliath">
-      <Props moveSpeed="20" APs="80" Resilience="3000" Strength="60" Accuracy="90" Reflexes="50" Bravery="100" Abilities="Robotic, Heavy" CrouchDisabled="1" Hovering="0" pathWidth="3" />
+      <Props moveSpeed="20" APs="80" Resilience="3000" Strength="60" Accuracy="90" Reflexes="75" Bravery="100" Abilities="Robotic, Heavy" CrouchDisabled="1" Hovering="0" pathWidth="3" />
      <Armour kinetic="140" energy="130" chemical="200" incendiary="80" />
       <Items killed="Items.GoliathWreckage" stunned="Items.GoliathWreckage" />
 	  <BloodHitSprite name="particles/hit_spark/hit_spark" />
@@ -10455,7 +10455,7 @@
 				KillPreference = "15" 
 				RankPreference = "5" />
 		</Behaviour>
-      <Props APs="70" Resilience="400" Strength="100" Accuracy="85" Reflexes="50" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
+      <Props APs="70" Resilience="400" Strength="100" Accuracy="85" Reflexes="100" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
       <Armour  kinetic="100" energy="50" chemical="200" incendiary="20" /> 
       <Items killed="Items.XQueenCorpse" stunned="Items.XQueen" />
 	  <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -10499,7 +10499,7 @@
 				KillPreference = "15" 
 				RankPreference = "5" />
 		</Behaviour>
-      <Props APs="70" Resilience="400" Strength="100" Accuracy="85" Reflexes="50" Bravery="100" Abilities="Regeneration,Heavy,SpawnReaper.XQueenWarriorF.XQueenWarriorF.5,Permadeath" CrouchDisabled="1"  />
+      <Props APs="70" Resilience="400" Strength="100" Accuracy="85" Reflexes="100" Bravery="100" Abilities="Regeneration,Heavy,SpawnReaper.XQueenWarriorF.XQueenWarriorF.5,Permadeath" CrouchDisabled="1"  />
       <Armour  kinetic="100" energy="50" chemical="200" incendiary="20" /> 
       <Items killed="Items.XQueenCorpse" stunned="Items.XQueen" />
 	  <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -10543,7 +10543,7 @@
 				KillPreference = "15" 
 				RankPreference = "5" />
 		</Behaviour>
-      <Props APs="70" Resilience="600" Strength="100" Accuracy="85" Reflexes="50" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
+      <Props APs="70" Resilience="600" Strength="100" Accuracy="85" Reflexes="150" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
       <Armour  kinetic="150" energy="65" chemical="260" incendiary="30" />  
       <Items killed="Items.XRedQueenCorpse" stunned="Items.XRedQueen" />
 	  <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -10587,7 +10587,7 @@
 				KillPreference = "15" 
 				RankPreference = "5" />
 		</Behaviour>
-      <Props APs="70" Resilience="600" Strength="100" Accuracy="85" Reflexes="50" Bravery="100" Abilities="Regeneration,Heavy,SpawnReaper.XQueenEliteF.XQueenEliteF.5,Permadeath" CrouchDisabled="1"  />
+      <Props APs="70" Resilience="600" Strength="100" Accuracy="85" Reflexes="150" Bravery="100" Abilities="Regeneration,Heavy,SpawnReaper.XQueenEliteF.XQueenEliteF.5,Permadeath" CrouchDisabled="1"  />
       <Armour  kinetic="150" energy="65" chemical="260" incendiary="30" />  
       <Items killed="Items.XRedQueenCorpse" stunned="Items.XRedQueen" />
 	  <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -10631,7 +10631,7 @@
 				KillPreference = "15" 
 				RankPreference = "5" />
 		</Behaviour>
-      <Props APs="70" Resilience="900" Strength="100" Accuracy="85" Reflexes="50" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
+      <Props APs="70" Resilience="900" Strength="100" Accuracy="85" Reflexes="170" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
       <Armour  kinetic="225" energy="85" chemical="338" incendiary="40" /> 
       <Items killed="Items.XCrimsonQueenCorpse" stunned="Items.XCrimsonQueen" />
 	  <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -10675,7 +10675,7 @@
 				KillPreference = "15" 
 				RankPreference = "5" />
 		</Behaviour>
-      <Props APs="70" Resilience="900" Strength="100" Accuracy="85" Reflexes="50" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
+      <Props APs="70" Resilience="900" Strength="100" Accuracy="85" Reflexes="170" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
       <Armour  kinetic="225" energy="85" chemical="338" incendiary="40" /> 
       <Items killed="Items.XCrimsonQueenCorpse" stunned="Items.XCrimsonQueen" />
 	  <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -11329,7 +11329,7 @@
 	<!--  	   Androns Phase 2 		-->
 
 	 <Rank  type="servershield">
-      <Props APs="50" Resilience="200" Strength="80" Accuracy="90" Reflexes="50" Bravery="100" Abilities="Robotic, Heavy, SpawnReaper.andronx.server.50 "  />
+      <Props APs="50" Resilience="200" Strength="80" Accuracy="90" Reflexes="90" Bravery="100" Abilities="Robotic, Heavy, SpawnReaper.andronx.server.50 "  />
 	  <Armour kinetic="0" energy="0" chemical="0" incendiary="0" />
       <Items killed="" stunned="" />
 	  <BloodHitSprite name="particles/hit_fullshield/purple" />
@@ -11355,7 +11355,7 @@
 	<!--  	   Androns Phase 3 		-->
 
 	 <Rank  type="terminalshield">
-      <Props APs="55" Resilience="400" Strength="100" Accuracy="105" Reflexes="50" Bravery="100" Abilities="Robotic, Heavy, SpawnReaper.andronx.terminal.50"  />
+      <Props APs="55" Resilience="400" Strength="100" Accuracy="105" Reflexes="135" Bravery="100" Abilities="Robotic, Heavy, SpawnReaper.andronx.terminal.50"  />
       <Armour kinetic="0" energy="0" chemical="0" incendiary="0" />
       <Items killed="" stunned="" />
 	  <BloodHitSprite name="particles/hit_fullshield/purple" />
@@ -11372,7 +11372,7 @@
     </Rank>
 
 	<Rank  type="TerrorWarriorshield">
-      <Props APs="60" Resilience="400" Strength="100" Accuracy="100" Reflexes="0" Bravery="100" Abilities="Robotic, Heavy, SpawnReaper.andronx.TerrorWarrior.50"  />
+      <Props APs="60" Resilience="400" Strength="100" Accuracy="100" Reflexes="135" Bravery="100" Abilities="Robotic, Heavy, SpawnReaper.andronx.TerrorWarrior.50"  />
      <Armour kinetic="0" energy="0" chemical="0" incendiary="0" />
       <Items killed="" stunned="" />
 	  <BloodHitSprite name="particles/hit_fullshield/blue" />
@@ -11414,7 +11414,7 @@
     </Rank>
 
 	<Rank  type="TerrorWarriorSupportshield">
-      <Props APs="60" Resilience="400" Strength="100" Accuracy="100" Reflexes="0" Bravery="100" Abilities="Robotic, Heavy, SpawnReaper.andronx.TerrorWarriorSupport.50"  />
+      <Props APs="60" Resilience="400" Strength="100" Accuracy="100" Reflexes="135" Bravery="100" Abilities="Robotic, Heavy, SpawnReaper.andronx.TerrorWarriorSupport.50"  />
       <Armour kinetic="0" energy="0" chemical="0" incendiary="0" />
       <Items killed="" stunned="" />
 	  <BloodHitSprite name="particles/hit_fullshield/blue" />
@@ -11443,7 +11443,7 @@
 	<!--  	   Androns Phase 4 		-->
 
 	<Rank  type="controllershield">
-     <Props APs="65" Resilience="600" Strength="100" Accuracy="100" Reflexes="50" Bravery="100" Abilities="Robotic, Heavy, Regeneration, SpawnReaper.andronx.controller.50" />
+     <Props APs="65" Resilience="600" Strength="100" Accuracy="100" Reflexes="167" Bravery="100" Abilities="Robotic, Heavy, Regeneration, SpawnReaper.andronx.controller.50" />
       <Armour kinetic="0" energy="0" chemical="0" incendiary="0" />
       <Items killed="" stunned="" />
 	  <BloodHitSprite name="particles/hit_fullshield/purple" />
@@ -11460,7 +11460,7 @@
     </Rank>
 
 	<Rank  type="TerrorEliteshield">
-      <Props APs="65" Resilience="600" Strength="100" Accuracy="100" Reflexes="0" Bravery="100" Abilities="Robotic, Heavy, Regeneration, SpawnReaper.andronx.TerrorElite.50" />
+      <Props APs="65" Resilience="600" Strength="100" Accuracy="100" Reflexes="167" Bravery="100" Abilities="Robotic, Heavy, Regeneration, SpawnReaper.andronx.TerrorElite.50" />
       <Armour kinetic="0" energy="0" chemical="0" incendiary="0" />
       <Items killed="" stunned="" />
 	  <BloodHitSprite name="particles/hit_fullshield/red" />
@@ -11494,7 +11494,7 @@
     </Rank>
 
 	<Rank  type="TerrorEliteSupportshield">
-      <Props APs="65" Resilience="600" Strength="100" Accuracy="100" Reflexes="0" Bravery="100" Abilities="Robotic, Heavy, Regeneration, SpawnReaper.andronx.TerrorEliteSupport.50" />
+      <Props APs="65" Resilience="600" Strength="100" Accuracy="100" Reflexes="167" Bravery="100" Abilities="Robotic, Heavy, Regeneration, SpawnReaper.andronx.TerrorEliteSupport.50" />
       <Armour kinetic="0" energy="0" chemical="0" incendiary="0" />
       <Items killed="" stunned="" />
 	  <BloodHitSprite name="particles/hit_fullshield/red" />
@@ -11528,7 +11528,7 @@
     </Rank>
 
 	<Rank  type="TerrorOfficershield">
-      <Props APs="75" Resilience="900" Strength="100" Accuracy="120" Reflexes="50" Bravery="100" Abilities="Robotic, Heavy, Regeneration, SpawnReaper.andronx.TerrorOfficer.50"  />
+      <Props APs="75" Resilience="900" Strength="100" Accuracy="120" Reflexes="90" Bravery="100" Abilities="Robotic, Heavy, Regeneration, SpawnReaper.andronx.TerrorOfficer.50"  />
       <Armour kinetic="0" energy="0" chemical="0" incendiary="0" />
       <Items killed="" stunned="" />
 	  <BloodHitSprite name="particles/hit_fullshield/white" />
@@ -11578,7 +11578,7 @@
     </Rank>
 
 	<Rank  type="TerrorOfficerSupportshield">
-      <Props APs="75" Resilience="900" Strength="100" Accuracy="120" Reflexes="50" Bravery="100" Abilities="Robotic, Heavy, Regeneration, SpawnReaper.andronx.TerrorOfficerSupport.50"  />
+      <Props APs="75" Resilience="900" Strength="100" Accuracy="120" Reflexes="90" Bravery="100" Abilities="Robotic, Heavy, Regeneration, SpawnReaper.andronx.TerrorOfficerSupport.50"  />
       <Armour kinetic="0" energy="0" chemical="0" incendiary="0" />
       <Items killed="" stunned="" />
 	  <BloodHitSprite name="particles/hit_fullshield/white" />
