@@ -8,7 +8,7 @@
 	<apBoost>0</apBoost>
 	<accuracyBoost>0</accuracyBoost>
 	<braveryBoost>0</braveryBoost>
-	<reflexesBoost>10</reflexesBoost>
+	<reflexesBoost>30</reflexesBoost>
 	<resilienceBoost>0</resilienceBoost>
   </Armour>
   <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.jackal">
@@ -16,10 +16,10 @@
     <dragTextureName>armourimages/jackal</dragTextureName>
     <weight>7</weight>
     <strengthBoost>0</strengthBoost>
-	<apBoost>0</apBoost>
-	<accuracyBoost>0</accuracyBoost>
+	<apBoost>-5</apBoost>
+	<accuracyBoost>5</accuracyBoost>
 	<braveryBoost>0</braveryBoost>
-	<reflexesBoost>5</reflexesBoost>
+	<reflexesBoost>15</reflexesBoost>
 	<resilienceBoost>0</resilienceBoost>
     <hidehands />
   </Armour>
@@ -28,10 +28,10 @@
     <dragTextureName>armourimages/impjackal</dragTextureName>
     <weight>9</weight>
     <strengthBoost>0</strengthBoost>
-	<apBoost>0</apBoost>
+	<apBoost>5</apBoost>
 	<accuracyBoost>0</accuracyBoost>
 	<braveryBoost>10</braveryBoost>
-	<reflexesBoost>0</reflexesBoost>
+	<reflexesBoost>25</reflexesBoost>
 	<resilienceBoost>0</resilienceBoost>
     <hidehands />
   </Armour>
@@ -40,8 +40,8 @@
     <dragTextureName>armourimages/wolf</dragTextureName>
     <weight>8</weight>
     <strengthBoost>0</strengthBoost>
-	<apBoost>0</apBoost>
-	<accuracyBoost>0</accuracyBoost>
+	<apBoost>-10</apBoost>
+	<accuracyBoost>10</accuracyBoost>
 	<braveryBoost>0</braveryBoost>
 	<reflexesBoost>0</reflexesBoost>
 	<resilienceBoost>0</resilienceBoost>
@@ -53,10 +53,10 @@
     <dragTextureName>armourimages/wolf</dragTextureName>
     <weight>10</weight>
     <strengthBoost>0</strengthBoost>
-	<apBoost>10</apBoost>
-	<accuracyBoost>10</accuracyBoost>
-	<braveryBoost>5</braveryBoost>
-	<reflexesBoost>10</reflexesBoost>
+	<apBoost>-15</apBoost>
+	<accuracyBoost>15</accuracyBoost>
+	<braveryBoost>0</braveryBoost>
+	<reflexesBoost>0</reflexesBoost>
 	<resilienceBoost>0</resilienceBoost>
     <hidehands />
   </Armour>
@@ -66,10 +66,10 @@
     <dragTextureName>armourimages/wolf</dragTextureName>
     <weight>8</weight>
     <strengthBoost>0</strengthBoost>
-	<apBoost>20</apBoost>
-	<accuracyBoost>20</accuracyBoost>
-	<braveryBoost>5</braveryBoost>
-	<reflexesBoost>25</reflexesBoost>
+	<apBoost>-20</apBoost>
+	<accuracyBoost>25</accuracyBoost>
+	<braveryBoost>0</braveryBoost>
+	<reflexesBoost>0</reflexesBoost>
 	<resilienceBoost>0</resilienceBoost>
     <hidehands />
   </Armour>
@@ -80,10 +80,10 @@
     <dragTextureName>armourimages/buzzard</dragTextureName>
     <weight>12</weight>
     <strengthBoost>0</strengthBoost>
-	<apBoost>10</apBoost>
+	<apBoost>15</apBoost>
 	<accuracyBoost>0</accuracyBoost>
 	<braveryBoost>0</braveryBoost>
-	<reflexesBoost>10</reflexesBoost>
+	<reflexesBoost>40</reflexesBoost>
 	<resilienceBoost>0</resilienceBoost>
     <hidehands />
   </Armour>
@@ -92,12 +92,12 @@
     <stockTextureName>armourimages/predator</stockTextureName>
     <dragTextureName>armourimages/predator</dragTextureName>
     <weight>4</weight>
-    <strengthBoost>90</strengthBoost>
+    <strengthBoost>100</strengthBoost>
 	<apBoost>0</apBoost>
 	<accuracyBoost>0</accuracyBoost>
-	<braveryBoost>20</braveryBoost>
+	<braveryBoost>30</braveryBoost>
 	<reflexesBoost>-50</reflexesBoost>
-	<resilienceBoost>0</resilienceBoost>
+	<resilienceBoost>10</resilienceBoost>
     <hideface />
     <hidehands />
     <biggunsonly />
@@ -107,12 +107,12 @@
     <stockTextureName>armourimages/predator</stockTextureName>
     <dragTextureName>armourimages/predator</dragTextureName>
     <weight>2</weight>
-    <strengthBoost>100</strengthBoost>
+    <strengthBoost>150</strengthBoost>
 	<apBoost>0</apBoost>
-	<accuracyBoost>10</accuracyBoost>
-	<braveryBoost>30</braveryBoost>
-	<reflexesBoost>-35</reflexesBoost>
-	<resilienceBoost>0</resilienceBoost>
+	<accuracyBoost>5</accuracyBoost>
+	<braveryBoost>40</braveryBoost>
+	<reflexesBoost>-45</reflexesBoost>
+	<resilienceBoost>15</resilienceBoost>
     <hideface />
     <hidehands />
     <biggunsonly />
@@ -122,12 +122,12 @@
     <stockTextureName>armourimages/predator</stockTextureName>
     <dragTextureName>armourimages/predator</dragTextureName>
     <weight>0</weight>
-    <strengthBoost>120</strengthBoost>
+    <strengthBoost>200</strengthBoost>
 	<apBoost>0</apBoost>
-	<accuracyBoost>20</accuracyBoost>
+	<accuracyBoost>10</accuracyBoost>
 	<braveryBoost>60</braveryBoost>
-	<reflexesBoost>-20</reflexesBoost>
-	<resilienceBoost>0</resilienceBoost>
+	<reflexesBoost>-80</reflexesBoost>
+	<resilienceBoost>15</resilienceBoost>
     <hideface />
     <hidehands />
     <biggunsonly />
@@ -137,11 +137,11 @@
     <stockTextureName>armourimages/sentinel</stockTextureName>
     <dragTextureName>armourimages/sentinel</dragTextureName>
     <weight>10</weight>
-    <strengthBoost>10</strengthBoost>
-	<apBoost>0</apBoost>
-	<accuracyBoost>5</accuracyBoost>
-	<braveryBoost>15</braveryBoost>
-	<reflexesBoost>0</reflexesBoost>
+    <strengthBoost>0</strengthBoost>
+	<apBoost>20</apBoost>
+	<accuracyBoost>0</accuracyBoost>
+	<braveryBoost>0</braveryBoost>
+	<reflexesBoost>50</reflexesBoost>
 	<resilienceBoost>0</resilienceBoost>
     <hidehands />
   </Armour>
@@ -150,11 +150,11 @@
     <stockTextureName>armourimages/sentinel</stockTextureName>
     <dragTextureName>armourimages/sentinel</dragTextureName>
     <weight>12</weight>
-    <strengthBoost>20</strengthBoost>
-	<apBoost>5</apBoost>
-	<accuracyBoost>10</accuracyBoost>
-	<braveryBoost>25</braveryBoost>
-	<reflexesBoost>10</reflexesBoost>
+    <strengthBoost>0</strengthBoost>
+	<apBoost>20</apBoost>
+	<accuracyBoost>0</accuracyBoost>
+	<braveryBoost>0</braveryBoost>
+	<reflexesBoost>60</reflexesBoost>
 	<resilienceBoost>0</resilienceBoost>
     <hidehands />
   </Armour>
@@ -163,11 +163,11 @@
     <stockTextureName>armourimages/sentinel</stockTextureName>
     <dragTextureName>armourimages/sentinel</dragTextureName>
     <weight>6</weight>
-    <strengthBoost>30</strengthBoost>
-	<apBoost>10</apBoost>
-	<accuracyBoost>20</accuracyBoost>
-	<braveryBoost>30</braveryBoost>
-	<reflexesBoost>10</reflexesBoost>
+    <strengthBoost>0</strengthBoost>
+	<apBoost>30</apBoost>
+	<accuracyBoost>0</accuracyBoost>
+	<braveryBoost>10</braveryBoost>
+	<reflexesBoost>80</reflexesBoost>
 	<resilienceBoost>0</resilienceBoost>
     <hidehands />
   </Armour>

@@ -10801,7 +10801,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Items.FallenAlienFighter</Data></Cell>
-    <Cell><Data ss:Type="Number">50000</Data></Cell>
+    <Cell><Data ss:Type="Number">25000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">items/assaultrifle</Data></Cell>
     <Cell><Data ss:Type="String">Item.Dispose.Datacore</Data></Cell>
@@ -10891,7 +10891,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Items.FallenAlienHeavyFighter</Data></Cell>
-    <Cell><Data ss:Type="Number">90000</Data></Cell>
+    <Cell><Data ss:Type="Number">45000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">items/assaultrifle</Data></Cell>
     <Cell><Data ss:Type="String">Item.Dispose.Datacore</Data></Cell>
@@ -10990,7 +10990,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Items.FallenAlienHunter</Data></Cell>
-    <Cell><Data ss:Type="Number">125000</Data></Cell>
+    <Cell><Data ss:Type="Number">62500</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">items/assaultrifle</Data></Cell>
     <Cell><Data ss:Type="String">Item.Dispose.Executed</Data></Cell>
@@ -11116,7 +11116,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Items.FallenAlienInterceptor</Data></Cell>
-    <Cell><Data ss:Type="Number">150000</Data></Cell>
+    <Cell><Data ss:Type="Number">75000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">items/assaultrifle</Data></Cell>
     <Cell><Data ss:Type="String">Item.Dispose.Datacore</Data></Cell>
@@ -11134,7 +11134,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Items.FallenAlienHeavyInterceptor</Data></Cell>
-    <Cell><Data ss:Type="Number">250000</Data></Cell>
+    <Cell><Data ss:Type="Number">125000</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="String">items/assaultrifle</Data></Cell>
     <Cell><Data ss:Type="String">Item.Dispose.Datacore</Data></Cell>
@@ -11727,7 +11727,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>242</TopRowBottomPane>
+   <TopRowBottomPane>1177</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -11735,8 +11735,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>256</ActiveRow>
-     <ActiveCol>3</ActiveCol>
+     <ActiveRow>1217</ActiveRow>
+     <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

@@ -1832,7 +1832,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.pulseprecisionmk2" bulletType="normal" emptySound="Empty Click 1">
-		<props range="28" hands="2" recoil="0" weight="8" clipSize="20" reloadAPCost="50" reloadSound="Weapon Pulse Reload" isHeavy="0" strengthLimited="0" reactionModifier="0.5" disableShortRangeHitBonus="1"/>
+		<props range="28" hands="2" recoil="0" weight="8" clipSize="20" reloadAPCost="50" reloadSound="Weapon Pulse Reload" isHeavy="1" strengthLimited="0" reactionModifier="0.5" disableShortRangeHitBonus="1"/>
 		<SingleShot sound="Weapon Pulse Sniper Single" delay="0.6" suppressionValue="14" suppressionRadius="1">
 			<Set1 ap="30" accuracy="60" />
 			<Set2 ap="45" accuracy="110" />
@@ -1931,7 +1931,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.pulseprecisionmk3" bulletType="normal" emptySound="Empty Click 1">
-		<props range="32" hands="2" recoil="0" weight="8" clipSize="30" reloadAPCost="50" reloadSound="Weapon Pulse Reload" isHeavy="0" strengthLimited="0" reactionModifier="0.5" disableShortRangeHitBonus="1"/>
+		<props range="32" hands="2" recoil="0" weight="8" clipSize="30" reloadAPCost="50" reloadSound="Weapon Pulse Reload" isHeavy="1" strengthLimited="0" reactionModifier="0.5" disableShortRangeHitBonus="1"/>
 		<SingleShot sound="Weapon Pulse Sniper Single" delay="0.6" suppressionValue="14" suppressionRadius="1">
 			<Set1 ap="28" accuracy="70" />
 			<Set2 ap="40" accuracy="120" />
@@ -3846,7 +3846,7 @@
 <!-- Shields -->
   
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.combatshield" bulletType="shield" emptySound="Empty Click 1">
-    <props range="1000" hands="1" recoil="0" weight="10" isHeavy="1" clipSize="90"
+    <props range="1000" hands="1" recoil="0" weight="10" isHeavy="1" clipSize="150"
            reloadAPCost="0" reloadSound="Weapon Stun Baton Reload" />
 	<SingleShot  MODMERGE="update"/>
     <GUIImage name="gui/weapons/CombatShield.png"/>
@@ -3860,7 +3860,7 @@
   </Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.assaultshield" bulletType="shield" emptySound="Empty Click 1">
-    <props range="1000" hands="1" recoil="0" weight="18" isHeavy="0" clipSize="270"
+    <props range="1000" hands="1" recoil="0" weight="18" isHeavy="0" clipSize="450"
            reloadAPCost="0" reloadSound="Weapon Stun Baton Reload" />
 	<SingleShot MODMERGE="update"/>
     <GUIImage name="gui/weapons/AssaultShield.png"/>
@@ -3874,7 +3874,7 @@
   </Weapon>
   
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.enchantedshield" bulletType="shield" emptySound="Empty Click 1">
-    <props range="1000" hands="1" recoil="0" weight="14" isHeavy="0" clipSize="150"
+    <props range="1000" hands="1" recoil="0" weight="14" isHeavy="0" clipSize="270"
            reloadAPCost="0" reloadSound="Weapon Stun Baton Reload" />
     <SingleShot/>
     <BurstFire/>
@@ -3889,7 +3889,7 @@
   </Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.forceshield" bulletType="shield" emptySound="Empty Click 1">
-    <props range="1000" hands="1" recoil="0" weight="12" isHeavy="0" clipSize="600"
+    <props range="1000" hands="1" recoil="0" weight="12" isHeavy="0" clipSize="800"
            reloadAPCost="0" reloadSound="Weapon Stun Baton Reload" />
     <SingleShot/>
     <BurstFire/>
@@ -3904,7 +3904,7 @@
   </Weapon>
   
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.titanshield" bulletType="shield" emptySound="Empty Click 1">
-    <props range="1000" hands="1" recoil="0" weight="22" isHeavy="0" clipSize="450"
+    <props range="1000" hands="1" recoil="0" weight="22" isHeavy="0" clipSize="600"
            reloadAPCost="0" reloadSound="Weapon Stun Baton Reload" />
     <SingleShot/>
     <BurstFire/>
@@ -5135,9 +5135,10 @@
     <!--  	    Alien Scorcher Weapons		-->
 
 <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienScorcherPistol" bulletType="normal" emptySound="Empty Click 1">
-    <props range="10" hands="1" recoil="0" weight="4" isHeavy="0" clipSize="4"  reloadAPCost="20" reloadSound="Weapon Ballistic Reload" reactionModifier="2" isAlien="1" infiniteAlienAmmo="1" />
+    <props range="14" hands="1" recoil="0" weight="4" isHeavy="0" clipSize="4"  reloadAPCost="20" reloadSound="Weapon Ballistic Reload" reactionModifier="2" isAlien="1" infiniteAlienAmmo="1" />
     <SingleShot sound="Weapon Flamethrower Flamer" delay="0.7" suppressionValue="4" suppressionRadius="1">
-			<Set1 ap="24" accuracy="40" />
+			<Set1 ap="22" accuracy="35" />	
+			<Set1 ap="45" accuracy="60" />	
     </SingleShot>
     <BurstFire/>
     <GUIImage name="gui/weapons/Scorcher/AlienScorcherPistol.png"/>
@@ -5153,11 +5154,12 @@
  
   
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienScorcherRifle" bulletType="normal" emptySound="Empty Click 1">
-    <props range="14" hands="1" recoil="0" weight="8" isHeavy="0" clipSize="6"  reloadAPCost="30" reloadSound="Weapon Ballistic Reload" reactionModifier="1.50" isAlien="1" infiniteAlienAmmo="1" />
+    <props range="24" hands="1" recoil="0" weight="8" isHeavy="0" clipSize="6"  reloadAPCost="30" reloadSound="Weapon Ballistic Reload" reactionModifier="1.50" isAlien="1" infiniteAlienAmmo="1" />
     <SingleShot sound="Weapon Flamethrower Flamer" delay="0.7" suppressionValue="11" suppressionRadius="1.5">
-			<Set1 ap="35" accuracy="55" />
+			<Set1 ap="22" accuracy="50" />	
+			<Set2 ap="45" accuracy="75" />	
     </SingleShot>
-    <BurstFire ap="45" accuracy="45" sound="Weapon Flamethrower Scorcher" shotCount="3" delay="0.6" burstdelay="0.1" suppressionValue="31" suppressionRadius="1.5" />
+    <BurstFire ap="36" accuracy="60" sound="Weapon Flamethrower Scorcher" shotCount="3" delay="0.6" burstdelay="0.1" suppressionValue="31" suppressionRadius="1.5" />
     <GUIImage name="gui/weapons/Scorcher/AlienScorcherRifle.png"/>
     <GroundImage name="grounditemimages/alien_rifle.png"/>
     <Ammos>
@@ -5169,9 +5171,9 @@
   </Weapon>
   
    <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienScorcherHeavy" bulletType="normal" emptySound="Empty Click 1">
-    <props range="12" hands="1" recoil="0" weight="14" isHeavy="0" clipSize="12"  reloadAPCost="50" reloadSound="Weapon Ballistic Reload" reactionModifier="0.2" isAlien="1" infiniteAlienAmmo="1"/>
+    <props range="22" hands="1" recoil="0" weight="14" isHeavy="0" clipSize="12"  reloadAPCost="50" reloadSound="Weapon Ballistic Reload" reactionModifier="0.2" isAlien="1" infiniteAlienAmmo="1"/>
     <SingleShot/>
-    <BurstFire ap="70" accuracy="33" sound="Weapon Flamethrower Flamer" shotCount="6" delay="0.6" burstdelay="0.1" suppressionValue="61" suppressionRadius="2.5"/>
+    <BurstFire ap="55" accuracy="50" sound="Weapon Flamethrower Flamer" shotCount="6" delay="0.6" burstdelay="0.1" suppressionValue="61" suppressionRadius="2.5"/>
     <GUIImage name="gui/weapons/Scorcher/AlienScorcherHeavy.png"/>
     <GroundImage name="grounditemimages/alien_heavyrifle.png"/>
     <Ammos>
@@ -5183,9 +5185,10 @@
   </Weapon>
 
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienScorcherCannon" bulletType="normal" emptySound="Empty Click 1">
-    <props range="16" hands="1" recoil="0" weight="16" isHeavy="0" clipSize="2"  reloadAPCost="50" reloadSound="Weapon Ballistic Reload" reactionModifier="0.8" isAlien="1" infiniteAlienAmmo="1"/>
+    <props range="30" hands="1" recoil="0" weight="16" isHeavy="0" clipSize="2"  reloadAPCost="50" reloadSound="Weapon Ballistic Reload" reactionModifier="0.8" isAlien="1" infiniteAlienAmmo="1"/>
      <SingleShot sound="Weapon Flamethrower Flamer" delay="0.7" suppressionValue="21" suppressionRadius="1.5">
-			<Set1 ap="75" accuracy="50" />
+			<Set1 ap="55" accuracy="55" />
+			<Set2 ap="75" accuracy="80" />
     </SingleShot>
     <GUIImage name="gui/weapons/Scorcher/AlienScorcherCannon.png"/>
     <GroundImage name="grounditemimages/alien_heavyrifle.png"/>
@@ -5268,11 +5271,12 @@
    <!--  	    Alien Photon Weapons		-->
   
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienPhotonRifle" bulletType="normal" emptySound="Empty Click 1">
-		<props range="16" hands="1" recoil="30" weight="8" isHeavy="0" clipSize="6" reloadAPCost="10" reloadSound="Weapon Laser Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1" />
+		<props range="20" hands="1" recoil="30" weight="8" isHeavy="0" clipSize="6" reloadAPCost="10" reloadSound="Weapon Laser Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon Neutron Rifle Single" delay="0.6" suppressionValue="4" suppressionRadius="1">
-			<Set1 ap="35" accuracy="55" />			
+			<Set1 ap="22" accuracy="50" />	
+			<Set2 ap="45" accuracy="75" />		
 		</SingleShot>
-		<BurstFire ap="45" accuracy="45" sound="Weapon Neutron Rifle Burst" shotCount="3" delay="0.6" burstdelay="0.3" suppressionValue="21" suppressionRadius="1" />
+		<BurstFire ap="30" accuracy="65" sound="Weapon Neutron Rifle Burst" shotCount="3" delay="0.6" burstdelay="0.3" suppressionValue="21" suppressionRadius="1" />
 		<GUIImage name="gui/weapons/Photon/AlienPhotonRifle.png"/>
 		<GroundImage name="grounditemimages/plasma_rifle.png"/>
 		<Ammos>
@@ -5284,9 +5288,10 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienPhotonSniper" bulletType="normal" emptySound="Empty Click 1">
-		<props range="24" hands="1" recoil="0" weight="14" isHeavy="0" clipSize="2" reloadAPCost="15" reloadSound="Weapon Laser Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1" />
+		<props range="32" hands="1" recoil="0" weight="14" isHeavy="0" clipSize="2" reloadAPCost="15" reloadSound="Weapon Laser Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon Neutron Sniper Single" delay="0.6" suppressionValue="9" suppressionRadius="1">
-			<Set1 ap="75" accuracy="80" />	
+			<Set1 ap="45" accuracy="60" />
+			<Set2 ap="75" accuracy="90" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/Photon/AlienPhotonSniper.png"/>
@@ -5300,8 +5305,8 @@
 	</Weapon>
 		
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienPhotonMinigun" bulletType="normal" emptySound="Empty Click 1">
-		<props range="14" hands="1" recoil="35" weight="22" isHeavy="1" clipSize="12" reloadAPCost="20" reloadSound="Weapon MAG Reload" reactionModifier="0.2" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
-		<BurstFire ap="80" accuracy="25" sound="Weapon Minigun Long" shotCount="12" delay="0.5" burstdelay="0.1" suppressionValue="76" suppressionRadius="2.5" />
+		<props range="20" hands="1" recoil="35" weight="22" isHeavy="1" clipSize="12" reloadAPCost="20" reloadSound="Weapon MAG Reload" reactionModifier="0.2" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
+		<BurstFire ap="65" accuracy="25" sound="Weapon Minigun Long" shotCount="24" delay="0.5" burstdelay="0.1" suppressionValue="76" suppressionRadius="2.5" />
 		<GUIImage name="gui/weapons/Photon/AlienPhotonMinigun.png"/>
 		<GroundImage name="grounditemimages/plasma_heavy.png"/>
 		<Ammos>
@@ -5313,9 +5318,10 @@
 	</Weapon> 
 	
 	 <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienPhotonCannon" bulletType="rocket" emptySound="Empty Click 1">
-    <props range="20" hands="1" recoil="55" weight="18"  clipSize="1" reloadAPCost="25" reloadSound="Weapon Laser Reload" reactionModifier="0.5" isAlien="1" infiniteAlienAmmo="1" />
+    <props range="30" hands="1" recoil="55" weight="18"  clipSize="1" reloadAPCost="25" reloadSound="Weapon Laser Reload" reactionModifier="0.5" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon Neutron Cannon Single" delay="0.6" suppressionValue="21" suppressionRadius="3">
-			<Set1 ap="45" accuracy="60" />
+			<Set1 ap="55" accuracy="60" />
+			<Set2 ap="75" accuracy="100" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/Photon/AlienPhotonCannon.png"/>

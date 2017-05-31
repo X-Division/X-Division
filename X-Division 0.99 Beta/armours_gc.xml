@@ -2,100 +2,102 @@
 <Armours>
   <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.basic">
     <Resistance kinetic="10" energy="0" chemical="0" incendiary="0" />
-    <VisualParams range="20" coneAngle="110" nightRangeBonus="0" />
+    <VisualParams range="18" coneAngle="160" nightRangeBonus="0" />
 	<PsionicDefence defence="0" points="0" degradation="0" />
     <Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
   </Armour>
 
   <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.jackal">
     <Resistance kinetic="30" energy="20" chemical="5" incendiary="5" />
-    <VisualParams range="20" coneAngle="100" nightRangeBonus="0" />
+    <VisualParams range="20" coneAngle="130" nightRangeBonus="0" />
 	<PsionicDefence defence="0" points="0" degradation="0" />
     <Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
   </Armour>
 
   <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.impjackal">
     <Resistance kinetic="20" energy="12" chemical="30" incendiary="40" />
-    <VisualParams range="20" coneAngle="80" nightRangeBonus="0" />
+    <VisualParams range="20" coneAngle="150" nightRangeBonus="2" />
 	<PsionicDefence defence="0" points="0" degradation="0" />
     <Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
   </Armour>
 
   <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.wolf">
     <Resistance kinetic="60" energy="50" chemical="15" incendiary="15" />
-    <VisualParams range="21" coneAngle="100" nightRangeBonus="1" />
-	<PsionicDefence defence="65" points="10" degradation="3" />
+    <VisualParams range="18" coneAngle="110" nightRangeBonus="1" />
+	<PsionicDefence defence="150" points="3" degradation="3" />
     <Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  <Special weaponCostMul="0.85"/>    
   </Armour>
   
    <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.wolf_3">
-    <Resistance kinetic="70" energy="55" chemical="20" incendiary="20" />
-    <VisualParams range="22" coneAngle="90" nightRangeBonus="2" />
-	<PsionicDefence defence="60" points="20" degradation="2" />
+    <Resistance kinetic="65" energy="80" chemical="25" incendiary="25" />
+    <VisualParams range="18" coneAngle="100" nightRangeBonus="0" />
+	<PsionicDefence defence="200" points="3" degradation="3" />
     <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
+  <Special weaponCostMul="0.80"/>       
   </Armour>
   
    <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.wolf_4">
-    <Resistance kinetic="75" energy="70" chemical="35" incendiary="30" />
-    <VisualParams range="22" coneAngle="90" nightRangeBonus="4" />
-	<PsionicDefence defence="60" points="30" degradation="1" />
+    <Resistance kinetic="75" energy="95" chemical="45" incendiary="45" />
+    <VisualParams range="18" coneAngle="90" nightRangeBonus="0" />
+	<PsionicDefence defence="250" points="3" degradation="3" />
     <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
-	<Special weaponCostMul="0.75"/>
+	<Special weaponCostMul="0.80"/>
   </Armour>
 
   <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.buzzard">
-    <Resistance kinetic="45" energy="32" chemical="12" incendiary="5" />
-    <VisualParams range="24" coneAngle="110" nightRangeBonus="3" />
-	<PsionicDefence defence="60" points="10" degradation="3" />
+    <Resistance kinetic="55" energy="45" chemical="15" incendiary="5" />
+    <VisualParams range="20" coneAngle="150" nightRangeBonus="4" />
+	<PsionicDefence defence="150" points="6" degradation="3" />
     <Special jumpPack="1" jumpPackSound="BuzzardJetpackSound" />    
 	<Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
   </Armour>
 
   <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.predator">
-    <Resistance kinetic="85" energy="65" chemical="30" incendiary="40" />
-    <VisualParams range="20" coneAngle="60" nightRangeBonus="2" />
-	<PsionicDefence defence="80" points="20" degradation="3" />
-    <Special heavy="1" strength="80" weaponCostMul="0.80"/>
+    <Resistance kinetic="85" energy="65" chemical="40" incendiary="50" />
+    <VisualParams range="16" coneAngle="60" nightRangeBonus="0" />
+	<PsionicDefence defence="200" points="12" degradation="3" />
+    <Special heavy="1" strength="80" weaponCostMul="1.00"/>
     <Props moveSpeed="250" stairsMoveSpeed="140" vaultMoveSpeed="20" />
   </Armour>
   
     <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.predator_2">
-    <Resistance kinetic="100" energy="85" chemical="50" incendiary="60" />
-    <VisualParams range="21" coneAngle="70" nightRangeBonus="4" />
-	<PsionicDefence defence="100" points="40" degradation="4" />
-	<Special heavy="1" strength="90" weaponCostMul="0.65"/>
+    <Resistance kinetic="100" energy="85" chemical="60" incendiary="70" />
+    <VisualParams range="16" coneAngle="70" nightRangeBonus="0" />
+	<PsionicDefence defence="250" points="12" degradation="3" />
+	<Special heavy="1" strength="90" weaponCostMul="1.00"/>
     <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
   </Armour>
   
 	<Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.predator_3">
     <Resistance kinetic="150" energy="120" chemical="100" incendiary="100" />
-    <VisualParams range="22" coneAngle="75" nightRangeBonus="4" />
-	<PsionicDefence defence="100" points="40" degradation="4" />
-	<Special heavy="1" strength="100" weaponCostMul="0.50"/>
+    <VisualParams range="16" coneAngle="75" nightRangeBonus="0" />
+	<PsionicDefence defence="300" points="12" degradation="3" />
+	<Special heavy="1" strength="100" weaponCostMul="1.00"/>
     <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
   </Armour>
 
   <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.sentinel">
-    <Resistance kinetic="100" energy="110" chemical="70" incendiary="55" />
-    <VisualParams range="22" coneAngle="135" nightRangeBonus="2" />
-	<PsionicDefence defence="80" points="20" degradation="3" />
+    <Resistance kinetic="70" energy="70" chemical="50" incendiary="50" />
+    <VisualParams range="22" coneAngle="155" nightRangeBonus="6" />
+	<PsionicDefence defence="200" points="6" degradation="3" />
     <Special jumpPack="1" jumpPackSound="SentinelJetpackSound" />
     <Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
   </Armour>
 
    <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.sentinel_2">
-    <Resistance kinetic="95" energy="110" chemical="60" incendiary="60" />
-    <VisualParams range="23" coneAngle="130" nightRangeBonus="3" />
-	<PsionicDefence defence="80" points="30" degradation="3" />
+    <Resistance kinetic="80" energy="80" chemical="60" incendiary="60" />
+    <VisualParams range="22" coneAngle="155" nightRangeBonus="6" />
+	<PsionicDefence defence="250" points="6" degradation="3" />
 	<Special jumpPack="1" jumpPackSound="SentinelJetpackSound" />
     <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
   </Armour>
   
    <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.sentinel_3">
-    <Resistance kinetic="125" energy="150" chemical="80" incendiary="70" />
-    <VisualParams range="24" coneAngle="140" nightRangeBonus="4" />
-	<PsionicDefence defence="100" points="30" degradation="3" />
-	<Special jumpPack="1" jumpPackSound="SentinelJetpackSound" />
+    <Resistance kinetic="80" energy="80" chemical="80" incendiary="80" />
+    <VisualParams range="24" coneAngle="340" nightRangeBonus="10" />
+	<PsionicDefence defence="300" points="9" degradation="3" />
+	<Special jumpPack="1" jumpPackSound="SentinelJetpackSound" weaponCostMul="1.10" />
     <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
   </Armour>
   
