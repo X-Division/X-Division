@@ -869,7 +869,7 @@
     <Cell><Data ss:Type="String">AV.MINIMINES</Data></Cell>
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">135</Data></Cell>
-    <Cell><Data ss:Type="Number">18000</Data></Cell>
+    <Cell><Data ss:Type="Number">11000</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
@@ -1016,7 +1016,7 @@
     <Cell><Data ss:Type="String">AV.STEALTHMINES</Data></Cell>
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
-    <Cell><Data ss:Type="Number">18000</Data></Cell>
+    <Cell><Data ss:Type="Number">11000</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
@@ -1143,7 +1143,7 @@
     <Cell><Data ss:Type="String">AV.GRAVITYTORP</Data></Cell>
     <Cell><Data ss:Type="String">Heavy</Data></Cell>
     <Cell><Data ss:Type="Number">150</Data></Cell>
-    <Cell><Data ss:Type="Number">12000</Data></Cell>
+    <Cell><Data ss:Type="Number">9000</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
@@ -1195,7 +1195,7 @@
     <Cell><Data ss:Type="String">AV.NEUTRINOTORP</Data></Cell>
     <Cell><Data ss:Type="String">Heavy</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
-    <Cell><Data ss:Type="Number">12500</Data></Cell>
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">25</Data></Cell>
     <Cell><Data ss:Type="Number">15</Data></Cell>
@@ -1247,7 +1247,7 @@
     <Cell><Data ss:Type="String">AV.PARTICLETORP</Data></Cell>
     <Cell><Data ss:Type="String">Heavy</Data></Cell>
     <Cell><Data ss:Type="Number">225</Data></Cell>
-    <Cell><Data ss:Type="Number">12500</Data></Cell>
+    <Cell><Data ss:Type="Number">10500</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">15</Data></Cell>
@@ -1426,8 +1426,8 @@
    <Row>
     <Cell><Data ss:Type="String">AV.TERRORCARRIERDRONES</Data></Cell>
     <Cell><Data ss:Type="String">Heavy</Data></Cell>
-    <Cell><Data ss:Type="Number">300</Data></Cell>
-    <Cell><Data ss:Type="Number">22000</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="Number">11000</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell><Data ss:Type="Number">160</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
@@ -1839,7 +1839,7 @@
     <Cell><Data ss:Type="String">AV.EXLANDINGSHIPDRONES</Data></Cell>
     <Cell><Data ss:Type="String">Heavy</Data></Cell>
     <Cell><Data ss:Type="Number">200</Data></Cell>
-    <Cell><Data ss:Type="Number">16000</Data></Cell>
+    <Cell><Data ss:Type="Number">11000</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell><Data ss:Type="Number">160</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
@@ -2032,8 +2032,8 @@
    <Row>
     <Cell><Data ss:Type="String">AV.TERRORBATTLESHIPDRONES</Data></Cell>
     <Cell><Data ss:Type="String">Heavy</Data></Cell>
-    <Cell><Data ss:Type="Number">200</Data></Cell>
-    <Cell><Data ss:Type="Number">16000</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="Number">11000</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">160</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
@@ -2163,7 +2163,7 @@
     <Cell><Data ss:Type="String">AV.EXSUPPLYSHIPDRONES</Data></Cell>
     <Cell><Data ss:Type="String">Heavy</Data></Cell>
     <Cell><Data ss:Type="Number">300</Data></Cell>
-    <Cell><Data ss:Type="Number">16000</Data></Cell>
+    <Cell><Data ss:Type="Number">11000</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">240</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
@@ -2445,7 +2445,7 @@
     <Cell><Data ss:Type="String">AV.CARRIERDRONES</Data></Cell>
     <Cell><Data ss:Type="String">Heavy</Data></Cell>
     <Cell><Data ss:Type="Number">700</Data></Cell>
-    <Cell><Data ss:Type="Number">26000</Data></Cell>
+    <Cell><Data ss:Type="Number">11000</Data></Cell>
     <Cell><Data ss:Type="Number">3.5</Data></Cell>
     <Cell><Data ss:Type="Number">320</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
@@ -2576,7 +2576,7 @@
     <Cell><Data ss:Type="String">AV.BOMBERCARRIERDRONES</Data></Cell>
     <Cell><Data ss:Type="String">Heavy</Data></Cell>
     <Cell><Data ss:Type="Number">400</Data></Cell>
-    <Cell><Data ss:Type="Number">26000</Data></Cell>
+    <Cell><Data ss:Type="Number">11000</Data></Cell>
     <Cell><Data ss:Type="Number">3.5</Data></Cell>
     <Cell><Data ss:Type="Number">320</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
@@ -2751,7 +2751,7 @@
     <Cell><Data ss:Type="String">AV.EXCARGOSHIPDRONES</Data></Cell>
     <Cell><Data ss:Type="String">Heavy</Data></Cell>
     <Cell><Data ss:Type="Number">600</Data></Cell>
-    <Cell><Data ss:Type="Number">16000</Data></Cell>
+    <Cell><Data ss:Type="Number">11000</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">240</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
@@ -3076,7 +3076,7 @@
     <Cell><Data ss:Type="String">AV.BATTLECARRIERDRONES</Data></Cell>
     <Cell><Data ss:Type="String">Heavy</Data></Cell>
     <Cell><Data ss:Type="Number">850</Data></Cell>
-    <Cell><Data ss:Type="Number">26000</Data></Cell>
+    <Cell><Data ss:Type="Number">11000</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">320</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
@@ -3796,7 +3796,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>134</TopRowBottomPane>
+   <TopRowBottomPane>61</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -3813,7 +3813,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>146</ActiveRow>
+     <ActiveRow>97</ActiveRow>
      <ActiveCol>10</ActiveCol>
     </Pane>
    </Panes>
