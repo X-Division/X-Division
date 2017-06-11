@@ -694,7 +694,7 @@
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">7.5</Data></Cell>
     <Cell><Data ss:Type="Number">2000</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
     <Cell><Data ss:Type="Number">16</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
@@ -818,7 +818,7 @@
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">7.5</Data></Cell>
     <Cell><Data ss:Type="Number">2500</Data></Cell>
-    <Cell><Data ss:Type="Number">2.2000000000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
     <Cell><Data ss:Type="Number">25</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
@@ -893,7 +893,7 @@
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">7.5</Data></Cell>
     <Cell><Data ss:Type="Number">4500</Data></Cell>
-    <Cell><Data ss:Type="Number">1.8</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
     <Cell><Data ss:Type="Number">48</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
@@ -969,7 +969,7 @@
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">7.5</Data></Cell>
     <Cell><Data ss:Type="Number">4500</Data></Cell>
-    <Cell><Data ss:Type="Number">1.2</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
     <Cell><Data ss:Type="Number">60</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
@@ -1385,7 +1385,7 @@
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">2000</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
     <Cell><Data ss:Type="Number">12</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
@@ -1905,7 +1905,7 @@
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">3000</Data></Cell>
-    <Cell><Data ss:Type="Number">1.5</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
@@ -2016,7 +2016,7 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">1000</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
-    <Cell><Data ss:Type="String">Mixed</Data></Cell>
+    <Cell><Data ss:Type="String">Auto</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="11"><Data ss:Type="Number">6000</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
@@ -2644,7 +2644,7 @@
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">5000</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
@@ -3379,7 +3379,7 @@
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">6000</Data></Cell>
-    <Cell><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell><Data ss:Type="Number">0.3</Data></Cell>
     <Cell><Data ss:Type="Number">200</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
@@ -3796,7 +3796,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>61</TopRowBottomPane>
+   <TopRowBottomPane>135</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -3813,8 +3813,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>97</ActiveRow>
-     <ActiveCol>10</ActiveCol>
+     <ActiveRow>164</ActiveRow>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
