@@ -9,6 +9,7 @@
 		<SuppressBeyondRange>1</SuppressBeyondRange>
 		<proportionStunDamage>0.5</proportionStunDamage>
 		<ThrowingAccuracyUsesStrengthAndAim>1</ThrowingAccuracyUsesStrengthAndAim>
+    <ItemsGlobalHPLimit>201</ItemsGlobalHPLimit>		
 
     <ReactionFireDoor normalOpenEasy="1" normalOpenNormal="1" normalOpenVeteran="1" normalOpenSuperhuman="1"
         largeOpenEasy="1" largeOpenNormal="1" largeOpenVeteran="1" largeOpenSuperhuman="1"

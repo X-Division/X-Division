@@ -26041,7 +26041,16 @@
     <Cell><Data ss:Type="String">X Update</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
 
-   
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">rank.colonel</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Brigade General</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">rank.colonel.short</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Brig. General</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
    
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">XenopediaHeaderDesc</Data><NamedCell
@@ -26086,4 +26095,4 @@
    xmlns="urn:schemas-microsoft-com:office:excel">
   </AutoFilter>
  </Worksheet>
-</Workbook>>
+</Workbook>

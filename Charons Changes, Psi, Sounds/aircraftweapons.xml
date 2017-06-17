@@ -170,7 +170,7 @@
    <Row ss:AutoFitHeight="0" ss:Height="13.5">
     <Cell><Data ss:Type="String">AV.CRUISERSPEARCANNON</Data></Cell>
     <Cell ss:Index="13"><Data ss:Type="String">aircraft/aircombat/spearcannon</Data></Cell>
-    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/cruiserspearcannon</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">aircraft/aircombat/weapons/cruiserspearcannon</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">AV.FOCUSBLAST</Data></Cell>
@@ -828,7 +828,7 @@
    <SplitHorizontal>1</SplitHorizontal>
    <TopRowBottomPane>1</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <LeftColumnRightPane>11</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -836,13 +836,15 @@
     </Pane>
     <Pane>
      <Number>1</Number>
+     <ActiveCol>1</ActiveCol>
     </Pane>
     <Pane>
      <Number>2</Number>
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveCol>3</ActiveCol>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>16</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

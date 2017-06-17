@@ -6208,13 +6208,13 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.praetoriantail" bulletType="normal" emptySound="Empty Click 1">
 		<props range="2" hands="1" recoil="0" weight="1" isHeavy="1" clipSize="999" reloadAPCost="20" isIntegrated="1" reloadSound="Weapon Laser Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="ReaperInjury" delay="0.1" suppressionValue="100" suppressionRadius="1">
-			<Set1 ap="30" accuracy="70" />	
+			<Set1 ap="30" accuracy="100" />	
 		</SingleShot>
 		<BurstFire />
 		<GUIImage name="gui/weapons/stunbaton.png"/>
 		<GroundImage name="grounditemimages/stunbaton.png"/>
 		<Ammos>
-			<Ammo name="ammo.ballistic.shockbaton" type="kinetic" damage="70" stunDamage="0" empDamage="0" mitigation="10" >
+			<Ammo name="ammo.ballistic.shockbaton" type="kinetic" damage="100" stunDamage="0" empDamage="0" mitigation="10" >
 				<Projectile />
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
@@ -6304,13 +6304,13 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.redpraetoriantail" bulletType="normal" emptySound="Empty Click 1">
 		<props range="2" hands="1" recoil="0" weight="1" isHeavy="1" clipSize="999" reloadAPCost="20" isIntegrated="1" reloadSound="Weapon Laser Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="ReaperInjury" delay="0.1" suppressionValue="100" suppressionRadius="1">
-			<Set1 ap="30" accuracy="70" />	
+			<Set1 ap="30" accuracy="100" />	
 		</SingleShot>
 		<BurstFire />
 		<GUIImage name="gui/weapons/stunbaton.png"/>
 		<GroundImage name="grounditemimages/stunbaton.png"/>
 		<Ammos>
-			<Ammo name="ammo.ballistic.shockbaton" type="kinetic" damage="80" stunDamage="0" empDamage="0" mitigation="25" >
+			<Ammo name="ammo.ballistic.shockbaton" type="kinetic" damage="120" stunDamage="0" empDamage="0" mitigation="25" >
 				<Projectile />
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
@@ -6368,13 +6368,13 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.crimsonpraetoriantail" bulletType="normal" emptySound="Empty Click 1">
 		<props range="2" hands="1" recoil="0" weight="1" isHeavy="1" clipSize="999" reloadAPCost="20" isIntegrated="1" reloadSound="Weapon Laser Reload" reactionModifier="1" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="ReaperInjury" delay="0.1" suppressionValue="100" suppressionRadius="1">
-			<Set1 ap="30" accuracy="70" />	
+			<Set1 ap="30" accuracy="100" />	
 		</SingleShot>
 		<BurstFire />
 		<GUIImage name="gui/weapons/stunbaton.png"/>
 		<GroundImage name="grounditemimages/stunbaton.png"/>
 		<Ammos>
-			<Ammo name="ammo.ballistic.shockbaton" type="kinetic" damage="100" stunDamage="0" empDamage="0" mitigation="35" >
+			<Ammo name="ammo.ballistic.shockbaton" type="kinetic" damage="140" stunDamage="0" empDamage="0" mitigation="35" >
 				<Projectile />
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>

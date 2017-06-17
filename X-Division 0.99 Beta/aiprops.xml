@@ -36,18 +36,18 @@
 		<Pathing 
 				Environment = "-10"
 				Sight="-0.5" 
-				Sound="-0.5"
-				Cover="1"
-				ShotPotential="-3"
-				EnemyInfluence="-3"
-				AlliedInfluence="0"
-				Ambush="5"
-				Trepidation="2"
+				Sound="-0.1"
+				Cover="-2"
+				ShotPotential="-8"
+				EnemyInfluence="-4"
+				AlliedInfluence="-5"
+				Ambush="-15"
+				Trepidation="10"
 				EnemyLOS="1.5"
-				AlliedLOS="-0.5"
-				ProbabilisticSearch="5.0"
-				NearestEnemy="-2"
-				Goal="10" />		
+				AlliedLOS="0.5"
+				ProbabilisticSearch="-1.0"
+				NearestEnemy="-1.5"
+				Goal="-15" />			
 		
 		<!-- 
 			FloorPreference: A positive value will attract to upper floors, a lower to the ground.
@@ -67,8 +67,8 @@
 				CoverBase = "0.20"		
 				CoverAttack = "0.80"
 				LookAroundSpawn = "0"
-				CautiousDistance = "10"
-				/>	
+				CautiousDistance = "35"
+				DisableMoveAnimations = "0"/>	
 
 		
 		<!-- Variables used in the decision making process of the AI.
@@ -109,7 +109,7 @@
 		<Decision 
 				MinimumAccuracy = "0.30"		
 				MinimumAccuracyGrenade = "0.15"
-				EngagementRange = "25.0"
+				EngagementRange = "60.0"
 				TurnsBeforeKeyPropAttack = "1"
 				ChanceForKeyPropAggressor = "0.2" 
 				ChanceForExpansionFromGoalTiles = "0.5"
@@ -125,23 +125,22 @@
 			
 		<Target
 				DamagePreference = "1.5" 
-				KillPreference = "2.5" 
-				RankPreference = "1.5" />
+				KillPreference = "1.0" 
+				RankPreference = "1.0" />
 
 		<Faction
 				Xenonauts = "1.5"
-				AlliedUnits = "0.2"
+				AlliedUnits = "0.1"
 				Civilians = "0.1"
 				Aliens = "1.0" />
 
 		<WeaponDamage
 				NormalDamage = "1.0"
-				StunDamage = "1.0"
+				StunDamage = "0.40"
 				EmpDamage = "1.0" />
 		
 		<!-- Scripts used: Aggressive, Defensive, Guard, Command, Civilian, FriendlyAI; Currently only Pathing is overridable -->
 		<ScriptOverrides MODMERGE="update">
-		
 			<Passive MODMERGE="update">
 				<!-- Ensure that the Passive AI doesn't respond to requests for help that eagerly (Goal) and sticks more to hidden locations -->
 				<Pathing 
@@ -160,95 +159,73 @@
 					NearestEnemy="-0.5"
 					Goal="-5" />
 			</Passive>
-			
 			<Aggressive MODMERGE="update">
-
+				<!-- Ensure that the Passive AI doesn't respond to requests for help that eagerly (Goal) and sticks more to hidden locations -->
 				<Pathing 
-					Environment ="-10"
-					Sight="-2" 
-					Sound="-0.5"
-					Cover="-8"
-					Ambush="-3"
-					Trepidation="2"
-					ShotPotential="-20"
-					EnemyInfluence="-8"
-					AlliedInfluence="-3"
-					EnemyLOS="2"
-					ProbabilisticSearch="-4"
-					NearestEnemy="-1"
-					Goal="-20"/>
-				<PathingMechanics
-					CautiousDistance = "5"/>
-				
+					Sight="2.3" 
+					Cover="-3"
+					ShotPotential="-18"
+					EnemyInfluence="-4"
+					AlliedInfluence="-1"
+					Ambush="-20"
+					Trepidation="8"
+					EnemyLOS="1.3"
+					ProbabilisticSearch="-3.0"
+					NearestEnemy="-1.3"
+					Goal="-10" />
 			</Aggressive>
-			
 			<Defensive MODMERGE="update">
-				
-				<PathingMechanics 
-						FloorPreference = "0.25"
-						/>	
-				<!-- Ensure that the Defensive AI searches around the UFO, and doesn't just blindly search for enemies. -->
+				<!-- Ensure that the Passive AI doesn't respond to requests for help that eagerly (Goal) and sticks more to hidden locations -->
 				<Pathing 
-						Sight="2"
-						Cover="-15"
-						ShotPotential="-26"
-						EnemyInfluence="3"
-						AlliedInfluence="-3"
-						EnemyLOS="4"
-						Trepidation="10"
-						ProbabilisticSearch="-6"
-						Goal="-30" />	
-						
+					Sight="0.7" 
+					Sound="-0.3"
+					Cover="-5"
+					ShotPotential="-18"
+					EnemyInfluence="-0.5"
+					Ambush="-20"
+					EnemyLOS="1.4"
+					ProbabilisticSearch="-3"
+					NearestEnemy="-0.9"
+					Goal="-10" />
 				<Decision 
 						MinimumAccuracy = "0.15"		
-						MinimumAccuracyGrenade = "0.15" />
-					
+						MinimumAccuracyGrenade = "0.10" />
 			</Defensive>
-			
 			<Command MODMERGE="update">
-			
+				<!-- Ensure that the Passive AI doesn't respond to requests for help that eagerly (Goal) and sticks more to hidden locations -->
 				<Pathing 
 					Sight="0.8" 
-					Cover="5"
-					ShotPotential="-50"
-					EnemyInfluence="2"
-					AlliedInfluence="-0.25"
-					Ambush="0"
-					Trepidation="5"
-					EnemyLOS="2"
-					ProbabilisticSearch="-5"
-					NearestEnemy="-0.5"
-					Goal="-70"  /> 
-				
-				<Decision 
-					MinimumAccuracy = "0.15"		
-					MinimumAccuracyGrenade = "0.15" />
-
-			</Command>
-			
-			<Guard MODMERGE="update">
-				<Pathing 
-					Sight="2.5" 
-					Cover="-3"
-					EnemyInfluence="0"
+					Cover="-7"
 					ShotPotential="-25"
+					EnemyInfluence="-4"
 					AlliedInfluence="-2"
-					Ambush="-15"
+					Ambush="-20"
 					Trepidation="10"
-					EnemyLOS="2.0"
-					ProbabilisticSearch="-2"
-					NearestEnemy="-1"
-					Goal="-20"  /> 
+					EnemyLOS="1.5"
+					ProbabilisticSearch="-0.3"
+					NearestEnemy="-1.5"
+					Goal="-15"  /> 
 				<Decision 
 						MinimumAccuracy = "0.15"		
-						MinimumAccuracyGrenade = "0.15" />
-						
-				<PathingMechanics 
-						FloorPreference = "0.25"
-						LookAroundSpawn = "1"
-						/>	
-					
-
+						MinimumAccuracyGrenade = "0.10" />
+			</Command>
+			<Guard MODMERGE="update">
+				<!-- Ensure that the Passive AI doesn't respond to requests for help that eagerly (Goal) and sticks more to hidden locations -->
+				<Pathing 
+					Sight="2.5" 
+					Cover="-5"
+					EnemyInfluence="-3"
+					ShotPotential="-20"
+					AlliedInfluence="-0.5"
+					Ambush="-30"
+					Trepidation="10"
+					EnemyLOS="3.0"
+					ProbabilisticSearch="-3"
+					NearestEnemy="-1.5"
+					Goal="-10"  /> 
+				<Decision 
+						MinimumAccuracy = "0.15"		
+						MinimumAccuracyGrenade = "0.1" />
 			</Guard>
 		</ScriptOverrides>
 	</Behaviour>
@@ -263,50 +240,18 @@
   
     <Sounds death="CaesanDeath" injury="CaesanInjury" />
 	
-	<Behaviour>
-	
+					<Behaviour>
 		<Pathing 
-				Environment="-20"
-				Sight="1" 
-				Sound="-0.1"
-				Cover="5"
-				EnemyInfluence="-1"
-				AlliedInfluence="2"
-				Ambush="2"
-				Trepidation="5"
-				EnemyLOS="1"
-				AlliedLOS="-1"
-				ProbabilisticSearch="-2"
-				NearestEnemy="-0.5" 
-				/>
-				
-			<ScriptOverrides>
 
-			<Aggressive>					
-				<Pathing 
-						Sight="0.5" 
-						Cover="-15"
-						ShotPotential="-20"
-						EnemyInfluence="-8"
-						AlliedInfluence="-2"
-						Ambush="-6"
-						Trepidation="5"
-						EnemyLOS="3"
-						AlliedLOS="-0.5"
-						ProbabilisticSearch="-5"
-						NearestEnemy="-1" 
-						Goal="-20"
-						
-						/>
-			</Aggressive>
-			<Defensive>
+				EnemyInfluence="-2"	
+				NearestEnemy="-0.5"	
+				Ambush="-10"
+				Trepidation="10"/>
 				
-				<Pathing 				
-					Cover="-5"
-				/>	
-	
-			</Defensive>
-		</ScriptOverrides>
+		<Decision 
+				MinimumAccuracy = "0.33"		
+				MinimumAccuracyGrenade = "0.10"
+				EngagementRange = "60.0" />
 	</Behaviour>
 	
     <Props sightRange="60" suppressionMultiplier="1" />
@@ -2443,41 +2388,20 @@
 
   <AI MODMERGEATTRIBUTE="race" MODMERGE="replace" race="Sebillian">  
 	
-		<Behaviour>
-	
+	<Behaviour>
 		<Pathing 
-				Environment="-15"
-				Sight="2" 
-				Sound="-2"
-				Cover="5"
-				EnemyInfluence="-4"
-				AlliedInfluence="-3"
-				Ambush="5"
-				Trepidation="-5"
-				EnemyLOS="0.5"
-				AlliedLOS="-1"
-				ProbabilisticSearch="10"
-				NearestEnemy="-0.5" 
-				/>
-				
-			<ScriptOverrides>
-
-			<Aggressive>					
-				<Pathing 
-						Sight="-0.5" 
-						Cover="-3"
-						ShotPotential="-25"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="-3"
-						EnemyLOS="5"
-						AlliedLOS="-0.5"
-						ProbabilisticSearch="-5"
-						NearestEnemy="-1" 
-						/>
-			</Aggressive>
-
-		</ScriptOverrides>
+				Sight="0.5" 
+				Cover="-2"
+				Ambush="-20"
+				Trepidation="1"
+				ProbabilisticSearch="-1.0"
+				NearestEnemy="-1.6"
+				EnemyInfluence="-3"
+				Goal="-30" />
+		<Decision 
+				MinimumAccuracy = "0.35"		
+				MinimumAccuracyGrenade = "0.10"
+				EngagementRange = "60.0" />
 	</Behaviour>
 	
     <Sounds death="SebillianDeath" injury="SebillianInjury" />
@@ -4947,7 +4871,7 @@
 	<Decision
 				MinimumAccuracy = "0.35"		
 				MinimumAccuracyGrenade = "0.15"
-				EngagementRange = "25.0" />
+				EngagementRange = "60.0" />
 	<Behaviour>
 		<Pathing 
 				Environment = "-5"
@@ -5366,88 +5290,50 @@
     <Props sightRange="60" suppressionMultiplier="0.3" />
 	<GibbedSpectre name="particles/gibbed_alien/gibbed_alien" />
 
+	<Decision
+				MinimumAccuracy = "0.30"		
+				MinimumAccuracyGrenade = "0.10"
+				EngagementRange = "60.0" /> 
+	<Pathing 
+				Cover="-7"
+				Ambush="-20"
+				Trepidation="10"
+				ShotPotential="-30"
+				EnemyLOS="1.5"/>
+	
+	<Rank  type="XQueen">
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="6" 
-				Sound="-5"
-				Cover="5"
-				EnemyInfluence="-3"
-				AlliedInfluence="-1"
-				Ambush="5"
-				Trepidation="-10"
-				EnemyLOS="6"
-				AlliedLOS="-1"
-				ProbabilisticSearch="10"
-				NearestEnemy="-0.5" 
-				/>
-				
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-
-			<Aggressive>					
-				<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-1"
-				Cover="4"
-				EnemyInfluence="-6"
-				AlliedInfluence="-1"
-				Ambush="2"
-				Trepidation="2"
-				EnemyLOS="3"
-				AlliedLOS="-1"
-				ProbabilisticSearch="-10"
-				NearestEnemy="-0.5" 
-						/>
-			</Aggressive>
-			<Passive>
+			<Aggressive>	
 				
-				<Pathing 				
-					Environment ="-20"
-					Sight="8" 
-					Sound="-0.3"
-					Cover="-15"
-					ShotPotential="-40"
-					EnemyInfluence="-4"
-					AlliedInfluence="1"
-					Ambush="15"
-					Trepidation="2"
-					EnemyLOS="6"
-					AlliedLOS="-1"
-					ProbabilisticSearch="-5"
-					NearestEnemy="0"
-					Goal="-1" />
-	
-	
-			</Passive>
+				<Pathing 
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
+			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
-	
-	<Rank  type="XQueen">
-	    <Behaviour>
-			<Pathing 
-				Environment ="-10"
-				Sight="-10" 
-				Cover="-30"
-				Ambush="-30"
-				EnemyInfluence="-25"
-				AlliedInfluence="0"
-				ProbabilisticSearch="10"
-				NearestEnemy="-5"
-				EnemyLOS="-20"
-				Goal="0"/>	
-			<PathingMechanics
-				CautiousDistance = "1"/>
-			<WeaponDamage
-				NormalDamage = "30.0"
-				StunDamage = "30.0"
-				EmpDamage = "30.0" />
-			<Target
-				DamagePreference = "10" 
-				KillPreference = "15" 
-				RankPreference = "5" />
-		</Behaviour>
+	        </Behaviour>
       <Props APs="70" Resilience="400" Strength="100" Accuracy="85" Reflexes="50" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
       <Armour  kinetic="60" energy="30" chemical="200" incendiary="10" /> 
       <Items killed="Items.XQueenCorpse" stunned="Items.XQueen" />
@@ -5462,29 +5348,38 @@
     </Rank>
 	
 	<Rank  type="XRedQueen">
-	    <Behaviour>
-			<Pathing 
-				Environment ="-10"
-				Sight="-10" 
-				Cover="-30"
-				Ambush="-30"
-				EnemyInfluence="-25"
-				AlliedInfluence="0"
-				ProbabilisticSearch="10"
-				NearestEnemy="-5"
-				EnemyLOS="-20"
-				Goal="0"/>	
-			<PathingMechanics
-				CautiousDistance = "1"/>
-			<WeaponDamage
-				NormalDamage = "30.0"
-				StunDamage = "30.0"
-				EmpDamage = "30.0" />
-			<Target
-				DamagePreference = "10" 
-				KillPreference = "15" 
-				RankPreference = "5" />
-		</Behaviour>
+	<Behaviour>
+	
+		<Pathing 
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
+			<ScriptOverrides>
+			<Aggressive>	
+				
+				<Pathing 
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
+			</Aggressive>
+		</ScriptOverrides>
+	        </Behaviour>
       <Props APs="70" Resilience="600" Strength="100" Accuracy="85" Reflexes="50" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
       <Armour  kinetic="100" energy="50" chemical="200" incendiary="15" />  
       <Items killed="Items.XRedQueenCorpse" stunned="Items.XRedQueen" />
@@ -5536,29 +5431,38 @@
     </Rank>
 	
 	  <Rank  type="XEmpress">
-	  <Behaviour>
-			<Pathing 
-				Environment ="-10"
-				Sight="-10" 
-				Cover="-30"
-				Ambush="-30"
-				EnemyInfluence="-25"
-				AlliedInfluence="0"
-				ProbabilisticSearch="10"
-				NearestEnemy="-5"
-				EnemyLOS="-20"
-				Goal="0"/>	
-			<PathingMechanics
-				CautiousDistance = "1"/>
-			<WeaponDamage
-				NormalDamage = "30.0"
-				StunDamage = "30.0"
-				EmpDamage = "30.0" />
-			<Target
-				DamagePreference = "10" 
-				KillPreference = "15" 
-				RankPreference = "5" />
-		</Behaviour>
+	<Behaviour>
+	
+		<Pathing 
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
+			<ScriptOverrides>
+			<Aggressive>	
+				
+				<Pathing 
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
+			</Aggressive>
+		</ScriptOverrides>
+	        </Behaviour>
       <Props APs="80" Resilience="1250" Strength="100" Accuracy="90" Reflexes="100" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
       <Armour  kinetic="150" energy="78" chemical="200" incendiary="35" /> 
       <Items killed="Items.XEmpressCorpse" stunned="Items.XEmpress" />
@@ -6290,28 +6194,37 @@
 
   <AI MODMERGEATTRIBUTE="race" MODMERGE="replace" race="Reaper">  
 	<Behaviour>
-			<Pathing 
-				Environment ="-10"
-				Sight="-5" 
-				Cover="-15"
-				Ambush="-30"
-				EnemyInfluence="-25"
-				AlliedInfluence="0"
-				ProbabilisticSearch="10"
-				NearestEnemy="-5"
-				EnemyLOS="-8"
-				Goal="0"/>	
-			<PathingMechanics
-				CautiousDistance = "1"/>
-			<WeaponDamage
-				NormalDamage = "2.0"
-				StunDamage = "2.0"
-				EmpDamage = "2.0" />
-			<Target
-				DamagePreference = "3" 
-				KillPreference = "5" 
-				RankPreference = "3" />
-		</Behaviour>
+	
+		<Pathing 
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
+			<ScriptOverrides>
+			<Aggressive>	
+				
+				<Pathing 
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
+			</Aggressive>
+		</ScriptOverrides>
+	        </Behaviour>
 
     <Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props sightRange="60" suppressionMultiplier="0.0" moveSpeed="300" stairsMoveSpeed="200" />
@@ -7137,23 +7050,16 @@
     <Sounds death="Weapon Frag Grenade" injury="LightDroneInjury" movingSound="PraetorMovingSound" />
     <Props noBloodStain="1" sightRange="60" suppressionMultiplier="0.0" />
 	<Behaviour>	
-
 		<Pathing 
-					Environment="-20"
-					Sight="10" 
-					Sound="5"
-					Cover="-30"
-					Ambush="-30"
-					Trepidation="0"
-					ShotPotential="-10"
-					EnemyInfluence="-5"
-					EnemyLOS="-20"
-					NearestEnemy="-1.5"
-					Goal="-10" />
-		
+				Sight="0.3" 
+				Cover="0"
+				EnemyInfluence="-10"
+				AlliedInfluence="-0.6" 
+				Trepidation="0.0"
+				NearestEnemy="-0.1" />
 		<Decision 
-				MinimumAccuracy = "0.05"		
-				EngagementRange = "25.0" />
+				MinimumAccuracy = "0.10"		
+				EngagementRange = "60.0" />
 	</Behaviour>
     
     <Rank  type="Lightdrone">
@@ -7215,23 +7121,16 @@
 
   <AI MODMERGEATTRIBUTE="race" MODMERGE="replace" race="Mediumdrone">
 	<Behaviour>	
-
 		<Pathing 
-					Environment="-20"
-					Sight="10" 
-					Sound="5"
-					Cover="-30"
-					Ambush="-30"
-					Trepidation="0"
-					ShotPotential="-10"
-					EnemyInfluence="-5"
-					EnemyLOS="-20"
-					NearestEnemy="-1.5"
-					Goal="-10" />
-		
+				Sight="-0.1" 
+				Cover="0"
+				EnemyInfluence="-10"
+				AlliedInfluence="-0.6" 
+				Trepidation="0.0"
+				NearestEnemy="-0.1" />
 		<Decision 
 				MinimumAccuracy = "0.05"		
-				EngagementRange = "25.0" />
+				EngagementRange = "60.0" />
 	</Behaviour>
     <Sounds death="Weapon Frag Grenade" injury="LightDroneInjury" movingSound="MediumDroneMoveSound" />
     <Props moveSpeed="150" stairsMoveSpeed="80" noBloodStain="1" sightRange="60" deathExplosion="weapon.explosive.mediumdrone" suppressionMultiplier="0.0" />
@@ -7295,23 +7194,16 @@
   
   <AI MODMERGEATTRIBUTE="race" MODMERGE="replace" race="Heavydrone">
 	<Behaviour>	
-
 		<Pathing 
-					Environment="-20"
-					Sight="10" 
-					Sound="5"
-					Cover="-30"
-					Ambush="-30"
-					Trepidation="0"
-					ShotPotential="-10"
-					EnemyInfluence="-5"
-					EnemyLOS="-20"
-					NearestEnemy="-1.5"
-					Goal="-10" />
-		
+				Sight="-0.1" 
+				Cover="0"
+				EnemyInfluence="-10"
+				AlliedInfluence="-2" 
+				Trepidation="0.0"
+				NearestEnemy="-0.1" />
 		<Decision 
-				MinimumAccuracy = "0.05"		
-				EngagementRange = "25.0" />
+				MinimumAccuracy = "0.1"		
+				EngagementRange = "60.0" />
 	</Behaviour>
     <Sounds death="Weapon Frag Grenade" injury="LightDroneInjury" movingSound="HeavyDroneMoveSound" />
     <Props moveSpeed="100" stairsMoveSpeed="60" noBloodStain="1" sightRange="60" deathExplosion="weapon.explosive.heavydrone" suppressionMultiplier="0.0" />
@@ -8751,50 +8643,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.drone" suppressionMultiplier="0.0" />
@@ -8823,50 +8700,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.drone" suppressionMultiplier="0.0" />
@@ -8895,50 +8757,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.drone" suppressionMultiplier="0.0" />
@@ -8967,50 +8814,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.drone" suppressionMultiplier="0.0" />
@@ -9126,50 +8958,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="80" deathExplosion="" suppressionMultiplier="0.0" />
@@ -9198,50 +9015,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="80" deathExplosion="" suppressionMultiplier="0.0" />
@@ -9270,50 +9072,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="80" deathExplosion="" suppressionMultiplier="0.0" />
@@ -9342,50 +9129,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="80" deathExplosion="" suppressionMultiplier="0.0" />
@@ -9486,50 +9258,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.drone" suppressionMultiplier="0.0" />
@@ -9558,50 +9315,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.drone" suppressionMultiplier="0.0" />
@@ -9630,50 +9372,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.drone" suppressionMultiplier="0.0" />
@@ -9702,50 +9429,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.warrior" suppressionMultiplier="0.0" />
@@ -9773,50 +9485,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.warrior" suppressionMultiplier="0.0" />
@@ -9844,50 +9541,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.warrior" suppressionMultiplier="0.0" />
@@ -9915,50 +9597,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.warrior" suppressionMultiplier="0.0" />
@@ -9986,53 +9653,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-10"
-				Sight="2" 
-				Sound="0.5"
-				Cover="-2"
-				EnemyInfluence="-5"
-				AlliedInfluence="1"
-				Ambush="1"
-				Trepidation="0"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="2"
-				NearestEnemy="-0.5" 
-				Goal="-20"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				MinimumAccuracy = "0.10"		
-				/>
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-1"
-						Sight="-2" 
-						Sound="0.5"
-						Cover="-10"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="2"
-						Ambush="-0.5"
-						Trepidation="-5"
-						EnemyLOS="-1"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-5" 
-						Goal="-20"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
-				<Decision 
-						MinimumAccuracy = "0.10"		
-				/>
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.praetorian" suppressionMultiplier="0.0" />
@@ -10060,53 +9709,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-10"
-				Sight="2" 
-				Sound="0.5"
-				Cover="-2"
-				EnemyInfluence="-5"
-				AlliedInfluence="1"
-				Ambush="1"
-				Trepidation="0"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="2"
-				NearestEnemy="-0.5" 
-				Goal="-20"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				MinimumAccuracy = "0.10"		
-				/>
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-1"
-						Sight="-2" 
-						Sound="0.5"
-						Cover="-10"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="2"
-						Ambush="-0.5"
-						Trepidation="-5"
-						EnemyLOS="-1"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-5" 
-						Goal="-20"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
-				<Decision 
-						MinimumAccuracy = "0.10"		
-				/>
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.praetorian" suppressionMultiplier="0.0" />
@@ -10134,53 +9765,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-10"
-				Sight="2" 
-				Sound="0.5"
-				Cover="-2"
-				EnemyInfluence="-5"
-				AlliedInfluence="1"
-				Ambush="1"
-				Trepidation="0"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="2"
-				NearestEnemy="-0.5" 
-				Goal="-20"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				MinimumAccuracy = "0.10"		
-				/>
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-1"
-						Sight="-2" 
-						Sound="0.5"
-						Cover="-10"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="2"
-						Ambush="-0.5"
-						Trepidation="-5"
-						EnemyLOS="-1"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-5" 
-						Goal="-20"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
-				<Decision 
-						MinimumAccuracy = "0.10"		
-				/>
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.praetorian" suppressionMultiplier="0.0" />
@@ -10208,53 +9821,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-10"
-				Sight="2" 
-				Sound="0.5"
-				Cover="-2"
-				EnemyInfluence="-5"
-				AlliedInfluence="1"
-				Ambush="1"
-				Trepidation="0"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="2"
-				NearestEnemy="-0.5" 
-				Goal="-20"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				MinimumAccuracy = "0.10"		
-				/>
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-1"
-						Sight="-2" 
-						Sound="0.5"
-						Cover="-10"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="2"
-						Ambush="-0.5"
-						Trepidation="-5"
-						EnemyLOS="-1"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-5" 
-						Goal="-20"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
-				<Decision 
-						MinimumAccuracy = "0.10"		
-				/>
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.praetorian" suppressionMultiplier="0.0" />
@@ -10282,53 +9877,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-10"
-				Sight="2" 
-				Sound="0.5"
-				Cover="-2"
-				EnemyInfluence="-5"
-				AlliedInfluence="1"
-				Ambush="1"
-				Trepidation="0"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="2"
-				NearestEnemy="-0.5" 
-				Goal="-20"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				MinimumAccuracy = "0.10"		
-				/>
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-1"
-						Sight="-2" 
-						Sound="0.5"
-						Cover="-10"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="2"
-						Ambush="-0.5"
-						Trepidation="-5"
-						EnemyLOS="-1"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-5" 
-						Goal="-20"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
-				<Decision 
-						MinimumAccuracy = "0.10"		
-				/>
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.praetorian" suppressionMultiplier="0.0" />
@@ -10356,53 +9933,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-10"
-				Sight="2" 
-				Sound="0.5"
-				Cover="-2"
-				EnemyInfluence="-5"
-				AlliedInfluence="1"
-				Ambush="1"
-				Trepidation="0"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="2"
-				NearestEnemy="-0.5" 
-				Goal="-20"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				MinimumAccuracy = "0.10"		
-				/>
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-1"
-						Sight="-2" 
-						Sound="0.5"
-						Cover="-10"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="2"
-						Ambush="-0.5"
-						Trepidation="-5"
-						EnemyLOS="-1"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-5" 
-						Goal="-20"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
-				<Decision 
-						MinimumAccuracy = "0.10"		
-				/>
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.praetorian" suppressionMultiplier="0.0" />
@@ -10432,29 +9991,38 @@
 	<GibbedSpectre name="particles/gibbed_xeno/gibbed_xeno" />
 
 	<Rank  type="XQueenSoldier">
-	    <Behaviour>
-			<Pathing 
-				Environment ="-10"
-				Sight="-10" 
-				Cover="-30"
-				Ambush="-30"
-				EnemyInfluence="-25"
-				AlliedInfluence="0"
-				ProbabilisticSearch="10"
-				NearestEnemy="-5"
-				EnemyLOS="-20"
-				Goal="0"/>	
-			<PathingMechanics
-				CautiousDistance = "1"/>
-			<WeaponDamage
-				NormalDamage = "30.0"
-				StunDamage = "30.0"
-				EmpDamage = "30.0" />
-			<Target
-				DamagePreference = "10" 
-				KillPreference = "15" 
-				RankPreference = "5" />
-		</Behaviour>
+	<Behaviour>
+	
+		<Pathing 
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
+			<ScriptOverrides>
+			<Aggressive>	
+				
+				<Pathing 
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
+			</Aggressive>
+		</ScriptOverrides>
+	        </Behaviour>
       <Props APs="70" Resilience="400" Strength="100" Accuracy="85" Reflexes="100" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
       <Armour  kinetic="100" energy="50" chemical="200" incendiary="20" /> 
       <Items killed="Items.XQueenCorpse" stunned="Items.XQueen" />
@@ -10476,29 +10044,38 @@
 	<GibbedSpectre name="particles/gibbed_xeno/gibbed_xeno" />
 
 	<Rank  type="XQueenSoldierF">
-	    <Behaviour>
-			<Pathing 
-				Environment ="-10"
-				Sight="-10" 
-				Cover="-30"
-				Ambush="-30"
-				EnemyInfluence="-25"
-				AlliedInfluence="0"
-				ProbabilisticSearch="10"
-				NearestEnemy="-5"
-				EnemyLOS="-20"
-				Goal="0"/>	
-			<PathingMechanics
-				CautiousDistance = "1"/>
-			<WeaponDamage
-				NormalDamage = "30.0"
-				StunDamage = "30.0"
-				EmpDamage = "30.0" />
-			<Target
-				DamagePreference = "10" 
-				KillPreference = "15" 
-				RankPreference = "5" />
-		</Behaviour>
+	<Behaviour>
+	
+		<Pathing 
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
+			<ScriptOverrides>
+			<Aggressive>	
+				
+				<Pathing 
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
+			</Aggressive>
+		</ScriptOverrides>
+	        </Behaviour>
       <Props APs="70" Resilience="400" Strength="100" Accuracy="85" Reflexes="100" Bravery="100" Abilities="Regeneration,Heavy,SpawnReaper.XQueenWarriorF.XQueenWarriorF.5,Permadeath" CrouchDisabled="1"  />
       <Armour  kinetic="100" energy="50" chemical="200" incendiary="20" /> 
       <Items killed="Items.XQueenCorpse" stunned="Items.XQueen" />
@@ -10520,29 +10097,38 @@
 	<GibbedSpectre name="particles/gibbed_xeno/gibbed_xeno" />
 
 	<Rank  type="XQueenWarrior">
-	    <Behaviour>
-			<Pathing 
-				Environment ="-10"
-				Sight="-10" 
-				Cover="-30"
-				Ambush="-30"
-				EnemyInfluence="-25"
-				AlliedInfluence="0"
-				ProbabilisticSearch="10"
-				NearestEnemy="-5"
-				EnemyLOS="-20"
-				Goal="0"/>	
-			<PathingMechanics
-				CautiousDistance = "1"/>
-			<WeaponDamage
-				NormalDamage = "30.0"
-				StunDamage = "30.0"
-				EmpDamage = "30.0" />
-			<Target
-				DamagePreference = "10" 
-				KillPreference = "15" 
-				RankPreference = "5" />
-		</Behaviour>
+	<Behaviour>
+	
+		<Pathing 
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
+			<ScriptOverrides>
+			<Aggressive>	
+				
+				<Pathing 
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
+			</Aggressive>
+		</ScriptOverrides>
+	        </Behaviour>
       <Props APs="70" Resilience="600" Strength="100" Accuracy="85" Reflexes="150" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
       <Armour  kinetic="150" energy="65" chemical="260" incendiary="30" />  
       <Items killed="Items.XRedQueenCorpse" stunned="Items.XRedQueen" />
@@ -10564,29 +10150,38 @@
 	<GibbedSpectre name="particles/gibbed_xeno/gibbed_xeno" />
 
 	<Rank  type="XQueenWarriorF">
-	    <Behaviour>
-			<Pathing 
-				Environment ="-10"
-				Sight="-10" 
-				Cover="-30"
-				Ambush="-30"
-				EnemyInfluence="-25"
-				AlliedInfluence="0"
-				ProbabilisticSearch="10"
-				NearestEnemy="-5"
-				EnemyLOS="-20"
-				Goal="0"/>	
-			<PathingMechanics
-				CautiousDistance = "1"/>
-			<WeaponDamage
-				NormalDamage = "30.0"
-				StunDamage = "30.0"
-				EmpDamage = "30.0" />
-			<Target
-				DamagePreference = "10" 
-				KillPreference = "15" 
-				RankPreference = "5" />
-		</Behaviour>
+	<Behaviour>
+	
+		<Pathing 
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
+			<ScriptOverrides>
+			<Aggressive>	
+				
+				<Pathing 
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
+			</Aggressive>
+		</ScriptOverrides>
+	        </Behaviour>
       <Props APs="70" Resilience="600" Strength="100" Accuracy="85" Reflexes="150" Bravery="100" Abilities="Regeneration,Heavy,SpawnReaper.XQueenEliteF.XQueenEliteF.5,Permadeath" CrouchDisabled="1"  />
       <Armour  kinetic="150" energy="65" chemical="260" incendiary="30" />  
       <Items killed="Items.XRedQueenCorpse" stunned="Items.XRedQueen" />
@@ -10694,50 +10289,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.drone" suppressionMultiplier="0.0" />
@@ -10766,50 +10346,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.warrior" suppressionMultiplier="0.0" />
@@ -10876,29 +10441,38 @@
 	<GibbedSpectre name="particles/gibbed_xeno/gibbed_xeno" />
 
 	  <Rank  type="XEmpress">
-	  <Behaviour>
-			<Pathing 
-				Environment ="-10"
-				Sight="-10" 
-				Cover="-30"
-				Ambush="-30"
-				EnemyInfluence="-25"
-				AlliedInfluence="0"
-				ProbabilisticSearch="10"
-				NearestEnemy="-5"
-				EnemyLOS="-20"
-				Goal="0"/>	
-			<PathingMechanics
-				CautiousDistance = "1"/>
-			<WeaponDamage
-				NormalDamage = "30.0"
-				StunDamage = "30.0"
-				EmpDamage = "30.0" />
-			<Target
-				DamagePreference = "10" 
-				KillPreference = "15" 
-				RankPreference = "5" />
-		</Behaviour>
+	<Behaviour>
+	
+		<Pathing 
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
+			<ScriptOverrides>
+			<Aggressive>	
+				
+				<Pathing 
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
+			</Aggressive>
+		</ScriptOverrides>
+	        </Behaviour>
       <Props APs="80" Resilience="1250" Strength="100" Accuracy="90" Reflexes="100" Bravery="100" Abilities="Regeneration,Heavy" CrouchDisabled="1"  />
       <Armour  kinetic="240" energy="120" chemical="375" incendiary="45" /> 
       <Items killed="Items.XEmpressCorpse" stunned="Items.XEmpress" />
@@ -10918,50 +10492,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.acidling" suppressionMultiplier="0.0" />
@@ -10991,50 +10550,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.acidlingsoldier" suppressionMultiplier="0.0" />
@@ -11064,50 +10608,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.acidlingwarrior" suppressionMultiplier="0.0" />
@@ -11137,50 +10666,35 @@
 	<Behaviour>
 	
 		<Pathing 
-				Environment="-20"
-				Sight="4" 
-				Sound="-2"
-				Cover="-5"
-				EnemyInfluence="-5"
-				AlliedInfluence="-5"
-				Ambush="-5"
-				Trepidation="4"
-				EnemyLOS="-5"
-				AlliedLOS="0.5"
-				ProbabilisticSearch="5"
-				NearestEnemy="-0.5" 
-				Goal="-5"
-				/>
-				
-		<PathingMechanics 
-				CautiousDistance = "0"
-				/>	
-		<Decision 
-				EngagementRange = "24.0" />
-		
+					Environment = "-10"
+					Sight="1.8" 
+					Sound="-0.1"
+					Cover="-5"
+					Ambush="-20"
+					ShotPotential="-8"
+					EnemyInfluence="-2.5"
+					EnemyLOS="1.8"
+					NearestEnemy="-1.5"
+					Goal="-30" />
 			<ScriptOverrides>
-			<Aggressive>					
+			<Aggressive>	
+				
 				<Pathing 
-						Environment ="-20"
-						Sight="-0.5" 
-						Sound="2"
-						Cover="-15"
-						ShotPotential="-30"
-						EnemyInfluence="-10"
-						AlliedInfluence="-2"
-						Ambush="0"
-						Trepidation="-3"
-						EnemyLOS="2"
-						AlliedLOS="0"
-						ProbabilisticSearch="-10"
-						NearestEnemy="-3" 
-						Goal="-5"/>
-				<PathingMechanics 
-						CautiousDistance = "0"
-				/>	
+						Environment = "-10"
+						Sight="2.0" 
+						Sound="-0.3"
+						Cover="-5"
+						ShotPotential="-8"
+						EnemyInfluence="-1"
+						AlliedInfluence="-0.5"
+						Ambush="-30"
+						EnemyLOS="3.2"
+						AlliedLOS="0.3"
+						ProbabilisticSearch="-5"
+						NearestEnemy="-1.0" />	
 			</Aggressive>
 		</ScriptOverrides>
-	</Behaviour>
+	        </Behaviour>
 
 	<Sounds death="ReaperDeath" injury="ReaperInjury" />
     <Props  sightRange="60" moveSpeed="350" stairsMoveSpeed="230" deathExplosion="weapon.explosive.acidlingelite" suppressionMultiplier="0.0" />
@@ -11215,111 +10729,22 @@
   <AI MODMERGEATTRIBUTE="race" MODMERGE="insert" race="AndronxShield">
     <Sounds death="" injury="Shield hit 2" />
 	<Behaviour>
-	
 		<Pathing 
-				Environment="0"
-				Sight="-4" 
-				Sound="-2"
-				Cover="-10"
-				EnemyInfluence="-2"
-				AlliedInfluence="-5"
+				Sight="0.3" 
+				Environment = "-10"
+				EnemyInfluence="-8"
 				Ambush="-10"
-				Trepidation="2"
-				EnemyLOS="0"
-				AlliedLOS="0"
-				ProbabilisticSearch="5"
-				NearestEnemy="-1" 
-				/>
+				ShotPotential="-35"
+				NearestEnemy="-6"
+				Cover="-2"
+				EnemyLOS="1.5"
+				AlliedLOS="0.3"
+				ProbabilisticSearch="-2.0" />
 				
-		<PathingMechanics
-				CautiousDistance = "1"
-				/>
-				
-			<ScriptOverrides>
-
-			<Aggressive>					
-				<Pathing 
-						Sight="-3"
-						Sound="-2"						
-						Cover="-15"
-						EnemyInfluence="-4"
-						AlliedInfluence="-7"
-						Ambush="-15"
-						EnemyLOS="0"
-						AlliedLOS="0"
-						ProbabilisticSearch="-2"
-						NearestEnemy="-1" 
-						/>
-						
-				<PathingMechanics
-				CautiousDistance = "1"
-				/>
-				
-			</Aggressive>
-			
-			<Passive>
-				
-				<Pathing 
-					Sight="0" 
-					Sound="0"
-					Cover="2"
-					EnemyInfluence="1"
-					AlliedInfluence="-4"
-					Ambush="-5"
-					Trepidation="3"
-					EnemyLOS="-2"
-					AlliedLOS="0"
-					ProbabilisticSearch="-2"
-					NearestEnemy="-0.5"
-					/>
-					
-				<PathingMechanics
-				CautiousDistance = "1"
-				/>
-			</Passive>
-			
-			<Defensive>
-				
-				<Pathing 				
-					Cover="-15"
-					Ambush="-5"
-					EnemyInfluence="3"
-					AlliedInfluence="-1"
-					EnemyLOS="2"
-					/>
-
-				<PathingMechanics
-				CautiousDistance = "1"
-				/>
-					
-			</Defensive>
-			
-			<Command>
-			
-				<Pathing 
-					Sight="-1" 
-					Cover="-10"
-					EnemyInfluence="2"
-					AlliedInfluence="-0.25"
-					Ambush="-5"
-				/>
-
-				<PathingMechanics
-				CautiousDistance = "10"
-				/>
-				
-			</Command>
-			
-			<Guard>
-				<Pathing 
-					Sight="-0.5" 
-					Cover="-15"
-					Ambush="-15"
-				/> 
-
-			</Guard>
-
-		</ScriptOverrides>
+		<Decision 
+				MinimumAccuracy = "0.30"		
+				MinimumAccuracyGrenade = "0.15"
+				EngagementRange = "60.0" />
 	</Behaviour>
     <Special strength="1" />  <!-- 'strength' seems to be not used in the code. -->
     <Props noBloodStain="1" sightRange="60" moveSpeed="350" stairsMoveSpeed="80" deathExplosion="weapon.explosive.andronxshielddown" suppressionMultiplier="0.0" />
@@ -11610,113 +11035,23 @@
 
 
   <AI MODMERGEATTRIBUTE="race" MODMERGE="insert" race="Andronx">
-    <Sounds death="AndronDeath" injury="AndronInjury" />
 	<Behaviour>
-	
 		<Pathing 
-				Environment="0"
-				Sight="-4" 
-				Sound="-2"
-				Cover="-10"
-				EnemyInfluence="-2"
-				AlliedInfluence="-5"
+				Sight="0.3" 
+				Environment = "-10"
+				EnemyInfluence="-8"
 				Ambush="-10"
-				Trepidation="2"
-				EnemyLOS="0"
-				AlliedLOS="0"
-				ProbabilisticSearch="5"
-				NearestEnemy="-1" 
-				/>
+				ShotPotential="-35"
+				NearestEnemy="-6"
+				Cover="-2"
+				EnemyLOS="1.5"
+				AlliedLOS="0.3"
+				ProbabilisticSearch="-2.0" />
 				
-		<PathingMechanics
-				CautiousDistance = "1"
-				/>
-				
-			<ScriptOverrides>
-
-			<Aggressive>					
-				<Pathing 
-						Sight="-3"
-						Sound="-2"						
-						Cover="-15"
-						EnemyInfluence="-4"
-						AlliedInfluence="-7"
-						Ambush="-15"
-						EnemyLOS="0"
-						AlliedLOS="0"
-						ProbabilisticSearch="-2"
-						NearestEnemy="-1" 
-						/>
-						
-				<PathingMechanics
-				CautiousDistance = "1"
-				/>
-				
-			</Aggressive>
-			
-			<Passive>
-				
-				<Pathing 
-					Sight="0" 
-					Sound="0"
-					Cover="2"
-					EnemyInfluence="1"
-					AlliedInfluence="-4"
-					Ambush="-5"
-					Trepidation="3"
-					EnemyLOS="-2"
-					AlliedLOS="0"
-					ProbabilisticSearch="-2"
-					NearestEnemy="-0.5"
-					/>
-					
-				<PathingMechanics
-				CautiousDistance = "1"
-				/>
-			</Passive>
-			
-			<Defensive>
-				
-				<Pathing 				
-					Cover="-15"
-					Ambush="-5"
-					EnemyInfluence="3"
-					AlliedInfluence="-1"
-					EnemyLOS="2"
-					/>
-
-				<PathingMechanics
-				CautiousDistance = "1"
-				/>
-					
-			</Defensive>
-			
-			<Command>
-			
-				<Pathing 
-					Sight="-1" 
-					Cover="-10"
-					EnemyInfluence="2"
-					AlliedInfluence="-0.25"
-					Ambush="-5"
-				/>
-
-				<PathingMechanics
-				CautiousDistance = "10"
-				/>
-				
-			</Command>
-			
-			<Guard>
-				<Pathing 
-					Sight="-0.5" 
-					Cover="-15"
-					Ambush="-15"
-				/> 
-
-			</Guard>
-
-		</ScriptOverrides>
+		<Decision 
+				MinimumAccuracy = "0.30"		
+				MinimumAccuracyGrenade = "0.15"
+				EngagementRange = "60.0" />
 	</Behaviour>
     <Special strength="1" />  <!-- 'strength' seems to be not used in the code. -->
     <Props noBloodStain="1" sightRange="60" moveSpeed="350" stairsMoveSpeed="80" suppressionMultiplier="0.0" />
@@ -14128,7 +13463,7 @@
 		<Decision 
 				MinimumAccuracy = "0.35"		
 				MinimumAccuracyGrenade = "0.10"
-				EngagementRange = "25.0" />
+				EngagementRange = "60.0" />
 	</Behaviour>
 	
     <Props sightRange="60"  suppressionMultiplier="0.2" />
