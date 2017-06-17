@@ -25402,7 +25402,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">airplane.alien.terrorbattleship</Data></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">Terror Battleship</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Terror Battleship TEST THE NEW MAP PHEONIX !!!!</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">airplane.alien.bombercruiser</Data></Cell>
@@ -25442,7 +25442,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">airplane.alien.terrordreadnought</Data></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">Terror Dreadnought</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Terror Dreadnought TEST THE NEW MAP PHEONIX !!!!</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">airplane.alien.bombercarrier</Data></Cell>
@@ -25486,7 +25486,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">airplane.alien.mothership</Data></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">Mothership</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Mothership TEST THE NEW MAP PHEONIX !!!!</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">airplane.alien.heavyshuttle</Data></Cell>
