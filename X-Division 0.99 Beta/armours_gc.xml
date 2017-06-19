@@ -81,7 +81,7 @@
     <Resistance kinetic="70" energy="70" chemical="50" incendiary="50" />
     <VisualParams range="22" coneAngle="155" nightRangeBonus="6" />
 	<PsionicDefence defence="200" points="6" degradation="3" />
-    <Special jumpPack="1" jumpPackSound="SentinelJetpackSound" />
+    <Special jumpPack="1" jumpPackSound="SentinelJetpackSound" weaponCostMul="1.10"/>
     <Props moveSpeed="350" stairsMoveSpeed="180" vaultMoveSpeed="24" />
   </Armour>
 
@@ -89,7 +89,7 @@
     <Resistance kinetic="80" energy="80" chemical="60" incendiary="60" />
     <VisualParams range="22" coneAngle="155" nightRangeBonus="6" />
 	<PsionicDefence defence="250" points="6" degradation="3" />
-	<Special jumpPack="1" jumpPackSound="SentinelJetpackSound" />
+	<Special jumpPack="1" jumpPackSound="SentinelJetpackSound" weaponCostMul="1.10"/>
     <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
   </Armour>
   
@@ -97,7 +97,7 @@
     <Resistance kinetic="80" energy="80" chemical="80" incendiary="80" />
     <VisualParams range="24" coneAngle="340" nightRangeBonus="10" />
 	<PsionicDefence defence="300" points="9" degradation="3" />
-	<Special jumpPack="1" jumpPackSound="SentinelJetpackSound" weaponCostMul="1.10" />
+	<Special jumpPack="1" jumpPackSound="SentinelJetpackSound" weaponCostMul="1.20" />
     <Props moveSpeed="300" stairsMoveSpeed="180" vaultMoveSpeed="24" />
   </Armour>
   

@@ -502,12 +502,12 @@
     <Cell><Data ss:Type="String">weapon.division.minigunmk1.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Division Minigun MK-1:&#10;
-    &#8226; RANGE:_________________________12
+    &#8226; RANGE:_________________________16
     &#8226; DAMAGE:_______________KINETIC 20
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________90
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:______________100
+    &#8226; AMMO CAPACITY:______________200
     &#8226; WEIGHT:________________________12
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -515,7 +515,7 @@
     &#8226; RECOIL:_______________________65
     &#8226; RELOAD COST:______________TU 55&#10;
     FIRE MODES:
-     - 65%% TU_____________8 ACC X 16 SHOTS   &#10;
+     - 65%% TU_____________8 ACC X 32 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -686,12 +686,12 @@
 		<Cell><Data ss:Type="String">weapon.division.minigunmk2.desc</Data><NamedCell
 		ss:Name="_FilterDatabase"/></Cell>
 		<Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Division Minigun MK-2:&#10;
-    &#8226; RANGE:_________________________12
+    &#8226; RANGE:_________________________16
     &#8226; DAMAGE:_______________KINETIC 20
     &#8226; MITIGATION:_____________________5
     &#8226; SUPPRESSION:__________________92
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:______________100
+    &#8226; AMMO CAPACITY:______________200
     &#8226; WEIGHT:________________________15
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -699,7 +699,7 @@
     &#8226; RECOIL:_______________________70
     &#8226; RELOAD COST:______________TU 55&#10;
     FIRE MODES:
-     - 65%% TU_____________8 ACC X 20 SHOTS   &#10;
+     - 65%% TU_____________8 ACC X 40 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -869,12 +869,12 @@
     <Cell><Data ss:Type="String">weapon.division.minigunmk3.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Division Minigun MK-3:&#10;
-    &#8226; RANGE:_________________________12
+    &#8226; RANGE:_________________________16
     &#8226; DAMAGE:_______________KINETIC 22
     &#8226; MITIGATION:_____________________8
     &#8226; SUPPRESSION:__________________94
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:______________100
+    &#8226; AMMO CAPACITY:______________200
     &#8226; WEIGHT:________________________18
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -882,7 +882,7 @@
     &#8226; RECOIL:_______________________80
     &#8226; RELOAD COST:______________TU 55&#10;
     FIRE MODES:
-     - 65%% TU_____________12 ACC X 20 SHOTS   &#10;
+     - 65%% TU_____________12 ACC X 80 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -1033,12 +1033,12 @@
     <Cell><Data ss:Type="String">weapon.laserminigunmk1.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Laser Minigun MK-1:&#10;
-    &#8226; RANGE:_________________________12
+    &#8226; RANGE:_________________________16
     &#8226; DAMAGE:________________ENERGY 15
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:_________________100
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:______________100
+    &#8226; AMMO CAPACITY:_______________2400
     &#8226; WEIGHT:________________________16
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -1046,7 +1046,7 @@
     &#8226; RECOIL:_______________________80
     &#8226; RELOAD COST:______________TU 55&#10;
     FIRE MODES:
-     - 70%% TU_____________10 ACC X 20 SHOTS   &#10;
+     - 70%% TU_____________10 ACC X 40 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -1169,7 +1169,7 @@
     <Cell><Data ss:Type="String">weapon.laserminigunmk2.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Laser Minigun MK-2:&#10;
-    &#8226; RANGE:_________________________12
+    &#8226; RANGE:_________________________16
     &#8226; DAMAGE:________________ENERGY 15
     &#8226; MITIGATION:_____________________5
     &#8226; SUPPRESSION:_________________102
@@ -1182,7 +1182,7 @@
     &#8226; RECOIL:_______________________80
     &#8226; RELOAD COST:______________TU 60&#10;
     FIRE MODES:
-     - 70%% TU_____________10 ACC X 30 SHOTS   &#10;
+     - 70%% TU_____________10 ACC X 60 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -1306,12 +1306,12 @@
     <Cell><Data ss:Type="String">weapon.laserminigunmk3.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Laser Minigun MK-3:&#10;
-    &#8226; RANGE:_________________________14
+    &#8226; RANGE:_________________________18
     &#8226; DAMAGE:________________ENERGY 15
     &#8226; MITIGATION:_____________________7
     &#8226; SUPPRESSION:_________________104
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:______________400
+    &#8226; AMMO CAPACITY:______________800
     &#8226; WEIGHT:________________________24
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -1319,7 +1319,7 @@
     &#8226; RECOIL:_______________________80
     &#8226; RELOAD COST:______________TU 55&#10;
     FIRE MODES:
-     - 70%% TU_____________12 ACC X 40 SHOTS   &#10;
+     - 65%% TU_____________12 ACC X 80 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -1441,12 +1441,12 @@
     <Cell><Data ss:Type="String">weapon.MAGminigun.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    MAG Minigun MK-1:&#10;
-    &#8226; RANGE:_________________________12
+    &#8226; RANGE:_________________________16
     &#8226; DAMAGE:_______________KINETIC 15
     &#8226; MITIGATION:_____________________3
     &#8226; SUPPRESSION:_________________100
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:______________120
+    &#8226; AMMO CAPACITY:______________240
     &#8226; WEIGHT:________________________20
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -1454,7 +1454,7 @@
     &#8226; RECOIL:_______________________90
     &#8226; RELOAD COST:______________TU 40&#10;
     FIRE MODES:
-     - 65%% TU______________6 ACC X 30 SHOTS   &#10;
+     - 65%% TU______________6 ACC X 60 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -1576,12 +1576,12 @@
     <Cell><Data ss:Type="String">weapon.MAGminigunmk2.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    MAG Minigun MK-2:&#10;
-    &#8226; RANGE:_________________________12
+    &#8226; RANGE:_________________________16
     &#8226; DAMAGE:_______________KINETIC 20
     &#8226; MITIGATION:_____________________8
     &#8226; SUPPRESSION:_________________102
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:______________120
+    &#8226; AMMO CAPACITY:______________240
     &#8226; WEIGHT:________________________20
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -1589,7 +1589,7 @@
     &#8226; RECOIL:_______________________90
     &#8226; RELOAD COST:______________TU 40&#10;
     FIRE MODES:
-     - 65%% TU______________8 ACC X 30 SHOTS   &#10;
+     - 65%% TU______________8 ACC X 60 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -1711,12 +1711,12 @@
     <Cell><Data ss:Type="String">weapon.MAGminigunmk3.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    MAG Minigun MK-3:&#10;
-    &#8226; RANGE:_________________________14
+    &#8226; RANGE:_________________________18
     &#8226; DAMAGE:_______________KINETIC 21
     &#8226; MITIGATION:____________________12
     &#8226; SUPPRESSION:_________________104
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:______________160
+    &#8226; AMMO CAPACITY:______________320
     &#8226; WEIGHT:________________________24
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -1724,7 +1724,7 @@
     &#8226; RECOIL:_______________________90
     &#8226; RELOAD COST:______________TU 40&#10;
     FIRE MODES:
-     - 65%% TU______________8 ACC X 40 SHOTS   &#10;
+     - 65%% TU______________8 ACC X 80 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -2227,12 +2227,12 @@
     <Cell><Data ss:Type="String">weapon.gauss.minigunmk1.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    GAUSS Minigun MK-1:&#10;
-    &#8226; RANGE:_________________________14
+    &#8226; RANGE:_________________________18
     &#8226; DAMAGE:_______________KINETIC 30
     &#8226; MITIGATION:_____________________5
     &#8226; SUPPRESSION:__________________90
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:_______________60
+    &#8226; AMMO CAPACITY:______________120
     &#8226; WEIGHT:________________________16
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -2240,7 +2240,7 @@
     &#8226; RECOIL:_______________________70
     &#8226; RELOAD COST:______________TU 40&#10;
     FIRE MODES:
-     - 65%% TU______________4 ACC X 12 SHOTS   &#10;
+     - 65%% TU______________4 ACC X 24 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -2383,12 +2383,12 @@
     <Cell><Data ss:Type="String">weapon.gauss.minigunmk2.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    GAUSS Minigun MK-2:&#10;
-    &#8226; RANGE:_________________________14
+    &#8226; RANGE:_________________________20
     &#8226; DAMAGE:_______________KINETIC 43
     &#8226; MITIGATION:_____________________9
     &#8226; SUPPRESSION:__________________92
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:_______________60
+    &#8226; AMMO CAPACITY:______________120
     &#8226; WEIGHT:________________________16
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -2396,7 +2396,7 @@
     &#8226; RECOIL:_______________________70
     &#8226; RELOAD COST:______________TU 55&#10;
     FIRE MODES:
-     - 65%% TU______________6 ACC X 12 SHOTS   &#10;
+     - 65%% TU______________6 ACC X 24 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -2539,12 +2539,12 @@
     <Cell><Data ss:Type="String">weapon.gauss.minigunmk3.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    GAUSS Minigun MK-3:&#10;
-    &#8226; RANGE:_________________________16
+    &#8226; RANGE:_________________________22
     &#8226; DAMAGE:_______________KINETIC 45
     &#8226; MITIGATION:____________________15
     &#8226; SUPPRESSION:__________________94
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:_______________120
+    &#8226; AMMO CAPACITY:_______________240
     &#8226; WEIGHT:________________________18
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -2552,7 +2552,7 @@
     &#8226; RECOIL:_______________________70
     &#8226; RELOAD COST:______________TU 55&#10;
     FIRE MODES:
-     - 65%% TU______________11 ACC X 12 SHOTS   &#10;
+     - 65%% TU______________11 ACC X 24 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -2675,12 +2675,12 @@
     <Cell><Data ss:Type="String">weapon.pulseminigunmk1.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Pulse Minigun Mk-1:&#10;
-    &#8226; RANGE:_________________________12
+    &#8226; RANGE:_________________________16
     &#8226; DAMAGE:________________ENERGY 15*2
     &#8226; MITIGATION:____________________10
     &#8226; SUPPRESSION:_________________100
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:_______________120
+    &#8226; AMMO CAPACITY:_______________240
     &#8226; WEIGHT:________________________16
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -2688,7 +2688,7 @@
     &#8226; RECOIL:_______________________70
     &#8226; RELOAD COST:______________TU 55&#10;
     FIRE MODES:
-     - 70%% TU______________15 ACC X 15 SHOTS   &#10;
+     - 65%% TU______________15 ACC X 30 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -2811,12 +2811,12 @@
     <Cell><Data ss:Type="String">weapon.pulseminigunmk2.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Pulse Minigun Mk-2:&#10;
-    &#8226; RANGE:_________________________14
+    &#8226; RANGE:_________________________18
     &#8226; DAMAGE:________________ENERGY 17*2
     &#8226; MITIGATION:____________________15
     &#8226; SUPPRESSION:_________________102
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:_______________200
+    &#8226; AMMO CAPACITY:_______________400
     &#8226; WEIGHT:________________________18
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -2824,7 +2824,7 @@
     &#8226; RECOIL:_______________________60
     &#8226; RELOAD COST:______________TU 55&#10;
     FIRE MODES:
-     - 70%% TU______________15 ACC X 20 SHOTS   &#10;
+     - 65%% TU______________15 ACC X 40 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -2948,12 +2948,12 @@
     <Cell><Data ss:Type="String">weapon.pulseminigunmk3.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Pulse Minigun Mk-3:&#10;
-    &#8226; RANGE:_________________________16
+    &#8226; RANGE:_________________________20
     &#8226; DAMAGE:________________ENERGY 20*2
     &#8226; MITIGATION:____________________20
     &#8226; SUPPRESSION:_________________104
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:_______________300
+    &#8226; AMMO CAPACITY:_______________600
     &#8226; WEIGHT:________________________18
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -2961,7 +2961,7 @@
     &#8226; RECOIL:_______________________60
     &#8226; RELOAD COST:______________TU 55&#10;
     FIRE MODES:
-     - 70%% TU______________20 ACC X 25 SHOTS   &#10;
+     - 65%% TU______________20 ACC X 50 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -3104,12 +3104,12 @@
     <Cell><Data ss:Type="String">weapon.railminigunmk1.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    RAIL Minigun MK-1:&#10;
-    &#8226; RANGE:_________________________14
+    &#8226; RANGE:_________________________18
     &#8226; DAMAGE:_______________KINETIC 50
     &#8226; MITIGATION:_____________________5
     &#8226; SUPPRESSION:__________________100
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:_______________60
+    &#8226; AMMO CAPACITY:______________120
     &#8226; WEIGHT:________________________24
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -3117,7 +3117,7 @@
     &#8226; RECOIL:_______________________90
     &#8226; RELOAD COST:______________TU 40&#10;
     FIRE MODES:
-     - 65%% TU______________10 ACC X 12 SHOTS   &#10;
+     - 65%% TU______________10 ACC X 24 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -3260,12 +3260,12 @@
     <Cell><Data ss:Type="String">weapon.railminigunmk2.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    RAIL Minigun MK-2:&#10;
-    &#8226; RANGE:_________________________16
+    &#8226; RANGE:_________________________22
     &#8226; DAMAGE:_______________KINETIC 60
     &#8226; MITIGATION:____________________12
     &#8226; SUPPRESSION:___________________92
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:______________120
+    &#8226; AMMO CAPACITY:______________240
     &#8226; WEIGHT:________________________24
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -3273,7 +3273,7 @@
     &#8226; RECOIL:_______________________90
     &#8226; RELOAD COST:______________TU 40&#10;
     FIRE MODES:
-     - 65%% TU______________10 ACC X 18 SHOTS   &#10;
+     - 65%% TU______________10 ACC X 36 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -3416,12 +3416,12 @@
     <Cell><Data ss:Type="String">weapon.railminigunmk3.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    RAIL Minigun MK-3:&#10;
-    &#8226; RANGE:_________________________20
+    &#8226; RANGE:_________________________26
     &#8226; DAMAGE:_______________KINETIC 65
     &#8226; MITIGATION:____________________20
     &#8226; SUPPRESSION:___________________92
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:______________100
+    &#8226; AMMO CAPACITY:______________360
     &#8226; WEIGHT:________________________30
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -3429,7 +3429,7 @@
     &#8226; RECOIL:______________________100
     &#8226; RELOAD COST:______________TU 40&#10;
     FIRE MODES:
-     - 65%% TU______________15 ACC X 24 SHOTS   &#10;
+     - 65%% TU______________15 ACC X 48 SHOTS   &#10;
        </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>

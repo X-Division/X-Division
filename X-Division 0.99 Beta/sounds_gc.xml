@@ -448,14 +448,14 @@
   <!--       The Hive, Xenomorph      -->
   <!--                                -->
 	
-	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="XenomorphQueenSound" volume="1.0" group="10" comment="">
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="XenomorphQueenSound" volume="0.9" group="10" comment="">
       <Wave name="SoundQueen1">audio/sfx/Xenomorph/FinalQueen1.ogg</Wave>
       <Wave name="SoundQueen2">audio/sfx/Xenomorph/FinalQueen2.ogg</Wave>
       <Wave name="SoundQueen3">audio/sfx/Xenomorph/FinalQueen1.ogg</Wave>
       <Wave name="SoundQueen4">audio/sfx/Xenomorph/FinalQueen2.ogg</Wave>
     </Sound>
 
-	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="XenomorphPraetorianSound" volume="1.0" group="11" comment="">
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="XenomorphPraetorianSound" volume="0.9" group="11" comment="">
       <Wave name="SoundPraetorian1">audio/sfx/Xenomorph/FinalPraetorian1.ogg</Wave>
       <Wave name="SoundPraetorian2">audio/sfx/Xenomorph/FinalPraetorian2.ogg</Wave>
       <Wave name="SoundPraetorian3">audio/sfx/Xenomorph/FinalPraetorian3.ogg</Wave>
@@ -464,14 +464,12 @@
       <Wave name="SoundPraetorian6">audio/sfx/Xenomorph/FinalPraetorian6.ogg</Wave>
     </Sound>
 
-	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="XenomorphWarriorSound" volume="1.0" group="12" comment="">
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="XenomorphWarriorSound" volume="0.9" group="12" comment="">
       <Wave name="SoundWarrior1">audio/sfx/Xenomorph/FinalWarrior1.ogg</Wave>
       <Wave name="SoundWarrior2">audio/sfx/Xenomorph/FinalWarrior2.ogg</Wave>
-      <Wave name="SoundWarrior3">audio/sfx/Xenomorph/FinalWarrior3.ogg</Wave>
-      <Wave name="SoundWarrior4">audio/sfx/Xenomorph/FinalWarrior4.ogg</Wave>
     </Sound>
 
-	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="XenomorphDroneSound" volume="1.0" group="13" comment="">
+	<Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="XenomorphDroneSound" volume="0.9" group="13" comment="">
       <Wave name="SoundDrone1">audio/sfx/Xenomorph/FinalDrone1.ogg</Wave>
       <Wave name="SoundDrone2">audio/sfx/Xenomorph/FinalDrone2.ogg</Wave>
       <Wave name="SoundDrone3">audio/sfx/Xenomorph/FinalDrone3.ogg</Wave>

@@ -146,7 +146,7 @@
   
    <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ImpAcid">
     <Anim name="particles/exgreensmoke/exgreensmoke" />
-    <Props damage="40" stunDamage="0" damageType="chemical" dissipationChance="20" accuracyReduction="60" blockLOS="0" />
+    <Props damage="40" stunDamage="0" damageType="chemical" dissipationChance="20" accuracyReduction="60" blockLOS="0" multiplePerTurn="1"/>
   </GasType>
 
   <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Electrosmoke">
