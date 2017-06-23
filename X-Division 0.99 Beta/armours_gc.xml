@@ -54,7 +54,7 @@
   </Armour>
 
   <Armour MODMERGEATTRIBUTE="name" MODMERGE="update" name="armour.predator">
-    <Resistance kinetic="85" energy="65" chemical="40" incendiary="50" />
+    <Resistance kinetic="90" energy="70" chemical="45" incendiary="55" />
     <VisualParams range="16" coneAngle="60" nightRangeBonus="0" />
 	<PsionicDefence defence="200" points="12" degradation="3" />
     <Special heavy="1" strength="80" weaponCostMul="1.00"/>
@@ -62,7 +62,7 @@
   </Armour>
   
     <Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.predator_2">
-    <Resistance kinetic="100" energy="85" chemical="60" incendiary="70" />
+    <Resistance kinetic="105" energy="90" chemical="65" incendiary="75" />
     <VisualParams range="16" coneAngle="70" nightRangeBonus="0" />
 	<PsionicDefence defence="250" points="12" degradation="3" />
 	<Special heavy="1" strength="90" weaponCostMul="1.00"/>
@@ -70,7 +70,7 @@
   </Armour>
   
 	<Armour MODMERGEATTRIBUTE="name" MODMERGE="insert" name="armour.predator_3">
-    <Resistance kinetic="150" energy="120" chemical="100" incendiary="100" />
+    <Resistance kinetic="155" energy="125" chemical="105" incendiary="105" />
     <VisualParams range="16" coneAngle="75" nightRangeBonus="0" />
 	<PsionicDefence defence="300" points="12" degradation="3" />
 	<Special heavy="1" strength="100" weaponCostMul="1.00"/>

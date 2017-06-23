@@ -4017,7 +4017,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.axemk1" bulletType="melee" emptySound="Empty Click 1">
-		<props range="1000" hands="1" recoil="0" weight="3" isHeavy="0" clipSize="100" isMelee="1" reloadAPCost="20" reloadSound="" reactionModifier="1.5"/>
+		<props range="1000" hands="2" recoil="0" weight="3" isHeavy="1" clipSize="100" isMelee="1" reloadAPCost="20" reloadSound="" reactionModifier="1.5"/>
 		<SingleShot sound="Weapon Axe Single" delay="1" suppressionValue="0" suppressionRadius="1">
 			<Set1 ap="40" accuracy="60" />
 		</SingleShot>
@@ -4025,7 +4025,7 @@
 		<GUIImage name="gui/weapons/melee/axemk1.png"/>
 		<GroundImage name="grounditemimages/misc_stunbaton.png"/>
 		<Ammos>
-			<Ammo name="ammo.none" type="kinetic" damage="40" stunDamage="10" empDamage="0" mitigation="80" isOverdamage="0">
+			<Ammo name="ammo.none" type="kinetic" damage="60" stunDamage="10" empDamage="0" mitigation="80" isOverdamage="0">
 				<Projectile/>
 				<Impact/>
 			</Ammo>
@@ -4033,7 +4033,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.axemk2" bulletType="melee" emptySound="Empty Click 1">
-		<props range="1000" hands="1" recoil="0" weight="5" isHeavy="0" clipSize="100" isMelee="1" reloadAPCost="20" reloadSound="" reactionModifier="1.5" />
+		<props range="1000" hands="2" recoil="0" weight="5" isHeavy="1" clipSize="100" isMelee="1" reloadAPCost="20" reloadSound="" reactionModifier="1.5" />
 		<SingleShot sound="Weapon Axe Single" delay="1" suppressionValue="0" suppressionRadius="1">
 			<Set1 ap="40" accuracy="60" />
 		</SingleShot>
@@ -4041,7 +4041,7 @@
 		<GUIImage name="gui/weapons/melee/axemk2.png"/>
 		<GroundImage name="grounditemimages/misc_stunbaton.png"/>
 		<Ammos>
-			<Ammo name="ammo.none" type="kinetic" damage="70" stunDamage="18" empDamage="0" mitigation="120" isOverdamage="0">
+			<Ammo name="ammo.none" type="kinetic" damage="100" stunDamage="18" empDamage="0" mitigation="120" isOverdamage="0">
 				<Projectile/>
 				<Impact/>
 			</Ammo>
@@ -4049,7 +4049,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.axemk3" bulletType="melee" emptySound="Empty Click 1">
-		<props range="1000" hands="1" recoil="0" weight="6" isHeavy="0" clipSize="100" isMelee="1" reloadAPCost="20" reloadSound="" reactionModifier="1.5" />
+		<props range="1000" hands="2" recoil="0" weight="6" isHeavy="1" clipSize="100" isMelee="1" reloadAPCost="20" reloadSound="" reactionModifier="1.5" />
 		<SingleShot sound="Weapon Axe Single" delay="1" suppressionValue="0" suppressionRadius="1">
 			<Set1 ap="40" accuracy="60" />
 		</SingleShot>
@@ -4057,7 +4057,7 @@
 		<GUIImage name="gui/weapons/melee/axemk3.png"/>
 		<GroundImage name="grounditemimages/misc_stunbaton.png"/>
 		<Ammos>
-			<Ammo name="ammo.none" type="kinetic" damage="110" stunDamage="28" empDamage="0" mitigation="160" isOverdamage="0">
+			<Ammo name="ammo.none" type="kinetic" damage="150" stunDamage="28" empDamage="0" mitigation="160" isOverdamage="0">
 				<Projectile/>
 				<Impact/>
 			</Ammo>
@@ -4065,7 +4065,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.axemk4" bulletType="melee" emptySound="Empty Click 1" >
-		<props range="1000" hands="1" recoil="0" weight="7" isHeavy="0" clipSize="100" isMelee="1" reloadAPCost="20" reloadSound="" reactionModifier="1.5" />
+		<props range="1000" hands="2" recoil="0" weight="7" isHeavy="0" clipSize="100" isMelee="1" reloadAPCost="20" reloadSound="" reactionModifier="1.5" />
 		<SingleShot sound="Weapon Axe Single" delay="1" suppressionValue="0" suppressionRadius="1">
 			<Set1 ap="40" accuracy="60" />
 		</SingleShot>
@@ -4073,7 +4073,7 @@
 		<GUIImage name="gui/weapons/melee/axemk4.png"/>
 		<GroundImage name="grounditemimages/misc_stunbaton.png"/>
 		<Ammos>
-			<Ammo name="ammo.none" type="kinetic" damage="160" stunDamage="40" empDamage="0" mitigation="200" isOverdamage="0">
+			<Ammo name="ammo.none" type="kinetic" damage="250" stunDamage="40" empDamage="0" mitigation="200" isOverdamage="0">
 				<Projectile/>
 				<Impact/>
 			</Ammo>

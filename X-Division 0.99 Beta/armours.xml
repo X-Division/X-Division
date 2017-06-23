@@ -96,8 +96,8 @@
 	<apBoost>0</apBoost>
 	<accuracyBoost>0</accuracyBoost>
 	<braveryBoost>30</braveryBoost>
-	<reflexesBoost>-50</reflexesBoost>
-	<resilienceBoost>10</resilienceBoost>
+	<reflexesBoost>-100</reflexesBoost>
+	<resilienceBoost>15</resilienceBoost>
     <hideface />
     <hidehands />
     <biggunsonly />
@@ -111,8 +111,8 @@
 	<apBoost>0</apBoost>
 	<accuracyBoost>5</accuracyBoost>
 	<braveryBoost>40</braveryBoost>
-	<reflexesBoost>-45</reflexesBoost>
-	<resilienceBoost>15</resilienceBoost>
+	<reflexesBoost>-60</reflexesBoost>
+	<resilienceBoost>20</resilienceBoost>
     <hideface />
     <hidehands />
     <biggunsonly />
@@ -127,7 +127,7 @@
 	<accuracyBoost>10</accuracyBoost>
 	<braveryBoost>60</braveryBoost>
 	<reflexesBoost>-80</reflexesBoost>
-	<resilienceBoost>15</resilienceBoost>
+	<resilienceBoost>25</resilienceBoost>
     <hideface />
     <hidehands />
     <biggunsonly />

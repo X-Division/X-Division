@@ -10,7 +10,7 @@
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <LastAuthor>Benutzer</LastAuthor>
-  <LastSaved>2017-02-11T21:50:53Z</LastSaved>
+  <LastSaved>2017-06-20T10:04:10Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -337,9 +337,9 @@
     <Cell><Data ss:Type="String">weapons/Division/DivisionMinigunMK1</Data></Cell>
     <Cell><Data ss:Type="String">balistic</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">320</Data></Cell>
-    <Cell><Data ss:Type="Number">14</Data></Cell>
-    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">640</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">12</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -481,9 +481,9 @@
     <Cell><Data ss:Type="String">weapons/Division/DivisionMinigunMK2</Data></Cell>
     <Cell><Data ss:Type="String">balistic</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">400</Data></Cell>
-    <Cell><Data ss:Type="Number">14</Data></Cell>
-    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">800</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">12</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -625,9 +625,9 @@
     <Cell><Data ss:Type="String">weapons/Division/DivisionMinigunMK3</Data></Cell>
     <Cell><Data ss:Type="String">balistic</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">440</Data></Cell>
-    <Cell><Data ss:Type="Number">14</Data></Cell>
-    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">1760</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">12</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -751,9 +751,9 @@
     <Cell><Data ss:Type="String">weapons/Laser/laserminigunMK1</Data></Cell>
     <Cell><Data ss:Type="String">laser</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">12</Data></Cell>
-    <Cell><Data ss:Type="Number">12</Data></Cell>
-    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">16</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -859,9 +859,9 @@
     <Cell><Data ss:Type="String">weapons/Laser/laserminigunMK2</Data></Cell>
     <Cell><Data ss:Type="String">laser</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">12</Data></Cell>
-    <Cell><Data ss:Type="Number">12</Data></Cell>
-    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -967,9 +967,9 @@
     <Cell><Data ss:Type="String">weapons/Laser/laserminigunMK3</Data></Cell>
     <Cell><Data ss:Type="String">laser</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">15</Data></Cell>
-    <Cell><Data ss:Type="Number">14</Data></Cell>
-    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">800</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">24</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -1075,9 +1075,9 @@
     <Cell><Data ss:Type="String">weapons/MAG/MAGminigun</Data></Cell>
     <Cell><Data ss:Type="String">MAG</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">30</Data></Cell>
-    <Cell><Data ss:Type="Number">12</Data></Cell>
-    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -1183,9 +1183,9 @@
     <Cell><Data ss:Type="String">weapons/MAG/MAGminigunMK2</Data></Cell>
     <Cell><Data ss:Type="String">MAG</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">27</Data></Cell>
-    <Cell><Data ss:Type="Number">12</Data></Cell>
-    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -1291,9 +1291,9 @@
     <Cell><Data ss:Type="String">weapons/MAG/MAGminigunMK3</Data></Cell>
     <Cell><Data ss:Type="String">MAG</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">30</Data></Cell>
-    <Cell><Data ss:Type="Number">12</Data></Cell>
-    <Cell><Data ss:Type="Number">160</Data></Cell>
+    <Cell><Data ss:Type="Number">1680</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">320</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">24</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -1687,9 +1687,9 @@
     <Cell><Data ss:Type="String">weapons/Gauss/GaussMinigunMK1</Data></Cell>
     <Cell><Data ss:Type="String">balistic</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">60</Data></Cell>
-    <Cell><Data ss:Type="Number">14</Data></Cell>
-    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">720</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">16</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -1813,9 +1813,9 @@
     <Cell><Data ss:Type="String">weapons/Gauss/GaussMinigunMK2</Data></Cell>
     <Cell><Data ss:Type="String">balistic</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">75</Data></Cell>
-    <Cell><Data ss:Type="Number">14</Data></Cell>
-    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">1032</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">16</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -1939,9 +1939,9 @@
     <Cell><Data ss:Type="String">weapons/Gauss/GaussMinigunMK3</Data></Cell>
     <Cell><Data ss:Type="String">balistic</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">80</Data></Cell>
-    <Cell><Data ss:Type="Number">16</Data></Cell>
-    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">1080</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">18</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -2047,9 +2047,9 @@
     <Cell><Data ss:Type="String">weapons/Pulse/PulseMinigunMK1</Data></Cell>
     <Cell><Data ss:Type="String">laser</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">15</Data></Cell>
-    <Cell><Data ss:Type="Number">12</Data></Cell>
-    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">450</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">16</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -2155,9 +2155,9 @@
     <Cell><Data ss:Type="String">weapons/Pulse/PulseMinigunMK2</Data></Cell>
     <Cell><Data ss:Type="String">laser</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">17</Data></Cell>
-    <Cell><Data ss:Type="Number">14</Data></Cell>
-    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">680</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">400</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">18</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -2263,9 +2263,9 @@
     <Cell><Data ss:Type="String">weapons/Pulse/PulseMinigunMK3</Data></Cell>
     <Cell><Data ss:Type="String">laser</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
-    <Cell><Data ss:Type="Number">16</Data></Cell>
-    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">18</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -2389,9 +2389,9 @@
     <Cell><Data ss:Type="String">weapons/Rail/RailMinigunMK1</Data></Cell>
     <Cell><Data ss:Type="String">MAG</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">50</Data></Cell>
-    <Cell><Data ss:Type="Number">14</Data></Cell>
-    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">24</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -2515,9 +2515,9 @@
     <Cell><Data ss:Type="String">weapons/Rail/RailMinigunMK2</Data></Cell>
     <Cell><Data ss:Type="String">MAG</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">60</Data></Cell>
-    <Cell><Data ss:Type="Number">16</Data></Cell>
-    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">2160</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">240</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">24</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -2641,9 +2641,9 @@
     <Cell><Data ss:Type="String">weapons/Rail/RailMinigunMK3</Data></Cell>
     <Cell><Data ss:Type="String">MAG</Data></Cell>
     <Cell><Data ss:Type="Boolean">1</Data></Cell>
-    <Cell><Data ss:Type="Number">65</Data></Cell>
-    <Cell><Data ss:Type="Number">20</Data></Cell>
-    <Cell><Data ss:Type="Number">180</Data></Cell>
+    <Cell><Data ss:Type="Number">3120</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">360</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">30</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
@@ -3540,8 +3540,8 @@
     <Cell><Data ss:Type="String">weapons/melee/axemk1</Data></Cell>
     <Cell><Data ss:Type="String">weapons/melee/axemk1</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
-    <Cell><Data ss:Type="Boolean">0</Data></Cell>
-    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -3551,15 +3551,15 @@
     <Cell><Data ss:Type="String">ammo.none</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell ss:Index="16"><Data ss:Type="String">Other</Data></Cell>
-    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="13.3125">
     <Cell><Data ss:Type="String">weapon.grenade.axemk2</Data></Cell>
     <Cell><Data ss:Type="String">weapons/melee/axemk2</Data></Cell>
     <Cell><Data ss:Type="String">weapons/melee/axemk2</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
-    <Cell><Data ss:Type="Boolean">0</Data></Cell>
-    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -3569,15 +3569,15 @@
     <Cell><Data ss:Type="String">ammo.none</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell ss:Index="16"><Data ss:Type="String">Other</Data></Cell>
-    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="13.3125">
     <Cell><Data ss:Type="String">weapon.grenade.axemk3</Data></Cell>
     <Cell><Data ss:Type="String">weapons/melee/axemk3</Data></Cell>
     <Cell><Data ss:Type="String">weapons/melee/axemk3</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
-    <Cell><Data ss:Type="Boolean">0</Data></Cell>
-    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -3587,15 +3587,15 @@
     <Cell><Data ss:Type="String">ammo.none</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell ss:Index="16"><Data ss:Type="String">Other</Data></Cell>
-    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="13.3125">
     <Cell><Data ss:Type="String">weapon.grenade.axemk4</Data></Cell>
     <Cell><Data ss:Type="String">weapons/melee/axemk4</Data></Cell>
     <Cell><Data ss:Type="String">weapons/melee/axemk4</Data></Cell>
     <Cell><Data ss:Type="String">ballistic</Data></Cell>
-    <Cell><Data ss:Type="Boolean">0</Data></Cell>
-    <Cell><Data ss:Type="Number">160</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="Number">250</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -3605,7 +3605,7 @@
     <Cell><Data ss:Type="String">ammo.none</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell ss:Index="16"><Data ss:Type="String">Other</Data></Cell>
-    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="13.3125">
     <Cell><Data ss:Type="String">weapon.cuttermk1</Data></Cell>
@@ -7256,9 +7256,9 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>343</TopRowBottomPane>
+   <TopRowBottomPane>168</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <LeftColumnRightPane>2</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -7266,6 +7266,7 @@
     </Pane>
     <Pane>
      <Number>1</Number>
+     <ActiveCol>1</ActiveCol>
     </Pane>
     <Pane>
      <Number>2</Number>
@@ -7273,8 +7274,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>370</ActiveRow>
-     <ActiveCol>7</ActiveCol>
+     <ActiveRow>194</ActiveRow>
+     <ActiveCol>16</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

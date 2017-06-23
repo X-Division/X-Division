@@ -1038,7 +1038,7 @@
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:_________________100
     &#8226; REACTION MODIFIER:___________0.2
-    &#8226; AMMO CAPACITY:_______________2400
+    &#8226; AMMO CAPACITY:_______________200
     &#8226; WEIGHT:________________________16
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:__________________________YES
@@ -5650,7 +5650,7 @@
     <Cell><Data ss:Type="String">weapon.combatshield.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Combat Shield:&#10;
-    &#8226; HIT POINTS:___________________________90
+    &#8226; HIT POINTS:___________________________150
     &#8226; WEIGHT:______________________________10&#10;
     &#8226; FRONT BLOCK CHANCE:______________100%%    
     &#8226; SIDE BLOCK CHANCE:_________________60%%
@@ -5663,7 +5663,7 @@
     <Cell><Data ss:Type="String">weapon.enchantedshield.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Enchanted Combat Shield:&#10;
-    &#8226; HIT POINTS:__________________________150
+    &#8226; HIT POINTS:__________________________270
     &#8226; WEIGHT:______________________________14&#10;
     &#8226; FRONT BLOCK CHANCE:______________100%%    
     &#8226; SIDE BLOCK CHANCE:_________________60%%
@@ -5676,7 +5676,7 @@
     <Cell><Data ss:Type="String">weapon.assaultshield.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Assault Combat Shield:&#10;
-    &#8226; HIT POINTS:__________________________270
+    &#8226; HIT POINTS:__________________________450
     &#8226; WEIGHT:______________________________18&#10;
     &#8226; FRONT BLOCK CHANCE:______________100%%    
     &#8226; SIDE BLOCK CHANCE:_________________60%%
@@ -5689,7 +5689,7 @@
     <Cell><Data ss:Type="String">weapon.titanshield.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Titanium Combat Shield:&#10;
-    &#8226; HIT POINTS:__________________________450
+    &#8226; HIT POINTS:__________________________600
     &#8226; WEIGHT:______________________________22&#10;
     &#8226; FRONT BLOCK CHANCE:______________100%%    
     &#8226; SIDE BLOCK CHANCE:_________________60%%
@@ -5702,7 +5702,7 @@
     <Cell><Data ss:Type="String">weapon.forceshield.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Frontal Forcefield:&#10;
-    &#8226; HIT POINTS:__________________________600
+    &#8226; HIT POINTS:__________________________800
     &#8226; WEIGHT:______________________________12&#10;
     &#8226; FRONT BLOCK CHANCE:______________100%%    
     &#8226; SIDE BLOCK CHANCE:_________________60%%
@@ -5719,7 +5719,7 @@
     <Cell><Data ss:Type="String">weapon.grenade.shockbaton.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Shock Baton:&#10;
-    &#8226; DAMAGE:____ENERGY (15 STUN/35 EMP) 1
+    &#8226; DAMAGE:____ENERGY (15 STUN) 1
     &#8226; MITIGATION:_________________________100
     &#8226; CHARGES:____________________________12   
     &#8226; WEIGHT:_____________________________3
@@ -5732,7 +5732,7 @@
     <Cell><Data ss:Type="String">weapon.grenade.powerbaton.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Advanced Shock Baton:&#10;
-    &#8226; DAMAGE:____ENERGY (35 STUN/60 EMP) 1
+    &#8226; DAMAGE:____ENERGY (35 STUN) 1
     &#8226; MITIGATION:__________________________150
     &#8226; CHARGES:____________________________20   
     &#8226; WEIGHT:______________________________3
@@ -5775,6 +5775,7 @@
     &#8226; MITIGATION:_______________________140    
     &#8226; CHARGES:__________________________100
     &#8226; WEIGHT:____________________________8
+    &#8226; TWO HANDED:______________________YES
     &#8226; ATTACK COST:___________________TU 23
     </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5788,6 +5789,7 @@
     &#8226; MITIGATION:_______________________180
     &#8226; CHARGES:__________________________100    
     &#8226; WEIGHT:_____________________________6
+    &#8226; TWO HANDED:______________________YES
     &#8226; ATTACK COST:___________________TU 23
     </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5797,10 +5799,11 @@
     <Cell><Data ss:Type="String">weapon.grenade.axemk1.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Axe MK-1:&#10;
-    &#8226; DAMAGE:__________KINETIC (10 Stun) 40
+    &#8226; DAMAGE:__________KINETIC (10 Stun) 55
     &#8226; MITIGATION:________________________80
     &#8226; CHARGES:__________________________100    
     &#8226; WEIGHT:____________________________3
+    &#8226; TWO HANDED:______________________YES
     &#8226; ATTACK COST:__________________ TU 40
     </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5810,10 +5813,11 @@
     <Cell><Data ss:Type="String">weapon.grenade.axemk2.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Axe MK-2:&#10;
-    &#8226; DAMAGE:__________KINETIC (18 Stun) 70
+    &#8226; DAMAGE:__________KINETIC (18 Stun) 95
     &#8226; MITIGATION:________________________120
     &#8226; CHARGES:__________________________100    
     &#8226; WEIGHT:____________________________5
+    &#8226; TWO HANDED:______________________YES
     &#8226; ATTACK COST:___________________TU 40
     </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5823,10 +5827,11 @@
     <Cell><Data ss:Type="String">weapon.grenade.axemk3.desc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Axe MK-3:&#10;
-    &#8226; DAMAGE:_________KINETIC (28 Stun) 110
+    &#8226; DAMAGE:_________KINETIC (28 Stun) 150
     &#8226; MITIGATION:________________________160
     &#8226; CHARGES:__________________________100    
     &#8226; WEIGHT:____________________________6
+    &#8226; TWO HANDED:______________________YES
     &#8226; ATTACK COST:___________________TU 40
     </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5840,6 +5845,7 @@
     &#8226; MITIGATION:_______________________200    
     &#8226; CHARGES:__________________________100
     &#8226; WEIGHT:_____________________________7
+    &#8226; TWO HANDED:______________________YES
     &#8226; ATTACK COST:___________________TU 40
     </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -25402,7 +25408,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">airplane.alien.terrorbattleship</Data></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">Terror Battleship TEST THE NEW MAP PHEONIX !!!!</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Terror Battleship</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">airplane.alien.bombercruiser</Data></Cell>
@@ -25442,7 +25448,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">airplane.alien.terrordreadnought</Data></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">Terror Dreadnought TEST THE NEW MAP PHEONIX !!!!</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Terror Dreadnought</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">airplane.alien.bombercarrier</Data></Cell>
@@ -25486,7 +25492,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">airplane.alien.mothership</Data></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">Mothership TEST THE NEW MAP PHEONIX !!!!</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Mothership</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">airplane.alien.heavyshuttle</Data></Cell>

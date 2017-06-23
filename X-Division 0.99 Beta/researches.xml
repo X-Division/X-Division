@@ -9,7 +9,7 @@
   <Author>Computer 2</Author>
   <LastAuthor>Benutzer</LastAuthor>
   <Created>2012-03-29T13:18:51Z</Created>
-  <LastSaved>2017-04-21T20:02:04Z</LastSaved>
+  <LastSaved>2017-06-22T14:46:03Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -5417,7 +5417,7 @@
     <Cell ss:StyleID="s79"><Data ss:Type="String">Researches.Wolf</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">45</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="String">Armour</Data></Cell>
-    <Cell ss:StyleID="s82"><Data ss:Type="String">Researches.AlienAlloyFabrication(AND)Researches.SebilliantechnicianInterrogation(AND)Researches.CaesantechnicianInterrogation(AND)Researches.AndronDisassembly</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Researches.AlienAlloyFabrication(AND)Researches.CaesanengineerInterrogation(AND)Researches.SebillianengineerInterrogation(AND)Researches.AndronDisassembly</Data></Cell>
     <Cell ss:StyleID="s80"/>
     <Cell ss:StyleID="s82"><Data ss:Type="String">UnlockKnowledge( &quot;armour.wolf&quot; ); UnlockManufacture( &quot;ManTech.Wolf&quot; );</Data></Cell>
     <Cell ss:StyleID="s79"><Data ss:Type="String">armour.wolf</Data></Cell>
@@ -5435,7 +5435,7 @@
     <Cell ss:StyleID="s79"><Data ss:Type="String">Researches.Direwolf</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">60</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="String">Armour</Data></Cell>
-    <Cell ss:StyleID="s92"><Data ss:Type="String">Researches.AlienAlloyFabrication(AND)Researches.AlienElectronics(AND)Researches.Androncomputers(AND)Researches.AndronserverDisassembly</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Researches.AlienAlloyFabrication(AND)Researches.AlienElectronics(AND)Researches.Androncomputers(AND)Researches.AndronserverDisassembly(AND)Researches.AndronterminalDisassembly</Data></Cell>
     <Cell ss:StyleID="s75"/>
     <Cell ss:StyleID="s82"><Data ss:Type="String">UnlockKnowledge( &quot;armour.wolf_3&quot; ); UnlockManufacture( &quot;ManTech.Direwolf&quot; );</Data></Cell>
     <Cell ss:StyleID="s79"><Data ss:Type="String">armour.wolf_3</Data></Cell>
@@ -5444,7 +5444,7 @@
     <Cell ss:StyleID="s82"><Data ss:Type="String">Researches.Alphawolf</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">80</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="String">Armour</Data></Cell>
-    <Cell ss:StyleID="s92"><Data ss:Type="String">Researches.Direwolf(AND)Researches.SebillianengineerInterrogation(AND)Researches.CaesanengineerInterrogation(AND)Researches.AndronWarriorDisassembly</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Researches.Direwolf(AND)Researches.CaesanheadengineerInterrogation(AND)Researches.SebillianheadengineerInterrogation(AND)Researches.AndroncontrollerDisassembly</Data></Cell>
     <Cell ss:StyleID="s75"/>
     <Cell ss:StyleID="s82"><Data ss:Type="String">UnlockKnowledge( &quot;armour.wolf_4&quot; ); UnlockManufacture( &quot;ManTech.Alphawolf&quot; );</Data></Cell>
     <Cell ss:StyleID="s82"><Data ss:Type="String">armour.wolf_4</Data></Cell>
@@ -5471,7 +5471,7 @@
     <Cell ss:StyleID="s82"><Data ss:Type="String">Researches.Guardian</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">140</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="String">Armour</Data></Cell>
-    <Cell ss:StyleID="s82"><Data ss:Type="String">Researches.AlienAlloyHardening(AND)Researches.AndroncontrollerDisassembly(AND)Researches.AndronEliteDisassembly(AND)Researches.AlienAntigravityGenerator(AND)Researches.DirectionalThrusterArray(AND)Researches.CaesanheadengineerInterrogation(AND)Researches.SebillianheadengineerInterrogation</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Researches.Warder(AND)Researches.AlienAlloyHardening(AND)Researches.AndroncontrollerDisassembly(AND)Researches.AndronEliteDisassembly(AND)Researches.AlienAntigravityGenerator(AND)Researches.DirectionalThrusterArray(AND)Researches.CaesanheadengineerInterrogation(AND)Researches.SebillianheadengineerInterrogation(AND)Researches.RoborexAceDisassembly</Data></Cell>
     <Cell ss:StyleID="s75"/>
     <Cell ss:StyleID="s82"><Data ss:Type="String">UnlockKnowledge( &quot;armour.sentinel_3&quot; ); UnlockManufacture( &quot;ManTech.Guardian&quot; );</Data></Cell>
     <Cell ss:StyleID="s82"><Data ss:Type="String">armour.sentinel_3</Data></Cell>
@@ -9616,7 +9616,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>607</TopRowBottomPane>
+   <TopRowBottomPane>577</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -9624,8 +9624,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>617</ActiveRow>
-     <ActiveCol>5</ActiveCol>
+     <ActiveRow>582</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
