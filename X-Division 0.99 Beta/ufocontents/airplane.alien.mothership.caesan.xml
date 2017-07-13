@@ -719,10 +719,10 @@
     <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">6</Data></Cell>
-    <Cell ss:Index="18"><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">6</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Xenomorph_HostXDroneElite_Defensive</Data></Cell>
@@ -1357,10 +1357,11 @@
    </Print>
    <Zoom>115</Zoom>
    <Selected/>
+   <TopRowVisible>3</TopRowVisible>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <LeftColumnRightPane>4</LeftColumnRightPane>
    <ActivePane>1</ActivePane>
    <Panes>
     <Pane>
@@ -1368,9 +1369,8 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveRow>1</ActiveRow>
-     <ActiveCol>5</ActiveCol>
-     <RangeSelection>R2C6:R15C7</RangeSelection>
+     <ActiveRow>39</ActiveRow>
+     <ActiveCol>19</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

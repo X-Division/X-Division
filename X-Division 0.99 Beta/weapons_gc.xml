@@ -11,7 +11,7 @@
 		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.ballistic.pistol" type="kinetic" damage="25" stunDamage="0" mitigation="0">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1200" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/defbullet/bullet" speed="1250" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bulletplume/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -28,7 +28,7 @@
 		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
 		<Ammos>
 			<Ammo  name="ammo.ballistic.rifle" type="kinetic" damage="25" stunDamage="0" mitigation="3">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1200" showAfterDistance="60.0" />
+				<Projectile spectre="projectiles/defbullet/bullet" speed="3150" showAfterDistance="60.0" />
 				<Impact spectre="particles/bp_m_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -45,7 +45,7 @@
 		<GroundImage name="grounditemimages/ballistic_shotgun.png"/>
 		<Ammos>
 			<Ammo name="ammo.ballistic.shotgun" type="kinetic" damage="7" stunDamage="5" mitigation="0" apDamage="0" pelletCount="8">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/defbullet/bullet" speed="1325" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bulletplume/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -63,7 +63,7 @@
 		<GroundImage name="grounditemimages/ballistic_precisionrifle.png"/>
 		<Ammos>
 			<Ammo  name="ammo.ballistic.sniper" type="kinetic" damage="60" stunDamage="0" mitigation="10" isHypervelocity="0">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/defbullet/bullet" speed="2848" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -76,7 +76,7 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.ballistic.machinegun" type="kinetic" damage="23" stunDamage="0" mitigation="0">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1200" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/defbullet/bullet" speed="2756" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -199,7 +199,7 @@
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.division.minigunmk1" bulletType="normal" emptySound="Empty Click 1">
 		<props range="16" hands="2" recoil="65" weight="12" isHeavy="1" strengthLimited="1" clipSize="200" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.2" disableShortRangeHitBonus="0" />
-		<BurstFire ap="65" accuracy="8" sound="Weapon Minigun Burst 1" delay="0.5" burstdelay="0.09" shotCount="32" suppressionValue="91" suppressionRadius="2.5" />
+		<BurstFire ap="65" accuracy="8" sound="Weapon Minigun Burst 1" delay="0.5" burstdelay="0.05" shotCount="32" suppressionValue="91" suppressionRadius="2.5" />
 		<GUIImage name="gui/weapons/Division/DivisionMinigunMK1.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
@@ -331,7 +331,7 @@
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.division.minigunmk2" bulletType="normal" emptySound="Empty Click 1">
 		<props range="16" hands="2" recoil="70" weight="15" isHeavy="1" strengthLimited="1" clipSize="200" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.2" disableShortRangeHitBonus="0" />
-		<BurstFire ap="65" accuracy="8" sound="Weapon Minigun Burst 1" delay="0.5" burstdelay="0.07" shotCount="40" suppressionValue="93" suppressionRadius="2" />
+		<BurstFire ap="65" accuracy="8" sound="Weapon Minigun Burst 1" delay="0.5" burstdelay="0.045" shotCount="40" suppressionValue="93" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Division/DivisionMinigunMK2.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
@@ -462,7 +462,7 @@
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.division.minigunmk3" bulletType="normal" emptySound="Empty Click 1">
 		<props range="16" hands="2" recoil="80" weight="18" isHeavy="1" strengthLimited="1" clipSize="200" reloadAPCost="55" reloadSound="Weapon Minigun Reload" reactionModifier="0.2" disableShortRangeHitBonus="0" />
-		<BurstFire ap="65" accuracy="12" sound="Weapon Minigun Burst 1" delay="0.5" burstdelay="0.07" shotCount="80" suppressionValue="95" suppressionRadius="3" />
+		<BurstFire ap="65" accuracy="12" sound="Weapon Minigun Burst 1" delay="0.5" burstdelay="0.04" shotCount="80" suppressionValue="95" suppressionRadius="3" />
 		<GUIImage name="gui/weapons/Division/DivisionMinigunMK3.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
@@ -578,7 +578,7 @@
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.laserminigunmk1" bulletType="normal" emptySound="Empty Click 1">
 		<props range="16" hands="2" recoil="80" weight="16" clipSize="200" reloadAPCost="55" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="0" />
-		<BurstFire ap="65" accuracy="10" sound="Weapon Laser Minigun Burst" delay="0.5" burstdelay="0.07" shotCount="40" suppressionValue="101" suppressionRadius="2" />
+		<BurstFire ap="65" accuracy="10" sound="Weapon Laser Minigun Burst" delay="0.5" burstdelay="0.05" shotCount="40" suppressionValue="101" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Laser/laserminigunMK1.png"/>
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
 		<Ammos>
@@ -677,7 +677,7 @@
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.laserminigunmk2" bulletType="normal" emptySound="Empty Click 1">
 		<props range="16" hands="2" recoil="80" weight="20" clipSize="600" reloadAPCost="60" reloadSound="Weapon Energycannon Reload" isHeavy="1" strengthLimited="1" reactionModifier="0.1" disableShortRangeHitBonus="0" />
-		<BurstFire ap="65" accuracy="10" sound="Weapon Laser Minigun Burst" delay="0.5" burstdelay="0.05" shotCount="60" suppressionValue="103" suppressionRadius="2" />
+		<BurstFire ap="65" accuracy="10" sound="Weapon Laser Minigun Burst" delay="0.5" burstdelay="0.045" shotCount="60" suppressionValue="103" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Laser/laserminigunMK2.png"/>
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
 		<Ammos>

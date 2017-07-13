@@ -11035,6 +11035,7 @@
 
 
   <AI MODMERGEATTRIBUTE="race" MODMERGE="insert" race="Andronx">
+    <Sounds death="AndronDeath" injury="AndronInjury" />  	
 	<Behaviour>
 		<Pathing 
 				Sight="0.3" 

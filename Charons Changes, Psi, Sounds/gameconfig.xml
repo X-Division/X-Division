@@ -90,7 +90,7 @@
 <!-- TERROR FAILURE PENALTY -->
   <terrorFailurePenalty 			value="300" comment="Penalty applied to the region relations when a terror event results in failure (no engagement by Xenonauts or GC loss)" />
   <aerialTerrorFailurePenalty 		value="0" comment="Penalty applied to the region relations when an Aerial Terror event results in failure (no engagement by Xenonauts or AC loss)" />
-  <terrorSuccessBonus 				value="30" comment="Bonus granted to the region relations if a terror site is successfully secured" />
+  <terrorSuccessBonus 				value="0" comment="Bonus granted to the region relations if a terror site is successfully secured" />
   <terrorCivilianSurvivedBonus 		value="20" comment="Extra relations bonus for every civilian that survived a terror mission" />
   <terrorLocalForcesSurvivedBonus 	value="15" comment="Extra relations bonus for every local forces fighter that survived a terror mission" />
   

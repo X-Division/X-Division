@@ -9,7 +9,7 @@
   <Author>Computer 2</Author>
   <LastAuthor>Benutzer</LastAuthor>
   <Created>2012-03-29T13:18:51Z</Created>
-  <LastSaved>2017-06-22T14:46:03Z</LastSaved>
+  <LastSaved>2017-07-03T11:06:08Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -5860,14 +5860,14 @@
     <Cell ss:StyleID="s72"><Data ss:Type="String">Extraterrestrials</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PraetorInterrogation(AND)Researches.AlienHyperdrive</Data></Cell>
     <Cell ss:StyleID="s72"/>
-    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.PreOperationEndgame&quot; );&#10;SetGameObjective( &quot;Objectives.Objective13&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.PreOperationEndgame&quot; );&#10;SetGameObjective( &quot;Objectives.Objective12&quot; );</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PreOperationEndgame</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.OperationEndgame</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="Number">3100</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">Extraterrestrials</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PraetorInterrogation(AND)Researches.AlienDreadnoughtDatacore(AND)Researches.AlienHyperdrive(AND)Researches.PreOperationEndgame</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PraetorOvermindInterrogation(AND)Researches.AlienDreadnoughtDatacore(AND)Researches.AlienHyperdrive(AND)Researches.PreOperationEndgame</Data></Cell>
     <Cell ss:StyleID="s72"/>
     <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.OperationEndgame&quot; );&#10;UnlockFinalMission();&#10;SetGameObjective( &quot;Objectives.Objective14&quot; );</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.OperationEndgame</Data></Cell>
@@ -6047,7 +6047,7 @@
     <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.ExtremeAlienGrenade</Data></Cell>
     <Cell ss:StyleID="s94"><Data ss:Type="Number">60</Data></Cell>
     <Cell ss:StyleID="s94"><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.AlienExtGrenade(AND)Researches.CaesantacticalcommanderInterrogation(OR)weapon.AlienExtGrenade(AND)Researches.SebilliantacticalcommanderInterrogation</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.AlienExGrenade(AND)Researches.CaesantacticalcommanderInterrogation(OR)weapon.AlienExtGrenade(AND)Researches.SebilliantacticalcommanderInterrogation</Data></Cell>
     <Cell ss:StyleID="s95"/>
     <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.ExtremeAlienGrenade&quot; );</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.ExtremeAlienGrenade</Data></Cell>
@@ -8146,7 +8146,7 @@
     <Cell ss:StyleID="s72"><Data ss:Type="String">Extraterrestrials</Data></Cell>
     <Cell ss:StyleID="s76"><Data ss:Type="String">Items.CaesanNonCombatant(OR)Items.CaesanGuard(OR)Items.CaesanSoldier(OR)Items.CaesanWarrior(OR)Items.CaesanElite(OR)Items.CaesanOfficer(OR)Items.CaesanPsion(OR)Items.CaesanLeader(OR)Items.Caesanmedic(OR)Items.Caesantechnician(OR)Items.Caesannavigator(OR)Items.Caesanweaponsergeant(OR)Items.CaesanOperatorLightScout(OR)Items.CaesanOperatorScout(OR)Items.SebillianNonCombatant(OR)Items.SebillianGuard(OR)Items.SebillianSoldier(OR)Items.SebillianWarrior(OR)Items.SebillianElite(OR)Items.SebillianOfficer(OR)Items.SebillianLeader(OR)Items.Sebillianmedic(OR)Items.Sebilliantechnician(OR)Items.Sebilliannavigator(OR)Items.Sebillianweaponsergeant(OR)Items.SebillianOperatorLightScout(OR)Items.SebillianOperatorScout(OR)Items.HarridanSoldier(OR)Items.HarridanWarrior(OR)Items.HarridanElite(OR)Items.HarridanOfficer(OR)Items.WraithSoldier(OR)Items.WraithWarrior(OR)Items.WraithElite(OR)Items.WraithOfficer(OR)Items.PraetorLeader</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">SetGameObjective( &quot;Objectives.Objective5&quot; );</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AlienInterrogation&quot; );&#10;SetGameObjective( &quot;Objectives.Objective6&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AlienInterrogation&quot; );sdad&#10;SetGameObjective( &quot;Objectives.Objective6&quot; );</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AlienInterrogation</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
@@ -8164,7 +8164,7 @@
     <Cell ss:StyleID="s72"><Data ss:Type="String">Extraterrestrials</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.AlienLeaderInterrogation(AND)Items.PraetorLeader(OR)Researches.AlienLeaderInterrogation(AND)Items.PraetorOvermind(OR)Researches.AlienLeaderInterrogation(AND)Items.PraetorFleetLeader(OR)Researches.AlienLeaderInterrogation(AND)Items.PraetorTerrorLeader(OR)Researches.AlienLeaderInterrogation(AND)Items.PraetorBaseLeader</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">SetGameObjective( &quot;Objectives.Objective11&quot; );</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.PraetorInterrogation&quot; );&#10;SetGameObjective( &quot;Objectives.Objective12&quot; );&#10;AddDamageBonus( &quot;Praetor&quot;, 0 );</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.PraetorInterrogation&quot; );&#10;AddDamageBonus( &quot;Praetor&quot;, 0 );</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PraetorInterrogation</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="51">
@@ -8172,7 +8172,7 @@
     <Cell ss:StyleID="s72"><Data ss:Type="Number">120</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">Extraterrestrials</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PraetorInterrogation(AND)Items.PraetorOvermind</Data></Cell>
-    <Cell ss:StyleID="s72"><Data ss:Type="String">SetGameObjective( &quot;Objectives.Objective11&quot; );</Data></Cell>
+    <Cell ss:StyleID="s72"/>
     <Cell ss:StyleID="s72"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.PraetorOvermindInterrogation&quot; );&#10;SetGameObjective( &quot;Objectives.Objective13&quot; );&#10;AddDamageBonus( &quot;Praetor&quot;, 0 );</Data></Cell>
     <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.PraetorOvermindInterrogation</Data></Cell>
    </Row>
@@ -9616,7 +9616,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>577</TopRowBottomPane>
+   <TopRowBottomPane>627</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -9624,7 +9624,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>582</ActiveRow>
+     <ActiveRow>645</ActiveRow>
      <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>

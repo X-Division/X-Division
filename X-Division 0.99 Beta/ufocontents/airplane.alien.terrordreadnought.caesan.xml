@@ -741,12 +741,12 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Xenomorph_XEggWarrior_Defensive</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Xenomorph_HostXDroneWarrior_Defensive</Data></Cell>
@@ -1298,11 +1298,10 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>47</TopRowVisible>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>17</LeftColumnRightPane>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>1</ActivePane>
    <Panes>
     <Pane>
@@ -1310,8 +1309,8 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveRow>81</ActiveRow>
-     <ActiveCol>20</ActiveCol>
+     <ActiveRow>39</ActiveRow>
+     <ActiveCol>17</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

@@ -3972,7 +3972,7 @@
     &#8226; MITIGATION:___________________120
     &#8226; SUPPRESSION:__________________10
     &#8226; REACTION MODIFIER:___________0.7
-    &#8226; AMMO CAPACITY:________________1
+    &#8226; AMMO CAPACITY:________________2
     &#8226; WEIGHT:_______________________18
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -4092,7 +4092,7 @@
     &#8226; MITIGATION:___________________140
     &#8226; SUPPRESSION:__________________10
     &#8226; REACTION MODIFIER:___________0.7
-    &#8226; AMMO CAPACITY:________________1
+    &#8226; AMMO CAPACITY:________________2
     &#8226; WEIGHT:_______________________20
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -4212,7 +4212,7 @@
     &#8226; MITIGATION:___________________200
     &#8226; SUPPRESSION:__________________10
     &#8226; REACTION MODIFIER:___________0.7
-    &#8226; AMMO CAPACITY:________________1
+    &#8226; AMMO CAPACITY:________________2
     &#8226; WEIGHT:_______________________24
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -25580,15 +25580,15 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Objectives.Objective12</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Objective: Find a capeable  Praetor</Data><NamedCell
+    <Cell><Data ss:Type="String">Objective: Find a capeable  Psionic Unit</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Objectives.Objective13</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Objective: Defend the earth until the Bomb is set up</Data><NamedCell
+    <Cell><Data ss:Type="String">Objective: Dreadnaught, Hyperdrive, Alive Overmind. Got everything ? Then I am ready to set up the bomb when you are ... and do me a favour and defend Earth until i can save it.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-   </Row>
+   </Row>   
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">Objectives.Objective14</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>

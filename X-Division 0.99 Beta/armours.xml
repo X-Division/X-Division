@@ -54,7 +54,7 @@
     <weight>10</weight>
     <strengthBoost>0</strengthBoost>
 	<apBoost>-15</apBoost>
-	<accuracyBoost>15</accuracyBoost>
+	<accuracyBoost>20</accuracyBoost>
 	<braveryBoost>0</braveryBoost>
 	<reflexesBoost>0</reflexesBoost>
 	<resilienceBoost>0</resilienceBoost>
@@ -67,7 +67,7 @@
     <weight>8</weight>
     <strengthBoost>0</strengthBoost>
 	<apBoost>-20</apBoost>
-	<accuracyBoost>25</accuracyBoost>
+	<accuracyBoost>30</accuracyBoost>
 	<braveryBoost>0</braveryBoost>
 	<reflexesBoost>0</reflexesBoost>
 	<resilienceBoost>0</resilienceBoost>
