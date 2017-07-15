@@ -1004,7 +1004,7 @@
     </Rank>
 	
 	<Rank  type="PsionAssault">
-      <Props APs="60" Resilience="85" Strength="60" Accuracy="60" Reflexes="45" Bravery="75" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse" />
+      <Props APs="60" Resilience="85" Strength="60" Accuracy="60" Reflexes="45" Bravery="75" PsionicPower="90" PsionicAttacks="Fear, Dread, Paralyse" />
       <Armour kinetic="8" energy="55" chemical="20" incendiary="13" />
       <Items killed="Items.CaesanPsionAssaultCorpse" stunned="Items.CaesanPsionAssault" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -1391,7 +1391,7 @@
     </Rank>
 	
 	<Rank  type="PsionPsycho">
-      <Props APs="70" Resilience="130" Strength="60" Accuracy="100" Reflexes="45" Bravery="100" PsionicPower="150" PsionicAttacks="Fear, Dread, Paralyse" />
+      <Props APs="70" Resilience="130" Strength="60" Accuracy="100" Reflexes="45" Bravery="100" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse" />
       <Armour kinetic="36" energy="90" chemical="36" incendiary="23" />
       <Items killed="Items.CaesanPsionPsychoCorpse" stunned="Items.CaesanPsionPsycho" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -1725,7 +1725,7 @@
     </Rank>
 	
 	<Rank  type="PsionMaster">
-      <Props APs="75" Resilience="170" Strength="60" Accuracy="60" Reflexes="45" Bravery="100" PsionicPower="200" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="75" Resilience="170" Strength="60" Accuracy="60" Reflexes="45" Bravery="100" PsionicPower="120" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="70" energy="140" chemical="56" incendiary="35" />
       <Items killed="Items.CaesanPsionMasterCorpse" stunned="Items.CaesanPsionMaster" />
       <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -6919,7 +6919,7 @@
 	<GibbedSpectre name="particles/gibbed_alien/gibbed_alien" />
     
     <Rank  type="Leader">7
-      <Props APs="90" Resilience="1000" Strength="40" Accuracy="90" Reflexes="120" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="90" Resilience="1000" Strength="40" Accuracy="90" Reflexes="120" Bravery="100" CrouchDisabled="1" PsionicPower="120" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="150" energy="250" chemical="40" incendiary="100" />
       <Items killed="Items.PraetorLeaderCorpse" stunned="Items.PraetorLeader" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -6935,7 +6935,7 @@
     </Rank>
 	
 	<Rank  type="BaseLeader">
-      <Props APs="60" Resilience="1200" Strength="80" Accuracy="70" Reflexes="105" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="60" Resilience="1200" Strength="80" Accuracy="70" Reflexes="105" Bravery="100" CrouchDisabled="1" PsionicPower="120" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="100" energy="150" chemical="60" incendiary="70" />
       <Items killed="Items.PraetorBaseLeaderCorpse" stunned="Items.PraetorBaseLeader" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -6967,7 +6967,7 @@
     </Rank>
 	
 	<Rank  type="FleetLeader">
-      <Props APs="60" Resilience="1000" Strength="80" Accuracy="75" Reflexes="112" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="60" Resilience="1000" Strength="80" Accuracy="75" Reflexes="112" Bravery="100" CrouchDisabled="1" PsionicPower="120" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="90" energy="135" chemical="55" incendiary="60" />
       <Items killed="Items.PraetorFleetLeaderCorpse" stunned="Items.PraetorFleetLeader" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -6983,7 +6983,7 @@
     </Rank>
 	
 	<Rank  type="TerrorLeader">
-      <Props APs="60" Resilience="1000" Strength="80" Accuracy="85" Reflexes="112" Bravery="100" CrouchDisabled="1" PsionicPower="100" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="60" Resilience="1000" Strength="80" Accuracy="85" Reflexes="112" Bravery="100" CrouchDisabled="1" PsionicPower="120" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="90" energy="135" chemical="55" incendiary="60" />
       <Items killed="Items.PraetorTerrorLeaderCorpse" stunned="Items.PraetorTerrorLeader" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -7004,7 +7004,7 @@
 				MinimumAccuracy = "1.0"		
 				EngagementRange = "0" />
 	</Behaviour>
-      <Props APs="100" Resilience="2000" Strength="40" Accuracy="99" Reflexes="150" Bravery="100" CrouchDisabled="1" PsionicPower="120" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
+      <Props APs="100" Resilience="2000" Strength="40" Accuracy="99" Reflexes="150" Bravery="100" CrouchDisabled="1" PsionicPower="140" PsionicAttacks="Fear, Dread, Paralyse, MindControl" />
       <Armour kinetic="220" energy="300" chemical="75" incendiary="150" />
       <Items killed="Items.PraetorLeaderCorpse" stunned="Items.PraetorLeader" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />

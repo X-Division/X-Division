@@ -6499,7 +6499,7 @@
 		<GUIImage name="gui/weapons/Shotgun.png"/>
 		<GroundImage name="grounditemimages/shotgun.png"/>
 		<Ammos>
-			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="50" mitigation="0" >
+			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="50" mitigation="25" >
 				<Projectile spectre="projectiles/qspray/qspray" speed="1000"/>
 				<Impact spectre="projectiles/qspray/greenplume" radius="1.5" sound="Weapon Stun Grenade" fireChance="0" smokeChance="95" gasType="Acid" />
 			</Ammo>
@@ -6515,7 +6515,7 @@
 		<GUIImage name="gui/weapons/Shotgun.png"/>
 		<GroundImage name="grounditemimages/shotgun.png"/>
 		<Ammos>
-			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="75" mitigation="10" >
+			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="75" mitigation="35" >
 				<Projectile spectre="projectiles/qspray/qspray" speed="1000"/>
 				<Impact spectre="projectiles/qspray/greenplume" radius="2" sound="Weapon Stun Grenade" fireChance="0" smokeChance="95" gasType="ImpAcid" />
 			</Ammo>
@@ -6531,7 +6531,7 @@
 		<GUIImage name="gui/weapons/Shotgun.png"/>
 		<GroundImage name="grounditemimages/shotgun.png"/>
 		<Ammos>
-			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="100" mitigation="15" >
+			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="100" mitigation="40" >
 				<Projectile spectre="projectiles/qspray/qspray" speed="1000"/>
 				<Impact spectre="projectiles/qspray/greenplume" radius="2" sound="Weapon Stun Grenade" fireChance="0" smokeChance="95" gasType="ImpAcid" />
 			</Ammo>

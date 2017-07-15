@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <PsionicPowers MODMERGE="update">
   <!-- "messageDuration" is in seconds--> 
-  <Fear          MODMERGE="update" ap="10" moraleDamage="50" anim="particles/psionic/psionic" sound="PsionicPower" messageDuration="0.5" strengthModifier="1.4" range="12" />  <!-- "moraleDamage" is in % -->
+  <Fear          MODMERGE="update" ap="10" moraleDamage="60" anim="particles/psionic/psionic" sound="PsionicPower" messageDuration="0.5" strengthModifier="1.6" range="12" />  <!-- "moraleDamage" is in % -->
   <Hallucination MODMERGE="update" ap="200"                                                                                                strengthModifier="0.001" range="1" />
   <LocateEnemies MODMERGE="update" ap="1"                                                                          messageDuration="2.0" strengthModifier="1.0" range="12" />
-  <Paralyse      MODMERGE="update" ap="30"                    anim="particles/psionic/psionic_paralyse" sound="PsionicPower" messageDuration="0.5" strengthModifier="1.0" range="6" />
-  <MindControl   MODMERGE="update" ap="40"                   anim="particles/psionic/psionic_mindcontrol" sound="PsionicPower" messageDuration="1.0" strengthModifier="0.5" range="6" />
+  <Paralyse      MODMERGE="update" ap="30"                    anim="particles/psionic/psionic_paralyse" sound="PsionicPower" messageDuration="0.5" strengthModifier="1.0" range="1" />
+  <MindControl   MODMERGE="update" ap="40"                   anim="particles/psionic/psionic_mindcontrol" sound="PsionicPower" messageDuration="1.0" strengthModifier="0.5" range="1" />
   <Dread         MODMERGE="update" loseAP="5"                                                                     messageDuration="0.1" strengthModifier="1.0" range="1" />  <!-- "loseAP" is in % -->
   <Bezerk        MODMERGE="update" ap="30"                   anim="particles/psionic/psionic_berserk" sound="PsionicPower" messageDuration="2.0" strengthModifier="0.1" range="6" />
 </PsionicPowers>
