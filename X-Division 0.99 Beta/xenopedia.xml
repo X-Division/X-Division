@@ -3070,7 +3070,7 @@
     <Cell ss:StyleID="s72"><Data ss:Type="String">weapon.AlienSmartHeavy</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">Alien Smart Heavy</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">xenopediaimages/</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">Alien Advanced WAlienSmartHeavyeapons</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Alien Advanced Weapons</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">WEP</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">Key Information: 1 Weapon for 1 anti core</Data></Cell>
    </Row>
@@ -4008,7 +4008,7 @@
     <Cell ss:StyleID="s73"><Data ss:Type="String">xenopediaimages/saracen</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">Aircraft</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">AC</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">Description needs to be revised: The F-24 Asierus is my first attempt at updating our already-aging Condor design, and while it's not a huge improvement, at least it will buy us some time while I work out the designs for something a little more impressive. You'll notice that the engines were the first target I had for updating, and I'm happy to report that we have increased the top speed of this plane to better close distance with the faster alien craft we have been seeing. This is impressive, especially considering that we have added a substantial amount of ordnance to the plane in the form of air-to-air topedoes. Unfortunately, there's isn't room on this airframe to house both missiles and torpedoes, and so a tough decision had to be made...there will be no missiles on this plane. With that in mind you may want to partner these planes with others that are better equipped to handle a dogfighting situation, but ultimately it's your call, Commander.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Description.</Data></Cell>
    </Row>
    <Row ss:Height="127.5">
     <Cell ss:StyleID="s72"><Data ss:Type="String">Knowledge.Airfights</Data></Cell>
@@ -6842,7 +6842,7 @@
    <Row ss:Height="409.5">
     <Cell ss:StyleID="s72"><Data ss:Type="String">Researches.XFacehugger</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">Xenomorph Facehugger Analysis</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">xenopediaimages/XXX</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">xenopediaimages/Xfacehugger</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">Alien Units</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">NULL</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String"></Data></Cell>
@@ -7661,7 +7661,7 @@
     <Cell ss:StyleID="s73"><Data ss:Type="String">xenopediaimages/UFObattleship</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">UFOs</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">UFO</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">Key Information: DSB: 2 Aliencontrolsystem 1 Alienlightengine 1 Alienlightweaponsystem 1 Aliencomputers 3 Alienheavyengine 7 Alienweaponsystem 4 AlienLargeComputers 10 Alien Alloys 4 Alenium</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Key Information: DSB: 2 ExAliencontrolsystem 1 Alienlightengine 1 Alienlightweaponsystem 1 Aliencomputers 3 Alienheavyengine 7 Alienweaponsystem 4 AlienLargeComputers 10 Alien Alloys 4 Alenium</Data></Cell>
    </Row>
    <Row ss:Height="51">
     <Cell ss:StyleID="s72"><Data ss:Type="String">airplane.alien.interceptor</Data></Cell>

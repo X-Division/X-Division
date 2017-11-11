@@ -114,67 +114,67 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.cruiser</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">600</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">100</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.cruiser/800</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.cruiser/650</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">650</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">60</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.carrier</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">650</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">40</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battlecruiser</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1100</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">900</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">100</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battlecruiser/1200</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battlecruiser/1000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1000</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">60</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battlecarrier</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1000</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">40</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battlecruiser/1300</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battlecruiser/1100</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1100</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">20</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battlecarrier/1300</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battlecarrier/1100</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1100</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">20</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battleship</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1200</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">60</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battlecruiser/1500</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battlecruiser/1200</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1200</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">20</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battlecarrier/1500</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battlecarrier/1200</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1200</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">20</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battleship/1500</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.battleship/1200</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1200</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">40</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">m:airplane.alien.dreadnought</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1200</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">20</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -212,8 +212,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>21</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>20</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

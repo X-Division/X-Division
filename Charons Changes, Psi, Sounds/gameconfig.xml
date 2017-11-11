@@ -55,8 +55,8 @@
 <!-- CONSTRUCTION MISSION PERAMETERS -->
 <!-- These variables stop alien base construction missions being spawned too frequently - if this is removed then they will spawn in almost every UFO wave after they become available to the aliens. The delay values are the time (in days) that must elapse between two construction missions spawning. -->
 
-  <constructionMissionTickerLimit1 value="1100" comment="Alien construction missions will be delayed by constructionMissionDelay1 if the ticker is greater than this." />
-  <constructionMissionTickerLimit2 value="700" comment="Alien construction missions will be delayed by constructionMissionDelay2 if the ticker is greater than this." />
+  <constructionMissionTickerLimit1 value="900" comment="Alien construction missions will be delayed by constructionMissionDelay1 if the ticker is greater than this." />
+  <constructionMissionTickerLimit2 value="600" comment="Alien construction missions will be delayed by constructionMissionDelay2 if the ticker is greater than this." />
   <constructionMissionTickerLimit3 value="300" comment="Alien construction missions will be delayed by constructionMissionDelay3 if the ticker is greater than this." />
   
   <constructionMissionDelay1  value="3" comment="See above." />
@@ -102,7 +102,7 @@
   <largeAlienBaseTickerLimit  value="90" comment="Alien bases are large sized above this ticker value."  />
   <independentAlienBaseGrowth value="1" comment="If set to 1, each alien base will grow independently of the AI ticker" />
   <alienBaseGrowthPerDay 	  value="1" comment="If bases grow independently, each base will grow this much per day"/>
-  <alienBaseStartingTickerMultiplier value = "0.04" comment="If bases grow independenly, new bases will start at AI ticker times this value"/>
+  <alienBaseStartingTickerMultiplier value = "0.05" comment="If bases grow independenly, new bases will start at AI ticker times this value"/>
   <alienBaseSupplyGrowth	  value="15" comment="If bases grow independently, each successful Supply Run mission will increase base ticker by this much" />
 
 <!-- ALIEN BASE AND SUPPLY RUN (Passive) -->

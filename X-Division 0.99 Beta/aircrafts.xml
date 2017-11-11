@@ -9,7 +9,7 @@
   <Author>Laci</Author>
   <LastAuthor>Benutzer</LastAuthor>
   <Created>2011-03-15T15:56:34Z</Created>
-  <LastSaved>2017-04-17T12:54:42Z</LastSaved>
+  <LastSaved>2017-09-29T22:10:08Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -193,8 +193,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">40,34;48,44</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">0.2</Data></Cell>
@@ -231,8 +230,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">40,34;48,44</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">600</Data></Cell>
     <Cell><Data ss:Type="Number">0.6</Data></Cell>
@@ -269,8 +267,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">0;0;0;0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">200</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -307,8 +304,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">0;0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">150</Data></Cell>
     <Cell><Data ss:Type="Number">0.3</Data></Cell>
@@ -345,14 +341,13 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">0;0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">250</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
     <Cell ss:StyleID="s70"><Data ss:Type="Number">50000</Data></Cell>
-    <Cell><Data ss:Type="Number">600</Data></Cell>
-    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="String">unknown</Data></Cell>
@@ -384,8 +379,7 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">0;0;0;0;0;0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">350</Data></Cell>
     <Cell><Data ss:Type="Number">0.3</Data></Cell>
@@ -422,8 +416,7 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">0;0;0;0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">150</Data></Cell>
     <Cell><Data ss:Type="Number">0.5</Data></Cell>
@@ -460,8 +453,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">0;0;0;0</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">250</Data></Cell>
     <Cell><Data ss:Type="Number">0.3</Data></Cell>
@@ -498,8 +490,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">17,52;58,52;27,43;47,43</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">200</Data></Cell>
     <Cell><Data ss:Type="Number">0.6</Data></Cell>
@@ -536,14 +527,13 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">21,44;47,44</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">300</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
     <Cell><Data ss:Type="Number">60000</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell><Data ss:Type="Number">17000</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="String">unknown</Data></Cell>
@@ -575,8 +565,7 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">20,44;20,44;53,44;33,29</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">400</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -613,8 +602,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">20,44;20,44;53,44;33,29</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">300</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -651,8 +639,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">40,34;48,44</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">250</Data></Cell>
     <Cell><Data ss:Type="Number">0.3</Data></Cell>
@@ -689,8 +676,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">17,52;58,52;27,43;47,43</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">250</Data></Cell>
     <Cell><Data ss:Type="Number">0.8</Data></Cell>
@@ -732,8 +718,8 @@
     <Cell ss:Index="17"><Data ss:Type="Number">400</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
     <Cell><Data ss:Type="Number">80000</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="String">unknown</Data></Cell>
@@ -765,8 +751,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">20,44;20,44;53,44;33,29</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">500</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -783,7 +768,7 @@
     <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/cyclone</Data></Cell>
     <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/aircombat/cyclone</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
@@ -919,8 +904,8 @@
     <Cell ss:Index="17"><Data ss:Type="Number">500</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
     <Cell><Data ss:Type="Number">130000</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="String">unknown</Data></Cell>
@@ -957,8 +942,8 @@
     <Cell ss:Index="17"><Data ss:Type="Number">600</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
     <Cell><Data ss:Type="Number">130000</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="String">unknown</Data></Cell>
@@ -990,8 +975,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">1,52;60,52;22,43;44,43</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">600</Data></Cell>
     <Cell><Data ss:Type="Number">0.7</Data></Cell>
@@ -1313,7 +1297,7 @@
     <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">150</Data></Cell>
-    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="Number">100000</Data></Cell>
     <Cell><Data ss:Type="Number">60000</Data></Cell>
    </Row>
    <Row>
@@ -1372,8 +1356,8 @@
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">600</Data></Cell>
-    <Cell><Data ss:Type="Number">600</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="String">unknown</Data></Cell>
@@ -1662,7 +1646,7 @@
     <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">150</Data></Cell>
-    <Cell><Data ss:Type="Number">20000</Data></Cell>
+    <Cell><Data ss:Type="Number">200000</Data></Cell>
     <Cell><Data ss:Type="Number">100000</Data></Cell>
    </Row>
    <Row>
@@ -1716,14 +1700,13 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="String">21,44;47,44</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="String">unknown</Data></Cell>
@@ -2017,7 +2000,7 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">airplane.alien.terrordreadnought</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">10920</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">43280</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">800</Data></Cell>
@@ -2050,7 +2033,7 @@
     <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">150</Data></Cell>
-    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell><Data ss:Type="Number">300000</Data></Cell>
     <Cell><Data ss:Type="Number">100000</Data></Cell>
    </Row>
    <Row>
@@ -2109,8 +2092,8 @@
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="String">unknown</Data></Cell>
@@ -2403,7 +2386,7 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">airplane.alien.dreadnought</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">14040</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">32460</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">850</Data></Cell>
@@ -2441,7 +2424,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell><Data ss:Type="String">airplane.alien.mothership</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">15600</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">62400</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">1200</Data></Cell>
@@ -2464,7 +2447,7 @@
     <Cell><Data ss:Type="String">unknown</Data></Cell>
     <Cell><Data ss:Type="String">UFOSize.Massive</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="String">AV.BATTLESHIPCANNON;AV.BATTLESHIPMISSILE</Data></Cell>
+    <Cell><Data ss:Type="String">AV.BATTLESHIPCANNON;AV.BATTLESHIPMISSILE;AV.CARGOSHIPSONIC;AV.CARGOCOUNTER;</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/mothership</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufomothership</Data></Cell>
     <Cell><Data ss:Type="Number">400</Data></Cell>
@@ -2474,7 +2457,7 @@
     <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">100</Data></Cell>
-    <Cell><Data ss:Type="Number">100000</Data></Cell>
+    <Cell><Data ss:Type="Number">1000000</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
@@ -2572,8 +2555,8 @@
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="String">unknown</Data></Cell>
@@ -2610,8 +2593,8 @@
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
-    <Cell><Data ss:Type="Number">900</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="String">unknown</Data></Cell>
@@ -2632,7 +2615,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell><Data ss:Type="String">airplane.alien.infiltrator</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">31200</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">48000</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">3000</Data></Cell>
@@ -2665,7 +2648,7 @@
     <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">50</Data></Cell>
-    <Cell><Data ss:Type="Number">200000</Data></Cell>
+    <Cell><Data ss:Type="Number">2000000</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row>
@@ -3210,9 +3193,9 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>1</TopRowBottomPane>
+   <TopRowBottomPane>41</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>27</LeftColumnRightPane>
+   <LeftColumnRightPane>17</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -3224,11 +3207,12 @@
     </Pane>
     <Pane>
      <Number>2</Number>
+     <ActiveRow>1</ActiveRow>
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>25</ActiveRow>
-     <ActiveCol>29</ActiveCol>
+     <ActiveRow>64</ActiveRow>
+     <ActiveCol>26</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

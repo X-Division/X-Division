@@ -2924,7 +2924,7 @@
     <Cell ss:StyleID="s79"><Data ss:Type="String">Researches.AlienMassTechnology</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="Number">62</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="String">ExtraterrestrialTech</Data></Cell>
-    <Cell ss:StyleID="s79"><Data ss:Type="String">Researches.AlienMassPistol(AND)Researches.AlienMassRifle(AND)Items.SebillianElite</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">Researches.AlienMassPistol(AND)Researches.AlienMassRifle(AND)Items.SebillianElite(OR)Researches.AlienMassHeavy(AND)Researches.AlienMassRifle(AND)Items.SebillianElite</Data></Cell>
     <Cell ss:StyleID="s75"/>
     <Cell ss:StyleID="s80"><Data ss:Type="String">UnlockKnowledge( &quot;Researches.AlienMassTechnology&quot; );</Data></Cell>
     <Cell ss:StyleID="s80"><Data ss:Type="String">Researches.AlienMassTechnology</Data></Cell>
@@ -9616,7 +9616,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>627</TopRowBottomPane>
+   <TopRowBottomPane>291</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -9624,7 +9624,7 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>645</ActiveRow>
+     <ActiveRow>296</ActiveRow>
      <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>

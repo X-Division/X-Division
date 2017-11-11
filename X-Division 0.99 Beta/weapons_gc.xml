@@ -11,8 +11,8 @@
 		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.ballistic.pistol" type="kinetic" damage="25" stunDamage="0" mitigation="0">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1250" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplume/bulletplume"/>
+				<Projectile spectre="projectiles/9/9" speed="1250" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -28,8 +28,8 @@
 		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
 		<Ammos>
 			<Ammo  name="ammo.ballistic.rifle" type="kinetic" damage="25" stunDamage="0" mitigation="3">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="3150" showAfterDistance="60.0" />
-				<Impact spectre="particles/bp_m_ballistic/bulletplume"/>
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0" />
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -45,8 +45,8 @@
 		<GroundImage name="grounditemimages/ballistic_shotgun.png"/>
 		<Ammos>
 			<Ammo name="ammo.ballistic.shotgun" type="kinetic" damage="7" stunDamage="5" mitigation="0" apDamage="0" pelletCount="8">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1325" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplume/bulletplume"/>
+				<Projectile spectre="projectiles/12/12" speed="1325" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -63,7 +63,7 @@
 		<GroundImage name="grounditemimages/ballistic_precisionrifle.png"/>
 		<Ammos>
 			<Ammo  name="ammo.ballistic.sniper" type="kinetic" damage="60" stunDamage="0" mitigation="10" isHypervelocity="0">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="2848" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/308/308" speed="2848" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -76,7 +76,7 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.ballistic.machinegun" type="kinetic" damage="23" stunDamage="0" mitigation="0">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="2756" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/tracer/tracer_e" speed="2756" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -91,7 +91,7 @@
 		<Ammos>
 			<Ammo MODMERGE="update" name="ammo.ballistic.flamethrower" type="incendiary" damage="20" mitigation="0" apDamage="0" isOverdamage="1">
 				<Projectile spectre="projectiles/robbanas/explode" speed="500" showAfterDistance="60.0"/>
-				<Impact spectre="" radius="0.5" fireChance="50" gasType="FlammableTilesSmoke" />
+				<Impact spectre="particles/bp_fire/bulletplume" radius="0.5" fireChance="50" gasType="FlammableTilesSmoke" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -111,7 +111,7 @@
 		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.pistolmk1" type="kinetic" damage="35" mitigation="0">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1200" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/9/9" speed="1250" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bulletplume/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -125,7 +125,7 @@
 		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.smgmk1" type="kinetic" damage="20" mitigation="0"  >
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1200" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/556/556_e" speed="2356" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bulletplume/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -143,7 +143,7 @@
 		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.riflemk1" type="kinetic" damage="40" stunDamage="0" mitigation="0">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1200" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_m_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -160,7 +160,7 @@
 		<GroundImage name="grounditemimages/ballistic_shotgun.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.shotgunmk1" type="kinetic" damage="10" stunDamage="8" mitigation="0" apDamage="0" pelletCount="10">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/12/12" speed="1325" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bulletplume/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -178,7 +178,7 @@
 		<GroundImage name="grounditemimages/ballistic_precisionrifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.riflemk1" type="kinetic" damage="80" mitigation="10" >
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/308/308" speed="2848" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -191,7 +191,7 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.heavymk1" type="kinetic" damage="35" mitigation="0">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1200" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/tracer/tracer_e" speed="2756" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -204,7 +204,7 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.minigunmk1" type="kinetic" damage="20" mitigation="0">
-				<Projectile spectre="projectiles/defbullet/bullet" speed="1200" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/tracer/tracer_e" speed="2556" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_m_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -221,7 +221,7 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.cannonmk1" type="kinetic" damage="60" mitigation="0">
-				<Projectile spectre="projectiles/cannonbullet/cannonbullet" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/cannonbullet/cannonbullet" speed="1600" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_cannon/bulletplume" radius="1" sound="Weapon Frag Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
@@ -243,7 +243,7 @@
 		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.pistolmk2" type="kinetic" damage="35" mitigation="10">
-				<Projectile spectre="projectiles/defbulletyellow/bullet" speed="1200" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/9/9" speed="1250" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bulletplume/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -257,7 +257,7 @@
 		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.smgmk2" type="kinetic" damage="20" mitigation="5"  >
-				<Projectile spectre="projectiles/defbulletyellow/bullet" speed="1200" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/556/556_e" speed="2356" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bulletplume/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -275,7 +275,7 @@
 		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.riflemk2" type="kinetic" damage="40" stunDamage="0" mitigation="10">
-				<Projectile spectre="projectiles/defbulletyellow/bullet" speed="1200" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_m_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -292,7 +292,7 @@
 		<GroundImage name="grounditemimages/ballistic_shotgun.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.shotgunmk2" type="kinetic" damage="10" stunDamage="8" mitigation="0" apDamage="0" pelletCount="12">
-				<Projectile spectre="projectiles/defbulletyellow/bullet" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/12/12" speed="1325" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bulletplume/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -310,7 +310,7 @@
 		<GroundImage name="grounditemimages/ballistic_precisionrifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.riflemk2" type="kinetic" damage="80" mitigation="20" >
-				<Projectile spectre="projectiles/defbulletyellow/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/308/308" speed="2848" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -323,7 +323,7 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.heavymk2" type="kinetic" damage="35" mitigation="10">
-				<Projectile spectre="projectiles/defbulletyellow/bullet" speed="1200" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/tracer/tracer_e" speed="2756" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -336,7 +336,7 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.minigunmk2" type="kinetic" damage="20" mitigation="5">
-				<Projectile spectre="projectiles/defbulletyellow/bullet" speed="1200" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/tracer/tracer_e" speed="2556" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_m_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -353,7 +353,7 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.cannonmk2" type="kinetic" damage="60" mitigation="5">
-				<Projectile spectre="projectiles/cannonbullet/cannonbullet" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/cannonbullet/cannonbullet" speed="1600" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_cannon/bulletplume" radius="1" sound="Weapon Frag Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
@@ -374,7 +374,7 @@
 		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.pistolmk3" type="kinetic" damage="40" mitigation="15">
-				<Projectile spectre="projectiles/defbulletred/bullet" speed="1300" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/9/9" speed="1250" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bulletplumered/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -388,7 +388,7 @@
 		<GroundImage name="grounditemimages/ballistic_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.smgmk3" type="kinetic" damage="22" mitigation="8" apDamage="0" >
-				<Projectile spectre="projectiles/defbulletred/bullet" speed="1300" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/556/556_e" speed="2356" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bulletplumered/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -406,7 +406,7 @@
 		<GroundImage name="grounditemimages/ballistic_rifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.riflemk3" type="kinetic" damage="45" stunDamage="0" mitigation="15">
-				<Projectile spectre="projectiles/defbulletred/bullet" speed="1300" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/556/556_e" speed="3150" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_m_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -423,7 +423,7 @@
 		<GroundImage name="grounditemimages/ballistic_shotgun.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.shotgunmk3" type="kinetic" damage="10" stunDamage="8" mitigation="0" apDamage="0" pelletCount="14">
-				<Projectile spectre="projectiles/defbulletred/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/12/12" speed="1325" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bulletplumered/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -441,7 +441,7 @@
 		<GroundImage name="grounditemimages/ballistic_precisionrifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.riflemk3" type="kinetic" damage="90" mitigation="30" >
-				<Projectile spectre="projectiles/defbulletred/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/308/308" speed="2848" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -454,7 +454,7 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.heavymk3" type="kinetic" damage="40" mitigation="15">
-				<Projectile spectre="projectiles/defbulletred/bullet" speed="1300" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/tracer/tracer_e" speed="2756" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -467,7 +467,7 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.minigunmk3" type="kinetic" damage="22" mitigation="8">
-				<Projectile spectre="projectiles/defbulletred/bullet" speed="1300" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/tracer/tracer_e" speed="2556" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_m_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -484,7 +484,7 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.division.cannonmk3" type="incendiary" damage="65" mitigation="0">
-				<Projectile spectre="projectiles/cannonbullet/cannonbullet" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/cannonbullet/cannonbullet" speed="1600" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_cannon/bulletplume" radius="1" sound="Weapon Frag Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
@@ -504,7 +504,7 @@
 		<GroundImage name="grounditemimages/laser_pistol.png"/>
 		<Ammos>
 			<Ammo MODMERGE="replace" name="ammo.laser.lasercellmk1" type="energy" damage="30" mitigation="0">
-				<Projectile spectre="projectiles/laserred/lightlaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laserred/lightlaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/laserredexplode/laserexplode"/>
 			</Ammo>
 		</Ammos>
@@ -518,7 +518,7 @@
 		<GroundImage name="grounditemimages/laser_carbine.png"/>
 		<Ammos>
 			<Ammo name="ammo.laser.lasercellmk1" type="energy" damage="10" stunDamage="8" mitigation="0" pelletCount="4">
-				<Projectile spectre="projectiles/laserred/lightlaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laserred/lightlaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/laserredexplode/laserexplode"/>
 			</Ammo>
 		</Ammos>
@@ -535,7 +535,7 @@
 		<GroundImage name="grounditemimages/laser_rifle.png"/>
 		<Ammos>
 			<Ammo  name="ammo.laser.lasercellmk1" type="energy" damage="35" mitigation="0">
-				<Projectile spectre="projectiles/laserred/laser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laserred/laser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/laserredexplode/laserexplode"/>
 			</Ammo>
 		</Ammos>
@@ -553,7 +553,7 @@
 		<GroundImage name="grounditemimages/laser_precision.png"/>
 		<Ammos>
 			<Ammo name="ammo.laser.laserbatterymk1" type="energy" damage="70" stunDamage="0" mitigation="10" >
-				<Projectile spectre="projectiles/laserred/heavylaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laserred/heavylaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_s_yellowlaser/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -570,7 +570,7 @@
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
 		<Ammos>
 			<Ammo  name="ammo.laser.laserbatterymk1" type="energy" damage="105" mitigation="0" >
-				<Projectile spectre="projectiles/laserred/heavylaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laserred/heavylaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_mm_yellowlaser/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -583,7 +583,7 @@
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
 		<Ammos>
 			<Ammo name="ammo.laser.minigunbatterymk1" type="energy" damage="15" mitigation="0">
-				<Projectile spectre="projectiles/laserred/lightlaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laserred/lightlaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/laserredexplode/laserexplode"/>
 			</Ammo>
 		</Ammos>
@@ -603,7 +603,7 @@
 		<GroundImage name="grounditemimages/laser_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.laser.lasercellmk2" type="energy" damage="30" mitigation="5">
-				<Projectile spectre="projectiles/laseryellow/lightlaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laseryellow/lightlaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/laseryellowexplode/laserexplode"/>
 			</Ammo>
 		</Ammos>
@@ -617,7 +617,7 @@
 		<GroundImage name="grounditemimages/laser_carbine.png"/>
 		<Ammos>
 			<Ammo name="ammo.laser.lasercellmk2" type="energy" damage="10" stunDamage="8" mitigation="0" pelletCount="4">
-				<Projectile spectre="projectiles/laseryellow/lightlaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laseryellow/lightlaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/laseryellowexplode/laserexplode"/>
 			</Ammo>
 		</Ammos>
@@ -634,7 +634,7 @@
 		<GroundImage name="grounditemimages/laser_rifle.png"/>
 		<Ammos>
 			<Ammo  name="ammo.laser.lasercellmk2" type="energy" damage="35" mitigation="10">
-				<Projectile spectre="projectiles/laseryellow/laser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laseryellow/laser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_mm_yellowlaser/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -652,7 +652,7 @@
 		<GroundImage name="grounditemimages/laser_precision.png"/>
 		<Ammos>
 			<Ammo name="ammo.laser.laserbatterymk2" type="energy" damage="75" stunDamage="0" mitigation="18" >
-				<Projectile spectre="projectiles/laseryellow/heavylaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laseryellow/heavylaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_mm_yellowlaser/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -669,7 +669,7 @@
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
 		<Ammos>
 			<Ammo  name="ammo.laser.laserbatterymk2" type="energy" damage="125" mitigation="0" >
-				<Projectile spectre="projectiles/laseryellow/heavylaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laseryellow/heavylaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_m_yellowlaser/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -682,7 +682,7 @@
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
 		<Ammos>
 			<Ammo name="ammo.laser.minigunbatterymk2" type="energy" damage="15" mitigation="5">
-				<Projectile spectre="projectiles/laseryellow/laser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laseryellow/laser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_s_yellowlaser/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -702,7 +702,7 @@
 		<GroundImage name="grounditemimages/laser_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.laser.lasercellmk3" type="energy" damage="33" mitigation="10">
-				<Projectile spectre="projectiles/laserblue/lightlaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laserblue/lightlaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_s_bluelaser/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -716,7 +716,7 @@
 		<GroundImage name="grounditemimages/laser_carbine.png"/>
 		<Ammos>
 			<Ammo name="ammo.laser.lasercellmk3" type="energy" damage="10" stunDamage="8" mitigation="0" pelletCount="4">
-				<Projectile spectre="projectiles/laserblue/lightlaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laserblue/lightlaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_s_bluelaser/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -733,7 +733,7 @@
 		<GroundImage name="grounditemimages/laser_rifle.png"/>
 		<Ammos>
 			<Ammo  name="ammo.laser.lasercellmk3" type="energy" damage="42" mitigation="10">
-				<Projectile spectre="projectiles/laserblue/laser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laserblue/laser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_m_bluelaser/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -751,7 +751,7 @@
 		<GroundImage name="grounditemimages/laser_precision.png"/>
 		<Ammos>
 			<Ammo name="ammo.laser.laserbatterymk3" type="energy" damage="85" stunDamage="0" mitigation="32" >
-				<Projectile spectre="projectiles/laserblue/heavylaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laserblue/heavylaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_bluelaser/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -768,7 +768,7 @@
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
 		<Ammos>
 			<Ammo  name="ammo.laser.laserbatterymk3" type="energy" damage="80" mitigation="0" >
-				<Projectile spectre="projectiles/laserblue/heavylaser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laserblue/heavylaser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_bluelaser/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -781,7 +781,7 @@
 		<GroundImage name="grounditemimages/laser_heavy.png"/>
 		<Ammos>
 			<Ammo name="ammo.laser.minigunbatterymk3" type="energy" damage="15" mitigation="7">
-				<Projectile spectre="projectiles/laserblue/laser" speed="1400" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/laserblue/laser" speed="100000" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_m_bluelaser/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -801,7 +801,7 @@
 		<GroundImage name="grounditemimages/mag_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.clipmk1" type="kinetic" damage="45" mitigation="5">
-				<Projectile spectre="projectiles/bulletyellow/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/bulletyellow/bullet" speed="4100" showAfterDistance="80.0"/>
 				<Impact spectre="particles/bulletplume/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -817,14 +817,14 @@
 		<GroundImage name="grounditemimages/mag_rifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.magazinemk1" type="kinetic" damage="50" mitigation="5">
-				<Projectile spectre="projectiles/bulletyellow/bullet" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplume/bulletplume"/>
+				<Projectile spectre="projectiles/bulletyellow/bullet" speed="5500" showAfterDistance="80.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="weapon.MAGcarbine" bulletType="normal" emptySound="Empty Click 1">
-		<props range="3" hands="2" recoil="65" weight="6" isHeavy="0" clipSize="8" reloadAPCost="25" reloadSound="Weapon Shotgun Reload" reactionModifier="2.0" />
+		<props range="3" hands="2" recoil="65" weight="6" isHeavy="0" clipSize="4" reloadAPCost="25" reloadSound="Weapon Shotgun Reload" reactionModifier="2.0" />
 		<SingleShot sound="Weapon Shotgun Single" delay="0.6" suppressionValue="14" suppressionRadius="1.5">
 			<Set1 ap="18" accuracy="25" />
 		</SingleShot>
@@ -833,7 +833,7 @@
 		<GroundImage name="grounditemimages/mag_carbine.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.magazinemk1" type="kinetic" damage="14" mitigation="0" pelletCount="10" stunDamage="11" >
-				<Projectile spectre="projectiles/bulletyellow/bullet" speed="1600" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/bulletyellow/bullet" speed="3890" showAfterDistance="80.0"/>
 				<Impact spectre="particles/bulletplume/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -850,8 +850,8 @@
 		<GroundImage name="grounditemimages/mag_precision.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.magazinemk1" type="kinetic" damage="75" mitigation="17" isHypervelocity="0" >
-				<Projectile spectre="projectiles/bulletyellow/bullet" speed="1700" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplume/bulletplume"/>
+				<Projectile spectre="projectiles/bulletyellow/bullet" speed="5250" showAfterDistance="80.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -864,8 +864,8 @@
 		<GroundImage name="grounditemimages/mag_heavy.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.heavymagazinemk1" type="kinetic" damage="40" mitigation="5">
-				<Projectile spectre="projectiles/magbullet/bullet" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplume/bulletplume"/>
+				<Projectile spectre="projectiles/magbullet/bullet" speed="5100" showAfterDistance="80.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -877,8 +877,8 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.minigunammomk1" type="kinetic" damage="15" mitigation="3">
-				<Projectile spectre="projectiles/bulletyellow/bullet" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplume/bulletplume"/>
+				<Projectile spectre="projectiles/bulletyellow/bullet" speed="4900" showAfterDistance="80.0"/>
+				<Impact spectre="particles/BP_yellow/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -898,7 +898,7 @@
 		<GroundImage name="grounditemimages/mag_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.clipmk2" type="kinetic" damage="55" mitigation="15">
-				<Projectile spectre="projectiles/bulletred/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/bulletred/bullet" speed="4100" showAfterDistance="80.0"/>
 				<Impact spectre="particles/bulletplumered/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -914,14 +914,14 @@
 		<GroundImage name="grounditemimages/mag_rifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.magazinemk2" type="kinetic" damage="60" mitigation="15">
-				<Projectile spectre="projectiles/bulletred/bullet" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplumered/bulletplume"/>
+				<Projectile spectre="projectiles/bulletred/bullet" speed="5500" showAfterDistance="80.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.MAGcarbinemk2" bulletType="normal" emptySound="Empty Click 1">
-		<props range="3" hands="2" recoil="65" weight="6" isHeavy="0" clipSize="10" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="2.0" />
+		<props range="3" hands="2" recoil="65" weight="6" isHeavy="0" clipSize="6" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="2.0" />
 		<SingleShot sound="Weapon Shotgun Single" delay="0.6" suppressionValue="14" suppressionRadius="1.5">
 			<Set1 ap="18" accuracy="35" />
 		</SingleShot>
@@ -930,7 +930,7 @@
 		<GroundImage name="grounditemimages/mag_carbine.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.magazinemk2" type="kinetic" damage="14" mitigation="0" pelletCount="12" stunDamage="11" >
-				<Projectile spectre="projectiles/bulletred/bullet" speed="1600" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/bulletred/bullet" speed="3890" showAfterDistance="80.0"/>
 				<Impact spectre="particles/bulletplumered/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -947,8 +947,8 @@
 		<GroundImage name="grounditemimages/mag_precision.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.magazinemk2" type="kinetic" damage="90" mitigation="25" isHypervelocity="0" >
-				<Projectile spectre="projectiles/bulletred/bullet" speed="1700" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplumered/bulletplume"/>
+				<Projectile spectre="projectiles/bulletred/bullet" speed="5250" showAfterDistance="80.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -961,8 +961,8 @@
 		<GroundImage name="grounditemimages/mag_heavy.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.heavymagazinemk2" type="kinetic" damage="50" mitigation="15">
-				<Projectile spectre="projectiles/bulletred/bullet" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplumered/bulletplume"/>
+				<Projectile spectre="projectiles/bulletred/bullet" speed="5100" showAfterDistance="80.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -974,8 +974,8 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.minigunammomk2" type="kinetic" damage="20" mitigation="8">
-				<Projectile spectre="projectiles/bulletred/bullet" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplumered/bulletplume"/>
+				<Projectile spectre="projectiles/bulletred/bullet" speed="4900" showAfterDistance="60.0"/>
+				<Impact spectre="particles/BP_red/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -994,7 +994,7 @@
 		<GroundImage name="grounditemimages/mag_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.clipmk3" type="kinetic" damage="60" mitigation="25">
-				<Projectile spectre="projectiles/bulletblue/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/bulletblue/bullet" speed="4100" showAfterDistance="80.0"/>
 				<Impact spectre="particles/bulletplumeblue/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -1010,14 +1010,14 @@
 		<GroundImage name="grounditemimages/mag_rifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.magazinemk3" type="kinetic" damage="65" mitigation="25">
-				<Projectile spectre="projectiles/bulletblue/bullet" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplumeblue/bulletplume"/>
+				<Projectile spectre="projectiles/bulletblue/bullet" speed="5500" showAfterDistance="80.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.MAGcarbinemk3" bulletType="normal" emptySound="Empty Click 1">
-		<props range="4" hands="2" recoil="65" weight="6" isHeavy="0" clipSize="12" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="2.0" />
+		<props range="4" hands="2" recoil="65" weight="6" isHeavy="0" clipSize="8" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="2.0" />
 		<SingleShot sound="Weapon Shotgun Single" delay="0.6" suppressionValue="14" suppressionRadius="1.5">
 			<Set1 ap="18" accuracy="35" />
 		</SingleShot>
@@ -1026,7 +1026,7 @@
 		<GroundImage name="grounditemimages/mag_carbine.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.magazinemk3" type="kinetic" damage="14" mitigation="0" pelletCount="14" stunDamage="11" >
-				<Projectile spectre="projectiles/bulletblue/bullet" speed="1600" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/bulletblue/bullet" speed="3890" showAfterDistance="80.0"/>
 				<Impact spectre="particles/bulletplumeblue/bulletplume"/>
 			</Ammo>
 		</Ammos>
@@ -1043,8 +1043,8 @@
 		<GroundImage name="grounditemimages/mag_precision.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.magazinemk3" type="kinetic" damage="100" mitigation="35" isHypervelocity="0" >
-				<Projectile spectre="projectiles/bulletblue/bullet" speed="1700" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplumeblue/bulletplume"/>
+				<Projectile spectre="projectiles/bulletblue/bullet" speed="5250" showAfterDistance="80.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1057,8 +1057,8 @@
 		<GroundImage name="grounditemimages/mag_heavy.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.heavymagazinemk3" type="kinetic" damage="55" mitigation="25">
-				<Projectile spectre="projectiles/bulletblue/bullet" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplumeblue/bulletplume"/>
+				<Projectile spectre="projectiles/bulletblue/bullet" speed="5100" showAfterDistance="80.0"/>
+				<Impact spectre="particles/bp_l_ballistic/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1070,8 +1070,8 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.MAG.minigunammomk3" type="kinetic" damage="21" mitigation="12">
-				<Projectile spectre="projectiles/bulletblue/bullet" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bulletplumeblue/bulletplume"/>
+				<Projectile spectre="projectiles/bulletblue/bullet" speed="4900" showAfterDistance="80.0"/>
+				<Impact spectre="particles/BP_blue/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1092,8 +1092,8 @@
 		<GroundImage name="grounditemimages/plasma_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.clipmk1" type="energy" damage="65" mitigation="0">
-				<Projectile spectre="projectiles/plasmawhite/plasma" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/alienlaserexplode/alienlaserexplode"/>
+				<Projectile spectre="projectiles/plasmawhitepistol/plasma" speed="900" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhuman/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1109,8 +1109,8 @@
 		<GroundImage name="grounditemimages/plasma_rifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.magazinemk1" type="energy" damage="75" mitigation="0">
-				<Projectile spectre="projectiles/plasmawhite/plasma" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/alienlaserexplode/alienlaserexplode"/>
+				<Projectile spectre="projectiles/plasmawhite/plasma" speed="1200" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhuman/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1127,8 +1127,8 @@
 		<GroundImage name="grounditemimages/plasma_precision.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.magazinemk1" type="energy" damage="150" mitigation="10" isHypervelocity="0">
-				<Projectile spectre="projectiles/plasmawhite/heavyplasma" speed="1200" showAfterDistance="60.0"/>
-				<Impact spectre="particles/alienlaserexplode/alienlaserexplode"/>
+				<Projectile spectre="projectiles/plasmawhite/heavyplasma" speed="1800" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhuman/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1141,8 +1141,8 @@
 		<GroundImage name="grounditemimages/plasma_heavy.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.heavymagazinemk1" type="energy" damage="65" mitigation="0">
-				<Projectile spectre="projectiles/plasmawhite/plasma" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/alienlaserexplode/alienlaserexplode"/>
+				<Projectile spectre="projectiles/plasmawhite/heavyplasma" speed="1250" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhuman/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1158,8 +1158,8 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.heavymagazinemk1" type="energy" damage="100" mitigation="0">
-				<Projectile spectre="projectiles/plasmawhite/heavyplasma" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/plasmacannonexplosionwhite/plasmacannonexplosion" radius="1" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
+				<Projectile spectre="projectiles/plasmawhite/heavyplasma" speed="1050" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhumancannon/bulletplume" radius="1" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1179,8 +1179,8 @@
 		<GroundImage name="grounditemimages/plasma_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.clipmk2" type="energy" damage="75" mitigation="0">
-				<Projectile spectre="projectiles/plasmayellow/plasma" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laseryellowexplode/laserexplode"/>
+				<Projectile spectre="projectiles/plasmayellowpistol/plasma" speed="900" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhuman2/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1196,8 +1196,8 @@
 		<GroundImage name="grounditemimages/plasma_rifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.magazinemk2" type="energy" damage="90" mitigation="0">
-				<Projectile spectre="projectiles/plasmayellow/plasma" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laseryellowexplode/laserexplode"/>
+				<Projectile spectre="projectiles/plasmayellow/plasma" speed="1200" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhuman2/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1214,8 +1214,8 @@
 		<GroundImage name="grounditemimages/plasma_precision.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.magazinemk2" type="energy" damage="180" mitigation="10" isHypervelocity="0">
-				<Projectile spectre="projectiles/plasmayellow/heavyplasma" speed="1200" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laseryellowexplode/laserexplode"/>
+				<Projectile spectre="projectiles/plasmayellow/heavyplasma" speed="1800" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhuman2/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1228,8 +1228,8 @@
 		<GroundImage name="grounditemimages/plasma_heavy.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.heavymagazinemk2" type="energy" damage="75" mitigation="0">
-				<Projectile spectre="projectiles/plasmayellow/heavyplasma" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laseryellowexplode/laserexplode"/>
+				<Projectile spectre="projectiles/plasmayellow/heavyplasma" speed="1250" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhuman2/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1245,8 +1245,8 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.heavymagazinemk2" type="energy" damage="120" mitigation="0">
-				<Projectile spectre="projectiles/plasmayellow/heavyplasma" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/plasmacannonexplosionyellow/plasmacannonexplosion" radius="1.5" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
+				<Projectile spectre="projectiles/plasmayellow/heavyplasma" speed="1050" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhumancannon2/bulletplume" radius="1.5" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
 	</Weapon>	
@@ -1266,8 +1266,8 @@
 		<GroundImage name="grounditemimages/plasma_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.clipmk3" type="energy" damage="95" mitigation="0">
-				<Projectile spectre="projectiles/plasmablue/plasma" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laserblueexplode/laserexplode"/>
+				<Projectile spectre="projectiles/plasmabluepistol/plasma" speed="900" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhuman3/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1283,8 +1283,8 @@
 		<GroundImage name="grounditemimages/plasma_rifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.magazinemk3" type="energy" damage="110" mitigation="0">
-				<Projectile spectre="projectiles/plasmablue/plasma" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laserblueexplode/laserexplode"/>
+				<Projectile spectre="projectiles/plasmablue/plasma" speed="1200" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhuman3/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1301,8 +1301,8 @@
 		<GroundImage name="grounditemimages/plasma_precision.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.magazinemk3" type="energy" damage="220" mitigation="10" isHypervelocity="0">
-				<Projectile spectre="projectiles/plasmablue/heavyplasma" speed="1200" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laserblueexplode/laserexplode"/>
+				<Projectile spectre="projectiles/plasmablue/heavyplasma" speed="1800" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhuman3/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1315,8 +1315,8 @@
 		<GroundImage name="grounditemimages/plasma_heavy.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.heavymagazinemk3" type="energy" damage="95" mitigation="0">
-				<Projectile spectre="projectiles/plasmablue/heavyplasma" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laserblueexplode/laserexplode"/>
+				<Projectile spectre="projectiles/plasmablue/heavyplasma" speed="1250" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhuman3/bulletplume"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -1332,8 +1332,8 @@
 		<GroundImage name="grounditemimages/ballistic_machinegun.png"/>
 		<Ammos>
 			<Ammo name="ammo.plasma.heavymagazinemk3" type="energy" damage="140" mitigation="0">
-				<Projectile spectre="projectiles/plasmablue/plasma" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/plasmacannonexplosionblue/plasmacannonexplosion" radius="1.5" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
+				<Projectile spectre="projectiles/plasmablue/plasma" speed="1050" showAfterDistance="60.0"/>
+				<Impact spectre="particles/plasmaexplosionhumancannon3/bulletplume" radius="1.5" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="15" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
 	</Weapon>	
@@ -3298,7 +3298,7 @@
 		<Ammos>
 			<Ammo MODMERGE="update" name="ammo.none" type="incendiary" damage="165" mitigation="0" isOverdamage="1">
 				<Projectile spectre="projectiles/grenades/grenade_fusion" speed="1000" />
-				<Impact spectre="particles/fusiongrenade/small_explosion" radius="2.5" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/fusiongrenade2/small_explosion" radius="2.5" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
 	</Weapon>	
@@ -3314,7 +3314,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="incendiary" damage="200" mitigation="20" isOverdamage="1">
 				<Projectile spectre="projectiles/grenades/grenade_fusion" speed="1000" />
-				<Impact spectre="particles/fusiongrenade/small_explosion" radius="3.5" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/fusiongrenade2/small_explosion" radius="3.5" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
 	</Weapon>	
@@ -3362,7 +3362,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="incendiary" damage="220" mitigation="0" isOverdamage="1">
 				<Projectile spectre="projectiles/grenades/grenade_fusion" speed="1000" />
-				<Impact spectre="particles/singulargrenade/small_explosion" radius="3" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/singulargrenade2/plasmacannonexplosion" radius="3" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
 	</Weapon>	
@@ -3378,7 +3378,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="incendiary" damage="300" mitigation="0" isOverdamage="1">
 				<Projectile spectre="projectiles/grenades/grenade_fusion" speed="1000" />
-				<Impact spectre="particles/singulargrenade/small_explosion" radius="4" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/singulargrenade3/plasmacannonexplosion" radius="4" fireChance="15" smokeChance="30" sound="Weapon Fusion Grenade" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
 	</Weapon>	
@@ -3394,7 +3394,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="incendiary" damage="660" stunDamage="0" mitigation="20" isOverdamage="1">
 				<Projectile spectre="projectiles/grenades/grenade_plasmacharge" speed="1000" />
-				<Impact spectre="particles/singularexplosion/singularexplosion" radius="6" sound="Weapon Huge Explosion" fireChance="5" smokeChance="90" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/singularexplosion2/plasmacannonexplosion" radius="6" sound="Weapon Huge Explosion" fireChance="5" smokeChance="90" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -3410,7 +3410,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="incendiary" damage="1400" stunDamage="0" mitigation="20" isOverdamage="1">
 				<Projectile spectre="projectiles/grenades/grenade_plasmacharge" speed="1000" />
-				<Impact spectre="particles/singularexplosion/singularexplosion" radius="3" sound="Weapon Huge Explosion" fireChance="5" smokeChance="90" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/singularexplosion3/plasmacannonexplosion" radius="3" sound="Weapon Huge Explosion" fireChance="5" smokeChance="90" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -3494,7 +3494,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="chemical" damage="5" stunDamage="10" mitigation="5" isOverdamage="0">
 				<Projectile spectre="projectiles/grenades/grenade_stun" speed="1500" />
-				<Impact spectre="particles/stungrenade/stun_explosion" radius="3" sound="Weapon Gas Grenade" fireChance="0" smokeChance="75" gasType="HmnStunGas" />
+				<Impact spectre="particles/stunexplosion/bulletplume" radius="3" sound="Weapon Gas Grenade" fireChance="0" smokeChance="75" gasType="HmnStunGas" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -3510,7 +3510,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="chemical" damage="5" stunDamage="10" mitigation="5" isOverdamage="0" dontDetonateExplosives="1">
 				<Projectile spectre="projectiles/grenades/grenade_stun" speed="1500" />
-				<Impact spectre="particles/stungrenade/stun_explosion" radius="3" sound="Weapon Gas Grenade" fireChance="0" smokeChance="80" gasType="HmnAdvStunGas" />
+				<Impact spectre="particles/stunexplosion2/bulletplume" radius="3" sound="Weapon Gas Grenade" fireChance="0" smokeChance="80" gasType="HmnAdvStunGas" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -3526,7 +3526,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="chemical" damage="5" stunDamage="10" mitigation="5" isOverdamage="0" dontDetonateExplosives="1">
 				<Projectile spectre="projectiles/grenades/grenade_stun" speed="1500" />
-				<Impact spectre="particles/stungrenade/stun_explosion" radius="3.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="80" gasType="HmnHvyStunGas" />
+				<Impact spectre="particles/stunexplosion3/bulletplume" radius="3.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="80" gasType="HmnHvyStunGas" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -3542,7 +3542,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="chemical" damage="5" stunDamage="10" mitigation="5" isOverdamage="0" dontDetonateExplosives="1">
 				<Projectile spectre="projectiles/grenades/grenade_stun" speed="1500" />
-				<Impact spectre="particles/stungrenade/stun_explosion" radius="3.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="80" gasType="HmnExStunGas" />
+				<Impact spectre="particles/stunexplosion4/bulletplume" radius="3.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="80" gasType="HmnExStunGas" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -3784,11 +3784,11 @@
 			</Ammo>
 			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.singular" type="incendiary" damage="440" stunDamage="0" mitigation="25" isOverdamage="1" disableDamageScaling="1">
 				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/plasmaexplosionbig/singularexplosion" radius="4" sound="Weapon Huge Explosion" fireChance="35" smokeChance="50" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/singulargrenade3/plasmacannonexplosion" radius="4" sound="Weapon Huge Explosion" fireChance="35" smokeChance="50" gasType="GrenadeFragSmoke" />
 			</Ammo>
 			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.singularupg" type="incendiary" damage="850" stunDamage="0" mitigation="100" isOverdamage="1" disableDamageScaling="0">
 				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/plasmaexplosionbig/singularexplosion" radius="1" sound="Weapon Huge Explosion" fireChance="35" smokeChance="50" gasType="GrenadeFragSmoke" />
+				<Impact spectre="particles/singularexplosion4/plasmacannonexplosion" radius="1" sound="Weapon Huge Explosion" fireChance="35" smokeChance="50" gasType="GrenadeFragSmoke" />
 			</Ammo>
 			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.rocket.stun" type="chemical" damage="5" stunDamage="60" mitigation="10" disableDamageScaling="1">
 				<Projectile spectre="projectiles/rocket" speed="1000" showAfterDistance="60.0"/>
@@ -3808,19 +3808,19 @@
 			</Ammo>
 			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.chemical" type="chemical" damage="100" stunDamage="5" mitigation="20" isOverdamage="1">
 				<Projectile spectre="projectiles/rocket" speed="1000"/>
-				<Impact spectre="particles/chemicalexplosion/chemicalexplosion" radius="3.5" sound="Weapon Gas Grenade" fireChance="20" smokeChance="75" gasType="ChemicalGas" />
+				<Impact spectre="particles/chemicalrocketexplosion/xplasmacannonexplosion" radius="3.5" sound="Weapon Gas Grenade" fireChance="20" smokeChance="75" gasType="ChemicalGas" />
 			</Ammo>
 			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.advchemical" type="chemical" damage="140" stunDamage="0" mitigation="30" isOverdamage="1">
 				<Projectile spectre="projectiles/rocket" speed="1000"/>
-				<Impact spectre="particles/chemicalexplosion/chemicalexplosion" radius="3.5" sound="Weapon Gas Grenade" fireChance="25" smokeChance="85" gasType="AdvChemicalGas" />
+				<Impact spectre="particles/chemicalrocketexplosion/xplasmacannonexplosion" radius="3.5" sound="Weapon Gas Grenade" fireChance="25" smokeChance="85" gasType="AdvChemicalGas" />
 			</Ammo>
 			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.hvychemical" type="chemical" damage="190" stunDamage="0" mitigation="45" isOverdamage="1">
 				<Projectile spectre="projectiles/rocket" speed="1000"/>
-				<Impact spectre="particles/chemicalexplosion/chemicalexplosion" radius="4" sound="Weapon Gas Grenade" fireChance="10" smokeChance="95" gasType="HvyChemicalGas" />
+				<Impact spectre="particles/chemicalrocketexplosion/xplasmacannonexplosion" radius="4" sound="Weapon Gas Grenade" fireChance="10" smokeChance="95" gasType="HvyChemicalGas" />
 			</Ammo>
 			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.exchemical" type="chemical" damage="250" stunDamage="0" mitigation="60" isOverdamage="1">
 				<Projectile spectre="projectiles/rocket" speed="1000"/>
-				<Impact spectre="particles/chemicalexplosion/chemicalexplosion" radius="4.5" sound="Weapon Gas Grenade" fireChance="10" smokeChance="95" gasType="ExChemicalGas" />
+				<Impact spectre="particles/chemicalrocketexplosion/xplasmacannonexplosion" radius="4.5" sound="Weapon Gas Grenade" fireChance="10" smokeChance="95" gasType="ExChemicalGas" />
 			</Ammo>
 			<Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.rocket.shock" type="energy" damage="5" stunDamage="160" empDamage="200" mitigation="15" isOverdamage="1">
 				<Projectile spectre="projectiles/rocket" speed="1000"/>
@@ -4300,7 +4300,7 @@
     <GroundImage name="grounditemimages/alien_pistol.png"/>
     <Ammos>
       <Ammo name="ammo.phasercell" type="energy" damage="40" stunDamage="0" mitigation="0">
-			<Projectile spectre="projectiles/laserred/lightlaser" speed="1400" showAfterDistance="60.0"/>
+			<Projectile spectre="projectiles/alienhphaser/laser_e" speed="1250" showAfterDistance="60.0"/>
 			<Impact spectre="particles/bp_s_redlaser/bulletplume"/>
       </Ammo>
     </Ammos>
@@ -4317,7 +4317,7 @@
     <GroundImage name="grounditemimages/alien_rifle.png"/>
     <Ammos>
       <Ammo name="ammo.phasercell" type="energy" damage="45" stunDamage="0" mitigation="0">
-        <Projectile spectre="projectiles/laserred/laser" speed="1400" showAfterDistance="60.0"/>
+        <Projectile spectre="projectiles/alienhphaser/laser_e" speed="2500" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_mm_redlaser/bulletplume"/>
       </Ammo>
     </Ammos>
@@ -4326,12 +4326,12 @@
   <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienPhaserHeavy" bulletType="normal" emptySound="Empty Click 1">
     <props range="14" hands="1" recoil="0" weight="10" clipSize="18" reloadAPCost="60" reloadSound="Weapon Assault Rifle Reload" reactionModifier="0.2" isAlien="1" infiniteAlienAmmo="1" />
     <SingleShot />
-    <BurstFire ap="55" accuracy="40" sound="Weapon Phaser Rifle Heavy" shotCount="6" delay="1" burstdelay="0.2" suppressionValue="41" suppressionRadius="2" />
+    <BurstFire ap="55" accuracy="40" sound="Weapon Phaser Heavy Burst" shotCount="6" delay="1" burstdelay="0.2" suppressionValue="41" suppressionRadius="2" />
     <GUIImage name="gui/weapons/Phaser/AlienPhaserHeavy.png"/>
     <GroundImage name="grounditemimages/alien_heavyrifle.png"/>
     <Ammos>
       <Ammo name="ammo.phasercell" type="energy" damage="30" stunDamage="0" mitigation="0" >
-        <Projectile spectre="projectiles/laserred/heavylaser" speed="1400" showAfterDistance="60.0"/>
+        <Projectile spectre="projectiles/alienhphaser/laser_e" speed="2300" showAfterDistance="60.0"/>
         <Impact spectre="particles/bp_m_redlaser/bulletplume"/>
       </Ammo>
     </Ammos>
@@ -4350,8 +4350,8 @@
 		<GroundImage name="grounditemimages/laser_pistol.png"/>
 		<Ammos>
 			<Ammo name="ammo.Lightningcell" type="energy" damage="5" stunDamage="55" empDamage="75" mitigation="0"  >
-				<Projectile spectre="projectiles/lightning_red/smalllightning" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laserexplode/laserexplode"/>
+				<Projectile spectre="projectiles/lightning_red/lightning" speed="1350" showAfterDistance="60.0"/>
+				<Impact spectre="particles/lightningexplode/laserexplode"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -4367,8 +4367,8 @@
 		<GroundImage name="grounditemimages/laser_rifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.Lightningcell" type="energy" damage="5" stunDamage="60"  empDamage="75" mitigation="0" >
-				<Projectile spectre="projectiles/lightning_red/smalllightning" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laserexplode/laserexplode"/>
+				<Projectile spectre="projectiles/lightning_red/lightning" speed="2600" showAfterDistance="60.0"/>
+				<Impact spectre="particles/lightningexplode/laserexplode"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -4384,8 +4384,8 @@
 		<GroundImage name="grounditemimages/laser_rifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.Lightningcell" type="energy" damage="5" stunDamage="80" mitigation="0" empDamage="100" >
-				<Projectile spectre="projectiles/lightning_red/lightning" speed="1500" showAfterDistance="60.0"/>
-				<Impact spectre="particles/bp_lightning_red/bulletplume"/>
+				<Projectile spectre="projectiles/lightning_red/lightning" speed="2800" showAfterDistance="60.0"/>
+				<Impact spectre="particles/lightningexplode/laserexplode"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -4394,14 +4394,14 @@
     <props range="16" hands="1" recoil="55" weight="8"  clipSize="2" isHeavy="1" reloadAPCost="25" reloadSound="Weapon Laser Reload" reactionModifier="0.2" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon Lightning Cannon Single" delay="0.6" suppressionValue="11" suppressionRadius="2">
 			<Set1 ap="55" accuracy="50" />
-			<Set1 ap="75" accuracy="80" />
+			<Set2 ap="75" accuracy="80" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/lightning/AlienLightningCannon.png"/>
 		<GroundImage name="grounditemimages/laser_rifle.png"/>
 		<Ammos>
 			<Ammo name="ammo.Lightningcell" type="energy" damage="5" stunDamage="80" mitigation="0" empDamage="120" >
-				<Projectile spectre="projectiles/lightning_red/largelightning" speed="1500" showAfterDistance="60.0"/>
+				<Projectile spectre="projectiles/elecred/elec" speed="1800" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bp_l_cannonenergy_red/bulletplume" radius="2" sound="Weapon Shock Grenade" fireChance="0" smokeChance="0" gasType="GrenadeFragSmoke" />
 			</Ammo>
 		</Ammos>
@@ -4421,7 +4421,7 @@
     <GroundImage name="grounditemimages/mag_pistol.png"/>
     <Ammos>
       <Ammo name="ammo.Ballisticclip" type="kinetic" damage="40" stunDamage="0" mitigation="5" >
-        <Projectile spectre="projectiles/magbullet/bullet" speed="1300" showAfterDistance="60.0"/>        
+        <Projectile spectre="projectiles/magbullet/bullet" speed="1150" showAfterDistance="60.0"/>        
         <Impact spectre="particles/bulletplume/bulletplume"/>
       </Ammo>
     </Ammos>
@@ -4433,12 +4433,12 @@
 			<Set1 ap="23" accuracy="50" />
 			<Set2 ap="45" accuracy="75" />
     </SingleShot>
-    <BurstFire ap="36" accuracy="55" sound="Weapon Assault Rifle Burst" shotCount="3" delay="0.6" burstdelay="0.1" suppressionValue="21" suppressionRadius="1.5" />
+    <BurstFire ap="36" accuracy="55" sound="Weapon Assault Rifle Burst" shotCount="3" delay="0.6" burstdelay="0.6" suppressionValue="21" suppressionRadius="1.5" />
     <GUIImage name="gui/weapons/Ballistic/AlienBallisticRifle.png"/>
     <GroundImage name="grounditemimages/mag_rifle.png"/>
     <Ammos>
       <Ammo name="ammo.Ballisticclip" type="kinetic" damage="45" stunDamage="0" mitigation="5" >
-        <Projectile spectre="projectiles/magbullet/bullet" speed="1300" showAfterDistance="60.0"/>        
+        <Projectile spectre="projectiles/magbullet/bullet" speed="3050" showAfterDistance="60.0"/>        
         <Impact spectre="particles/bp_m_ballistic/bulletplume"/>
       </Ammo>
     </Ammos>
@@ -4455,7 +4455,7 @@
     <GroundImage name="grounditemimages/mag_precision.png"/>
     <Ammos>
       <Ammo name="ammo.Ballisticclip" type="kinetic" damage="60" stunDamage="0" mitigation="5" >
-        <Projectile spectre="projectiles/magbullet/bullet" speed="1600" showAfterDistance="60.0"/>        
+        <Projectile spectre="projectiles/magbullet/bullet" speed="2748" showAfterDistance="60.0"/>        
         <Impact spectre="particles/bp_l_ballistic/bulletplume"/>
       </Ammo>
     </Ammos>
@@ -4468,7 +4468,7 @@
     <GroundImage name="grounditemimages/mag_heavy.png"/>
     <Ammos>
       <Ammo name="ammo.Ballisticclip" type="kinetic" damage="35"  stunDamage="0" mitigation="5" >
-        <Projectile spectre="projectiles/magbullet/bullet" speed="1500" showAfterDistance="60.0"/>        
+        <Projectile spectre="projectiles/magbullet/bullet" speed="2656" showAfterDistance="60.0"/>        
         <Impact spectre="particles/bp_l_ballistic/bulletplume"/>
       </Ammo>
     </Ammos>
@@ -4484,7 +4484,7 @@
     <GroundImage name="grounditemimages/alien_heavyrifle.png"/>
     <Ammos>
       <Ammo name="ammo.Ballisticclip" type="kinetic" damage="45" mitigation="5" >
-        <Projectile spectre="projectiles/magbullet/bullet" speed="1500" showAfterDistance="60.0"/>        
+        <Projectile spectre="projectiles/magbullet/bullet" speed="1200" showAfterDistance="60.0"/>        
         <Impact spectre="particles/bp_l_cannon/bulletplume" radius="1.5" fireChance="20" smokeChance="60" gasType="TerrainExplosiveSmoke"/>
       </Ammo>
     </Ammos>
@@ -4497,7 +4497,7 @@
     <GroundImage name="grounditemimages/mag_heavy.png"/>
     <Ammos>
       <Ammo name="ammo.Ballisticclip" type="kinetic" damage="20"  stunDamage="0" mitigation="5" >
-        <Projectile spectre="projectiles/magbullet/bullet" speed="1500" showAfterDistance="60.0"/>        
+        <Projectile spectre="projectiles/magbullet/bullet" speed="2556" showAfterDistance="60.0"/>        
         <Impact spectre="particles/bp_m_ballistic/bulletplume"/>
       </Ammo>
     </Ammos>
@@ -4518,7 +4518,7 @@
     <GroundImage name="grounditemimages/alien_pistol.png"/>
     <Ammos>
       <Ammo name="ammo.Flamecell" type="incendiary"  damage="40" mitigation="0" >
-        <Projectile spectre="projectiles/fireball/fireball" speed="1200" showAfterDistance="60.0"/>        
+        <Projectile spectre="projectiles/fireball/fireball" speed="1050" showAfterDistance="60.0"/>        
         <Impact spectre="particles/bp_fire/bulletplume" radius="0.5" fireChance="50" smokeChance="75" gasType="TerrainExplosiveSmoke"/>
       </Ammo>
     </Ammos>
@@ -4537,7 +4537,7 @@
     <GroundImage name="grounditemimages/alien_rifle.png"/>
     <Ammos>
       <Ammo name="ammo.Flamecell" type="incendiary" damage="45" stunDamage="0" mitigation="0" >
-        <Projectile spectre="projectiles/fireball/fireball" speed="1200" showAfterDistance="60.0"/>        
+        <Projectile spectre="projectiles/fireball/fireball" speed="1400" showAfterDistance="60.0"/>        
         <Impact spectre="particles/bp_fire/bulletplume" radius="0.5" fireChance="75" smokeChance="80" gasType="TerrainExplosiveSmoke"/>
       </Ammo>
     </Ammos>
@@ -4553,8 +4553,8 @@
     <GroundImage name="grounditemimages/alien_heavyrifle.png"/>
     <Ammos>
       <Ammo name="ammo.Flamecell" type="incendiary" damage="45" mitigation="0" >
-        <Projectile spectre="projectiles/fireball/fireball" speed="1200" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/bp_cannon/bulletplume" radius="2" fireChance="90" smokeChance="70" gasType="TerrainExplosiveSmoke"/>
+        <Projectile spectre="projectiles/fireball/fireball" speed="950" showAfterDistance="60.0"/>        
+        <Impact spectre="particles/bp_fire_cannon/bulletplume" radius="2" fireChance="90" smokeChance="70" gasType="TerrainExplosiveSmoke"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4567,7 +4567,7 @@
     <GroundImage name="grounditemimages/alien_heavyrifle.png"/>
     <Ammos>
       <Ammo name="ammo.Flamecell" type="incendiary" damage="35" mitigation="0" >
-        <Projectile spectre="projectiles/fireball/fireball" speed="1200" showAfterDistance="60.0"/>      
+        <Projectile spectre="projectiles/fireball/fireball" speed="1400" showAfterDistance="60.0"/>      
         <Impact spectre="particles/bp_fire/bulletplume" radius="1" fireChance="80" smokeChance="70" gasType="TerrainExplosiveSmoke"/>
       </Ammo>
     </Ammos>
@@ -4593,8 +4593,8 @@
     <GroundImage name="grounditemimages/alien_pistol.png"/>
     <Ammos>
       <Ammo name="ammo.alienplasmacell" type="energy" damage="55" stunDamage="0" mitigation="0">
-        <Projectile spectre="projectiles/plasmared/plasma" speed="1300" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/laserredexplode/laserexplode"/>
+        <Projectile spectre="projectiles/plasmaredpistol/plasma" speed="900" showAfterDistance="60.0"/>        
+        <Impact spectre="particles/plasmaexplosion/bulletplume"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4611,7 +4611,7 @@
     <Ammos>
       <Ammo name="ammo.alienplasmacell" type="energy" damage="45" mitigation="0" stunDamage="0" >
         <Projectile spectre="projectiles/plasmared/plasma" speed="1300" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/laserredexplode/laserexplode"/>
+        <Impact spectre="particles/plasmaexplosionrifle/bulletplume"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4628,7 +4628,7 @@
     <Ammos>
       <Ammo name="ammo.alienplasmacell" type="energy" damage="60" stunDamage="0" mitigation="0">
         <Projectile spectre="projectiles/plasmared/plasma" speed="1300" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/laserredexplode/laserexplode"/>
+        <Impact spectre="particles/plasmaexplosionrifle/bulletplume"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4642,7 +4642,7 @@
     <Ammos>
       <Ammo name="ammo.alienplasmacell" type="energy" damage="50" stunDamage="0" mitigation="30" >
         <Projectile spectre="projectiles/plasmared/plasma" speed="1300" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/laserredexplode/laserexplode"/>
+        <Impact spectre="particles/plasmaexplosionrifle/bulletplume"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4658,8 +4658,8 @@
     <GroundImage name="grounditemimages/alien_sniper.png"/>
     <Ammos>
       <Ammo name="ammo.alienplasmacell" type="energy" damage="80" stunDamage="0" mitigation="0" >
-        <Projectile spectre="projectiles/plasmared/heavyplasma" speed="1300" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/laserredexplode/laserexplode"/>
+        <Projectile spectre="projectiles/plasmaredprecision/plasma" speed="1900" showAfterDistance="60.0"/>        
+        <Impact spectre="particles/plasmaexplosionsniper/bulletplume"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4675,8 +4675,8 @@
     <GroundImage name="grounditemimages/alien_plasmacannon.png"/>
     <Ammos>
 	<Ammo name="ammo.alienplasmacell" type="energy" damage="60" stunDamage="0" mitigation="0" isOverdamage="0">
-        <Projectile spectre="projectiles/plasmared/heavyplasma" speed="1300" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/plasmacannonexplosionred/plasmacannonexplosion" radius="1.5" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="60" gasType="GrenadeFragSmoke" />
+        <Projectile spectre="projectiles/plasmared/heavyplasma" speed="1100" showAfterDistance="60.0"/>        
+        <Impact spectre="particles/plasmacannon/small_explosion" radius="1.5" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="60" gasType="GrenadeFragSmoke" />
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4692,8 +4692,8 @@
     <GroundImage name="grounditemimages/alien_battlerifle.png"/>
     <Ammos>
       <Ammo name="ammo.alienplasmacell" type="energy" damage="60" stunDamage="0" mitigation="10">
-        <Projectile spectre="projectiles/plasmared/heavyplasma" speed="1300" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/laserredexplode/laserexplode"/>
+        <Projectile spectre="projectiles/plasmared/heavyplasma" speed="1500" showAfterDistance="60.0"/>        
+        <Impact spectre="particles/plasmaexplosionsniper/bulletplume"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4711,8 +4711,8 @@
     <GroundImage name="grounditemimages/mag_pistol.png"/>
     <Ammos>
       <Ammo name="ammo.Matergyclip" type="kinetic" damage="55" stunDamage="0" mitigation="10" >
-        <Projectile spectre="projectiles/alienbullet/alienbullet" speed="1500" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/alienbulletplume/alienbulletplume"/>
+        <Projectile spectre="projectiles/alienbulletsmall/alienbullet" speed="1300" showAfterDistance="60.0"/>        
+        <Impact spectre="particles/matergysmall/bulletplume"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4728,8 +4728,8 @@
     <GroundImage name="grounditemimages/mag_carbine.png"/>
     <Ammos>
       <Ammo name="ammo.Matergyclip" type="kinetic" damage="55" stunDamage="0" mitigation="10" >
-        <Projectile spectre="projectiles/alienbullet/alienbullet" speed="1500" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/alienbulletplume/alienbulletplume"/>
+        <Projectile spectre="projectiles/alienbullet/alienbullet" speed="1400" showAfterDistance="60.0"/>        
+        <Impact spectre="particles/matergysmall/bulletplume"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4746,8 +4746,8 @@
     <GroundImage name="grounditemimages/mag_rifle.png"/>
     <Ammos>
       <Ammo name="ammo.Matergyclip" type="kinetic" damage="60" stunDamage="0" mitigation="10" >
-        <Projectile spectre="projectiles/alienbullet/alienbullet" speed="1500" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/alienbulletplume/alienbulletplume"/>
+        <Projectile spectre="projectiles/alienbullet/alienbullet" speed="3250" showAfterDistance="60.0"/>        
+        <Impact spectre="particles/matergysmall/bulletplume"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4763,8 +4763,8 @@
     <GroundImage name="grounditemimages/mag_precision.png"/>
     <Ammos>
       <Ammo name="ammo.Matergyclip" type="kinetic" damage="80" stunDamage="0" mitigation="10" >
-        <Projectile spectre="projectiles/alienbullet/alienbullet" speed="1500" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/alienbulletplume/alienbulletplume"/>
+        <Projectile spectre="projectiles/alienbulletsniper/alienbullet" speed="2948" showAfterDistance="60.0"/>        
+        <Impact spectre="particles/matergybig/bulletplume"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4776,8 +4776,8 @@
     <GroundImage name="grounditemimages/mag_heavy.png"/>
     <Ammos>
       <Ammo name="ammo.Matergymagazine" type="kinetic" damage="50"  stunDamage="0" mitigation="10" >
-        <Projectile spectre="projectiles/alienbullet/alienbullet" speed="1500" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/alienbulletplume/alienbulletplume"/>
+        <Projectile spectre="projectiles/alienbulletsniper/alienbullet" speed="2848" showAfterDistance="60.0"/>        
+        <Impact spectre="particles/matergysmall/bulletplume"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4789,13 +4789,13 @@
     <GroundImage name="grounditemimages/mag_heavy.png"/>
     <Ammos>
       <Ammo name="ammo.Matergymagazine" type="kinetic" damage="40"  stunDamage="0" mitigation="10" >
-        <Projectile spectre="projectiles/alienbullet/alienbullet" speed="1500" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/alienbulletplume/alienbulletplume"/>
+        <Projectile spectre="projectiles/alienbulletsniper/alienbullet" speed="2948" showAfterDistance="60.0"/>        
+        <Impact spectre="particles/matergybig/bulletplume"/>
       </Ammo>
     </Ammos>
   </Weapon>
   
-    <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienMatergyCannon" bulletType="normal" emptySound="Empty Click 1">
+    <Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.AlienMatergyCannon" bulletType="rocket" emptySound="Empty Click 1">
     <props range="22" hands="1" recoil="0" weight="16" isHeavy="0" clipSize="2"  reloadAPCost="50" reloadSound="Weapon Ballistic Reload" reactionModifier="0.8" isAlien="1" infiniteAlienAmmo="1"/>
      <SingleShot sound="Weapon Gauss Shotgun Single" delay="0.7" suppressionValue="14" suppressionRadius="2">
 			<Set1 ap="55" accuracy="60" />
@@ -4805,8 +4805,8 @@
     <GroundImage name="grounditemimages/alien_heavyrifle.png"/>
     <Ammos>
       <Ammo name="ammo.Matergymagazine" type="kinetic" damage="60" mitigation="10" >
-        <Projectile spectre="projectiles/alienbullet/alienbullet" speed="1500" showAfterDistance="60.0"/>        
-        <Impact spectre="particles/plasmagrenade/small_explosion" radius="1.5" fireChance="20" smokeChance="60" gasType="TerrainExplosiveSmoke"/>
+        <Projectile spectre="projectiles/cannonbullet/cannonbullet" speed="1700" showAfterDistance="60.0"/>        
+        <Impact spectre="particles/matergycannon/bulletplume" radius="1.5" fireChance="20" smokeChance="60" gasType="TerrainExplosiveSmoke"/>
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4817,7 +4817,7 @@
 		<props range="17" hands="1" recoil="45" weight="8" isHeavy="0" clipSize="6" reloadAPCost="25" reloadSound="Weapon Laser Reload" reactionModifier="1.5" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon Neutron Rifle Single" delay="0.6" suppressionValue="4" suppressionRadius="1">
 			<Set1 ap="22" accuracy="35" />	
-			<Set1 ap="45" accuracy="60" />					
+			<Set2 ap="45" accuracy="60" />					
 		</SingleShot>
 		<BurstFire ap="36" accuracy="40" sound="Weapon Laser Rifle Burst" shotCount="3" delay="0.6" burstdelay="0.3" suppressionValue="16" suppressionRadius="1.5" />
 		<GUIImage name="gui/weapons/Neutron/AlienNeutronRifle.png"/>
@@ -4825,7 +4825,7 @@
 		<Ammos>
 			<Ammo name="ammo.Neutronclip" type="energy" damage="60" stunDamage="0" mitigation="10">
 				<Projectile spectre="projectiles/beamblue/beam5_10" speed="8000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laserblueexplode/laserexplode"/>
+				<Impact spectre="particles/bluelaserexplode2/laserexplode"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -4842,7 +4842,7 @@
 		<Ammos>
 			<Ammo name="ammo.Neutronclip" type="energy" damage="80" mitigation="10" >
 				<Projectile spectre="projectiles/beamblue/beam7_10" speed="8000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laserblueexplode/laserexplode"/>
+				<Impact spectre="particles/bluelaserexplode2/laserexplode"/>
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -4855,7 +4855,7 @@
 		<Ammos>
 			<Ammo name="ammo.Neutronclip" type="energy" damage="50" mitigation="10"  >
 				<Projectile spectre="projectiles/beamblue/beam5_10" speed="8000" showAfterDistance="60.0"/>
-				<Impact spectre="particles/laserblueexplode/laserexplode"/>
+				<Impact spectre="particles/bluelaserexplode2/laserexplode"/>
 			</Ammo>
 		</Ammos>
 	</Weapon> 
@@ -4872,7 +4872,7 @@
     <Ammos>
 	<Ammo name="ammo.Neutronclip" type="energy" damage="60" mitigation="10">
         <Projectile spectre="projectiles/beamblue/beam7_10" speed="8000" showAfterDistance="60.0"/>
-	<Impact spectre="particles/plasmacannonexplosionblue/plasmacannonexplosion" radius="2" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="70" gasType="ShockGas" />
+	<Impact spectre="particles/laserwhiteexplode2/laserexplode" radius="2" sound="Weapon Plasma Grenade" fireChance="0" smokeChance="70" gasType="ShockGas" />
       </Ammo>
     </Ammos>
   </Weapon>
@@ -4939,7 +4939,7 @@
 		<Ammos>
 			<Ammo name="ammo.Toxinmagazine" type="chemical" damage="60" mitigation="5"  >
 				<Projectile spectre="projectiles/Toxinbullet/Toxinbullet" speed="1200" showAfterDistance="60.0"/>
-				<Impact spectre="particles/toxinexplosion/toxinexplosion" radius="2.0" sound="GibbedUnitSound" fireChance="0" smokeChance="80" gasType="AdvBloodGas" />
+				<Impact spectre="particles/toxinexplosion2/toxinexplosion" radius="2.0" sound="GibbedUnitSound" fireChance="0" smokeChance="80" gasType="BloodGas" />
 			</Ammo>
 		</Ammos>
   </Weapon>
@@ -5147,7 +5147,7 @@
 		<props range="28" hands="1" recoil="55" weight="24"  clipSize="4" reloadAPCost="45" reloadSound="Weapon MAG Reload" reactionModifier="0.01" disableShortRangeHitBonus="1" isAlien="1" infiniteAlienAmmo="1" />
 		<SingleShot sound="Weapon Handcannon Single" delay="1" suppressionValue="14" suppressionRadius="3">
 			<Set1 ap="55" accuracy="50" />
-			<Set1 ap="75" accuracy="80" />
+			<Set2 ap="75" accuracy="80" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/Vindicator/AlienVindicatorCannon.png"/>
@@ -5166,7 +5166,7 @@
     <props range="14" hands="1" recoil="0" weight="4" isHeavy="0" clipSize="4"  reloadAPCost="20" reloadSound="Weapon Ballistic Reload" reactionModifier="2" isAlien="1" infiniteAlienAmmo="1" />
     <SingleShot sound="Weapon Flamethrower Flamer" delay="0.7" suppressionValue="4" suppressionRadius="1">
 			<Set1 ap="22" accuracy="35" />	
-			<Set1 ap="45" accuracy="60" />	
+			<Set2 ap="45" accuracy="60" />	
     </SingleShot>
     <BurstFire/>
     <GUIImage name="gui/weapons/Scorcher/AlienScorcherPistol.png"/>
@@ -6139,7 +6139,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.reaperbullclaws" bulletType="melee" emptySound="Empty Click 1">
-		<props range="1000" hands="1" recoil="0" weight="1" isHeavy="1" clipSize="999" isMelee="1" isIntegrated="1" reloadAPCost="10" reloadSound="" reactionModifier="3" />
+		<props range="1000" hands="1" recoil="0" weight="1" isHeavy="1" clipSize="999" isMelee="1" isIntegrated="1" reloadAPCost="10" reloadSound="" reactionModifier="0" />
 		<SingleShot sound="ReaperInjury" delay="0.1" suppressionValue="80" suppressionRadius="1">
 			<Set1 ap="25" accuracy="100" />
 		</SingleShot>
@@ -6155,7 +6155,7 @@
 	</Weapon>
 	
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.reaperrhinoclaws" bulletType="melee" emptySound="Empty Click 1">
-		<props range="1000" hands="1" recoil="0" weight="1" isHeavy="1" clipSize="999" isMelee="1" isIntegrated="1" reloadAPCost="10" reloadSound="" reactionModifier="3" />
+		<props range="1000" hands="1" recoil="0" weight="1" isHeavy="1" clipSize="999" isMelee="1" isIntegrated="1" reloadAPCost="10" reloadSound="" reactionModifier="0" />
 		<SingleShot sound="ReaperInjury" delay="0.1" suppressionValue="120" suppressionRadius="1">
 			<Set1 ap="25" accuracy="100" />
 		</SingleShot>
@@ -6547,7 +6547,7 @@
 		<GUIImage name="gui/weapons/Shotgun.png"/>
 		<GroundImage name="grounditemimages/shotgun.png"/>
 		<Ammos>
-			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="75" mitigation="20" isOverdamage="1" >
+			<Ammo name="ammo.ballistic.shockbaton" type="chemical" damage="120" mitigation="20" isOverdamage="1" >
 				<Projectile spectre="projectiles/qspray/qspray" speed="1000"/>
 				<Impact spectre="projectiles/qspray/greenplume" radius="2.5" sound="Weapon Stun Grenade" fireChance="0" smokeChance="95" gasType="ImpAcid" />
 			</Ammo>
@@ -6583,7 +6583,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="chemical" damage="5" stunDamage="0" mitigation="0" isOverdamage="0">
 				<Projectile spectre="projectiles/grenades/grenade_stun" speed="1000" />
-				<Impact spectre="particles/stungrenade/stun_explosion" radius="2.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="65" gasType="StunGas" />
+				<Impact spectre="particles/stunexplosion/bulletplume" radius="2.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="65" gasType="StunGas" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -6598,7 +6598,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="chemical" damage="5" stunDamage="0" mitigation="0" isOverdamage="0">
 				<Projectile spectre="projectiles/grenades/grenade_stun" speed="1000" />
-				<Impact spectre="particles/stungrenade/stun_explosion" radius="3" sound="Weapon Gas Grenade" fireChance="0" smokeChance="75" gasType="AdvStunGas" />
+				<Impact spectre="particles/stunexplosion2/bulletplume" radius="3" sound="Weapon Gas Grenade" fireChance="0" smokeChance="75" gasType="AdvStunGas" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -6613,7 +6613,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="chemical" damage="5" stunDamage="0" mitigation="0" isOverdamage="0">
 				<Projectile spectre="projectiles/grenades/grenade_stun" speed="1000" />
-				<Impact spectre="particles/stungrenade/stun_explosion" radius="3.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="90" gasType="HvyStunGas" />
+				<Impact spectre="particles/stunexplosion3/bulletplume" radius="3.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="90" gasType="HvyStunGas" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -6628,7 +6628,7 @@
 		<Ammos>
 			<Ammo name="ammo.none" type="chemical" damage="5" stunDamage="0" mitigation="0" isOverdamage="0">
 				<Projectile spectre="projectiles/grenades/grenade_stun" speed="1000" />
-				<Impact spectre="particles/stungrenade/stun_explosion" radius="3.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="90" gasType="ExStunGas" />
+				<Impact spectre="particles/stunexplosion4/bulletplume" radius="3.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="90" gasType="ExStunGas" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -6643,7 +6643,7 @@
 		<Ammos>
 				<Ammo name="ammo.none" type="chemical" damage="5" stunDamage="0" mitigation="0" isOverdamage="1">
 				<Projectile spectre="projectiles/grenades/grenade_stun" speed="1000" />
-				<Impact spectre="particles/toxinexplosion/toxinexplosion" radius="2" sound="Weapon Gas Grenade" fireChance="0" smokeChance="65" gasType="BloodGas" />
+				<Impact spectre="particles/toxinexplosion2/toxinexplosion" radius="2" sound="Weapon Gas Grenade" fireChance="0" smokeChance="65" gasType="BloodGas" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -6658,7 +6658,7 @@
 		<Ammos>
 				<Ammo name="ammo.none" type="chemical" damage="5" stunDamage="0" mitigation="0" isOverdamage="1">
 				<Projectile spectre="projectiles/grenades/grenade_stun" speed="1000" />
-				<Impact spectre="particles/bloodexplosion/bloodexplosion" radius="2.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="75" gasType="AdvBloodGas" />
+				<Impact spectre="particles/toxinexplosion/toxinexplosion" radius="2.5" sound="Weapon Gas Grenade" fireChance="0" smokeChance="75" gasType="AdvBloodGas" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -6673,7 +6673,7 @@
 		<Ammos>
 				<Ammo name="ammo.none" type="chemical" damage="5" stunDamage="0" mitigation="0" isOverdamage="1">
 				<Projectile spectre="projectiles/grenades/grenade_stun" speed="1000" />
-				<Impact spectre="particles/hybridexplosion/hybridexplosion" radius="3" sound="Weapon Gas Grenade" fireChance="0" smokeChance="90" gasType="ExtBloodGas" />
+				<Impact spectre="particles/toxinexplosion/toxinexplosion" radius="3" sound="Weapon Gas Grenade" fireChance="0" smokeChance="90" gasType="ExtBloodGas" />
 			</Ammo>
 		</Ammos>
 	</Weapon>
@@ -7217,7 +7217,7 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.robodogguardbite" bulletType="melee" emptySound="Empty Click 1">
-		<props range="1" hands="1" recoil="0" weight="1" isHeavy="0" clipSize="999" isMelee="0" isIntegrated="1" reloadAPCost="10" reloadSound="" reactionModifier="1" />
+		<props range="1" hands="1" recoil="0" weight="1" isHeavy="0" clipSize="999" isMelee="1" isIntegrated="1" reloadAPCost="10" reloadSound="" reactionModifier="1" />
 		<SingleShot sound="AndronInjury" delay="0.2" suppressionValue="100" suppressionRadius="1">
 			<Set1 ap="20" accuracy="300" />
 		</SingleShot>

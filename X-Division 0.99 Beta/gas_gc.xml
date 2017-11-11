@@ -90,7 +90,7 @@
   </GasType>
   
   <GasType MODMERGEATTRIBUTE="name" MODMERGE="insert" name="BloodGas">
-    <Anim name="particles/bloodsmoke/bloodsmoke" />
+    <Anim name="particles/bloodsmoke2/bloodsmoke" />
     <Props damage="70" damageType="chemical" dissipationChance="45" accuracyReduction="15" />
   </GasType>
   

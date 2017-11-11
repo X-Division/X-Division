@@ -8,7 +8,7 @@
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <LastAuthor>Benutzer</LastAuthor>
   <Created>2011-04-14T17:25:36Z</Created>
-  <LastSaved>2017-03-15T22:56:44Z</LastSaved>
+  <LastSaved>2017-09-29T23:37:37Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -68,7 +68,7 @@
    <Column ss:AutoFitWidth="0" ss:Width="232.5"/>
    <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="192"/>
    <Column ss:AutoFitWidth="0" ss:Width="65.25" ss:Span="1"/>
-   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="170.25"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="823.5"/>
    <Column ss:AutoFitWidth="0" ss:Width="56.25"/>
    <Column ss:AutoFitWidth="0" ss:Width="78"/>
    <Column ss:AutoFitWidth="0" ss:Width="256.5"/>
@@ -14961,7 +14961,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.Aliencontrolsystem;1xItems.Alienlightengine;1xItems.Aliencomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Aliencontrolsystem;2xItems.Alienlightengine;1xItems.Aliencomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.asierus&quot; )</Data></Cell>
     <Cell ss:Index="10" ss:StyleID="Default"><Data ss:Type="String">airplane.human.asierus</Data></Cell>
    </Row>
@@ -14970,7 +14970,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.Aliencontrolsystem;1xItems.Alienlightengine;1xItems.Aliencomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Aliencontrolsystem;1xItems.Alienlightengine;1xItems.Alienlightweaponsystem;2xItems.Aliencomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.mig31&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.mig31</Data></Cell>
    </Row>
@@ -14997,7 +14997,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">15</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.BasicAliencontrolsystem;2xItems.Alienlightengine;2xItems.Aliencomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.BasicAliencontrolsystem;1xItems.Alienlightengine;1xItems.Alienlightweaponsystem;2xItems.Aliencomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.sonda&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.sonda</Data></Cell>
    </Row>
@@ -15006,7 +15006,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">15</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.BasicAliencontrolsystem;2xItems.Alienlightengine;2xItems.Aliencomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.BasicAliencontrolsystem;3xItems.Alienlightengine;1xItems.Aliencomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.corsair&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.corsair</Data></Cell>
    </Row>
@@ -15015,7 +15015,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">15</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.BasicAliencontrolsystem;2xItems.Alienlightengine;2xItems.Aliencomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.BasicAliencontrolsystem;1xItems.Alienlightengine;3xItems.Alienlightweaponsystem;1xItems.Aliencomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.lancer&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.lancer</Data></Cell>
    </Row>
@@ -15024,7 +15024,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">15</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.FallenAlienHeavyFighter;1xItems.BasicAliencontrolsystem;2xItems.Alienlightengine;2xItems.Aliencomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.FallenAlienHeavyFighter;1xItems.BasicAliencontrolsystem;1xItems.Alienlightengine;1xItems.Alienlightweaponsystem;2xItems.Aliencomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.heavyfighter&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.heavyfighter</Data></Cell>
    </Row>
@@ -15042,7 +15042,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.AdvAliencontrolsystem;2xItems.Alienlightengine;2xItems.Aliencomputers;1xItems.Alienheavyengine;1xItems.Alienlargecomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.AdvAliencontrolsystem;3xItems.Alienlightengine;1xItems.Aliencomputers;1xItems.Alienheavyengine;1xItems.Alienheavyweaponsystem;1xItems.Alienlargecomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.marauder&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.marauder</Data></Cell>
    </Row>
@@ -15051,7 +15051,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.AdvAliencontrolsystem;2xItems.Alienlightengine;2xItems.Aliencomputers;1xItems.Alienheavyengine;1xItems.Alienlargecomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.AdvAliencontrolsystem;1xItems.Alienlightengine;2xItems.Alienlightweaponsystem;2xItems.Aliencomputers;1xItems.Alienheavyengine;1xItems.Alienlargecomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.drake&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.drake</Data></Cell>
    </Row>
@@ -15060,7 +15060,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.AdvAliencontrolsystem;2xItems.Alienlightengine;2xItems.Aliencomputers;1xItems.Alienheavyengine;1xItems.Alienlargecomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.AdvAliencontrolsystem;1xItems.Alienlightengine;3xItems.Alienlightweaponsystem;1xItems.Aliencomputers;1xItems.Alienheavyengine;1xItems.Alienheavyweaponsystem;1xItems.Alienlargecomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.fury&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.fury</Data></Cell>
    </Row>
@@ -15069,7 +15069,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.FallenAlienHunter;1xItems.AdvAliencontrolsystem;2xItems.Alienlightengine;2xItems.Aliencomputers;1xItems.Alienheavyengine;1xItems.Alienlargecomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.FallenAlienHunter;1xItems.AdvAliencontrolsystem;2xItems.Alienlightengine;1xItems.Alienlightweaponsystem;2xItems.Aliencomputers;1xItems.Alienheavyengine;1xItems.Alienlargecomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.hunter&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.hunter</Data></Cell>
    </Row>
@@ -15087,7 +15087,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">25</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.ExAliencontrolsystem;2xItems.Alienheavyengine;2xItems.Alienlargecomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.ExAliencontrolsystem;4xItems.Alienheavyengine;1xItems.Alienlargecomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.contrail&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.contrail</Data></Cell>
    </Row>
@@ -15096,7 +15096,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">25</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.ExAliencontrolsystem;2xItems.Alienheavyengine;2xItems.Alienlargecomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.ExAliencontrolsystem;1xItems.Alienheavyengine;2xItems.Alienheavyweaponsystem;2xItems.Alienlargecomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.nightowl&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.nightowl</Data></Cell>
    </Row>
@@ -15105,7 +15105,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">25</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.ExAliencontrolsystem;2xItems.Alienheavyengine;2xItems.Alienlargecomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.ExAliencontrolsystem;1xItems.Alienheavyengine;3xItems.Alienheavyweaponsystem;1xItems.Alienlargecomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.merlin&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.merlin</Data></Cell>
    </Row>
@@ -15114,7 +15114,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">25</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.FallenAlienInterceptor;1xItems.ExAliencontrolsystem;2xItems.Alienheavyengine;2xItems.Alienlargecomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.FallenAlienInterceptor;2xItems.ExAliencontrolsystem;1xItems.Alienlightweaponsystem;2xItems.Alienheavyengine;2xItems.Alienlargecomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.interceptor&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.interceptor</Data></Cell>
    </Row>
@@ -15123,7 +15123,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">25</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.FallenAlienHeavyInterceptor;1xItems.ExAliencontrolsystem;2xItems.Alienheavyengine;2xItems.Alienlargecomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.FallenAlienHeavyInterceptor;2xItems.ExAliencontrolsystem;1xItems.Alienlightweaponsystem;3xItems.Alienheavyengine;1xItems.Alienheavyweaponsystem;3xItems.Alienlargecomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.heavyinterceptor&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.heavyinterceptor</Data></Cell>
    </Row>
@@ -15132,7 +15132,7 @@
     <Cell><Data ss:Type="String">Aircraft Units 0</Data></Cell>
     <Cell><Data ss:Type="Number">25</Data></Cell>
     <Cell><Data ss:Type="Number">25000</Data></Cell>
-    <Cell><Data ss:Type="String">3xItems.ExAliencontrolsystem;3xItems.Alienheavyengine;3xItems.Alienlargecomputers;</Data></Cell>
+    <Cell><Data ss:Type="String">4xItems.ExAliencontrolsystem;2xItems.Alienheavyengine;3xItems.Alienheavyweaponsystem;3xItems.Alienlargecomputers;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;airplane.human.archelon&quot; )</Data></Cell>
     <Cell ss:Index="10"><Data ss:Type="String">airplane.human.archelon</Data></Cell>
    </Row>
@@ -15159,7 +15159,7 @@
     <Cell><Data ss:Type="String">Aircraft Cannon 0</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">5000</Data></Cell>
-    <Cell><Data ss:Type="String">3xItems.Alienlightweaponsystem</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Alienlightweaponsystem</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;AV.FIGHTERBEAMHUMAN&quot; )</Data></Cell>
    </Row>
    <Row>
@@ -15207,7 +15207,7 @@
     <Cell><Data ss:Type="String">Aircraft Cannon 0</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
     <Cell><Data ss:Type="Number">5000</Data></Cell>
-    <Cell><Data ss:Type="String">5xItems.Alienlightweaponsystem</Data></Cell>
+    <Cell><Data ss:Type="String">2xItems.Alienlightweaponsystem</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;AV.HVFIGHTERBEAMHUMAN&quot; )</Data></Cell>
    </Row>
    <Row>
@@ -15261,7 +15261,7 @@
     <Cell><Data ss:Type="String">Aircraft Cannon 0</Data></Cell>
     <Cell><Data ss:Type="Number">15</Data></Cell>
     <Cell><Data ss:Type="Number">5000</Data></Cell>
-    <Cell><Data ss:Type="String">2xItems.Alienlightweaponsystem;2xItems.Alienheavyweaponsystem</Data></Cell>
+    <Cell><Data ss:Type="String">1xItems.Alienlightweaponsystem;1xItems.Alienheavyweaponsystem</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;AV.HUMANHUNTERBEAM&quot; )</Data></Cell>
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
@@ -15271,7 +15271,7 @@
     <Cell><Data ss:Type="String">Aircraft Cannon 0</Data></Cell>
     <Cell><Data ss:Type="Number">15</Data></Cell>
     <Cell><Data ss:Type="Number">5000</Data></Cell>
-    <Cell><Data ss:Type="String">1xItems.Alienlightweaponsystem;1xItems.Alienheavyweaponsystem</Data></Cell>
+    <Cell><Data ss:Type="String">3xItems.Alienlightweaponsystem</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;AV.CRUISERSPEARCANNON&quot; )</Data></Cell>
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
@@ -15331,7 +15331,7 @@
     <Cell><Data ss:Type="String">Aircraft Cannon 0</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">5000</Data></Cell>
-    <Cell><Data ss:Type="String">6xItems.Alienheavyweaponsystem;</Data></Cell>
+    <Cell><Data ss:Type="String">3xItems.Alienheavyweaponsystem;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;AV.HUMANINTERCEPTORBEAM&quot; )</Data></Cell>
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
@@ -15341,7 +15341,7 @@
     <Cell><Data ss:Type="String">Aircraft Cannon 0</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="Number">5000</Data></Cell>
-    <Cell><Data ss:Type="String">10xItems.Alienheavyweaponsystem;</Data></Cell>
+    <Cell><Data ss:Type="String">4xItems.Alienheavyweaponsystem;</Data></Cell>
     <Cell ss:Index="8"><Data ss:Type="String">StockItem( &quot;AV.HUMANHEAVYINTERCEPTORBEAM&quot; )</Data></Cell>
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
@@ -25647,7 +25647,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>1607</TopRowBottomPane>
+   <TopRowBottomPane>1843</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -25655,8 +25655,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>1630</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>1872</ActiveRow>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

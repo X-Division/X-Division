@@ -9,7 +9,7 @@
   <Author>Laci</Author>
   <LastAuthor>Benutzer</LastAuthor>
   <Created>2011-03-20T09:14:22Z</Created>
-  <LastSaved>2017-02-10T11:11:52Z</LastSaved>
+  <LastSaved>2017-10-15T16:03:00Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -126,7 +126,7 @@
     <Cell><Data ss:Type="Number">10</Data></Cell>
     <Cell><Data ss:Type="Number">1200</Data></Cell>
     <Cell><Data ss:Type="Number">0.2</Data></Cell>
-    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
     <Cell><Data ss:Type="Number">15</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -140,14 +140,14 @@
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">95</Data></Cell>
-    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="13.5">
     <Cell><Data ss:Type="String">AV.MAUSER</Data></Cell>
     <Cell><Data ss:Type="String">Cannon</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
-    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">600</Data></Cell>
     <Cell><Data ss:Type="Number">0.04</Data></Cell>
     <Cell><Data ss:Type="Number">30</Data></Cell>
     <Cell><Data ss:Type="Number">60</Data></Cell>
@@ -209,8 +209,8 @@
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">100</Data></Cell>
-    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
    </Row>
    <Row>
     <Cell ss:Index="21"><Data ss:Type="Number">0</Data></Cell>
@@ -268,7 +268,7 @@
     <Cell><Data ss:Type="Number">25</Data></Cell>
     <Cell><Data ss:Type="Number">1600</Data></Cell>
     <Cell><Data ss:Type="Number">0.2</Data></Cell>
-    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
     <Cell><Data ss:Type="Number">14</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -282,8 +282,8 @@
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">120</Data></Cell>
-    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">130</Data></Cell>
+    <Cell><Data ss:Type="Number">130</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">AV.SONARPULSE</Data></Cell>
@@ -312,12 +312,12 @@
     <Cell><Data ss:Type="String">AV.FOCUSLENSE</Data></Cell>
     <Cell><Data ss:Type="String">Cannon</Data></Cell>
     <Cell><Data ss:Type="Number">350</Data></Cell>
-    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">300</Data></Cell>
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
-    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/FOCUSLENSE</Data></Cell>
     <Cell><Data ss:Type="Number">10000</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -337,7 +337,7 @@
     <Cell><Data ss:Type="Number">24</Data></Cell>
     <Cell><Data ss:Type="Number">2000</Data></Cell>
     <Cell><Data ss:Type="Number">0.2</Data></Cell>
-    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
     <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
@@ -351,8 +351,8 @@
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">130</Data></Cell>
-    <Cell><Data ss:Type="Number">130</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
+    <Cell><Data ss:Type="Number">120</Data></Cell>
    </Row>
    <Row>
     <Cell ss:Index="21"><Data ss:Type="Number">0</Data></Cell>
@@ -457,9 +457,9 @@
     <Cell><Data ss:Type="Number">300</Data></Cell>
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/FOCUSBLAST</Data></Cell>
     <Cell><Data ss:Type="Number">10000</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -503,7 +503,7 @@
    <Row ss:AutoFitHeight="0" ss:Height="13.5">
     <Cell><Data ss:Type="String">AV.RAILCANNON</Data></Cell>
     <Cell><Data ss:Type="String">Cannon</Data></Cell>
-    <Cell><Data ss:Type="Number">115</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
     <Cell><Data ss:Type="Number">2400</Data></Cell>
     <Cell><Data ss:Type="Number">0.5</Data></Cell>
     <Cell><Data ss:Type="Number">15</Data></Cell>
@@ -520,8 +520,8 @@
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">195</Data></Cell>
-    <Cell><Data ss:Type="Number">195</Data></Cell>
+    <Cell><Data ss:Type="Number">190</Data></Cell>
+    <Cell><Data ss:Type="Number">190</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">AV.PARTICLEPULSE</Data></Cell>
@@ -550,12 +550,12 @@
     <Cell><Data ss:Type="String">AV.SHORTCIRCUIT</Data></Cell>
     <Cell><Data ss:Type="String">Cannon</Data></Cell>
     <Cell><Data ss:Type="Number">650</Data></Cell>
-    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">200</Data></Cell>
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/SHORTCIRCUIT</Data></Cell>
     <Cell><Data ss:Type="Number">10000</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -589,13 +589,13 @@
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">190</Data></Cell>
-    <Cell><Data ss:Type="Number">190</Data></Cell>
+    <Cell><Data ss:Type="Number">195</Data></Cell>
+    <Cell><Data ss:Type="Number">195</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">AV.HUMANHEAVYINTERCEPTORBEAM</Data></Cell>
     <Cell><Data ss:Type="String">Cannon</Data></Cell>
-    <Cell><Data ss:Type="Number">160</Data></Cell>
+    <Cell><Data ss:Type="Number">170</Data></Cell>
     <Cell><Data ss:Type="Number">2600</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
@@ -618,10 +618,10 @@
    <Row ss:AutoFitHeight="0" ss:Height="13.5">
     <Cell><Data ss:Type="String">AV.BATTLECRUISERSPEARCANNON</Data></Cell>
     <Cell><Data ss:Type="String">Cannon</Data></Cell>
-    <Cell><Data ss:Type="Number">400</Data></Cell>
+    <Cell><Data ss:Type="Number">330</Data></Cell>
     <Cell><Data ss:Type="Number">3600</Data></Cell>
     <Cell><Data ss:Type="Number">4.4000000000000004</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">2.5</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
@@ -658,8 +658,8 @@
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">200</Data></Cell>
-    <Cell><Data ss:Type="Number">200</Data></Cell>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="13.5">
     <Cell ss:Index="21"><Data ss:Type="Number">0</Data></Cell>
@@ -745,7 +745,7 @@
     <Cell><Data ss:Type="String">AV.PIRANHA</Data></Cell>
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">45</Data></Cell>
-    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
     <Cell><Data ss:Type="Number">0.1</Data></Cell>
     <Cell><Data ss:Type="Number">17</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
@@ -1039,7 +1039,7 @@
     <Cell><Data ss:Type="String">AV.PARTICLEPIRANHA</Data></Cell>
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">45</Data></Cell>
-    <Cell><Data ss:Type="Number">300</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
     <Cell><Data ss:Type="Number">0.05</Data></Cell>
     <Cell><Data ss:Type="Number">34</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
@@ -1151,7 +1151,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/gravity_torpedo</Data></Cell>
     <Cell><Data ss:Type="Number">2000</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/torpedo</Data></Cell>
     <Cell><Data ss:Type="String">Missile</Data></Cell>
     <Cell><Data ss:Type="String">Missile</Data></Cell>
@@ -1203,7 +1203,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/NEUTRINOTORP</Data></Cell>
     <Cell><Data ss:Type="Number">2250</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/torpedo</Data></Cell>
     <Cell><Data ss:Type="String">Missile</Data></Cell>
     <Cell><Data ss:Type="String">Missile</Data></Cell>
@@ -1254,8 +1254,8 @@
     <Cell><Data ss:Type="String">Mixed</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">weapons/airplane/PARTICLETORP</Data></Cell>
-    <Cell><Data ss:Type="Number">2250</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2350</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/torpedo</Data></Cell>
     <Cell><Data ss:Type="String">Missile</Data></Cell>
     <Cell><Data ss:Type="String">Missile</Data></Cell>
@@ -3796,7 +3796,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>135</TopRowBottomPane>
+   <TopRowBottomPane>40</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -3813,8 +3813,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>164</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveRow>59</ActiveRow>
+     <ActiveCol>10</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

@@ -85,7 +85,7 @@ Check the Xpedia for the detailed disassembled item list. </Tip>
 
 <Tip>Each vehicle is restricted to certain types of weaponry. Don't expect your hunter scout car to be capable of equipping advanced cannon weaponry.</Tip>
 
-<Tip>Robotic enemies such as androns, drones and mechs are impossible to stun. Don't waste your time trying. EMP damage works great though.</Tip>
+<Tip>Robotic enemies such as androns, drones and mechs are impossible to stun. Don't waste your time trying. EMP damage works great against them though.</Tip>
 
 <Tip>Alien bases now grow independently of the game ticker. If you leave one around for too long you might find yourself facing extremely dangerous foes.</Tip>
 
@@ -102,5 +102,6 @@ Check the Xpedia for the detailed disassembled item list. </Tip>
 <Tip>Letting supply ships through has many negative effects now. Dont let the aliens grow too fast, commander !</Tip>
 
 <Tip>Aircraft which patrol over a single spot use 50% less gas, so they can stay longer airborne in comparison to heading across the land.</Tip>
+
 
 </GCLoadingTips>

@@ -447,7 +447,7 @@
     <Cell ss:StyleID="s65"><Data ss:Type="String">uitextures/buildings/magturret</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">10</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">1;1</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">3100</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11000</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">50</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">3</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
@@ -474,7 +474,7 @@
     <Cell ss:StyleID="s65"><Data ss:Type="String">uitextures/buildings/particleturret</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">10</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="String">1;1</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16000</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">50</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">4</Data></Cell>
     <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
@@ -683,8 +683,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>2</ActiveRow>
-     <ActiveCol>5</ActiveCol>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>6</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

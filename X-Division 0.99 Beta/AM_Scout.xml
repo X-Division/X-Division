@@ -129,32 +129,32 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s68"><Data ss:Type="String">m:airplane.alien.mediumshuttle</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">600</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">20</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s68"><Data ss:Type="String">m:airplane.alien.heavyscout</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">600</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">60</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s68"><Data ss:Type="String">m:airplane.alien.missilecorvette</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">600</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">20</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s68"><Data ss:Type="String">m:airplane.alien.heavyshuttle</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1100</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">900</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">20</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s68"><Data ss:Type="String">m:airplane.alien.armouredscout</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1100</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">900</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">60</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s68"><Data ss:Type="String">m:airplane.alien.torpedocorvette</Data></Cell>
-    <Cell ss:StyleID="s65"><Data ss:Type="Number">1100</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">900</Data></Cell>
     <Cell ss:StyleID="s65"><Data ss:Type="Number">20</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -647,7 +647,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>7</ActiveRow>
+     <ActiveRow>16</ActiveRow>
+     <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

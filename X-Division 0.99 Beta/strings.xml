@@ -1380,7 +1380,7 @@
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:_______________13/70
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:________________8
+    &#8226; AMMO CAPACITY:________________4
     &#8226; WEIGHT:________________________6
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -1515,7 +1515,7 @@
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:_______________13/72
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:________________10
+    &#8226; AMMO CAPACITY:________________6
     &#8226; WEIGHT:________________________6
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -1650,7 +1650,7 @@
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:_______________13/74
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:________________12
+    &#8226; AMMO CAPACITY:________________8
     &#8226; WEIGHT:________________________6
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -17158,7 +17158,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">Researches.contrailDesc</Data></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">Now that we've had the opportunity to study an enemy interceptor, we've come up with some upgrades for our Marauder aircraft design.&#xA;&#xA;Using our knowledge of fusion reactors and singularity cores i believe we can further increase its power to mass ratio resulting in greater acceleration and top speeds, while our advancements in alloy fabrication should also allow us to refine its armour plating to provide improved protection against enemy fire.&#xA;&#xA;As with the marauder, this new aircraft, codenamed &quot;contrail&quot; will be capable of equipping a cannon and missile-type weapon.</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Now that we've had the opportunity to study an enemy interceptor, we've come up with some upgrades for our Marauder aircraft design.&#xA;&#xA;Using our knowledge of fusion reactors and singularity cores i believe we can further increase its power to mass ratio resulting in greater acceleration and top speeds, while our advancements in alloy fabrication should also allow us to refine its armour plating to provide improved protection against enemy fire.&#xA;&#xA;Other than the marauder, this new aircraft, codenamed &quot;contrail&quot; will be capable of equipping two cannon-type weapons.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">Researches.nightowlDesc</Data></Cell>
@@ -26055,7 +26055,20 @@
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">rank.colonel.short</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
-    <Cell><Data ss:Type="String">Brig. General</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">B. General</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARM.VIEWRANGE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">View Range</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARM.VIEWNIGHT</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Night Vision Bonus</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
    </Row>
    
    <Row ss:AutoFitHeight="0">

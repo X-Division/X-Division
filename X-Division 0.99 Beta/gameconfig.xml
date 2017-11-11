@@ -105,6 +105,7 @@
 	<Colonel 	rankPoints="250" />
   </soldierRanks>
   <medalBraveryBonus value="3" comment="Sets the bravery bonus given by medals"/>
+  <suppressionGivesBravery value="1" comment="If true, soldiers suppressed by aliens will gain bravery advancement points as well as gaining points for panicking"/>
 
 <!-- OTHER SOLDIER VARIABLES -->
   <!-- soldier carry capacity, which is the maximum carry capacity before getting TU penalties,
@@ -222,7 +223,8 @@
   <fullArmamentToLaunch value="false" comment="Whether an airplane must be fully armed before it can be launched" />
 
   <!-- AIR COMBAT VARIABLES -->
-  
+  <airCombatDamageRandomChance value="0" comment="Damage spread of weapons in air combat (+/-%)" />
+    
   <!-- AIRPLANE RECOVERY TOGGLE -->
   <airplaneRecovery value="1" comment="If set to 1, lost airplanes will be recovered. Otherwise they are permanently destroyed" />
 
@@ -385,7 +387,7 @@
   <maxMissionCount value="7"    comment="This is the maxinum number of mission for a wave. Numbers from the next two parameters will be added to it." />
   <maxMissionAlienBaseModifier value = "1" comment = "Add this much to maxMissionCount for every alien base on the map" />
   <maxMissionHumanBaseModifier value = "0" comment = "Add this much to maxMissionCount for every human base on the map" />
-  <highBandTicker  value="1400" comment="This is the ticker value from where the maxMissionCount missions are going to be spawned." />
+  <highBandTicker  value="1200" comment="This is the ticker value from where the maxMissionCount missions are going to be spawned." />
   <parabolicPower  value="0.5"   comment="Hard to explain here." />
 
 <!-- ALIEN BASE LEVEL UP THRESHOLDS -->
@@ -393,7 +395,7 @@
   <largeAlienBaseTickerLimit  value="90" comment="Alien bases are large sized above this ticker value."  />
   <independentAlienBaseGrowth value="1" comment="If set to 1, each alien base will grow independently of the AI ticker" />
   <alienBaseGrowthPerDay 	  value="1" comment="If bases grow independently, each base will grow this much per day"/>
-  <alienBaseStartingTickerMultiplier value = "0.04" comment="If bases grow independenly, new bases will start at AI ticker times this value"/>
+  <alienBaseStartingTickerMultiplier value = "0.05" comment="If bases grow independenly, new bases will start at AI ticker times this value"/>
   <alienBaseSupplyGrowth	  value="15" comment="If bases grow independently, each successful Supply Run mission will increase base ticker by this much" />
 
 <!-- LOST BASES TURNING INTO ALIEN BASES -->
@@ -443,8 +445,8 @@
 <!-- CONSTRUCTION MISSION PERAMETERS -->
 <!-- These variables stop alien base construction missions being spawned too frequently - if this is removed then they will spawn in almost every UFO wave after they become available to the aliens. The delay values are the time (in days) that must elapse between two construction missions spawning. -->
 
-  <constructionMissionTickerLimit1 value="1100" comment="Alien construction missions will be delayed by constructionMissionDelay1 if the ticker is greater than this." />
-  <constructionMissionTickerLimit2 value="700" comment="Alien construction missions will be delayed by constructionMissionDelay2 if the ticker is greater than this." />
+  <constructionMissionTickerLimit1 value="900" comment="Alien construction missions will be delayed by constructionMissionDelay1 if the ticker is greater than this." />
+  <constructionMissionTickerLimit2 value="600" comment="Alien construction missions will be delayed by constructionMissionDelay2 if the ticker is greater than this." />
   <constructionMissionTickerLimit3 value="300" comment="Alien construction missions will be delayed by constructionMissionDelay3 if the ticker is greater than this." />
   
   <constructionMissionDelay1  value="3" comment="See above." />
@@ -496,19 +498,19 @@
 <!-- DISCLAIMER SCREEN TEXT -->
  <disclaimerTextTimeout value="16" comment="The disclaimer text will be shown for this many seconds." />
   <disclaimerTextSize    value="20" comment="The disclaimer text will be shown with this size at 1024x768 resolution." />
-  <disclaimerText        value="X-Division Beta 0.99.4
+  <disclaimerText        value="X-Division Beta 0.99.42
  This is a beta build of the mod X-Division for the game Xenonauts. It does not represent the final quality of the mod.
 Please report any bugs and balance ideas encountered on the forums at http://www.goldhawkinteractive.com/forums in the thread 
  - [1.65/X.CE V0.34.1] X-Division 0.99 Beta. - 
 
 
-Patch 99.4 - Enemies Inbound
+Patch 99.42 - Terror from the Sky
 
-Andron and Xenomorph Overhaul
-Psy and Moral System revised
-New moral feature: Safety in Numbers
-Revised Medical System
-.33 to .4 patch is not save compatible
+Revised and readjusted the ufocontents for Terror UFOs
+Decreased the time Phase 2 and 3 lasts by 25% each
+Revised aircraft and aircraftweapons
+23 new droppod submaps for the valkyrie
+.41 to .42 update is save compatible
 See the full changelog at http://www.goldhawkinteractive.com/forums/
 
 
