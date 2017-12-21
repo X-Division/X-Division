@@ -66,12 +66,12 @@
   <maxSoldierAge value="35" comment="The maximal age of a soldier."  />
   <femaleSoldierChance value="25" comment="The percent chance that a generated soldier is a female" />
   <soldierStats MODMERGE="update" comment="Soldier's stats are generated with values in the specified range."> 
-	<actionPoints min="50" max="55" />
-	<resilence    min="45" max="55" />
-	<strength     min="40" max="50" />
-	<accuracy     min="40" max="50" />
-	<reflexes     min="25" max="35" />
-	<bravery      min="45" max="55" />
+	<actionPoints min="40" max="65" />
+	<resilence    min="35" max="65" />
+	<strength     min="40" max="70" />
+	<accuracy     min="30" max="60" />
+	<reflexes     min="15" max="45" />
+	<bravery      min="35" max="65" />
   </soldierStats>	
   <startingSoldiersStatBonus value="15" comment="Bonus applied to starting soldiers' stats" />
 
@@ -498,19 +498,19 @@
 <!-- DISCLAIMER SCREEN TEXT -->
  <disclaimerTextTimeout value="16" comment="The disclaimer text will be shown for this many seconds." />
   <disclaimerTextSize    value="20" comment="The disclaimer text will be shown with this size at 1024x768 resolution." />
-  <disclaimerText        value="X-Division Beta 0.99.42
+  <disclaimerText        value="X-Division Beta 0.99.43
  This is a beta build of the mod X-Division for the game Xenonauts. It does not represent the final quality of the mod.
 Please report any bugs and balance ideas encountered on the forums at http://www.goldhawkinteractive.com/forums in the thread 
  - [1.65/X.CE V0.34.1] X-Division 0.99 Beta. - 
 
 
-Patch 99.42 - Terror from the Sky
+Patch 99.43 - Go easy, take this
 
-Revised and readjusted the ufocontents for Terror UFOs
-Decreased the time Phase 2 and 3 lasts by 25% each
-Revised aircraft and aircraftweapons
-23 new droppod submaps for the valkyrie
-.41 to .42 update is save compatible
+Diversified sightranges for aliens
+Revised Carbines
+New Zombie system
+Inner UFO walls are now destructible
+.42 to .43 update is save compatible
 See the full changelog at http://www.goldhawkinteractive.com/forums/
 
 

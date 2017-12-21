@@ -20,7 +20,7 @@
    <CombatWindow MODMERGE="update">
     <CanCloseNormalUFODoorOpenedInTurn>false</CanCloseNormalUFODoorOpenedInTurn>
     <CanCloseLargeUFODoorOpenedInTurn>false</CanCloseLargeUFODoorOpenedInTurn>
-    <MeleeVehiclePriorityModifier>1.0</MeleeVehiclePriorityModifier>
+    <MeleeVehiclePriorityModifier>0.1</MeleeVehiclePriorityModifier>
    </CombatWindow>
 
 	<LOS>

@@ -9,7 +9,7 @@
   <Author>Laci</Author>
   <LastAuthor>Benutzer</LastAuthor>
   <Created>2011-03-15T15:56:34Z</Created>
-  <LastSaved>2017-09-29T22:10:08Z</LastSaved>
+  <LastSaved>2017-11-14T10:23:56Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -72,23 +72,27 @@
    <Interior ss:Color="#969696" ss:Pattern="Solid"/>
   </Style>
   <Style ss:ID="s67">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s68">
    <NumberFormat ss:Format="#,##0"/>
   </Style>
-  <Style ss:ID="s69" ss:Parent="s64">
+  <Style ss:ID="s70" ss:Parent="s64">
    <Interior/>
    <NumberFormat/>
   </Style>
-  <Style ss:ID="s70">
+  <Style ss:ID="s71">
    <Borders/>
    <Interior/>
    <NumberFormat ss:Format="#,##0"/>
   </Style>
-  <Style ss:ID="s73">
-   <Font ss:FontName="Arial" x:Family="Swiss"/>
-  </Style>
   <Style ss:ID="s75" ss:Parent="s62">
    <Alignment ss:Vertical="Center"/>
    <Interior/>
+  </Style>
+  <Style ss:ID="s76">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <NumberFormat ss:Format="dd/\ mmm"/>
   </Style>
  </Styles>
  <Worksheet ss:Name="Sheet1">
@@ -106,7 +110,7 @@
    <Column ss:AutoFitWidth="0" ss:Width="80.25"/>
    <Column ss:AutoFitWidth="0" ss:Width="75.75"/>
    <Column ss:AutoFitWidth="0" ss:Width="99"/>
-   <Column ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:AutoFitWidth="0" ss:Width="95.25"/>
    <Column ss:AutoFitWidth="0" ss:Width="42.75"/>
    <Column ss:AutoFitWidth="0" ss:Width="43.5"/>
    <Column ss:AutoFitWidth="0" ss:Width="96.75"/>
@@ -193,11 +197,12 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">40,34;48,44</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">0.2</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">50000</Data></Cell>
     <Cell><Data ss:Type="Number">15.06</Data></Cell>
     <Cell><Data ss:Type="Number">9.9600000000000009</Data></Cell>
     <Cell><Data ss:Type="Number">8570</Data></Cell>
@@ -210,10 +215,10 @@
     <Cell><Data ss:Type="String">aircraft/f17</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/f17</Data></Cell>
     <Cell><Data ss:Type="Number">90</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">260</Data></Cell>
    </Row>
@@ -230,11 +235,12 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">75,71;75,71</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">600</Data></Cell>
     <Cell><Data ss:Type="Number">0.6</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">150000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">150000</Data></Cell>
     <Cell><Data ss:Type="Number">52.06</Data></Cell>
     <Cell><Data ss:Type="Number">22</Data></Cell>
     <Cell><Data ss:Type="Number">65000</Data></Cell>
@@ -247,10 +253,10 @@
     <Cell><Data ss:Type="String">aircraft/awacs</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/awacs</Data></Cell>
     <Cell><Data ss:Type="Number">110</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">150</Data></Cell>
    </Row>
@@ -267,11 +273,12 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">44,43;55,34</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">200</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">40000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">40000</Data></Cell>
     <Cell><Data ss:Type="Number">16</Data></Cell>
     <Cell><Data ss:Type="Number">9</Data></Cell>
     <Cell><Data ss:Type="Number">9500</Data></Cell>
@@ -284,10 +291,10 @@
     <Cell><Data ss:Type="String">aircraft/saracen</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/saracen</Data></Cell>
     <Cell><Data ss:Type="Number">90</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">300</Data></Cell>
    </Row>
@@ -304,11 +311,12 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">59,64;59,64</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">150</Data></Cell>
     <Cell><Data ss:Type="Number">0.3</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">60000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">60000</Data></Cell>
     <Cell><Data ss:Type="Number">22.69</Data></Cell>
     <Cell><Data ss:Type="Number">13.46</Data></Cell>
     <Cell><Data ss:Type="Number">21820</Data></Cell>
@@ -321,10 +329,10 @@
     <Cell><Data ss:Type="String">aircraft/mig31</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/mig</Data></Cell>
     <Cell><Data ss:Type="Number">110</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">300</Data></Cell>
    </Row>
@@ -341,11 +349,12 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">25,29;45,29</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">250</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">50000</Data></Cell>
     <Cell><Data ss:Type="Number">44</Data></Cell>
     <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -358,10 +367,10 @@
     <Cell><Data ss:Type="String">aircraft/humanfighter</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/humanfighter</Data></Cell>
     <Cell><Data ss:Type="Number">90</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:StyleID="s63"/>
     <Cell ss:Index="39"><Data ss:Type="Number">270</Data></Cell>
@@ -379,11 +388,12 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">38,29;29,46;47,46</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">350</Data></Cell>
     <Cell><Data ss:Type="Number">0.3</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">50000</Data></Cell>
     <Cell><Data ss:Type="Number">19.739999999999998</Data></Cell>
     <Cell><Data ss:Type="Number">11.86</Data></Cell>
     <Cell><Data ss:Type="Number">19142</Data></Cell>
@@ -396,10 +406,10 @@
     <Cell><Data ss:Type="String">aircraft/dominator</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/dominator</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">450</Data></Cell>
    </Row>
@@ -416,11 +426,12 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">42,67;58,67</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">150</Data></Cell>
     <Cell><Data ss:Type="Number">0.5</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">75000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">75000</Data></Cell>
     <Cell><Data ss:Type="Number">23</Data></Cell>
     <Cell><Data ss:Type="Number">12</Data></Cell>
     <Cell><Data ss:Type="Number">21820</Data></Cell>
@@ -433,10 +444,10 @@
     <Cell><Data ss:Type="String">aircraft/sonda</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/sonda</Data></Cell>
     <Cell><Data ss:Type="Number">90</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">330</Data></Cell>
    </Row>
@@ -453,11 +464,12 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">44,46;56,46</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">250</Data></Cell>
     <Cell><Data ss:Type="Number">0.3</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">80000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">80000</Data></Cell>
     <Cell><Data ss:Type="Number">19.739999999999998</Data></Cell>
     <Cell><Data ss:Type="Number">11.86</Data></Cell>
     <Cell><Data ss:Type="Number">19142</Data></Cell>
@@ -470,10 +482,10 @@
     <Cell><Data ss:Type="String">aircraft/corsair</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/corsair</Data></Cell>
     <Cell><Data ss:Type="Number">90</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">325</Data></Cell>
    </Row>
@@ -490,11 +502,12 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">51,75;51,71</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">200</Data></Cell>
     <Cell><Data ss:Type="Number">0.6</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">70000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">70000</Data></Cell>
     <Cell><Data ss:Type="Number">44</Data></Cell>
     <Cell><Data ss:Type="Number">21</Data></Cell>
     <Cell><Data ss:Type="Number">21820</Data></Cell>
@@ -507,10 +520,10 @@
     <Cell><Data ss:Type="String">aircraft/lancer</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/lancer</Data></Cell>
     <Cell><Data ss:Type="Number">150</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">400</Data></Cell>
    </Row>
@@ -527,7 +540,8 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">35,50;49,50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">300</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -544,10 +558,10 @@
     <Cell><Data ss:Type="String">aircraft/humanheavyfighter</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/humanheavyfighter</Data></Cell>
     <Cell><Data ss:Type="Number">110</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:StyleID="s63"/>
     <Cell ss:Index="39"><Data ss:Type="Number">325</Data></Cell>
@@ -565,11 +579,12 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">50,64;74,65;62,70</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">400</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">60000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">60000</Data></Cell>
     <Cell><Data ss:Type="Number">21.05</Data></Cell>
     <Cell><Data ss:Type="Number">12.58</Data></Cell>
     <Cell><Data ss:Type="Number">23041</Data></Cell>
@@ -582,10 +597,10 @@
     <Cell><Data ss:Type="String">aircraft/lotus</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/lotus</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">500</Data></Cell>
    </Row>
@@ -602,11 +617,12 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50,32;50,58</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">300</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">100000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">100000</Data></Cell>
     <Cell><Data ss:Type="Number">21.05</Data></Cell>
     <Cell><Data ss:Type="Number">12.58</Data></Cell>
     <Cell><Data ss:Type="Number">23041</Data></Cell>
@@ -619,10 +635,10 @@
     <Cell><Data ss:Type="String">aircraft/marauder</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/marauder</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">360</Data></Cell>
    </Row>
@@ -639,11 +655,12 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">56,74;69,74</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">250</Data></Cell>
     <Cell><Data ss:Type="Number">0.3</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">110000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">110000</Data></Cell>
     <Cell><Data ss:Type="Number">19</Data></Cell>
     <Cell><Data ss:Type="Number">11</Data></Cell>
     <Cell><Data ss:Type="Number">11000</Data></Cell>
@@ -656,10 +673,10 @@
     <Cell><Data ss:Type="String">aircraft/raptor</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/raptor</Data></Cell>
     <Cell><Data ss:Type="Number">90</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">400</Data></Cell>
    </Row>
@@ -676,11 +693,12 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">50,78;78,78</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">250</Data></Cell>
     <Cell><Data ss:Type="Number">0.8</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">90000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">90000</Data></Cell>
     <Cell><Data ss:Type="Number">23.22</Data></Cell>
     <Cell><Data ss:Type="Number">13.29</Data></Cell>
     <Cell><Data ss:Type="Number">18913</Data></Cell>
@@ -693,10 +711,10 @@
     <Cell><Data ss:Type="String">aircraft/fury</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/fury</Data></Cell>
     <Cell><Data ss:Type="Number">110</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">0</Data></Cell>
    </Row>
@@ -713,7 +731,8 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">52,18;52,50</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">400</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -727,13 +746,13 @@
     <Cell><Data ss:Type="Number">120000</Data></Cell>
     <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.SIDEWINDER</Data></Cell>
     <Cell><Data ss:Type="String">0;780;720;780</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/humanhunter</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/aircombat/humanhunter</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">aircraft/humanhunter</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">aircraft/aircombat/humanhunter</Data></Cell>
     <Cell><Data ss:Type="Number">90</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:StyleID="s75"/>
     <Cell ss:Index="39"><Data ss:Type="Number">350</Data></Cell>
@@ -751,11 +770,12 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">55,38;64,72;46,72</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">500</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">80000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">80000</Data></Cell>
     <Cell><Data ss:Type="Number">21.05</Data></Cell>
     <Cell><Data ss:Type="Number">12.58</Data></Cell>
     <Cell><Data ss:Type="Number">23041</Data></Cell>
@@ -765,13 +785,13 @@
     <Cell><Data ss:Type="Number">134893</Data></Cell>
     <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.SIDEWINDER;AV.AVALANCHE</Data></Cell>
     <Cell><Data ss:Type="String">0;780;720;780;1240;780</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/cyclone</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/aircombat/cyclone</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">aircraft/cyclone</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">aircraft/aircombat/cyclone</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">600</Data></Cell>
    </Row>
@@ -788,11 +808,12 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">42,36;56,36</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">350</Data></Cell>
     <Cell><Data ss:Type="Number">0.7</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">150000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">150000</Data></Cell>
     <Cell><Data ss:Type="Number">56</Data></Cell>
     <Cell><Data ss:Type="Number">24</Data></Cell>
     <Cell><Data ss:Type="Number">21820</Data></Cell>
@@ -802,13 +823,13 @@
     <Cell><Data ss:Type="Number">100000</Data></Cell>
     <Cell><Data ss:Type="String">AV.AUTOCANNON;AV.AUTOCANNON</Data></Cell>
     <Cell><Data ss:Type="String">0;780;720;780;1240;780</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/contrail</Data></Cell>
-    <Cell ss:StyleID="s73"><Data ss:Type="String">aircraft/aircombat/contrail</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">aircraft/contrail</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">aircraft/aircombat/contrail</Data></Cell>
     <Cell><Data ss:Type="Number">90</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">400</Data></Cell>
    </Row>
@@ -825,11 +846,12 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">33,74;72,74</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">300</Data></Cell>
     <Cell><Data ss:Type="Number">0.7</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">140000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">140000</Data></Cell>
     <Cell><Data ss:Type="Number">56</Data></Cell>
     <Cell><Data ss:Type="Number">24</Data></Cell>
     <Cell><Data ss:Type="Number">21820</Data></Cell>
@@ -842,10 +864,10 @@
     <Cell><Data ss:Type="String">aircraft/nightowl</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/nightowl</Data></Cell>
     <Cell><Data ss:Type="Number">90</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">500</Data></Cell>
    </Row>
@@ -862,11 +884,12 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">53,82;79,82</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">300</Data></Cell>
     <Cell><Data ss:Type="Number">0.7</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">145000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">145000</Data></Cell>
     <Cell><Data ss:Type="Number">56</Data></Cell>
     <Cell><Data ss:Type="Number">24</Data></Cell>
     <Cell><Data ss:Type="Number">21820</Data></Cell>
@@ -879,10 +902,10 @@
     <Cell><Data ss:Type="String">aircraft/merlin</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/merlin</Data></Cell>
     <Cell><Data ss:Type="Number">110</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">100</Data></Cell>
    </Row>
@@ -899,7 +922,8 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">42,25;59,25</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">500</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -916,10 +940,10 @@
     <Cell><Data ss:Type="String">aircraft/humaninterceptor</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/humaninterceptor</Data></Cell>
     <Cell><Data ss:Type="Number">90</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:StyleID="s75"/>
     <Cell ss:Index="39"><Data ss:Type="Number">390</Data></Cell>
@@ -937,7 +961,8 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">42,25;59,25;50,74</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">600</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -954,10 +979,10 @@
     <Cell><Data ss:Type="String">aircraft/humanheavyinterceptor</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/humanheavyinterceptor</Data></Cell>
     <Cell><Data ss:Type="Number">90</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:StyleID="s75"/>
     <Cell ss:Index="39"><Data ss:Type="Number">500</Data></Cell>
@@ -975,11 +1000,12 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">95,60;67,96;124,96</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">600</Data></Cell>
     <Cell><Data ss:Type="Number">0.7</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">200000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">200000</Data></Cell>
     <Cell><Data ss:Type="Number">56</Data></Cell>
     <Cell><Data ss:Type="Number">24</Data></Cell>
     <Cell><Data ss:Type="Number">21820</Data></Cell>
@@ -992,10 +1018,10 @@
     <Cell><Data ss:Type="String">aircraft/archelon</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/archelon</Data></Cell>
     <Cell><Data ss:Type="Number">90</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">0</Data></Cell>
    </Row>
@@ -1017,7 +1043,7 @@
     <Cell><Data ss:Type="String">216;450;491;255;6;3</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">50000</Data></Cell>
     <Cell><Data ss:Type="Number">30.01</Data></Cell>
     <Cell><Data ss:Type="Number">7.02</Data></Cell>
     <Cell><Data ss:Type="Number">10185</Data></Cell>
@@ -1028,10 +1054,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/chinook</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/chinook</Data></Cell>
     <Cell><Data ss:Type="Number">130</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="41"><Data ss:Type="String">ui_screens/ui_soldierequip/chinook</Data></Cell>
    </Row>
@@ -1048,12 +1074,13 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">475;429;405;327;5;4</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">50000</Data></Cell>
     <Cell><Data ss:Type="Number">28.83</Data></Cell>
     <Cell><Data ss:Type="Number">10.41</Data></Cell>
     <Cell><Data ss:Type="Number">14828</Data></Cell>
@@ -1064,10 +1091,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/shrike</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/shrike</Data></Cell>
     <Cell><Data ss:Type="Number">130</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="41"><Data ss:Type="String">ui_screens/ui_soldierequip/shrike</Data></Cell>
    </Row>
@@ -1089,7 +1116,7 @@
     <Cell><Data ss:Type="String">475;429;481;327;6;4</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">50000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">50000</Data></Cell>
     <Cell><Data ss:Type="Number">31.94</Data></Cell>
     <Cell><Data ss:Type="Number">15.27</Data></Cell>
     <Cell><Data ss:Type="Number">17820</Data></Cell>
@@ -1100,10 +1127,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/valkyrie</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/valkyrie</Data></Cell>
     <Cell><Data ss:Type="Number">135</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="41"><Data ss:Type="String">ui_screens/ui_soldierequip/valkyrie</Data></Cell>
    </Row>
@@ -1124,7 +1151,7 @@
     <Cell><Data ss:Type="Number">9999</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -1135,16 +1162,16 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/chinook</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/interceptor</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
    </Row>
    <Row>
-    <Cell ss:Index="19" ss:StyleID="s67"/>
-    <Cell ss:Index="32" ss:StyleID="s69"/>
-    <Cell ss:Index="35" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s68"/>
+    <Cell ss:Index="32" ss:StyleID="s70"/>
+    <Cell ss:Index="35" ss:StyleID="s70"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell><Data ss:Type="String">airplane.alien.lightscout</Data></Cell>
@@ -1159,7 +1186,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1175,10 +1203,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/lightscout</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufolightscout</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:StyleID="s63"/>
     <Cell><Data ss:Type="Number">30</Data></Cell>
@@ -1198,7 +1226,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1214,10 +1243,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/scout</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufoscout</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:StyleID="s63"/>
     <Cell><Data ss:Type="Number">35</Data></Cell>
@@ -1237,7 +1266,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1253,10 +1283,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/corvette</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufocorvette</Data></Cell>
     <Cell><Data ss:Type="Number">135</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="Number">1339</Data></Cell>
@@ -1275,7 +1305,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1291,10 +1322,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/carrier</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufocarrier</Data></Cell>
     <Cell><Data ss:Type="Number">350</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">150</Data></Cell>
     <Cell><Data ss:Type="Number">100000</Data></Cell>
@@ -1313,7 +1344,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1329,10 +1361,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/corvette</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufocorvette</Data></Cell>
     <Cell><Data ss:Type="Number">135</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">55</Data></Cell>
     <Cell><Data ss:Type="Number">1380</Data></Cell>
@@ -1351,7 +1383,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1367,18 +1400,18 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/fighter</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufofighter</Data></Cell>
     <Cell><Data ss:Type="Number">75</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienFighterDatacore;1xItems.FallenAlienFighter;2xItems.Alienalloys</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
     <Cell><Data ss:Type="Number">494</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
-    <Cell ss:Index="32" ss:StyleID="s69"/>
-    <Cell ss:Index="35" ss:StyleID="s69"/>
+    <Cell ss:Index="32" ss:StyleID="s70"/>
+    <Cell ss:Index="35" ss:StyleID="s70"/>
     <Cell ss:Index="37" ss:StyleID="s63"/>
    </Row>
    <Row>
@@ -1394,7 +1427,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1410,10 +1444,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/landingship</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufolandingship</Data></Cell>
     <Cell><Data ss:Type="Number">200</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="Number">2045</Data></Cell>
@@ -1432,7 +1466,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1448,10 +1483,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/exlandingship</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufoexlandingship</Data></Cell>
     <Cell><Data ss:Type="Number">200</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">60</Data></Cell>
     <Cell><Data ss:Type="Number">2432</Data></Cell>
@@ -1470,7 +1505,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1486,10 +1522,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/cruiser</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufocruiser</Data></Cell>
     <Cell><Data ss:Type="Number">300</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">45</Data></Cell>
     <Cell><Data ss:Type="Number">2344</Data></Cell>
@@ -1508,7 +1544,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1524,10 +1561,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/corvette</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufocorvette</Data></Cell>
     <Cell><Data ss:Type="Number">135</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">45</Data></Cell>
     <Cell><Data ss:Type="Number">2000</Data></Cell>
@@ -1546,7 +1583,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1562,10 +1600,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/scout</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufoscout</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s63"/>
     <Cell><Data ss:Type="Number">35</Data></Cell>
@@ -1585,7 +1623,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1601,10 +1640,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/lightscout</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufolightscout</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:StyleID="s63"/>
     <Cell><Data ss:Type="Number">35</Data></Cell>
@@ -1613,7 +1652,7 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">airplane.alien.terrorbattleship</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">9360</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">9360</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">2100</Data></Cell>
@@ -1624,7 +1663,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1640,10 +1680,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/battleship</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufobattleship</Data></Cell>
     <Cell><Data ss:Type="Number">400</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">150</Data></Cell>
     <Cell><Data ss:Type="Number">200000</Data></Cell>
@@ -1662,7 +1702,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1678,10 +1719,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/strikecruiser</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufostrikecruiser</Data></Cell>
     <Cell><Data ss:Type="Number">300</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">55</Data></Cell>
     <Cell><Data ss:Type="Number">2400</Data></Cell>
@@ -1700,7 +1741,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1716,18 +1758,18 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/heavyfighter</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufoheavyfighter</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienHeavyFighterDatacore;1xItems.FallenAlienHeavyFighter;2xItems.Alenium;4xItems.Alienalloys</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
     <Cell><Data ss:Type="Number">612</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
-    <Cell ss:Index="32" ss:StyleID="s69"/>
-    <Cell ss:Index="35" ss:StyleID="s69"/>
+    <Cell ss:Index="32" ss:StyleID="s70"/>
+    <Cell ss:Index="35" ss:StyleID="s70"/>
     <Cell ss:Index="37" ss:StyleID="s63"/>
    </Row>
    <Row>
@@ -1743,7 +1785,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1759,10 +1802,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/landingship</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufolandingship</Data></Cell>
     <Cell><Data ss:Type="Number">200</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="Number">3087</Data></Cell>
@@ -1781,7 +1824,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1797,10 +1841,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/exlandingship</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufoexlandingship</Data></Cell>
     <Cell><Data ss:Type="Number">200</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">60</Data></Cell>
     <Cell><Data ss:Type="Number">3947</Data></Cell>
@@ -1819,7 +1863,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1835,10 +1880,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/cruiser</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufocruiser</Data></Cell>
     <Cell><Data ss:Type="Number">300</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">45</Data></Cell>
     <Cell><Data ss:Type="Number">4696</Data></Cell>
@@ -1857,7 +1902,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1873,10 +1919,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/corvette</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufocorvette</Data></Cell>
     <Cell><Data ss:Type="Number">135</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">45</Data></Cell>
     <Cell><Data ss:Type="Number">2978</Data></Cell>
@@ -1895,7 +1941,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1911,10 +1958,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/scout</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufoscout</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s63"/>
     <Cell><Data ss:Type="Number">35</Data></Cell>
@@ -1934,7 +1981,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1950,10 +1998,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/carrier</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufocarrier</Data></Cell>
     <Cell><Data ss:Type="Number">350</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">45</Data></Cell>
     <Cell><Data ss:Type="Number">4800</Data></Cell>
@@ -1972,7 +2020,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -1988,10 +2037,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/lightscout</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufolightscout</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:StyleID="s63"/>
     <Cell><Data ss:Type="Number">35</Data></Cell>
@@ -2000,7 +2049,7 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">airplane.alien.terrordreadnought</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">43280</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">43280</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">800</Data></Cell>
@@ -2011,7 +2060,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2027,10 +2077,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/dreadnought</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufodreadnought</Data></Cell>
     <Cell><Data ss:Type="Number">400</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">150</Data></Cell>
     <Cell><Data ss:Type="Number">300000</Data></Cell>
@@ -2049,7 +2099,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2065,10 +2116,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/carrier</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufocarrier</Data></Cell>
     <Cell><Data ss:Type="Number">350</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">55</Data></Cell>
     <Cell><Data ss:Type="Number">5000</Data></Cell>
@@ -2087,7 +2138,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2103,18 +2155,18 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/hunter</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufohunter</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s75"><Data ss:Type="String">1xItems.AlienHunterDatacore;1xItems.FallenAlienHunter;2xItems.Alenium;4xItems.Alienalloys</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
     <Cell><Data ss:Type="Number">697</Data></Cell>
    </Row>
    <Row>
-    <Cell ss:Index="32" ss:StyleID="s69"/>
-    <Cell ss:Index="35" ss:StyleID="s69"/>
+    <Cell ss:Index="32" ss:StyleID="s70"/>
+    <Cell ss:Index="35" ss:StyleID="s70"/>
     <Cell ss:Index="37" ss:StyleID="s75"/>
    </Row>
    <Row>
@@ -2130,7 +2182,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2146,10 +2199,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/landingship</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufolandingship</Data></Cell>
     <Cell><Data ss:Type="Number">200</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="Number">5023</Data></Cell>
@@ -2168,7 +2221,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2184,10 +2238,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/exlandingship</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufoexlandingship</Data></Cell>
     <Cell><Data ss:Type="Number">200</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">60</Data></Cell>
     <Cell><Data ss:Type="Number">6172</Data></Cell>
@@ -2206,7 +2260,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2222,10 +2277,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/battlecruiser</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufocruiser</Data></Cell>
     <Cell><Data ss:Type="Number">300</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">40</Data></Cell>
     <Cell><Data ss:Type="Number">5538</Data></Cell>
@@ -2244,7 +2299,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2260,10 +2316,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/corvette</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufocorvette</Data></Cell>
     <Cell><Data ss:Type="Number">135</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">35</Data></Cell>
     <Cell><Data ss:Type="Number">4000</Data></Cell>
@@ -2282,7 +2338,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2298,10 +2355,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/scout</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufoscout</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s63"/>
     <Cell><Data ss:Type="Number">35</Data></Cell>
@@ -2321,7 +2378,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2337,10 +2395,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/battlecarrier</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufobattlecarrier</Data></Cell>
     <Cell><Data ss:Type="Number">350</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">45</Data></Cell>
     <Cell><Data ss:Type="Number">5684</Data></Cell>
@@ -2348,7 +2406,7 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">airplane.alien.battleship</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">9100</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">9100</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">2500</Data></Cell>
@@ -2359,7 +2417,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2375,10 +2434,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/battleship</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufobattleship</Data></Cell>
     <Cell><Data ss:Type="Number">400</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">50</Data></Cell>
     <Cell><Data ss:Type="Number">6171</Data></Cell>
@@ -2386,7 +2445,7 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">airplane.alien.dreadnought</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">32460</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">32460</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">850</Data></Cell>
@@ -2397,7 +2456,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2413,10 +2473,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/dreadnought</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufodreadnought</Data></Cell>
     <Cell><Data ss:Type="Number">400</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">150</Data></Cell>
     <Cell><Data ss:Type="Number">6600</Data></Cell>
@@ -2424,7 +2484,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell><Data ss:Type="String">airplane.alien.mothership</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">62400</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">62400</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">1200</Data></Cell>
@@ -2435,7 +2495,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2451,10 +2512,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/mothership</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufomothership</Data></Cell>
     <Cell><Data ss:Type="Number">400</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">1000000</Data></Cell>
@@ -2473,7 +2534,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2489,10 +2551,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/lightscout</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufolightscout</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:StyleID="s63"/>
     <Cell><Data ss:Type="Number">35</Data></Cell>
@@ -2501,7 +2563,7 @@
    </Row>
    <Row>
     <Cell><Data ss:Type="String">airplane.alien.bomberbattleship</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">10400</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">10400</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">2200</Data></Cell>
@@ -2512,7 +2574,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2528,10 +2591,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/battleship</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufobattleship</Data></Cell>
     <Cell><Data ss:Type="Number">400</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">55</Data></Cell>
     <Cell><Data ss:Type="Number">6271</Data></Cell>
@@ -2550,7 +2613,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2566,10 +2630,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/interceptor</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufointerceptor</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s75"><Data ss:Type="String">1xItems.AlienInterceptorDatacore;1xItems.FallenAlienInterceptor;2xItems.Alenium;4xItems.Alienalloys</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
@@ -2588,7 +2652,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2604,10 +2669,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/heavyinterceptor</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufoheavyinterceptor</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s75"><Data ss:Type="String">1xItems.AlienHeavyInterceptorDatacore;1xItems.FallenAlienHeavyInterceptor;3xItems.Alenium;5xItems.Alienalloys</Data></Cell>
     <Cell><Data ss:Type="Number">12</Data></Cell>
@@ -2615,7 +2680,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell><Data ss:Type="String">airplane.alien.infiltrator</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">48000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">480000</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">3000</Data></Cell>
@@ -2626,7 +2691,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
@@ -2642,18 +2708,18 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/destroyer</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufodestroyer</Data></Cell>
     <Cell><Data ss:Type="Number">400</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="Number">50</Data></Cell>
     <Cell><Data ss:Type="Number">2000000</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row>
-    <Cell ss:Index="32" ss:StyleID="s69"/>
-    <Cell ss:Index="35" ss:StyleID="s69"/>
+    <Cell ss:Index="32" ss:StyleID="s70"/>
+    <Cell ss:Index="35" ss:StyleID="s70"/>
     <Cell ss:Index="37" ss:StyleID="s75"/>
    </Row>
    <Row>
@@ -2673,7 +2739,7 @@
     <Cell><Data ss:Type="Number">9999</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -2684,10 +2750,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/chinook</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/interceptor</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
    </Row>
    <Row>
@@ -2707,7 +2773,7 @@
     <Cell><Data ss:Type="Number">9999</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -2718,10 +2784,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/chinook</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/interceptor</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
    </Row>
    <Row>
@@ -2741,7 +2807,7 @@
     <Cell><Data ss:Type="Number">9999</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
@@ -2752,16 +2818,16 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/chinook</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/interceptor</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
    </Row>
    <Row>
-    <Cell ss:Index="19" ss:StyleID="s67"/>
-    <Cell ss:Index="32" ss:StyleID="s69"/>
-    <Cell ss:Index="35" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s68"/>
+    <Cell ss:Index="32" ss:StyleID="s70"/>
+    <Cell ss:Index="35" ss:StyleID="s70"/>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">airplane.alien.heavyhunter</Data></Cell>
@@ -2792,10 +2858,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/interceptor</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufointerceptor</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s75"><Data ss:Type="String">1xItems.AlienInterceptorDatacore;1xItems.FallenAlienInterceptor;2xItems.Alenium;4xItems.Alienalloys</Data></Cell>
     <Cell><Data ss:Type="Number">10</Data></Cell>
@@ -2830,10 +2896,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/bomber</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufobomber</Data></Cell>
     <Cell><Data ss:Type="Number">150</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienBomberDatacore;1xItems.FallenAlienBomber;6xItems.Alenium;12xItems.Alienalloys</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
@@ -2868,10 +2934,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/bomber</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufobomber</Data></Cell>
     <Cell><Data ss:Type="Number">150</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienBomberDatacore;1xItems.FallenAlienBomber;6xItems.Alenium;12xItems.Alienalloys</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
@@ -2906,10 +2972,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/strikecruiser</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufostrikecruiser</Data></Cell>
     <Cell><Data ss:Type="Number">300</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienStrikeCruiserDatacore;1xItems.FallenAlienStrikeCruiser;8xItems.Alenium;16xItems.Alienalloys</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
@@ -2944,10 +3010,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/strikecruiser</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufostrikecruiser</Data></Cell>
     <Cell><Data ss:Type="Number">300</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienStrikeCruiserDatacore;1xItems.FallenAlienStrikeCruiser;8xItems.Alenium;16xItems.Alienalloys</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
@@ -2982,10 +3048,10 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/strikecruiser</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufostrikecruiser</Data></Cell>
     <Cell><Data ss:Type="Number">300</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell ss:StyleID="s63"><Data ss:Type="String">1xItems.AlienStrikeCruiserDatacore;1xItems.FallenAlienStrikeCruiser;8xItems.Alenium;16xItems.Alienalloys</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
@@ -2993,7 +3059,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15">
     <Cell><Data ss:Type="String">airplane.alien.dreadnought&#45;-</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">10000</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">3000</Data></Cell>
@@ -3020,19 +3086,19 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/dreadnought</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufodreadnought</Data></Cell>
     <Cell><Data ss:Type="Number">400</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">1xItems.AlienDreadnoughtDatacore;1xItems.FallenAlienDreadnought;60xAlienAlloys;30xAlenium</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">25000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">25000</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="15.75">
     <Cell><Data ss:Type="String">airplane.alien.assaultlander</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1000</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">999999</Data></Cell>
     <Cell><Data ss:Type="Number">1000</Data></Cell>
@@ -3060,14 +3126,14 @@
     <Cell ss:Index="29"><Data ss:Type="String">aircraft/UFOs/destroyer</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/ufodestroyer</Data></Cell>
     <Cell><Data ss:Type="Number">300</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="String">1xItems.AlienAssaultLanderDatacore;1xItems.FallenAlienAssaultLander;20xAlienAlloys;5xAlenium</Data></Cell>
     <Cell><Data ss:Type="Number">40</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">15000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">15000</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row>
@@ -3088,7 +3154,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">150</Data></Cell>
     <Cell><Data ss:Type="Number">0.4</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">60000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">60000</Data></Cell>
     <Cell><Data ss:Type="Number">19.739999999999998</Data></Cell>
     <Cell><Data ss:Type="Number">11.86</Data></Cell>
     <Cell><Data ss:Type="Number">19142</Data></Cell>
@@ -3101,10 +3167,10 @@
     <Cell><Data ss:Type="String">aircraft/corsair</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/corsair</Data></Cell>
     <Cell><Data ss:Type="Number">70</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Yes</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">0</Data></Cell>
    </Row>
@@ -3125,7 +3191,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">0</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">50</Data></Cell>
     <Cell><Data ss:Type="Number">50</Data></Cell>
     <Cell><Data ss:Type="Number">7646</Data></Cell>
@@ -3154,7 +3220,7 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="17"><Data ss:Type="Number">300</Data></Cell>
     <Cell><Data ss:Type="Number">0.5</Data></Cell>
-    <Cell ss:StyleID="s67"><Data ss:Type="Number">100000</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">100000</Data></Cell>
     <Cell><Data ss:Type="Number">48</Data></Cell>
     <Cell><Data ss:Type="Number">24</Data></Cell>
     <Cell><Data ss:Type="Number">35000</Data></Cell>
@@ -3167,10 +3233,10 @@
     <Cell><Data ss:Type="String">aircraft/fortress</Data></Cell>
     <Cell><Data ss:Type="String">aircraft/aircombat/fortress</Data></Cell>
     <Cell><Data ss:Type="Number">80</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
-    <Cell ss:StyleID="s69"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">No</Data></Cell>
     <Cell><Data ss:Type="String">Yes</Data></Cell>
     <Cell ss:Index="39"><Data ss:Type="Number">10000</Data></Cell>
    </Row>
@@ -3186,16 +3252,16 @@
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>
     <HorizontalResolution>300</HorizontalResolution>
-    <VerticalResolution>0</VerticalResolution>
+    <VerticalResolution>600</VerticalResolution>
    </Print>
    <Zoom>110</Zoom>
    <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>41</TopRowBottomPane>
+   <TopRowBottomPane>58</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>17</LeftColumnRightPane>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
@@ -3203,7 +3269,6 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveCol>1</ActiveCol>
     </Pane>
     <Pane>
      <Number>2</Number>
@@ -3211,8 +3276,7 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>64</ActiveRow>
-     <ActiveCol>26</ActiveCol>
+     <ActiveRow>69</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

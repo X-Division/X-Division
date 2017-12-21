@@ -254,7 +254,7 @@
 				EngagementRange = "60.0" />
 	</Behaviour>
 	
-    <Props sightRange="40" suppressionMultiplier="1" />
+    <Props sightRange="22" suppressionMultiplier="1" />
     <GibbedSpectre name="particles/gibbed_alien/gibbed_alien" />
 	
     <Rank  type="NonCombatant">
@@ -2405,7 +2405,7 @@
 	</Behaviour>
 	
     <Sounds death="SebillianDeath" injury="SebillianInjury" />
-    <Props sightRange="40" suppressionMultiplier="0.7" />
+    <Props sightRange="20" suppressionMultiplier="0.7" />
 	<GibbedSpectre name="particles/gibbed_alien/gibbed_alien" />
 	
 	<!--  	  Sebillians Phase 1	-->
@@ -4865,7 +4865,7 @@
   <AI MODMERGEATTRIBUTE="race" MODMERGE="replace" race="Harridan">
     <Sounds death="HarridanDeath" injury="HarridanInjury" />
     <Special jumpPack="1" jumpPackSound="HarridanJetpackSound" />
-    <Props sightRange="40" suppressionMultiplier="1.5" />
+    <Props sightRange="30" suppressionMultiplier="1.5" />
 	<GibbedSpectre name="particles/gibbed_alien/gibbed_alien" />
 
 	<Decision
@@ -5287,7 +5287,7 @@
 
   <AI MODMERGEATTRIBUTE="race" MODMERGE="replace" race="Wraith">
     <Sounds death="WraithDeath" injury="WraithInjury" />
-    <Props sightRange="40" suppressionMultiplier="0.3" />
+    <Props sightRange="30" suppressionMultiplier="0.3" />
 	<GibbedSpectre name="particles/gibbed_alien/gibbed_alien" />
 
 	<Decision
@@ -6231,8 +6231,8 @@
 	<GibbedSpectre name="particles/gibbed_alien/gibbed_alien" />
 
     <Rank  type="Zombie.generic">
-      <Props APs="36" Resilience="140" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper,MeleeVehicles"  CrouchDisabled="1" />
-      <Armour kinetic="10" energy="0" chemical="0" incendiary="0" />
+      <Props APs="36" Resilience="140" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper,MeleeVehicles,Permadeath"  CrouchDisabled="1" />
+      <Armour kinetic="0" energy="30" chemical="0" incendiary="0" />
       <Items killed="Items.ReaperNonCombatantCorpse" stunned="Items.ReaperNonCombatant" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
       <Equipments>
@@ -6245,8 +6245,8 @@
     </Rank>
 
     <Rank  type="Zombie.basic">
-       <Props APs="36" Resilience="140" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper,MeleeVehicles"  CrouchDisabled="1" />
-      <Armour kinetic="10" energy="0" chemical="0" incendiary="0" />
+       <Props APs="36" Resilience="140" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper,MeleeVehicles,Permadeath"  CrouchDisabled="1" />
+      <Armour kinetic="0" energy="30" chemical="0" incendiary="0" />
       <Items killed="Items.ReaperNonCombatantCorpse" stunned="Items.ReaperNonCombatant" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
       <Equipments>
@@ -6259,8 +6259,8 @@
     </Rank>
 
     <Rank  type="Zombie.wolf">
-       <Props APs="36" Resilience="140" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper,MeleeVehicles"  CrouchDisabled="1" />
-      <Armour kinetic="25" energy="5" chemical="10" incendiary="5" />
+       <Props APs="36" Resilience="140" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper,MeleeVehicles,Permadeath"  CrouchDisabled="1" />
+      <Armour kinetic="5" energy="45" chemical="10" incendiary="5" />
       <Items killed="Items.ReaperNonCombatantCorpse" stunned="Items.ReaperNonCombatant" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
       <Equipments>
@@ -6273,8 +6273,8 @@
     </Rank>
 
     <Rank  type="Zombie.buzzard">
-      <Props APs="36" Resilience="140" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper,MeleeVehicles"  CrouchDisabled="1" />
-      <Armour kinetic="25" energy="5" chemical="10" incendiary="5" />
+      <Props APs="36" Resilience="140" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper,MeleeVehicles,Permadeath"  CrouchDisabled="1" />
+      <Armour kinetic="5" energy="45" chemical="10" incendiary="5" />
       <Items killed="Items.ReaperNonCombatantCorpse" stunned="Items.ReaperNonCombatant" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
       <Equipments>
@@ -6288,8 +6288,8 @@
 
 
     <Rank  type="ZombieAlpha.generic">
-      <Props APs="36" Resilience="220" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper,MeleeVehicles"  CrouchDisabled="1" />
-      <Armour kinetic="50" energy="20" chemical="40" incendiary="10" />
+      <Props APs="36" Resilience="220" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper.Reaper.ReaperAlpha.2,MeleeVehicles,Permadeath"  CrouchDisabled="1" />
+      <Armour kinetic="20" energy="75" chemical="40" incendiary="10" />
       <Items killed="Items.ReaperNonCombatantCorpse" stunned="Items.ReaperNonCombatant" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
       <Equipments>
@@ -6302,8 +6302,8 @@
     </Rank>
 
     <Rank  type="ZombieAlpha.basic">
-       <Props APs="36" Resilience="220" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper,MeleeVehicles"  CrouchDisabled="1" />
-      <Armour kinetic="40" energy="0" chemical="100" incendiary="0" />
+       <Props APs="36" Resilience="220" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper.Reaper.ReaperAlpha.2,MeleeVehicles,Permadeath"  CrouchDisabled="1" />
+      <Armour kinetic="0" energy="75" chemical="100" incendiary="0" />
       <Items killed="Items.ReaperNonCombatantCorpse" stunned="Items.ReaperNonCombatant" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
       <Equipments>
@@ -6316,8 +6316,8 @@
     </Rank>
 
     <Rank  type="ZombieAlpha.wolf">
-       <Props APs="36" Resilience="220" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper,MeleeVehicles"  CrouchDisabled="1" />
-      <Armour kinetic="40" energy="0" chemical="100" incendiary="0" />
+       <Props APs="36" Resilience="220" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper.Reaper.ReaperAlpha.2,MeleeVehicles,Permadeath"  CrouchDisabled="1" />
+      <Armour kinetic="0" energy="75" chemical="100" incendiary="0" />
       <Items killed="Items.ReaperNonCombatantCorpse" stunned="Items.ReaperNonCombatant" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
       <Equipments>
@@ -6330,8 +6330,36 @@
     </Rank>
 
     <Rank  type="ZombieAlpha.buzzard">
-       <Props APs="36" Resilience="220" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper,MeleeVehicles"  CrouchDisabled="1" />
-      <Armour kinetic="40" energy="0" chemical="100" incendiary="0" />
+       <Props APs="36" Resilience="220" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper.Reaper.ReaperAlpha.2,MeleeVehicles,Permadeath"  CrouchDisabled="1" />
+      <Armour kinetic="0" energy="75" chemical="100" incendiary="0" />
+      <Items killed="Items.ReaperNonCombatantCorpse" stunned="Items.ReaperNonCombatant" />
+	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
+      <Equipments>
+        
+        <Equipment>
+          <PrimaryWeapon name="weapon.zombiealphamelee" />
+        </Equipment>
+        
+      </Equipments>
+    </Rank>
+
+    <Rank  type="ZombieOmega">
+       <Props APs="36" Resilience="300" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper.Reaper.ReaperOmega.1,MeleeVehicles,Permadeath"  CrouchDisabled="1" />
+      <Armour kinetic="0" energy="90" chemical="150" incendiary="0" />
+      <Items killed="Items.ReaperNonCombatantCorpse" stunned="Items.ReaperNonCombatant" />
+	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
+      <Equipments>
+        
+        <Equipment>
+          <PrimaryWeapon name="weapon.zombiealphamelee" />
+        </Equipment>
+        
+      </Equipments>
+    </Rank>
+
+    <Rank  type="ZombieZeta">
+       <Props APs="36" Resilience="380" Strength="60" Accuracy="200" Reflexes="0" Bravery="100" Abilities="SpawnReaper.Reaper.Reaperzeta.0,MeleeVehicles,Permadeath"  CrouchDisabled="1" />
+      <Armour kinetic="0" energy="120" chemical="200" incendiary="0" />
       <Items killed="Items.ReaperNonCombatantCorpse" stunned="Items.ReaperNonCombatant" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
       <Equipments>
@@ -6799,7 +6827,7 @@
 				CautiousDistance = "1"/>
 		</Behaviour>
 		
-      <Props APs="80" Resilience="450" Strength="60" Accuracy="100" Reflexes="1" Bravery="200" CrouchDisabled="1" Abilities="Zombify,MeleeVehicles" />
+      <Props APs="80" Resilience="450" Strength="60" Accuracy="100" Reflexes="1" Bravery="200" CrouchDisabled="1" Abilities="Zombify.Reaper.ZombieOmega,MeleeVehicles" />
       <Armour kinetic="35" energy="75" chemical="75" incendiary="35" />
       <Items killed="Items.ReaperOmegaCorpse" stunned="Items.ReaperOmega" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -6830,7 +6858,7 @@
 				CautiousDistance = "1"/>
 		</Behaviour>
 		
-      <Props APs="80" Resilience="600" Strength="60" Accuracy="100" Reflexes="1" Bravery="200" CrouchDisabled="1" Abilities="Zombify,MeleeVehicles" />
+      <Props APs="80" Resilience="600" Strength="60" Accuracy="100" Reflexes="1" Bravery="200" CrouchDisabled="1" Abilities="Zombify.Reaper.ZombieZeta,MeleeVehicles" />
       <Armour kinetic="60" energy="100" chemical="100" incendiary="60" />
       <Items killed="Items.ReaperZetaCorpse" stunned="Items.ReaperZeta" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -7028,7 +7056,7 @@
 
   <AI MODMERGEATTRIBUTE="race" MODMERGE="replace" race="Scuttler">
     <Sounds death="PraetorDeath" injury="PraetorInjury" movingSound="PraetorMovingSound" />
-    <Props sightRange="40" />
+    <Props sightRange="30" />
     
     <Rank  type="Scuttler">
       <Props APs="80" Resilience="55" Strength="35" Accuracy="120" Reflexes="100" Bravery="100"
@@ -7048,7 +7076,7 @@
 
   <AI MODMERGEATTRIBUTE="race" MODMERGE="replace" race="Lightdrone">
     <Sounds death="Weapon Frag Grenade" injury="LightDroneInjury" movingSound="PraetorMovingSound" />
-    <Props noBloodStain="1" sightRange="40" suppressionMultiplier="0.0" />
+    <Props noBloodStain="1" sightRange="30" suppressionMultiplier="0.0" />
 	<Behaviour>	
 		<Pathing 
 				Sight="0.3" 
@@ -7133,7 +7161,7 @@
 				EngagementRange = "60.0" />
 	</Behaviour>
     <Sounds death="Weapon Frag Grenade" injury="LightDroneInjury" movingSound="MediumDroneMoveSound" />
-    <Props moveSpeed="150" stairsMoveSpeed="80" noBloodStain="1" sightRange="40" deathExplosion="weapon.explosive.mediumdrone" suppressionMultiplier="0.0" />
+    <Props moveSpeed="150" stairsMoveSpeed="80" noBloodStain="1" sightRange="30" deathExplosion="weapon.explosive.mediumdrone" suppressionMultiplier="0.0" />
     
     <Rank  type="Mediumdrone">
       <Props APs="65" Resilience="300" Strength="60" Accuracy="70" Reflexes="90" Bravery="100" Abilities="Robotic" CrouchDisabled="1" Hovering="1" pathWidth="2" />
@@ -7206,7 +7234,7 @@
 				EngagementRange = "60.0" />
 	</Behaviour>
     <Sounds death="Weapon Frag Grenade" injury="LightDroneInjury" movingSound="HeavyDroneMoveSound" />
-    <Props moveSpeed="100" stairsMoveSpeed="60" noBloodStain="1" sightRange="40" deathExplosion="weapon.explosive.heavydrone" suppressionMultiplier="0.0" />
+    <Props moveSpeed="100" stairsMoveSpeed="60" noBloodStain="1" sightRange="30" deathExplosion="weapon.explosive.heavydrone" suppressionMultiplier="0.0" />
     
     <Rank  type="Heavydrone">
       <Props APs="55" Resilience="500" Strength="60" Accuracy="50" Reflexes="10" Bravery="100" Abilities="Robotic" CrouchDisabled="1" Hovering="1" pathWidth="3" />
@@ -9108,7 +9136,7 @@
 
 	<Rank  type="XFacehuggerWarrior">
 
-      <Props APs="90" Resilience="90" Strength="60" Accuracy="300" Reflexes="80" Bravery="100" Abilities="Zombify.XHostFacehuggerWarrior.XHostFacehuggerWarrior, MeleeVehicles, SpawnReaper.Dummy.Dummy.7" CrouchDisabled="1" />
+      <Props APs="100" Resilience="90" Strength="60" Accuracy="300" Reflexes="80" Bravery="100" Abilities="Zombify.XHostFacehuggerWarrior.XHostFacehuggerWarrior, MeleeVehicles, SpawnReaper.Dummy.Dummy.7" CrouchDisabled="1" />
       <Armour kinetic="10" energy="2" chemical="10" incendiary="0" />
       <Items killed="" stunned="Items.XFacehugger" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -9165,7 +9193,7 @@
 
 	<Rank  type="XFacehuggerElite">
 
-      <Props APs="90" Resilience="120" Strength="60" Accuracy="300" Reflexes="80" Bravery="100" Abilities="Zombify.XHostFacehuggerElite.XHostFacehuggerElite, MeleeVehicles, SpawnReaper.Dummy.Dummy.8" CrouchDisabled="1" />
+      <Props APs="100" Resilience="120" Strength="60" Accuracy="300" Reflexes="80" Bravery="100" Abilities="Zombify.XHostFacehuggerElite.XHostFacehuggerElite, MeleeVehicles, SpawnReaper.Dummy.Dummy.8" CrouchDisabled="1" />
       <Armour kinetic="10" energy="2" chemical="10" incendiary="0" />
       <Items killed="" stunned="Items.XFacehugger" />
 	  <BloodHitSprite name="particles/hit_alienblood/hit_alienblood" />
@@ -9351,7 +9379,7 @@
 
 	<Rank  type="XDroneWarrior">
 	
-      <Props APs="150" Resilience="100" Strength="60" Accuracy="300" Reflexes="200" Bravery="100" Abilities="Regeneration, MeleeVehicles" CrouchDisabled="1" />
+      <Props APs="160" Resilience="100" Strength="60" Accuracy="300" Reflexes="200" Bravery="100" Abilities="Regeneration, MeleeVehicles" CrouchDisabled="1" />
       <Armour kinetic="112.5" energy="45" chemical="112.5" incendiary="15" />
       <Items killed="Items.XRedDroneCorpse" stunned="Items.XRedDrone" />
 	  <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -9408,7 +9436,7 @@
 
 	<Rank  type="XDroneElite">
 	
-      <Props APs="150" Resilience="170" Strength="60" Accuracy="300" Reflexes="200" Bravery="100" Abilities="Regeneration, MeleeVehicles" CrouchDisabled="1" />
+      <Props APs="160" Resilience="170" Strength="60" Accuracy="300" Reflexes="200" Bravery="100" Abilities="Regeneration, MeleeVehicles" CrouchDisabled="1" />
       <Armour kinetic="169" energy="67.5" chemical="169" incendiary="20" />
       <Items killed="Items.XCrimsonDroneCorpse" stunned="Items.XCrimsonDrone" />
 	  <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -9577,7 +9605,7 @@
 
 	<Rank  type="XWarriorWarrior">
 	
-      <Props APs="110" Resilience="180" Strength="90" Accuracy="300" Reflexes="140" Bravery="100" Abilities="Regeneration,Heavy,MeleeVehicles" CrouchDisabled="1" />
+      <Props APs="120" Resilience="180" Strength="90" Accuracy="300" Reflexes="140" Bravery="100" Abilities="Regeneration,Heavy,MeleeVehicles" CrouchDisabled="1" />
       <Armour kinetic="136.5" energy="49.5" chemical="136.5" incendiary="20" />
       <Items killed="Items.XRedWarriorCorpse" stunned="Items.XRedWarrior" />
 	  <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />      
@@ -9633,7 +9661,7 @@
 
 	<Rank  type="XWarriorElite">
 	
-      <Props APs="110" Resilience="300" Strength="90" Accuracy="300" Reflexes="140" Bravery="100" Abilities="Regeneration,Heavy,MeleeVehicles" CrouchDisabled="1" />
+      <Props APs="120" Resilience="300" Strength="90" Accuracy="300" Reflexes="140" Bravery="100" Abilities="Regeneration,Heavy,MeleeVehicles" CrouchDisabled="1" />
       <Armour kinetic="205" energy="75" chemical="205" incendiary="30" />
       <Items killed="Items.XCrimsonWarriorCorpse" stunned="Items.XCrimsonWarrior" />
 	  <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />      
@@ -9801,7 +9829,7 @@
 
     <Rank  type="XPraetorianWarrior">
 		
-		<Props APs="80" Resilience="750" Strength="100" Accuracy="300" Reflexes="80" Bravery="100" Abilities="Regeneration,Heavy,MeleeVehicles" CrouchDisabled="1" />
+		<Props APs="90" Resilience="750" Strength="100" Accuracy="300" Reflexes="80" Bravery="100" Abilities="Regeneration,Heavy,MeleeVehicles" CrouchDisabled="1" />
 		<Armour kinetic="150" energy="64" chemical="150" incendiary="25" />
 		<Items killed="Items.XRedPraetorianCorpse" stunned="Items.XRedPraetorian" />
 	    <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -9857,7 +9885,7 @@
 
     <Rank  type="XPraetorianWarriorF">
 		
-		<Props APs="80" Resilience="750" Strength="100" Accuracy="300" Reflexes="80" Bravery="100" Abilities="Regeneration,Heavy,MeleeVehicles,SpawnReaper.XQueenWarriorF.XQueenWarriorF.5,Permadeath" CrouchDisabled="1" />
+		<Props APs="90" Resilience="750" Strength="100" Accuracy="300" Reflexes="80" Bravery="100" Abilities="Regeneration,Heavy,MeleeVehicles,SpawnReaper.XQueenWarriorF.XQueenWarriorF.5,Permadeath" CrouchDisabled="1" />
 		<Armour kinetic="150" energy="64" chemical="150" incendiary="25" />
 		<Items killed="Items.XRedPraetorianCorpse" stunned="Items.XRedPraetorian" />
 	    <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -9913,7 +9941,7 @@
 
     <Rank  type="XPraetorianElite">
 		
-		<Props APs="80" Resilience="750" Strength="100" Accuracy="300" Reflexes="80" Bravery="100" Abilities="Regeneration,Heavy,MeleeVehicles" CrouchDisabled="1" />
+		<Props APs="90" Resilience="750" Strength="100" Accuracy="300" Reflexes="80" Bravery="100" Abilities="Regeneration,Heavy,MeleeVehicles" CrouchDisabled="1" />
 		<Armour kinetic="225" energy="96" chemical="225" incendiary="35" />
 		<Items killed="Items.XCrimsonPraetorianCorpse" stunned="Items.XCrimsonPraetorian" />
 	    <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -9969,7 +9997,7 @@
 
     <Rank  type="XPraetorianEliteF">
 		
-		<Props APs="80" Resilience="750" Strength="100" Accuracy="300" Reflexes="80" Bravery="100" Abilities="Regeneration,Heavy,MeleeVehicles,SpawnReaper.XQueenEliteF.XQueenEliteF.5,Permadeath" CrouchDisabled="1" />
+		<Props APs="90" Resilience="750" Strength="100" Accuracy="300" Reflexes="80" Bravery="100" Abilities="Regeneration,Heavy,MeleeVehicles,SpawnReaper.XQueenEliteF.XQueenEliteF.5,Permadeath" CrouchDisabled="1" />
 		<Armour kinetic="225" energy="96" chemical="225" incendiary="35" />
 		<Items killed="Items.XCrimsonPraetorianCorpse" stunned="Items.XCrimsonPraetorian" />
 	    <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -10644,7 +10672,7 @@
 
 	<Rank  type="XAcidlingWarrior">
 
-      <Props APs="100" Resilience="20" Strength="60" Accuracy="300" Reflexes="100" Bravery="100" Abilities="Robotic" CrouchDisabled="1" />
+      <Props APs="110" Resilience="20" Strength="60" Accuracy="300" Reflexes="100" Bravery="100" Abilities="Robotic" CrouchDisabled="1" />
       <Armour kinetic="0" energy="0" chemical="0" incendiary="0" />
       <Items killed="Items.XAcidlingWarriorCorpse" stunned="Items.XAcidlingWarrior" />
 	  <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -10702,7 +10730,7 @@
 
 	<Rank  type="XAcidlingElite">
 
-      <Props APs="100" Resilience="25" Strength="60" Accuracy="300" Reflexes="125" Bravery="100" Abilities="Robotic" CrouchDisabled="1" />
+      <Props APs="110" Resilience="25" Strength="60" Accuracy="300" Reflexes="125" Bravery="100" Abilities="Robotic" CrouchDisabled="1" />
       <Armour kinetic="0" energy="0" chemical="0" incendiary="0" />
       <Items killed="Items.XAcidlingEliteCorpse" stunned="Items.XAcidlingElite" />
 	  <BloodHitSprite name="particles/hit_xenoblood/hit_xenoblood" />
@@ -10747,7 +10775,7 @@
 				EngagementRange = "60.0" />
 	</Behaviour>
     <Special strength="1" />  <!-- 'strength' seems to be not used in the code. -->
-    <Props noBloodStain="1" sightRange="40" moveSpeed="350" stairsMoveSpeed="80" deathExplosion="weapon.explosive.andronxshielddown" suppressionMultiplier="0.0" />
+    <Props noBloodStain="1" sightRange="24" moveSpeed="350" stairsMoveSpeed="80" deathExplosion="weapon.explosive.andronxshielddown" suppressionMultiplier="0.0" />
 	<GibbedSpectre name="units/alien/lightdrone/lightdrone/weapon.lightdroneblaster/droneexplode" />
 	
 
@@ -11055,7 +11083,7 @@
 				EngagementRange = "60.0" />
 	</Behaviour>
     <Special strength="1" />  <!-- 'strength' seems to be not used in the code. -->
-    <Props noBloodStain="1" sightRange="40" moveSpeed="350" stairsMoveSpeed="80" suppressionMultiplier="0.0" />
+    <Props noBloodStain="1" sightRange="24" moveSpeed="350" stairsMoveSpeed="80" suppressionMultiplier="0.0" />
 	<GibbedSpectre name="units/alien/lightdrone/lightdrone/weapon.lightdroneblaster/droneexplode" />
 	
 
@@ -13531,7 +13559,7 @@
 				EngagementRange = "60.0" />
 	</Behaviour>
 	
-    <Props sightRange="40"  suppressionMultiplier="0.2" />
+    <Props sightRange="20"  suppressionMultiplier="0.2" />
     <Rank MODMERGEATTRIBUTE="type" MODMERGE="update" type="MindCtrledHuman">
       <Props APs="50" Resilience="50" Strength="60" Accuracy="100" Reflexes="100" Bravery="20"
              PsionicPower="" Recklessness="0" Tactical="0" Grenade="0" Situational="0" PreferredRange="Medium"

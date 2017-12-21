@@ -1385,7 +1385,7 @@
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">2000</Data></Cell>
-    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">1.5</Data></Cell>
     <Cell><Data ss:Type="Number">12</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
@@ -1905,7 +1905,7 @@
     <Cell><Data ss:Type="String">Normal</Data></Cell>
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell><Data ss:Type="Number">3000</Data></Cell>
-    <Cell><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell><Data ss:Type="Number">0.7</Data></Cell>
     <Cell><Data ss:Type="Number">100</Data></Cell>
     <Cell><Data ss:Type="Number">180</Data></Cell>
     <Cell><Data ss:Type="String">Auto</Data></Cell>
@@ -3796,7 +3796,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>40</TopRowBottomPane>
+   <TopRowBottomPane>65</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -3813,8 +3813,8 @@
     </Pane>
     <Pane>
      <Number>0</Number>
-     <ActiveRow>59</ActiveRow>
-     <ActiveCol>10</ActiveCol>
+     <ActiveRow>92</ActiveRow>
+     <ActiveCol>4</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

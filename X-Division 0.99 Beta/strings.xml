@@ -278,11 +278,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Ballistic Shotgun:&#10;
     &#8226; RANGE:__________________________3
-    &#8226; DAMAGE:______KINETIC 7(stun 5)*8
+    &#8226; DAMAGE:______KINETIC 8(stun 5)*8
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________10
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:________________6
+    &#8226; AMMO CAPACITY:________________8
     &#8226; WEIGHT:________________________4
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -347,7 +347,7 @@
     &#8226; DAMAGE:________________INCENDIARY 20
     &#8226; MITIGATION:________________________0
     &#8226; SUPPRESSION:_____________________0
-    &#8226; MMO CAPACITY:___________________40
+    &#8226; AMMO CAPACITY:___________________40
     &#8226; WEIGHT:___________________________9
     &#8226; HANDS:______________________________2
     &#8226; HEAVY:___________________________YES
@@ -437,11 +437,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Division Shotgun MK-1:&#10;
     &#8226; RANGE:_________________________3
-    &#8226; DAMAGE:____KINETIC 10(stun 8)*10
+    &#8226; DAMAGE:____KINETIC 11(stun 8)*10
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________10
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:________________8
+    &#8226; AMMO CAPACITY:________________10
     &#8226; WEIGHT:________________________5
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -621,11 +621,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Division Shotgun MK-2:&#10;
     &#8226; RANGE:_________________________3
-    &#8226; DAMAGE:____KINETIC 10(stun 8)*12
+    &#8226; DAMAGE:____KINETIC 11(stun 8)*12
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________12
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:_______________10
+    &#8226; AMMO CAPACITY:_______________12
     &#8226; WEIGHT:________________________5
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -804,11 +804,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Division Shotgun MK-3:&#10;
     &#8226; RANGE:_________________________4
-    &#8226; DAMAGE:____KINETIC 10(stun 8)*14
+    &#8226; DAMAGE:____KINETIC 11(stun 8)*14
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________14
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:_______________12
+    &#8226; AMMO CAPACITY:_______________14
     &#8226; WEIGHT:________________________5
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -945,11 +945,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Laser Carbine MK-1:&#10;
     &#8226; RANGE:_________________________3
-    &#8226; DAMAGE:____ENERGY 10(stun 8)*4
+    &#8226; DAMAGE:____ENERGY 11(stun 8)*4
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________70
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:________________8
+    &#8226; AMMO CAPACITY:________________6
     &#8226; WEIGHT:________________________5
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -1081,11 +1081,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Laser Carbine MK-2:&#10;
     &#8226; RANGE:_________________________3
-    &#8226; DAMAGE:____ENERGY 10(stun 8)*4
+    &#8226; DAMAGE:____ENERGY 11(stun 8)*4
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________72
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:________________10
+    &#8226; AMMO CAPACITY:________________8
     &#8226; WEIGHT:________________________5
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -1217,11 +1217,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Laser Carbine MK-3:&#10;
     &#8226; RANGE:_________________________4
-    &#8226; DAMAGE:____ENERGY 10(stun 8)*4
+    &#8226; DAMAGE:____ENERGY 11(stun 8)*4
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________72
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:________________13
+    &#8226; AMMO CAPACITY:________________10
     &#8226; WEIGHT:________________________5
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -1376,11 +1376,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    MAG Carbine MK-1:&#10;
     &#8226; RANGE:_________________________3
-    &#8226; DAMAGE:___KINETIC 14(stun 11)*10
+    &#8226; DAMAGE:___KINETIC 15(stun 11)*10
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:_______________13/70
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:________________4
+    &#8226; AMMO CAPACITY:________________9
     &#8226; WEIGHT:________________________6
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -1511,11 +1511,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    MAG Carbine MK-2:&#10;
     &#8226; RANGE:_________________________3
-    &#8226; DAMAGE:___KINETIC 14(stun 11)*12
+    &#8226; DAMAGE:___KINETIC 15(stun 11)*12
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:_______________13/72
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:________________6
+    &#8226; AMMO CAPACITY:________________9
     &#8226; WEIGHT:________________________6
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -1646,11 +1646,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    MAG Carbine MK-3:&#10;
     &#8226; RANGE:_________________________4
-    &#8226; DAMAGE:___KINETIC 14(stun 11)*14
+    &#8226; DAMAGE:___KINETIC 15(stun 11)*14
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:_______________13/74
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:________________8
+    &#8226; AMMO CAPACITY:________________9
     &#8226; WEIGHT:________________________6
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -2162,11 +2162,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    GAUSS Shotgun MK-1:&#10;
     &#8226; RANGE:_________________________3
-    &#8226; DAMAGE:___KINETIC 18(stun 14)*10
+    &#8226; DAMAGE:___KINETIC 19(stun 14)*10
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________10
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:_________________8
+    &#8226; AMMO CAPACITY:_________________10
     &#8226; WEIGHT:________________________6
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -2318,11 +2318,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    GAUSS Shotgun MK-2:&#10;
     &#8226; RANGE:_________________________3
-    &#8226; DAMAGE:___KINETIC 18(stun 14)*12
+    &#8226; DAMAGE:___KINETIC 19(stun 14)*12
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________10
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:_________________8
+    &#8226; AMMO CAPACITY:_________________12
     &#8226; WEIGHT:________________________6
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -2474,11 +2474,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    GAUSS Shotgun MK-3:&#10;
     &#8226; RANGE:_________________________4
-    &#8226; DAMAGE:___KINETIC 18(stun 14)*14
+    &#8226; DAMAGE:___KINETIC 19(stun 14)*14
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________10
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:_________________12
+    &#8226; AMMO CAPACITY:_________________14
     &#8226; WEIGHT:________________________6
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -2587,11 +2587,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Pulse Carbine MK-1:&#10;
     &#8226; RANGE:_________________________3
-    &#8226; DAMAGE:____ENERGY 18(stun 14)*4
+    &#8226; DAMAGE:____ENERGY 19(stun 14)*4
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________70
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:__________________8
+    &#8226; AMMO CAPACITY:__________________6
     &#8226; WEIGHT:________________________5
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -2723,11 +2723,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Pulse Carbine MK-2:&#10;
     &#8226; RANGE:_________________________3
-    &#8226; DAMAGE:____ENERGY 18(stun 14)*4
+    &#8226; DAMAGE:____ENERGY 19(stun 14)*4
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________72
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:__________________10
+    &#8226; AMMO CAPACITY:__________________8
     &#8226; WEIGHT:________________________5
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -2859,11 +2859,11 @@
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Pulse Carbine MK-3:&#10;
     &#8226; RANGE:_________________________4
-    &#8226; DAMAGE:____ENERGY 18(stun 14)*4
+    &#8226; DAMAGE:____ENERGY 19(stun 14)*4
     &#8226; MITIGATION:_____________________0
     &#8226; SUPPRESSION:__________________74
     &#8226; REACTION MODIFIER:____________1.5
-    &#8226; AMMO CAPACITY:__________________13
+    &#8226; AMMO CAPACITY:__________________10
     &#8226; WEIGHT:________________________5
     &#8226; HANDS:_________________________2
     &#8226; HEAVY:________________________NO
@@ -14012,6 +14012,10 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">Robodog Warrior Analysis</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Researches.RobodogEliteDisassembly</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Robodog Elite Analysis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">Researches.RobodogTerrorDisassembly</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">Robodog Terror Unit Analysis</Data></Cell>
    </Row>
@@ -18862,7 +18866,7 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">Researches.CaesanDataHack7Desc</Data></Cell>
-    <Cell ss:StyleID="s87"><Data ss:Type="String">We've had a bit of luck translating some of the files stored on an alien computer.&#xA;&#xA;One of those caesan captives we interrogated actually new part of their encoding algorithms, which should allow us access to some of the data contained within.&#xA;&#xA;Initial indications are that its contains statistical data on energy weapons which we may be able to use to enhance our own energy based designs.</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">We've had a bit of luck translating some of the files stored on an alien computer.&#xA;&#xA;One of those caesan captives we interrogated actually knew part of their encoding algorithms, which should allow us access to some of the data contained within.&#xA;&#xA;Initial indications are that its contains statistical data on energy weapons which we may be able to use to enhance our own energy based designs.</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">Researches.CaesanDataHack8Desc</Data></Cell>

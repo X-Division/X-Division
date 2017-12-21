@@ -74,8 +74,8 @@
 			</AlienKilled>
 			
 			<CivilianKilledByXenonaut MODMERGE="update" comment="in addition to CivilianKilledByAlien!">
-				<Team>-5</Team>
-				<Actor>-10</Actor>
+				<Team>-20</Team>
+				<Actor>-30</Actor>
 			</CivilianKilledByXenonaut>
 			
 			<XenonautKilledByTeamMate MODMERGE="update" comment="in addition to the XenonautDeath penalty!">
