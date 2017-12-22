@@ -7,9 +7,9 @@
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>Chris</Author>
-  <LastAuthor>Drages</LastAuthor>
+  <LastAuthor>Benutzer</LastAuthor>
   <Created>2012-01-10T10:41:13Z</Created>
-  <LastSaved>2016-12-05T14:30:39Z</LastSaved>
+  <LastSaved>2017-12-22T11:57:16Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -121,8 +121,8 @@
     <Cell><Data ss:Type="Number">3</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Andronx_Soldier_Defensive</Data></Cell>
@@ -167,8 +167,8 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Andronx_SoldierSupport_Defensive</Data></Cell>
@@ -215,8 +215,8 @@
     <Cell ss:StyleID="s68"/>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Andronx_SoldierAssault_Defensive</Data></Cell>
@@ -357,8 +357,8 @@
     <Cell ss:StyleID="s68"/>
     <Cell ss:StyleID="s68"/>
     <Cell ss:StyleID="s68"/>
-    <Cell ss:Index="20"><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:Index="24" ss:AutoFitHeight="0">
     <Cell ss:StyleID="s64"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxsoldier1_Defensive</Data></Cell>
@@ -366,8 +366,8 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s64"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxterrorsoldier2_Defensive</Data></Cell>
@@ -396,8 +396,8 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s64"/>
@@ -475,7 +475,7 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -802,7 +802,7 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveRow>22</ActiveRow>
+     <ActiveRow>7</ActiveRow>
      <ActiveCol>8</ActiveCol>
     </Pane>
    </Panes>

@@ -103,8 +103,8 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="13.5">
     <Cell ss:StyleID="s68"><Data ss:Type="String">Sebillian_Soldier_Aggressive</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="13.5">
     <Cell ss:StyleID="s68"><Data ss:Type="String">Sebillian_Soldier_Defensive</Data></Cell>
@@ -601,10 +601,11 @@
    </Print>
    <Zoom>115</Zoom>
    <Selected/>
+   <TopRowVisible>41</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>2</ActiveRow>
+     <ActiveRow>80</ActiveRow>
      <ActiveCol>2</ActiveCol>
     </Pane>
    </Panes>

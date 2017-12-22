@@ -266,8 +266,8 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s63"><Data ss:Type="String">Mediumdrone_Mediumupgdrone_Aggressive</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s63"><Data ss:Type="String">Mediumdrone_Mediumupgdrone_Defensive</Data></Cell>
@@ -292,8 +292,8 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s63"><Data ss:Type="String">Heavydrone_Heavyupgdrone_Defensive</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s63"><Data ss:Type="String">Heavydrone_Heavyupgdrone_Passive</Data></Cell>
@@ -308,8 +308,8 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s69"><Data ss:Type="String" x:Ticked="1">Andronx_TerrorSoldierAssault_Aggressive</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s69"><Data ss:Type="String" x:Ticked="1">Andronx_TerrorSoldierSupport_Aggressive</Data></Cell>
@@ -569,8 +569,8 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>14</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

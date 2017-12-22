@@ -5721,6 +5721,7 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Shock Baton:&#10;
     &#8226; DAMAGE:____ENERGY (15 STUN) 1
     &#8226; MITIGATION:_________________________100
+    &#8226; REACTION MODIFIER:________________1.0
     &#8226; CHARGES:____________________________12   
     &#8226; WEIGHT:_____________________________3
     &#8226; ATTACK COST:____________________TU 27
@@ -5734,6 +5735,7 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Advanced Shock Baton:&#10;
     &#8226; DAMAGE:____ENERGY (35 STUN) 1
     &#8226; MITIGATION:__________________________150
+    &#8226; REACTION MODIFIER:________________2.0
     &#8226; CHARGES:____________________________20   
     &#8226; WEIGHT:______________________________3
     &#8226; ATTACK COST:_____________________TU 27
@@ -5747,6 +5749,7 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Knife MK-1:&#10;
     &#8226; DAMAGE:__________KINETIC (5 Stun) 20
     &#8226; MITIGATION:________________________60
+    &#8226; REACTION MODIFIER:______________4.0
     &#8226; CHARGES:_________________________100   
     &#8226; WEIGHT:_____________________________1
     &#8226; ATTACK COST:___________________TU 15
@@ -5760,6 +5763,7 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Knife MK-2:&#10;
     &#8226; DAMAGE:__________KINETIC (9 Stun) 35
     &#8226; MITIGATION:_______________________100
+    &#8226; REACTION MODIFIER:______________4.0
     &#8226; CHARGES:_________________________100    
     &#8226; WEIGHT:____________________________2
     &#8226; ATTACK COST:___________________TU 15
@@ -5773,6 +5777,7 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Katana MK-1:&#10;
     &#8226; DAMAGE:_________KINETIC (20 Stun) 80
     &#8226; MITIGATION:_______________________140    
+    &#8226; REACTION MODIFIER:_______________5.0
     &#8226; CHARGES:__________________________100
     &#8226; WEIGHT:____________________________8
     &#8226; TWO HANDED:______________________YES
@@ -5787,6 +5792,7 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Katana MK-2:&#10;
     &#8226; DAMAGE:________KINETIC (33 Stun) 130
     &#8226; MITIGATION:_______________________180
+    &#8226; REACTION MODIFIER:_______________5.0
     &#8226; CHARGES:__________________________100    
     &#8226; WEIGHT:_____________________________6
     &#8226; TWO HANDED:______________________YES
@@ -5801,10 +5807,11 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Axe MK-1:&#10;
     &#8226; DAMAGE:__________KINETIC (10 Stun) 55
     &#8226; MITIGATION:________________________80
+    &#8226; REACTION MODIFIER:_______________1.5
     &#8226; CHARGES:__________________________100    
     &#8226; WEIGHT:____________________________3
     &#8226; TWO HANDED:______________________YES
-    &#8226; ATTACK COST:__________________ TU 40
+    &#8226; ATTACK COST:__________________ TU 20
     </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -5815,10 +5822,11 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Axe MK-2:&#10;
     &#8226; DAMAGE:__________KINETIC (18 Stun) 95
     &#8226; MITIGATION:________________________120
+    &#8226; REACTION MODIFIER:_______________1.5
     &#8226; CHARGES:__________________________100    
     &#8226; WEIGHT:____________________________5
     &#8226; TWO HANDED:______________________YES
-    &#8226; ATTACK COST:___________________TU 40
+    &#8226; ATTACK COST:___________________TU 20
     </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -5829,10 +5837,11 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Axe MK-3:&#10;
     &#8226; DAMAGE:_________KINETIC (28 Stun) 150
     &#8226; MITIGATION:________________________160
+    &#8226; REACTION MODIFIER:_______________1.5
     &#8226; CHARGES:__________________________100    
     &#8226; WEIGHT:____________________________6
     &#8226; TWO HANDED:______________________YES
-    &#8226; ATTACK COST:___________________TU 40
+    &#8226; ATTACK COST:___________________TU 20
     </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
@@ -5843,10 +5852,11 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">&#10;    Axe MK-4:&#10;
     &#8226; DAMAGE:_________KINETIC (40 Stun) 160
     &#8226; MITIGATION:_______________________200    
+    &#8226; REACTION MODIFIER:_______________1.5
     &#8226; CHARGES:__________________________100
     &#8226; WEIGHT:_____________________________7
     &#8226; TWO HANDED:______________________YES
-    &#8226; ATTACK COST:___________________TU 40
+    &#8226; ATTACK COST:___________________TU 20
     </Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>

@@ -4019,7 +4019,7 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.axemk1" bulletType="melee" emptySound="Empty Click 1">
 		<props range="1000" hands="2" recoil="0" weight="3" isHeavy="1" clipSize="100" isMelee="1" reloadAPCost="20" reloadSound="" reactionModifier="1.5"/>
 		<SingleShot sound="Weapon Axe Single" delay="1" suppressionValue="0" suppressionRadius="1">
-			<Set1 ap="40" accuracy="60" />
+			<Set1 ap="20" accuracy="60" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/melee/axemk1.png"/>
@@ -4035,7 +4035,7 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.axemk2" bulletType="melee" emptySound="Empty Click 1">
 		<props range="1000" hands="2" recoil="0" weight="5" isHeavy="1" clipSize="100" isMelee="1" reloadAPCost="20" reloadSound="" reactionModifier="1.5" />
 		<SingleShot sound="Weapon Axe Single" delay="1" suppressionValue="0" suppressionRadius="1">
-			<Set1 ap="40" accuracy="60" />
+			<Set1 ap="20" accuracy="60" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/melee/axemk2.png"/>
@@ -4051,7 +4051,7 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.axemk3" bulletType="melee" emptySound="Empty Click 1">
 		<props range="1000" hands="2" recoil="0" weight="6" isHeavy="1" clipSize="100" isMelee="1" reloadAPCost="20" reloadSound="" reactionModifier="1.5" />
 		<SingleShot sound="Weapon Axe Single" delay="1" suppressionValue="0" suppressionRadius="1">
-			<Set1 ap="40" accuracy="60" />
+			<Set1 ap="20" accuracy="60" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/melee/axemk3.png"/>
@@ -4067,7 +4067,7 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.grenade.axemk4" bulletType="melee" emptySound="Empty Click 1" >
 		<props range="1000" hands="2" recoil="0" weight="7" isHeavy="0" clipSize="100" isMelee="1" reloadAPCost="20" reloadSound="" reactionModifier="1.5" />
 		<SingleShot sound="Weapon Axe Single" delay="1" suppressionValue="0" suppressionRadius="1">
-			<Set1 ap="40" accuracy="60" />
+			<Set1 ap="20" accuracy="60" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/melee/axemk4.png"/>

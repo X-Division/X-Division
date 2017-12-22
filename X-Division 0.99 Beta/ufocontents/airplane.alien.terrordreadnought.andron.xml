@@ -129,8 +129,8 @@
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Andronx_Warrior_Defensive</Data></Cell>
@@ -138,8 +138,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Andronx_Warrior_Passive</Data></Cell>
@@ -184,8 +184,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Andronx_WarriorSupport_Passive</Data></Cell>
@@ -225,8 +225,8 @@
     <Cell ss:StyleID="s68"/>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Andronx_WarriorAssault_Defensive</Data></Cell>
@@ -378,15 +378,15 @@
     <Cell ss:StyleID="s64"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxwarrior1_Defensive</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s64"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxwarrior2_Defensive</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:Index="27" ss:AutoFitHeight="0">
     <Cell ss:StyleID="s64"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxwarrior1_Aggressive</Data></Cell>
@@ -426,11 +426,15 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s64"><Data ss:Type="String" x:Ticked="1">Robodogbox_Boxterrorwarrior2_Aggressive</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:Index="38" ss:AutoFitHeight="0">
     <Cell ss:StyleID="s64"><Data ss:Type="String" x:Ticked="1">Robodog_terrorwarrior_Aggressive</Data></Cell>
@@ -562,7 +566,7 @@
     <Cell ss:Index="18"><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s63"><Data ss:Type="String">Lightdrone_Lightadvdrone_Defensive</Data></Cell>
@@ -584,8 +588,8 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s63"><Data ss:Type="String">Mediumdrone_Mediumadvdrone_Defensive</Data></Cell>
@@ -603,7 +607,7 @@
     <Cell ss:StyleID="s63"><Data ss:Type="String">Heavydrone_Heavyadvdrone_Aggressive</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -805,7 +809,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <LeftColumnRightPane>3</LeftColumnRightPane>
    <ActivePane>1</ActivePane>
    <Panes>
     <Pane>
@@ -813,8 +817,8 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveRow>8</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveRow>16</ActiveRow>
+     <ActiveCol>20</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

@@ -139,8 +139,8 @@
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
-    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s69"><Data ss:Type="String">Sebillian_Warrior_Defensive</Data></Cell>
@@ -157,8 +157,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s69"><Data ss:Type="String">Sebillian_Warrior_Command</Data></Cell>
@@ -172,8 +172,8 @@
     <Cell><Data ss:Type="Number">5</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s69"><Data ss:Type="String">Sebillian_WarriorSupport_Defensive</Data></Cell>
@@ -218,8 +218,8 @@
     <Cell ss:StyleID="s70"/>
     <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
-    <Cell ss:StyleID="s70"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s69"><Data ss:Type="String">Sebillian_WarriorSupport_Command</Data></Cell>
@@ -233,8 +233,8 @@
     <Cell><Data ss:Type="Number">7</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
-    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s69"><Data ss:Type="String">Sebillian_WarriorAssault_Defensive</Data></Cell>
@@ -251,8 +251,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s69"><Data ss:Type="String">Sebillian_WarriorAssault_Command</Data></Cell>
@@ -766,8 +766,8 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveRow>11</ActiveRow>
-     <ActiveCol>5</ActiveCol>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>20</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

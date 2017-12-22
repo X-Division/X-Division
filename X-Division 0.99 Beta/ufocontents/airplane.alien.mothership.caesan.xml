@@ -159,8 +159,8 @@
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s71"><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s71"><Data ss:Type="Number">3</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">4</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_Elite_Defensive</Data></Cell>
@@ -201,8 +201,8 @@
     <Cell ss:StyleID="s74"/>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_Elite_Command</Data></Cell>
@@ -256,8 +256,8 @@
     <Cell ss:StyleID="s74"/>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_EliteSupport_Defensive</Data></Cell>
@@ -298,8 +298,8 @@
     <Cell ss:StyleID="s74"/>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_EliteSupport_Command</Data></Cell>
@@ -353,8 +353,8 @@
     <Cell ss:StyleID="s74"/>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_EliteAssault_Defensive</Data></Cell>
@@ -395,8 +395,8 @@
     <Cell ss:StyleID="s74"/>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_EliteAssault_Command</Data></Cell>
@@ -620,8 +620,8 @@
     <Cell ss:StyleID="s74"/>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Wraith_Elite_Defensive</Data></Cell>
@@ -662,8 +662,8 @@
     <Cell ss:StyleID="s74"/>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Wraith_Elite_Command</Data></Cell>
@@ -709,8 +709,8 @@
     <Cell ss:StyleID="s62"/>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Wraith_EliteSupport_Defensive</Data></Cell>
@@ -751,8 +751,8 @@
     <Cell ss:StyleID="s65"/>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Wraith_EliteSupport_Command</Data></Cell>
@@ -1048,15 +1048,15 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Wraith_TerrorElite_Defensive</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Wraith_TerrorElite_Passive</Data></Cell>
@@ -1079,8 +1079,8 @@
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Wraith_TerrorEliteSupport_Aggressive</Data></Cell>
-    <Cell ss:Index="20"><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Wraith_TerrorEliteSupport_Defensive</Data></Cell>
@@ -1127,8 +1127,8 @@
     <Cell><Data ss:Type="Number">4</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Heavydrone_cyberdisckiller_Defensive</Data></Cell>
@@ -1158,7 +1158,7 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">0</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1464,7 +1464,7 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
-   <TopRowVisible>54</TopRowVisible>
+   <TopRowVisible>47</TopRowVisible>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitVertical>1</SplitVertical>
@@ -1476,8 +1476,8 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveRow>101</ActiveRow>
-     <ActiveCol>6</ActiveCol>
+     <ActiveRow>82</ActiveRow>
+     <ActiveCol>20</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

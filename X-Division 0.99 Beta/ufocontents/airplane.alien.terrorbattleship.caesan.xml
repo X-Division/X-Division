@@ -9,7 +9,7 @@
   <Author>Chris</Author>
   <LastAuthor>Benutzer</LastAuthor>
   <Created>2012-01-10T10:41:13Z</Created>
-  <LastSaved>2017-09-17T03:31:41Z</LastSaved>
+  <LastSaved>2017-12-22T12:54:49Z</LastSaved>
   <Version>12.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -163,8 +163,8 @@
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s71"><Data ss:Type="Number">2</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">4</Data></Cell>
-    <Cell ss:StyleID="s71"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_Soldier_Defensive</Data></Cell>
@@ -203,6 +203,8 @@
     <Cell ss:StyleID="s74"/>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_Soldier_Command</Data></Cell>
@@ -252,8 +254,8 @@
     <Cell ss:StyleID="s74"/>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_SoldierSupport_Defensive</Data></Cell>
@@ -273,8 +275,8 @@
     <Cell ss:StyleID="s62"/>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_SoldierSupport_Passive</Data></Cell>
@@ -343,8 +345,8 @@
     <Cell ss:StyleID="s74"/>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_SoldierAssault_Defensive</Data></Cell>
@@ -364,8 +366,8 @@
     <Cell ss:StyleID="s74"/>
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_SoldierAssault_Passive</Data></Cell>
@@ -383,6 +385,8 @@
     <Cell ss:StyleID="s74"/>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_SoldierAssault_Command</Data></Cell>
@@ -936,8 +940,8 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Caesan_TerrorSoldier_Passive</Data></Cell>
@@ -987,8 +991,8 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s70"><Data ss:Type="String">Wraith_TerrorSoldier_Defensive</Data></Cell>
@@ -1054,7 +1058,7 @@
     <Cell ss:StyleID="s62"><Data ss:Type="String">Heavydrone_cyberdiscupg_Aggressive</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -1379,10 +1383,11 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Selected/>
+   <TopRowVisible>43</TopRowVisible>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <LeftColumnRightPane>2</LeftColumnRightPane>
    <ActivePane>1</ActivePane>
    <Panes>
     <Pane>
@@ -1390,8 +1395,9 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveRow>18</ActiveRow>
-     <ActiveCol>11</ActiveCol>
+     <ActiveRow>64</ActiveRow>
+     <ActiveCol>20</ActiveCol>
+     <RangeSelection>R65C21:R82C21</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

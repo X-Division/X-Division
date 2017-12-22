@@ -156,8 +156,8 @@
     <Cell ss:StyleID="s70"/>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Andronx_Elite_Defensive</Data></Cell>
@@ -188,8 +188,8 @@
     <Cell ss:StyleID="s70"/>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Andronx_Elite_Command</Data></Cell>
@@ -221,8 +221,8 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">2</Data></Cell>
     <Cell><Data ss:Type="Number">2</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Andronx_EliteSupport_Defensive</Data></Cell>
@@ -245,8 +245,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Andronx_EliteSupport_Command</Data></Cell>
@@ -272,8 +272,8 @@
     <Cell ss:StyleID="s70"/>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
-    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"><Data ss:Type="String">Andronx_EliteAssault_Defensive</Data></Cell>
@@ -296,8 +296,8 @@
     <Cell><Data ss:Type="Number">0</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s72"><Data ss:Type="String" x:Ticked="1">Andronx_EliteAssault_Command</Data></Cell>
@@ -744,6 +744,8 @@
     <Cell ss:StyleID="s72"><Data ss:Type="String" x:Ticked="1">AndronxShield_terrorofficershield_Aggressive</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s72"><Data ss:Type="String" x:Ticked="1">AndronxShield_terrorofficershield_Command</Data></Cell>
@@ -753,8 +755,6 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s63"/>
@@ -762,6 +762,8 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s72"><Data ss:Type="String" x:Ticked="1">AndronxShield_terrorofficersupportshield_Aggressive</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -771,8 +773,6 @@
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
-    <Cell><Data ss:Type="Number">1</Data></Cell>
     <Cell><Data ss:Type="Number">1</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -786,8 +786,8 @@
     <Cell><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="Number">3</Data></Cell>
     <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell><Data ss:Type="Number">4</Data></Cell>
-    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s63"><Data ss:Type="String">Lightdrone_Lightkillerdrone_Defensive</Data></Cell>
@@ -933,10 +933,11 @@
    </PageSetup>
    <Unsynced/>
    <Selected/>
+   <TopRowVisible>76</TopRowVisible>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <LeftColumnRightPane>6</LeftColumnRightPane>
    <ActivePane>1</ActivePane>
    <Panes>
     <Pane>
@@ -944,8 +945,8 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveRow>4</ActiveRow>
-     <ActiveCol>17</ActiveCol>
+     <ActiveRow>94</ActiveRow>
+     <ActiveCol>21</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
